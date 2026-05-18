@@ -88,7 +88,7 @@
     Source: <a href="https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2" target="_blank" rel="noopener">City of Toledo Vibrancy Projects feature service</a> ·
     <a href="https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods" target="_blank" rel="noopener">City press release</a> ·
     <a href="https://www.wtol.com/article/news/local/here-are-the-19-toledo-properties-selected-for-vibrancy-initiative-grants/512-a58ea8f9-4b68-4e3d-84ec-6d1434970a5c" target="_blank" rel="noopener">WTOL</a> ·
-    Tiles &copy; OSM contributors
+    Tiles &copy; CARTO / OSM contributors
   </footer>
 </div>
 
@@ -241,9 +241,10 @@ function colorFor(p) {
 }
 
 const map = L.map('map').setView([41.653, -83.54], 12);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  maxZoom: 20,
+  subdomains: 'abcd',
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
 }).addTo(map);
 
 const list = document.getElementById('list');
