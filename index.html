@@ -51,6 +51,10 @@
   .leaflet-popup-content .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
   .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
   .leaflet-popup-content .desc { margin-top: 8px; color: #e2e8f0; font-size: 0.82rem; }
+  .leaflet-popup-content .amt { color: #fde68a; font-weight: 600; }
+  .leaflet-popup-content .amt sup { font-size: 0.7em; color: #fbbf24; margin-left: 1px; }
+  .leaflet-popup-content .src { margin-top: 10px; padding-top: 8px; border-top: 1px solid #334155; font-size: 0.72rem; color: var(--muted); }
+  .leaflet-popup-content .src a { color: #93c5fd; }
   footer { grid-column: 1 / -1; padding: 8px 16px; background: var(--panel); border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); text-align: center; }
   footer a { color: #93c5fd; }
   .marker-pin { width: 22px; height: 22px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.4); }
@@ -260,11 +264,16 @@ properties.forEach((p, i) => {
     iconAnchor: [11, 11]
   });
   const programPills = p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ');
+  const annotatedDesc = p.desc.replace(
+    /\$[\d,]+(?:\.\d+)?(?:\s*[–\-]\s*\$?[\d,]+(?:\.\d+)?)?(?:\s*million|\s*billion)?/g,
+    '<span class="amt">$&<sup>*</sup></span>'
+  );
   const popupHtml = `
     <div class="biz">${p.business}</div>
     <div class="addr">${p.address} · ${p.hood}</div>
     <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
-    <div class="desc">${p.desc}</div>
+    <div class="desc">${annotatedDesc}</div>
+    <div class="src"><sup>*</sup> Project descriptions and estimated investment figures are taken verbatim from the City of Toledo's <a href="https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2/query?where=program_year%3D2026&outFields=*&f=json" target="_blank" rel="noopener">Vibrancy Projects feature service</a> (the public dataset behind <a href="https://toledo.oh.gov/business/vibrancy" target="_blank" rel="noopener">toledo.oh.gov/vibrancy</a>). Dollar amounts are the applicant's estimated total project cost, not the grant amount.</div>
   `;
   const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380, autoPan: false });
   marker.on('popupopen', (e) => {
