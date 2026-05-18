@@ -267,6 +267,9 @@ properties.forEach((p, i) => {
     <div class="desc">${p.desc}</div>
   `;
   const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380 });
+  marker.on('click', () => {
+    map.setView([p.lat, p.lon], Math.max(map.getZoom(), 16), { animate: true });
+  });
   markers.push({ marker, prop: p });
 
   const li = document.createElement('li');
