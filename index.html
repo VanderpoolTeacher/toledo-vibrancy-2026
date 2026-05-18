@@ -20,7 +20,7 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); }
-  .app { display: grid; grid-template-columns: 380px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+  .app { display: grid; grid-template-columns: 420px 1fr; grid-template-rows: auto 1fr auto; height: 100vh; }
   header { grid-column: 1 / -1; padding: 16px 24px; background: var(--panel); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
   header h1 { margin: 0; font-size: 1.15rem; font-weight: 600; letter-spacing: -0.01em; }
   header h1 small { color: var(--muted); font-weight: 400; margin-left: 8px; }
@@ -35,20 +35,22 @@
   aside li { padding: 12px 16px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.1s; }
   aside li:hover { background: #273449; }
   aside li.dim { opacity: 0.25; }
-  aside li .addr { font-weight: 600; font-size: 0.95rem; }
-  aside li .meta { font-size: 0.8rem; color: var(--muted); margin-top: 3px; display: flex; gap: 8px; align-items: center; }
+  aside li .biz { font-weight: 600; font-size: 0.95rem; }
+  aside li .addr { font-size: 0.85rem; color: var(--muted); margin-top: 2px; }
+  aside li .meta { font-size: 0.8rem; color: var(--muted); margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   aside li .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; }
   .pill.facade { background: var(--facade); }
   .pill.planning { background: var(--planning); }
   .pill.whitebox { background: var(--whitebox); }
   .pill.multi { background: var(--multi); }
   #map { height: 100%; width: 100%; }
-  .leaflet-popup-content-wrapper { background: #1e293b; color: var(--ink); border-radius: 8px; }
+  .leaflet-popup-content-wrapper { background: #1e293b; color: var(--ink); border-radius: 8px; max-width: 380px; }
   .leaflet-popup-tip { background: #1e293b; }
-  .leaflet-popup-content { margin: 12px 14px; font-size: 0.85rem; line-height: 1.45; }
-  .leaflet-popup-content .addr { font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
-  .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; }
-  .leaflet-popup-content .hood { color: var(--muted); margin-top: 4px; font-size: 0.8rem; }
+  .leaflet-popup-content { margin: 14px 16px; font-size: 0.85rem; line-height: 1.5; max-height: 60vh; overflow-y: auto; }
+  .leaflet-popup-content .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+  .leaflet-popup-content .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
+  .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
+  .leaflet-popup-content .desc { margin-top: 8px; color: #e2e8f0; font-size: 0.82rem; }
   footer { grid-column: 1 / -1; padding: 8px 16px; background: var(--panel); border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); text-align: center; }
   footer a { color: #93c5fd; }
   .marker-pin { width: 22px; height: 22px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.4); }
@@ -73,7 +75,7 @@
   </header>
   <aside>
     <div class="filters" id="filters">
-      <button data-f="all" class="active">All (19)</button>
+      <button data-f="all" class="active">All (17)</button>
       <button data-f="Facade"><span class="swatch" style="background:var(--facade)"></span>Façade</button>
       <button data-f="Planning"><span class="swatch" style="background:var(--planning)"></span>Planning</button>
       <button data-f="White Box"><span class="swatch" style="background:var(--whitebox)"></span>White Box</button>
@@ -83,41 +85,154 @@
   </aside>
   <div id="map"></div>
   <footer>
-    Source: <a href="https://www.wtol.com/article/news/local/here-are-the-19-toledo-properties-selected-for-vibrancy-initiative-grants/512-a58ea8f9-4b68-4e3d-84ec-6d1434970a5c" target="_blank" rel="noopener">WTOL News</a> ·
-    <a href="https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods" target="_blank" rel="noopener">City of Toledo press release</a> ·
-    <a href="https://toledo.oh.gov/business/vibrancy" target="_blank" rel="noopener">Vibrancy Initiative page</a> ·
-    Geocoding: OpenStreetMap Nominatim · Tiles &copy; OSM contributors
+    Source: <a href="https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2" target="_blank" rel="noopener">City of Toledo Vibrancy Projects feature service</a> ·
+    <a href="https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods" target="_blank" rel="noopener">City press release</a> ·
+    <a href="https://www.wtol.com/article/news/local/here-are-the-19-toledo-properties-selected-for-vibrancy-initiative-grants/512-a58ea8f9-4b68-4e3d-84ec-6d1434970a5c" target="_blank" rel="noopener">WTOL</a> ·
+    Tiles &copy; OSM contributors
   </footer>
 </div>
 
 <script>
 const properties = [
-  { address: "143 Broadway St",     hood: "South Toledo",     programs: ["Facade"],             lat: 41.6426021, lon: -83.5395383 },
-  { address: "325 N Superior St",   hood: "Downtown Toledo",  programs: ["Facade"],             lat: 41.6522234, lon: -83.5355683 },
-  { address: "606 Adams St",        hood: "Downtown Toledo",  programs: ["Facade"],             lat: 41.6537388, lon: -83.5358983 },
-  { address: "820 Woodville Rd",    hood: "East Toledo",      programs: ["Facade"],             lat: 41.6355470, lon: -83.5177487 },
-  { address: "902 Washington St",   hood: "Downtown Toledo",  programs: ["Facade"],             lat: 41.6499408, lon: -83.5431317 },
-  { address: "912 Monroe St",       hood: "Downtown Toledo",  programs: ["Facade"],             lat: 41.6515298, lon: -83.5423631 },
-  { address: "1444 South Ave",      hood: "South Toledo",     programs: ["Facade", "Planning"], lat: 41.6308443, lon: -83.5761127 },
-  { address: "1623 Broadway St",    hood: "South Toledo",     programs: ["Facade"],             lat: 41.6391610, lon: -83.5446067 },
-  { address: "2164 Tedrow Rd",      hood: "South Toledo",     programs: ["Facade"],             lat: 41.5996484, lon: -83.6194316 },
-  { address: "3122 Lagrange St",    hood: "North Toledo",     programs: ["Facade"],             lat: 41.6793426, lon: -83.5406531 },
-  { address: "33 N Huron St",       hood: "Downtown Toledo",  programs: ["Planning"],           lat: 41.6488938, lon: -83.5398874 },
-  { address: "1000 Adams St",       hood: "Downtown Toledo",  programs: ["Planning"],           lat: 41.6554880, lon: -83.5395600 },
-  { address: "1320 Adams St",       hood: "Downtown Toledo",  programs: ["Planning", "White Box"], lat: 41.6567153, lon: -83.5421406 },
-  { address: "1256 Broadway St",    hood: "South Toledo",     programs: ["Planning"],           lat: 41.6348261, lon: -83.5508043 },
-  { address: "1933 Consaul St",     hood: "East Toledo",      programs: ["Planning"],           lat: 41.6597515, lon: -83.5013653 },
-  { address: "2126 Consaul St",     hood: "East Toledo",      programs: ["White Box"],          lat: 41.6587838, lon: -83.4991290 },
-  { address: "2582 Monroe St",      hood: "Old West End",     programs: ["White Box"],          lat: 41.6606320, lon: -83.5617740 },
+  {
+    business: "Moriarty Machinery & Supply",
+    address: "143 Broadway St",
+    hood: "South Toledo",
+    programs: ["Facade"],
+    lat: 41.6426021, lon: -83.5395383,
+    desc: "Facade Improvement Grant for exterior upgrades to Moriarty Machinery & Supply, Inc., a construction-related business doing equipment rentals, maintenance, parts resale, and safety solutions. Work includes updated signage and replacement of outdated entry doors. Estimated façade investment: ~$65,000."
+  },
+  {
+    business: "325 N. Superior (incoming restaurant tenant)",
+    address: "325 N Superior St",
+    hood: "Downtown Toledo",
+    programs: ["Facade"],
+    lat: 41.6522234, lon: -83.5355683,
+    desc: "Facade Improvement Grant for a major storefront and upper-floor façade restoration of a historic downtown mixed-use building, with an incoming restaurant tenant planned for the first floor. Work includes tuckpointing, window restoration, new canopy, storefront windows and doors, brick and sidewalk repair, painting, and access control. Total estimated redevelopment: ~$1,250,000."
+  },
+  {
+    business: "606 Adams (multi-tenant: attorneys, re-entry program, trucking, wig maker, security firm)",
+    address: "606 Adams St",
+    hood: "Downtown Toledo",
+    programs: ["Facade"],
+    lat: 41.6537388, lon: -83.5358983,
+    desc: "Facade Improvement Grant for exterior rehabilitation of a multi-tenant commercial building currently occupied by six small businesses. Work includes removal/replacement of rotted fascia, board-and-batten siding, exterior lighting, planter boxes, and façade painting and caulking. Construction was anticipated to begin July 2026."
+  },
+  {
+    business: "MedCare Urgent Care Toledo",
+    address: "820 Woodville Rd",
+    hood: "East Toledo",
+    programs: ["Facade"],
+    lat: 41.6355470, lon: -83.5177487,
+    desc: "Facade Improvement Grant to support redevelopment of a vacant commercial property planned for occupancy by MedCare Urgent Care Toledo, LLC. Work includes relocating the storefront, new windows and lighting, repainting and refinishing the façade and signage, fence removal, and parking lot resurfacing. Estimated façade investment: ~$50,000–$55,000."
+  },
+  {
+    business: "Toledo Repertoire Theatre (outbuilding)",
+    address: "902 Washington St",
+    hood: "Downtown Toledo",
+    programs: ["Facade"],
+    lat: 41.6499408, lon: -83.5431317,
+    desc: "Facade Improvement Grant for exterior rehabilitation of a c.1900 building on the Toledo Repertoire Theatre campus used for rehearsal, costume, and production space. Work includes brick repair from storm damage, repainting to match the historic design, and extensive window and door replacements across both floors."
+  },
+  {
+    business: "Culture Clash Records / The Switchboard Bar (Tim & Lizzie Friedman)",
+    address: "912 Monroe St",
+    hood: "Downtown Toledo",
+    programs: ["Facade"],
+    lat: 41.6515298, lon: -83.5423631,
+    desc: "Facade Improvement Grant (Phase 1) for façade and exterior rehab of the owners' historic commercial property, following a 2025 Façade Planning Grant that funded Engage Studio Architects' drawings. Work includes new storefront systems, windows, entrance canopy, exterior painting, lighting, tuckpointing, and masonry repair across two elevations. Total estimated project cost: ~$469,000."
+  },
+  {
+    business: "El Tipico Restaurant",
+    address: "1444 South Ave",
+    hood: "South Toledo (Walbridge)",
+    programs: ["Facade"],
+    lat: 41.6308443, lon: -83.5761127,
+    desc: "Facade Improvement Grant for exterior improvements to the commercial building occupied by El Tipico Restaurant. Work includes window and door upgrades and exterior lighting enhancements. Notable as the first Vibrancy Initiative project awarded within the Walbridge neighborhood."
+  },
+  {
+    business: "Mosaic Theatre redevelopment",
+    address: "1623 Broadway St",
+    hood: "South Toledo",
+    programs: ["Facade", "Planning"],
+    lat: 41.6391610, lon: -83.5446067,
+    desc: "Façade Improvement Grant and Planning Grant supporting redevelopment of a vacant historic three-story Mosaic Theatre. Work includes masonry restoration, replacement doors and windows, and upgraded exterior lighting as part of a broader ~$5,000,000 redevelopment. Planned to house community programming for low-income families including Baby University and an Early Learning Center (cradle-to-career)."
+  },
+  {
+    business: "Kidnetic Play Café",
+    address: "2164 Tedrow Rd",
+    hood: "South Toledo",
+    programs: ["Facade"],
+    lat: 41.5996484, lon: -83.6194316,
+    desc: "Facade Improvement Grant for exterior upgrades to Kidnetic Play Café, a family-oriented indoor play café with café space for caregivers. Work includes new exterior paint, signage, lighting, and updated entry features for accessibility. Estimated project investment: ~$75,000."
+  },
+  {
+    business: "Children's Theatre Workshop / Ohio Theatre",
+    address: "3112 Lagrange St",
+    hood: "North Toledo (Polish Village)",
+    programs: ["Facade"],
+    lat: 41.6791119, lon: -83.5405517,
+    desc: "Facade Improvement Grant for exterior improvements to the historic Ohio Theatre, home of Children's Theatre Workshop (a nonprofit youth theatre). Work includes ADA-compliant entry doors and wooden storefront façade repair. Part of a broader ~$3,100,000 rehab. The organization previously received a White Box Grant for the adjacent administrative building."
+  },
+  {
+    business: "Okun Market (Okun Produce Building)",
+    address: "33 N Huron St",
+    hood: "Downtown Toledo",
+    programs: ["Planning"],
+    lat: 41.6488938, lon: -83.5398874,
+    desc: "Planning Grant for architectural plans and tenant improvement design for the first floor of the historic Okun Produce Building (130+ years old, on the National Register). Planned to become Okun Market — a new downtown grocery store that intends to accept SNAP — plus a complementary retail tenant such as a coffee shop."
+  },
+  {
+    business: "The Arts Commission of Greater Toledo (1st floor)",
+    address: "1000 Adams St",
+    hood: "Downtown Toledo (Uptown)",
+    programs: ["Planning"],
+    lat: 41.6554880, lon: -83.5395600,
+    desc: "Planning Grant for design work to transform ~13,000 sq ft of long-vacant first-floor space (vacant 30+ years) in the building occupied by The Arts Commission of Greater Toledo. Long-term vision: a nonprofit public art gallery, performance/event venue, educational workshop space, and artist studios. Future redevelopment cost: ~$3.2 million."
+  },
+  {
+    business: "Gathering Volumes Bookstore (2nd location)",
+    address: "1320 Adams St",
+    hood: "Downtown Toledo",
+    programs: ["Planning", "White Box"],
+    lat: 41.6567153, lon: -83.5421406,
+    desc: "Planning Grant + White Box Grant to redevelop a vacant building into a second location for Gathering Volumes LLC, a locally owned independent bookstore. Work includes new electrical, plumbing, heating, drywall, accessibility, and fire safety systems, plus door and window restoration. Total estimated improvement cost: ~$276,644, with future phases for façade and upper-floor residential."
+  },
+  {
+    business: "Historic South Plaza — Unit 4",
+    address: "1256 Broadway St",
+    hood: "South Toledo (Old South End)",
+    programs: ["White Box"],
+    lat: 41.6348261, lon: -83.5508043,
+    desc: "White Box Grant to redevelop Unit 4 of the Historic South Plaza shopping center — the center's final vacancy, empty ~3 years (formerly a cell phone store). Work includes demolition, ADA upgrades, plumbing/electrical/HVAC, flooring, lighting, ceilings, partition walls, finishes, millwork, and signage. Estimated investment: ~$100,000. Part of Historic South Initiative's Broadway corridor revitalization."
+  },
+  {
+    business: "1933 Consaul (twin building redevelopment)",
+    address: "1933 Consaul St",
+    hood: "East Toledo (Birmingham)",
+    programs: ["Planning"],
+    lat: 41.6597515, lon: -83.5013653,
+    desc: "Planning Grant for design work on a vacant mixed-use building (vacant 10+ years) connected to its 'twin' at 1935 Consaul St. Plans envision first-floor flex commercial — coffee shop, bakery, boutique retail, bookstore, or ice cream shop — with new apartments on the second floor. Located near Glass City Metropark."
+  },
+  {
+    business: "Orosz Building (mixed-use)",
+    address: "2126 Consaul St",
+    hood: "East Toledo (Birmingham)",
+    programs: ["White Box"],
+    lat: 41.6587838, lon: -83.4991290,
+    desc: "White Box Grant for a full gut renovation of a long-vacant mixed-use commercial/residential property (vacant ~11 years). Owner is flexible on tenancy — envisioning art studios, salons, boutiques, nonprofit offices, or other neighborhood-serving small businesses on the first floor, with apartments above. Strategically near Glass City Metropark."
+  },
+  {
+    business: "Temple of Taper (barbershop)",
+    address: "2582 Monroe St",
+    hood: "Old West End",
+    programs: ["White Box"],
+    lat: 41.6606320, lon: -83.5617740,
+    desc: "White Box Grant to redevelop a long-vacant former service station (vacant 15+ years) into Temple of Taper, a new neighborhood barbershop in the Old West End. Work includes electrical, plumbing, HVAC, accessibility, flooring, lighting, finishes, partition buildout, complete interior renovation, and exterior upgrades that preserve the neighborhood's historic character. Estimated investment: ~$100,000."
+  }
 ];
 
-const programColor = { "Facade": "var(--facade)", "Planning": "var(--planning)", "White Box": "var(--whitebox)" };
 const programHex   = { "Facade": "#2563eb",      "Planning": "#16a34a",         "White Box": "#ea580c" };
-const programDesc = {
-  "Facade":    "Façade Improvement Grant — restoring or enhancing the visible exterior of a commercial building.",
-  "Planning":  "Planning Grant — funds early-stage architectural, engineering, or feasibility work to ready a vacant building for reuse.",
-  "White Box": "White Box Grant — interior buildout to make a vacant storefront tenant-ready (electrical, HVAC, drywall, etc.)."
-};
 const programClass = { "Facade": "facade", "Planning": "planning", "White Box": "whitebox" };
 
 function colorFor(p) {
@@ -144,21 +259,21 @@ properties.forEach((p, i) => {
     iconAnchor: [11, 11]
   });
   const programPills = p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ');
-  const programDescs = p.programs.map(pr => `<div style="margin-top:4px;font-size:0.75rem;color:#cbd5e1;">${programDesc[pr]}</div>`).join('');
   const popupHtml = `
-    <div class="addr">${p.address}</div>
-    <div>${programPills}</div>
-    <div class="hood">${p.hood}${isMulti ? ' · multiple awards' : ''}</div>
-    ${programDescs}
+    <div class="biz">${p.business}</div>
+    <div class="addr">${p.address} · ${p.hood}</div>
+    <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
+    <div class="desc">${p.desc}</div>
   `;
-  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml);
-  markers.push({ marker, prop: p, types: isMulti ? ['Facade', 'Planning', 'White Box', 'multi'].filter(t => p.programs.includes(t) || t === 'multi') : p.programs });
+  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380 });
+  markers.push({ marker, prop: p });
 
   const li = document.createElement('li');
   li.dataset.idx = i;
   li.innerHTML = `
-    <div class="addr">${p.address}</div>
-    <div class="meta">${p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ')} <span>${p.hood}</span></div>
+    <div class="biz">${p.business}</div>
+    <div class="addr">${p.address} · ${p.hood}</div>
+    <div class="meta">${p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ')}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
   `;
   li.addEventListener('click', () => {
     map.setView([p.lat, p.lon], 17, { animate: true });
@@ -182,7 +297,6 @@ filterBtns.forEach(b => b.addEventListener('click', () => {
   });
 }));
 
-// Fit map to all markers
 const group = L.featureGroup(markers.map(m => m.marker));
 const initialBounds = group.getBounds().pad(0.1);
 map.fitBounds(initialBounds);
