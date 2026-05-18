@@ -266,8 +266,8 @@ properties.forEach((p, i) => {
     <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
     <div class="desc">${p.desc}</div>
   `;
-  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380 });
-  marker.on('click', () => {
+  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380, autoPan: false });
+  marker.on('popupopen', () => {
     map.setView([p.lat, p.lon], Math.max(map.getZoom(), 16), { animate: true });
   });
   markers.push({ marker, prop: p });
@@ -280,8 +280,8 @@ properties.forEach((p, i) => {
     <div class="meta">${p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ')}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
   `;
   li.addEventListener('click', () => {
-    map.setView([p.lat, p.lon], 17, { animate: true });
     marker.openPopup();
+    map.setView([p.lat, p.lon], 17, { animate: true });
   });
   list.appendChild(li);
 });
