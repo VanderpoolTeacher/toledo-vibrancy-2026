@@ -267,8 +267,16 @@ properties.forEach((p, i) => {
     <div class="desc">${p.desc}</div>
   `;
   const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380, autoPan: false });
-  marker.on('popupopen', () => {
-    map.setView([p.lat, p.lon], Math.max(map.getZoom(), 16), { animate: true });
+  marker.on('popupopen', (e) => {
+    const targetZoom = Math.max(map.getZoom(), 16);
+    const popupEl = e.popup.getElement();
+    const popupHeight = popupEl ? popupEl.offsetHeight : 260;
+    const mapHeight = map.getSize().y;
+    const offset = Math.min(popupHeight / 2, mapHeight * 0.35);
+    const px = map.project([p.lat, p.lon], targetZoom);
+    px.y -= offset;
+    const center = map.unproject(px, targetZoom);
+    map.setView(center, targetZoom, { animate: true });
   });
   markers.push({ marker, prop: p });
 
