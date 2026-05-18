@@ -265,17 +265,18 @@ properties.forEach((p, i) => {
     iconAnchor: [11, 11]
   });
   const programPills = p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ');
-  const sourceUrl = "https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2/query?where=program_year%3D2026&outFields=*&f=json";
+  const dashboardUrl = "https://www.arcgis.com/apps/dashboards/750dcc63deec4520bead6cd5c63c6c0e";
+  const rawDataUrl = "https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2/query?where=program_year%3D2026&outFields=*&f=json";
   const annotatedDesc = p.desc.replace(
     /\$[\d,]+(?:\.\d+)?(?:\s*[–\-]\s*\$?[\d,]+(?:\.\d+)?)?(?:\s*million|\s*billion)?/g,
-    `<a class="amt" href="${sourceUrl}" target="_blank" rel="noopener" title="Source: City of Toledo Vibrancy Projects feature service">$&<sup>*</sup></a>`
+    `<a class="amt" href="${dashboardUrl}" target="_blank" rel="noopener" title="Source: City of Toledo Vibrancy Initiative dashboard">$&<sup>*</sup></a>`
   );
   const popupHtml = `
     <div class="biz">${p.business}</div>
     <div class="addr">${p.address} · ${p.hood}</div>
     <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
     <div class="desc">${annotatedDesc}</div>
-    <div class="src"><sup>*</sup> Project descriptions and estimated investment figures are taken verbatim from the City of Toledo's <a href="https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2/query?where=program_year%3D2026&outFields=*&f=json" target="_blank" rel="noopener">Vibrancy Projects feature service</a> (the public dataset behind <a href="https://toledo.oh.gov/business/vibrancy" target="_blank" rel="noopener">toledo.oh.gov/vibrancy</a>). Dollar amounts are the applicant's estimated total project cost, not the grant amount.</div>
+    <div class="src"><sup>*</sup> Project descriptions and estimated investment figures come from the City of Toledo's <a href="${dashboardUrl}" target="_blank" rel="noopener">Vibrancy Initiative dashboard</a> (or its <a href="${rawDataUrl}" target="_blank" rel="noopener">raw feature-service JSON</a>). Dollar amounts are the applicant's estimated total project cost, not the city grant amount.</div>
   `;
   const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: 380, autoPan: false });
   marker.on('popupopen', (e) => {
