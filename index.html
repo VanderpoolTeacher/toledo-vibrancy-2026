@@ -52,6 +52,9 @@
   footer { grid-column: 1 / -1; padding: 8px 16px; background: var(--panel); border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); text-align: center; }
   footer a { color: #93c5fd; }
   .marker-pin { width: 22px; height: 22px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.4); }
+  .reset-btn { background: var(--panel); color: var(--ink); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 0.8rem; font-family: inherit; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+  .reset-btn:hover { background: #273449; }
+  .leaflet-control.reset-control { margin: 10px; }
   @media (max-width: 720px) {
     .app { grid-template-columns: 1fr; grid-template-rows: auto 45vh 1fr auto; }
     aside { max-height: none; }
@@ -181,7 +184,28 @@ filterBtns.forEach(b => b.addEventListener('click', () => {
 
 // Fit map to all markers
 const group = L.featureGroup(markers.map(m => m.marker));
-map.fitBounds(group.getBounds().pad(0.1));
+const initialBounds = group.getBounds().pad(0.1);
+map.fitBounds(initialBounds);
+
+function resetMap() {
+  document.querySelector('#filters button[data-f="all"]').click();
+  map.closePopup();
+  map.fitBounds(initialBounds);
+}
+
+const ResetControl = L.Control.extend({
+  options: { position: 'topright' },
+  onAdd: function() {
+    const btn = L.DomUtil.create('button', 'reset-btn leaflet-control reset-control');
+    btn.type = 'button';
+    btn.title = 'Reset map view and filters';
+    btn.innerHTML = '↺ Reset map';
+    L.DomEvent.disableClickPropagation(btn);
+    L.DomEvent.on(btn, 'click', resetMap);
+    return btn;
+  }
+});
+map.addControl(new ResetControl());
 </script>
 </body>
 </html>
