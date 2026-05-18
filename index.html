@@ -51,9 +51,8 @@
   .leaflet-popup-content .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
   .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
   .leaflet-popup-content .desc { margin-top: 8px; color: #e2e8f0; font-size: 0.82rem; }
-  .leaflet-popup-content a.amt { color: #fde68a; font-weight: 600; text-decoration: none; border-bottom: 1px dotted #fbbf24; }
-  .leaflet-popup-content a.amt:hover { background: rgba(251, 191, 36, 0.15); }
-  .leaflet-popup-content a.amt sup { font-size: 0.7em; color: #fbbf24; margin-left: 1px; }
+  .leaflet-popup-content .amt { color: #fde68a; font-weight: 600; }
+  .leaflet-popup-content .amt sup { font-size: 0.7em; color: #fbbf24; margin-left: 1px; }
   .leaflet-popup-content .src { margin-top: 10px; padding-top: 8px; border-top: 1px solid #334155; font-size: 0.72rem; color: var(--muted); }
   .leaflet-popup-content .src a { color: #93c5fd; }
   footer { grid-column: 1 / -1; padding: 8px 16px; background: var(--panel); border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--muted); text-align: center; }
@@ -269,7 +268,7 @@ properties.forEach((p, i) => {
   const rawDataUrl = "https://gis.toledo.oh.gov/arcgis/rest/services/Hosted/Vibrancy_Projects/FeatureServer/2/query?where=program_year%3D2026&outFields=*&f=json";
   const annotatedDesc = p.desc.replace(
     /\$[\d,]+(?:\.\d+)?(?:\s*[–\-]\s*\$?[\d,]+(?:\.\d+)?)?(?:\s*million|\s*billion)?/g,
-    `<a class="amt" href="${dashboardUrl}" target="_blank" rel="noopener" title="Source: City of Toledo Vibrancy Initiative dashboard">$&<sup>*</sup></a>`
+    '<span class="amt">$&<sup>*</sup></span>'
   );
   const popupHtml = `
     <div class="biz">${p.business}</div>
