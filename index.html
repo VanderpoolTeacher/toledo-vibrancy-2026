@@ -47,6 +47,9 @@
   .leaflet-popup-content-wrapper { background: #1e293b; color: var(--ink); border-radius: 8px; }
   .leaflet-popup-tip { background: #1e293b; }
   .leaflet-popup-content { margin: 14px 16px; font-size: 0.85rem; line-height: 1.5; max-height: 60vh; overflow-y: auto; }
+  .leaflet-popup-content .photo-row { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+  .leaflet-popup-content .photo-row .photo { display: block; width: 130px; height: 130px; object-fit: cover; border-radius: 6px; flex-shrink: 0; background: #0f172a; }
+  .leaflet-popup-content .photo-row .text-col { flex: 1; min-width: 0; }
   .leaflet-popup-content .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
   .leaflet-popup-content .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
   .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
@@ -111,6 +114,8 @@
     #info-sheet .sheet-grab { width: 40px; height: 4px; border-radius: 2px; background: #475569; margin: 4px auto 10px; }
     #info-sheet .sheet-close { position: absolute; top: 6px; right: 8px; background: transparent; color: var(--muted); border: none; font-size: 1.6rem; cursor: pointer; padding: 2px 10px; line-height: 1; }
     #info-sheet .sheet-close:hover { color: var(--ink); }
+    #info-sheet .photo-row { display: block; }
+    #info-sheet .photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; background: #0f172a; }
     #info-sheet .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; padding-right: 32px; }
     #info-sheet .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
     #info-sheet .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
@@ -176,6 +181,7 @@ const properties = [
     hood: "South Toledo",
     programs: ["Facade"],
     lat: 41.6426021, lon: -83.5395383,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x949_crop_center-center_82_line/143-Broadway-St.jpg",
     desc: "Facade Improvement Grant for exterior upgrades to Moriarty Machinery & Supply, Inc., a construction-related business doing equipment rentals, maintenance, parts resale, and safety solutions. Work includes updated signage and replacement of outdated entry doors. Estimated façade investment: ~$65,000."
   },
   {
@@ -184,6 +190,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Facade"],
     lat: 41.6522234, lon: -83.5355683,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x2021_crop_center-center_82_line/788508/325-N.-Superior-St.jpg",
     desc: "Facade Improvement Grant for a major storefront and upper-floor façade restoration of a historic downtown mixed-use building, with an incoming restaurant tenant planned for the first floor. Work includes tuckpointing, window restoration, new canopy, storefront windows and doors, brick and sidewalk repair, painting, and access control. Total estimated redevelopment: ~$1,250,000."
   },
   {
@@ -192,6 +199,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Facade"],
     lat: 41.6537388, lon: -83.5358983,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x945_crop_center-center_82_line/606-Adams-St.jpg",
     desc: "Facade Improvement Grant for exterior rehabilitation of a multi-tenant commercial building currently occupied by six small businesses. Work includes removal/replacement of rotted fascia, board-and-batten siding, exterior lighting, planter boxes, and façade painting and caulking. Construction was anticipated to begin July 2026."
   },
   {
@@ -200,6 +208,7 @@ const properties = [
     hood: "East Toledo",
     programs: ["Facade"],
     lat: 41.6355470, lon: -83.5177487,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1398_crop_center-center_82_line/820-Woodville-Rd.jpg",
     desc: "Facade Improvement Grant to support redevelopment of a vacant commercial property planned for occupancy by MedCare Urgent Care Toledo, LLC. Work includes relocating the storefront, new windows and lighting, repainting and refinishing the façade and signage, fence removal, and parking lot resurfacing. Estimated façade investment: ~$50,000–$55,000."
   },
   {
@@ -208,6 +217,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Facade"],
     lat: 41.6499408, lon: -83.5431317,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x2293_crop_center-center_82_line/902-Washington-St.jpg",
     desc: "Facade Improvement Grant for exterior rehabilitation of a c.1900 building on the Toledo Repertoire Theatre campus used for rehearsal, costume, and production space. Work includes brick repair from storm damage, repainting to match the historic design, and extensive window and door replacements across both floors."
   },
   {
@@ -216,6 +226,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Facade"],
     lat: 41.6515298, lon: -83.5423631,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1920_crop_center-center_82_line/912-Monore.jpg",
     desc: "Facade Improvement Grant (Phase 1) for façade and exterior rehab of the owners' historic commercial property, following a 2025 Façade Planning Grant that funded Engage Studio Architects' drawings. Work includes new storefront systems, windows, entrance canopy, exterior painting, lighting, tuckpointing, and masonry repair across two elevations. Total estimated project cost: ~$469,000."
   },
   {
@@ -224,6 +235,7 @@ const properties = [
     hood: "South Toledo (Walbridge)",
     programs: ["Facade"],
     lat: 41.6308443, lon: -83.5761127,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1385_crop_center-center_82_line/788513/1444-South.jpg",
     desc: "Facade Improvement Grant for exterior improvements to the commercial building occupied by El Tipico Restaurant. Work includes window and door upgrades and exterior lighting enhancements. Notable as the first Vibrancy Initiative project awarded within the Walbridge neighborhood."
   },
   {
@@ -232,6 +244,7 @@ const properties = [
     hood: "South Toledo",
     programs: ["Facade", "Planning"],
     lat: 41.6391610, lon: -83.5446067,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1220_crop_center-center_82_line/1623-Broadway.jpg",
     desc: "Façade Improvement Grant and Planning Grant supporting redevelopment of a vacant historic three-story Mosaic Theatre. Work includes masonry restoration, replacement doors and windows, and upgraded exterior lighting as part of a broader ~$5,000,000 redevelopment. Planned to house community programming for low-income families including Baby University and an Early Learning Center (cradle-to-career)."
   },
   {
@@ -240,6 +253,7 @@ const properties = [
     hood: "South Toledo",
     programs: ["Facade"],
     lat: 41.5996484, lon: -83.6194316,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x2560_crop_center-center_82_line/2164-Tedrow.jpg",
     desc: "Facade Improvement Grant for exterior upgrades to Kidnetic Play Café, a family-oriented indoor play café with café space for caregivers. Work includes new exterior paint, signage, lighting, and updated entry features for accessibility. Estimated project investment: ~$75,000."
   },
   {
@@ -248,6 +262,7 @@ const properties = [
     hood: "North Toledo (Polish Village)",
     programs: ["Facade"],
     lat: 41.6791119, lon: -83.5405517,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1444_crop_center-center_82_line/3112-Lagrange.jpg",
     desc: "Facade Improvement Grant for exterior improvements to the historic Ohio Theatre, home of Children's Theatre Workshop (a nonprofit youth theatre). Work includes ADA-compliant entry doors and wooden storefront façade repair. Part of a broader ~$3,100,000 rehab. The organization previously received a White Box Grant for the adjacent administrative building."
   },
   {
@@ -256,6 +271,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Planning"],
     lat: 41.6488938, lon: -83.5398874,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x949_crop_center-center_82_line/33-N.-Huron-St.jpg",
     desc: "Planning Grant for architectural plans and tenant improvement design for the first floor of the historic Okun Produce Building (130+ years old, on the National Register). Planned to become Okun Market — a new downtown grocery store that intends to accept SNAP — plus a complementary retail tenant such as a coffee shop."
   },
   {
@@ -264,6 +280,7 @@ const properties = [
     hood: "Downtown Toledo (Uptown)",
     programs: ["Planning"],
     lat: 41.6554880, lon: -83.5395600,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x949_crop_center-center_82_line/1000-Adams-St.jpg",
     desc: "Planning Grant for design work to transform ~13,000 sq ft of long-vacant first-floor space (vacant 30+ years) in the building occupied by The Arts Commission of Greater Toledo. Long-term vision: a nonprofit public art gallery, performance/event venue, educational workshop space, and artist studios. Future redevelopment cost: ~$3.2 million."
   },
   {
@@ -272,6 +289,7 @@ const properties = [
     hood: "Downtown Toledo",
     programs: ["Planning", "White Box"],
     lat: 41.6567153, lon: -83.5421406,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1079_crop_center-center_82_line/788519/1320-Adams-St.jpg",
     desc: "Planning Grant + White Box Grant to redevelop a vacant building into a second location for Gathering Volumes LLC, a locally owned independent bookstore. Work includes new electrical, plumbing, heating, drywall, accessibility, and fire safety systems, plus door and window restoration. Total estimated improvement cost: ~$276,644, with future phases for façade and upper-floor residential."
   },
   {
@@ -280,6 +298,7 @@ const properties = [
     hood: "South Toledo (Old South End)",
     programs: ["White Box"],
     lat: 41.6348261, lon: -83.5508043,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x1190_crop_center-center_82_line/788522/1256-Broadway-St.jpg",
     desc: "White Box Grant to redevelop Unit 4 of the Historic South Plaza shopping center — the center's final vacancy, empty ~3 years (formerly a cell phone store). Work includes demolition, ADA upgrades, plumbing/electrical/HVAC, flooring, lighting, ceilings, partition walls, finishes, millwork, and signage. Estimated investment: ~$100,000. Part of Historic South Initiative's Broadway corridor revitalization."
   },
   {
@@ -288,6 +307,7 @@ const properties = [
     hood: "East Toledo (Birmingham)",
     programs: ["Planning"],
     lat: 41.6597515, lon: -83.5013653,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x947_crop_center-center_82_line/1933-Consaul-St.jpg",
     desc: "Planning Grant for design work on a vacant mixed-use building (vacant 10+ years) connected to its 'twin' at 1935 Consaul St. Plans envision first-floor flex commercial — coffee shop, bakery, boutique retail, bookstore, or ice cream shop — with new apartments on the second floor. Located near Glass City Metropark."
   },
   {
@@ -296,6 +316,7 @@ const properties = [
     hood: "East Toledo (Birmingham)",
     programs: ["White Box"],
     lat: 41.6587838, lon: -83.4991290,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x947_crop_center-center_82_line/2126-Consaul-St.jpg",
     desc: "White Box Grant for a full gut renovation of a long-vacant mixed-use commercial/residential property (vacant ~11 years). Owner is flexible on tenancy — envisioning art studios, salons, boutiques, nonprofit offices, or other neighborhood-serving small businesses on the first floor, with apartments above. Strategically near Glass City Metropark."
   },
   {
@@ -304,6 +325,7 @@ const properties = [
     hood: "Old West End",
     programs: ["White Box"],
     lat: 41.6606320, lon: -83.5617740,
+    photo: "https://cityoftoledo.s3.us-east-2.amazonaws.com/uploads/economic-development/_1920x949_crop_center-center_82_line/2582-Monroe-St.jpg",
     desc: "White Box Grant to redevelop a long-vacant former service station (vacant 15+ years) into Temple of Taper, a new neighborhood barbershop in the Old West End. Work includes electrical, plumbing, HVAC, accessibility, flooring, lighting, finishes, partition buildout, complete interior renovation, and exterior upgrades that preserve the neighborhood's historic character. Estimated investment: ~$100,000."
   }
 ];
@@ -379,13 +401,18 @@ properties.forEach((p, i) => {
     '<span class="amt">$&<sup>*</sup></span>'
   );
   const popupHtml = `
-    <div class="biz">${p.business}</div>
-    <div class="addr">${p.address} · ${p.hood}</div>
-    <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
+    <div class="photo-row">
+      ${p.photo ? `<img class="photo" src="${p.photo}" alt="${p.address}" loading="lazy">` : ''}
+      <div class="text-col">
+        <div class="biz">${p.business}</div>
+        <div class="addr">${p.address} · ${p.hood}</div>
+        <div>${programPills}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
+      </div>
+    </div>
     <div class="desc">${annotatedDesc}</div>
     <div class="src"><sup>*</sup> Project descriptions and estimated investment figures come from the City of Toledo's <a href="${dashboardUrl}" target="_blank" rel="noopener">Vibrancy Initiative dashboard</a> (or its <a href="${rawDataUrl}" target="_blank" rel="noopener">raw feature-service JSON</a>). Dollar amounts are the applicant's estimated total project cost, not the city grant amount.</div>
   `;
-  const popupMaxWidth = Math.min(380, window.innerWidth - 40);
+  const popupMaxWidth = Math.min(460, window.innerWidth - 40);
   const marker = L.marker([p.lat, p.lon], { icon }).addTo(map);
   if (!startedMobile) {
     marker.bindPopup(popupHtml, { maxWidth: popupMaxWidth, autoPan: false });
