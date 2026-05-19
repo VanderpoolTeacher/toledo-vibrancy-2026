@@ -48,8 +48,11 @@
   .leaflet-popup-tip { background: #1e293b; }
   .leaflet-popup-content { margin: 14px 16px; font-size: 0.85rem; line-height: 1.5; max-height: 60vh; overflow-y: auto; }
   .leaflet-popup-content .photo-row { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
-  .leaflet-popup-content .photo-row .photo { display: block; width: 130px; height: 130px; object-fit: cover; border-radius: 6px; flex-shrink: 0; background: #0f172a; }
+  .leaflet-popup-content .photo-row .photo { display: block; width: 130px; height: 130px; object-fit: cover; border-radius: 6px; flex-shrink: 0; background: #0f172a; cursor: zoom-in; transition: width 0.2s ease, height 0.2s ease; }
   .leaflet-popup-content .photo-row .text-col { flex: 1; min-width: 0; }
+  .leaflet-popup-content .photo-row.expanded { display: block; }
+  .leaflet-popup-content .photo-row.expanded .photo { width: 100%; height: 240px; cursor: zoom-out; }
+  .leaflet-popup-content .photo-row.expanded .text-col { margin-top: 10px; }
   .leaflet-popup-content .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
   .leaflet-popup-content .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
   .leaflet-popup-content .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
@@ -115,7 +118,8 @@
     #info-sheet .sheet-close { position: absolute; top: 6px; right: 8px; background: transparent; color: var(--muted); border: none; font-size: 1.6rem; cursor: pointer; padding: 2px 10px; line-height: 1; }
     #info-sheet .sheet-close:hover { color: var(--ink); }
     #info-sheet .photo-row { display: block; }
-    #info-sheet .photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; background: #0f172a; }
+    #info-sheet .photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; background: #0f172a; cursor: zoom-in; transition: height 0.2s ease; }
+    #info-sheet .photo-row.expanded .photo { height: 360px; cursor: zoom-out; }
     #info-sheet .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; padding-right: 32px; }
     #info-sheet .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
     #info-sheet .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
@@ -366,6 +370,11 @@ function closeInfoSheet() {
 infoSheet.querySelector('.sheet-close').addEventListener('click', closeInfoSheet);
 sheetBackdrop.addEventListener('click', closeInfoSheet);
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeInfoSheet(); });
+
+document.addEventListener('click', (e) => {
+  const img = e.target.closest('.photo-row .photo');
+  if (img) img.closest('.photo-row').classList.toggle('expanded');
+});
 
 function panForSheet(p) {
   const targetZoom = Math.max(map.getZoom(), 16);
