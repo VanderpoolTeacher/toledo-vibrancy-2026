@@ -68,6 +68,42 @@
   .reset-btn:hover { background: #f97316; }
   .leaflet-control.reset-control { margin: 10px; }
 
+  /* "About this grant" header link + modal */
+  .about-link { color: #93c5fd; font-size: 0.8rem; font-weight: 500; text-decoration: none; border: 1px solid #334155; padding: 4px 10px; border-radius: 999px; margin-left: 10px; white-space: nowrap; }
+  .about-link:hover { background: #334155; color: var(--ink); }
+  #about-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 2000; opacity: 0; transition: opacity 0.18s ease; }
+  #about-backdrop.open { display: block; opacity: 1; }
+  #about-modal { display: none; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(1100px, calc(100vw - 48px)); max-height: calc(100vh - 48px); background: var(--panel); color: var(--ink); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.55); z-index: 2001; overflow-y: auto; padding: 24px 30px 26px; }
+  #about-modal .grants-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 6px; }
+  #about-modal .grants-grid .grant { margin-top: 0; }
+  #about-modal .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 6px; }
+  #about-modal .two-col h3 { margin-top: 12px; }
+  #about-modal .two-col > div > h3:first-child { margin-top: 12px; }
+  @media (max-width: 820px) {
+    #about-modal { width: min(620px, calc(100vw - 24px)); padding: 22px 24px 24px; }
+    #about-modal .grants-grid { grid-template-columns: 1fr; }
+    #about-modal .two-col { grid-template-columns: 1fr; gap: 0; }
+  }
+  #about-modal.open { display: block; }
+  #about-modal h2 { margin: 0 32px 4px 0; font-size: 1.05rem; font-weight: 700; }
+  #about-modal .sub { color: var(--muted); font-size: 0.82rem; margin-bottom: 14px; }
+  #about-modal h3 { margin: 16px 0 6px; font-size: 0.92rem; font-weight: 700; color: #fde68a; }
+  #about-modal p, #about-modal li { font-size: 0.85rem; line-height: 1.55; color: #e2e8f0; }
+  #about-modal ul { margin: 4px 0 0; padding-left: 18px; }
+  #about-modal li { margin-bottom: 4px; }
+  #about-modal .grant { background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin-top: 8px; }
+  #about-modal .grant .name { font-weight: 700; font-size: 0.9rem; margin-bottom: 2px; }
+  #about-modal .grant .name .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.65rem; font-weight: 600; color: white; margin-left: 6px; vertical-align: 2px; }
+  #about-modal .grant .terms { color: #fde68a; font-size: 0.78rem; font-weight: 600; margin-bottom: 4px; }
+  #about-modal .grant p { margin: 0; font-size: 0.82rem; }
+  #about-modal .dl-row { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px dashed #334155; font-size: 0.85rem; }
+  #about-modal .dl-row:last-child { border-bottom: none; }
+  #about-modal .dl-row b { color: #fde68a; font-weight: 600; }
+  #about-modal a { color: #93c5fd; }
+  #about-modal .modal-close { position: absolute; top: 10px; right: 12px; background: transparent; color: var(--muted); border: none; font-size: 1.7rem; cursor: pointer; padding: 2px 10px; line-height: 1; font-family: inherit; }
+  #about-modal .modal-close:hover { color: var(--ink); }
+  #about-modal .footer-note { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border); font-size: 0.72rem; color: var(--muted); }
+
   /* Mobile bottom sheet — hidden on desktop */
   #info-sheet { display: none; }
   #sheet-backdrop { display: none; }
@@ -144,7 +180,7 @@
 <body>
 <div class="app">
   <header>
-    <h1>Toledo Vibrancy Initiative — 2026 Grant Awards <small>17 properties · 19 grants · 10 neighborhoods</small></h1>
+    <h1>Toledo Vibrancy Initiative — 2026 Grant Awards <small>17 properties · 19 grants · 10 neighborhoods</small> <a href="#" class="about-link" id="about-link">About this grant</a></h1>
     <div class="stats">
       <div><b>$630K</b> awarded</div>
       <div><b>$13.5M</b> investment leveraged</div>
@@ -168,6 +204,60 @@
     <a href="https://www.wtol.com/article/news/local/here-are-the-19-toledo-properties-selected-for-vibrancy-initiative-grants/512-a58ea8f9-4b68-4e3d-84ec-6d1434970a5c" target="_blank" rel="noopener">WTOL</a> ·
     Tiles &copy; CARTO / OSM contributors
   </footer>
+</div>
+
+<div id="about-backdrop"></div>
+<div id="about-modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
+  <button class="modal-close" type="button" aria-label="Close">&times;</button>
+  <h2 id="about-title">About the Toledo Vibrancy Initiative</h2>
+  <div class="sub">A City of Toledo program to support revitalization that creates jobs, reduces blight, and preserves and improves structures across the city. In 2026, $630,000 was awarded across 19 grants to 17 properties in 10 neighborhoods — expected to leverage roughly $13.5M in private investment.</div>
+
+  <h3>The three 2026 grant programs</h3>
+  <div class="grants-grid">
+    <div class="grant">
+      <div class="name">Façade Improvement Grant <span class="pill" style="background:#2563eb">Façade</span></div>
+      <div class="terms">Up to $30,000 per building, per year · reimburses 50% of eligible exterior costs (75% in a Legacy Commercial Corridor)</div>
+      <p>Catalyzes visual, street-facing improvements that enhance neighborhood character. Eligible work includes exterior code upgrades (building, fire, accessibility), signage, storefronts, windows, lighting, masonry, and painting. Permits required; costs incurred before the grant agreement is executed are not eligible.</p>
+    </div>
+
+    <div class="grant">
+      <div class="name">White Box Grant <span class="pill" style="background:#ea580c">White Box</span></div>
+      <div class="terms">Up to $75,000 per building, per year · reimburses 50% of eligible interior costs (75% in a Legacy Commercial Corridor)</div>
+      <p>Prepares vacant ground-floor commercial spaces for occupancy by a new business. Eligible work includes interior code upgrades, demolition, drywall, electrical/plumbing/HVAC rough-in, life-safety compliance, ADA improvements, and restaurant-specific build-out. Exterior work, furniture, equipment, inventory, and property acquisition are not eligible.</p>
+    </div>
+
+    <div class="grant">
+      <div class="name">Planning Grant <span class="pill" style="background:#16a34a">Planning</span></div>
+      <div class="terms">Supports architectural and design work to activate ground-floor commercial spaces</div>
+      <p>Provides financial support to small businesses and property owners seeking to activate ground-floor commercial spaces for occupancy by a new business — particularly in historically significant legacy commercial corridors.</p>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <h3>Key 2026 deadlines for awardees</h3>
+      <div class="dl-row"><span>Grant agreement executed by</span><b>Fri, May 22, 2026</b></div>
+      <div class="dl-row"><span>Construction must commence by</span><b>Fri, Aug 14, 2026</b></div>
+      <div class="dl-row"><span>Full project completion by</span><b>Fri, Dec 4, 2026</b></div>
+      <p style="margin-top:8px; font-size:0.8rem; color:var(--muted);">Failure to begin work by the construction deadline may result in termination of the grant agreement.</p>
+    </div>
+    <div>
+      <h3>What recipients agree to</h3>
+      <ul>
+        <li>Provide W-9, Vendor Registration, commercial building insurance, entity operating agreement, and proof of funds / bank commitment letter before the grant agreement is executed.</li>
+        <li>Schedule a pre-development meeting with the City's Economic Development Department.</li>
+        <li>Execute a Restrictive Covenant with the Lucas County Recorder — the property may not be sold without the City's approval before <b>December 1, 2028</b>.</li>
+        <li>Complete the full scope of work and obtain a Certificate of Zoning Compliance (or Certificate of Completion).</li>
+        <li>Submit itemized invoices, proof of payment, and photographs of completed work to receive reimbursement.</li>
+        <li>Maintain good standing with the City of Toledo Division of Taxation, Public Utilities, Code Compliance, and Lucas County property taxes throughout the project.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Application status</h3>
+  <p>2026 applications are <b>closed</b>. The application process is administered through <a href="https://www.zoomgrants.com/zgf/wbg" target="_blank" rel="noopener">ZoomGrants</a>; the Vibrancy Incentive Committee scores applications and the Mayor makes final awards. Questions: <a href="mailto:Vibrancy@toledo.oh.gov">Vibrancy@toledo.oh.gov</a>.</p>
+
+  <div class="footer-note">Program details sourced from the City of Toledo's <a href="https://toledo.oh.gov/business/how-to-do-business-in-the-city/incentive-programs/vibrancy" target="_blank" rel="noopener">Vibrancy Initiative</a>, <a href="https://toledo.oh.gov/business/how-to-do-business-in-the-city/incentive-programs/vibrancy/fig" target="_blank" rel="noopener">Façade</a>, and <a href="https://toledo.oh.gov/business/how-to-do-business-in-the-city/incentive-programs/vibrancy/wbg" target="_blank" rel="noopener">White Box</a> pages. Deadlines reflect the published 2026 White Box / Façade Improvement Grant timelines.</div>
 </div>
 
 <div id="sheet-backdrop"></div>
@@ -369,7 +459,25 @@ function closeInfoSheet() {
 }
 infoSheet.querySelector('.sheet-close').addEventListener('click', closeInfoSheet);
 sheetBackdrop.addEventListener('click', closeInfoSheet);
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeInfoSheet(); });
+
+const aboutLink = document.getElementById('about-link');
+const aboutModal = document.getElementById('about-modal');
+const aboutBackdrop = document.getElementById('about-backdrop');
+function openAbout() {
+  aboutModal.classList.add('open');
+  aboutBackdrop.classList.add('open');
+}
+function closeAbout() {
+  aboutModal.classList.remove('open');
+  aboutBackdrop.classList.remove('open');
+}
+aboutLink.addEventListener('click', (e) => { e.preventDefault(); openAbout(); });
+aboutBackdrop.addEventListener('click', closeAbout);
+aboutModal.querySelector('.modal-close').addEventListener('click', closeAbout);
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { closeInfoSheet(); closeAbout(); }
+});
 
 document.addEventListener('click', (e) => {
   const img = e.target.closest('.photo-row .photo');
