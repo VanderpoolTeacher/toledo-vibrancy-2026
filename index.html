@@ -61,23 +61,74 @@
   .reset-btn { background: #ea580c; color: #fff; border: 1px solid #c2410c; border-radius: 8px; padding: 10px 16px; font-size: 0.95rem; font-weight: 600; font-family: inherit; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.35); }
   .reset-btn:hover { background: #f97316; }
   .leaflet-control.reset-control { margin: 10px; }
+
+  /* Mobile bottom sheet — hidden on desktop */
+  #info-sheet { display: none; }
+  #sheet-backdrop { display: none; }
+
   @media (max-width: 720px) {
-    .app { grid-template-columns: 1fr; grid-template-rows: auto 55vh 1fr auto; }
-    header { padding: 10px 14px; gap: 8px; }
-    header h1 { font-size: 0.95rem; line-height: 1.3; }
-    header h1 small { display: block; margin-left: 0; margin-top: 2px; font-size: 0.8rem; }
-    .stats { gap: 10px; font-size: 0.75rem; flex-wrap: wrap; }
-    .stats b { font-size: 0.85rem; }
-    #map { grid-row: 2; grid-column: 1; }
-    aside { grid-row: 3; grid-column: 1; max-height: none; border-right: none; border-top: 1px solid var(--border); }
-    aside .filters { padding: 10px 12px; gap: 5px; }
-    aside .filters button { font-size: 0.75rem; padding: 4px 8px; }
-    aside li { padding: 10px 14px; }
-    .leaflet-popup-content { max-height: 38vh; font-size: 0.88rem; margin: 12px 14px; }
-    .leaflet-popup-content .biz { font-size: 1rem; }
-    .leaflet-popup-content .desc { font-size: 0.85rem; }
-    .reset-btn { padding: 8px 12px; font-size: 0.85rem; }
-    footer { padding: 8px 12px; font-size: 0.7rem; line-height: 1.5; }
+    .app { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr auto; height: 100dvh; }
+    header { padding: 10px 14px; gap: 6px; flex-direction: column; align-items: flex-start; }
+    header h1 { font-size: 0.9rem; line-height: 1.3; }
+    header h1 small { display: block; margin-left: 0; margin-top: 2px; font-size: 0.72rem; }
+    .stats { gap: 12px; font-size: 0.7rem; flex-wrap: wrap; }
+    .stats b { font-size: 0.78rem; }
+
+    /* aside becomes a compact horizontal filter strip; list is hidden */
+    aside { grid-row: 2; grid-column: 1; max-height: none; overflow: visible; border-right: none; border-bottom: 1px solid var(--border); background: var(--panel); }
+    aside .filters { padding: 8px 10px; gap: 6px; border-bottom: none; position: static; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    aside .filters::-webkit-scrollbar { display: none; }
+    aside .filters button { flex-shrink: 0; font-size: 0.75rem; padding: 5px 10px; }
+    aside ul { display: none; }
+
+    /* map takes the rest of the screen */
+    #map { grid-row: 3; grid-column: 1; }
+
+    /* keep reset button clear of zoom controls */
+    .leaflet-control.reset-control { margin: 8px; }
+    .reset-btn { padding: 7px 11px; font-size: 0.8rem; border-radius: 6px; }
+
+    footer { padding: 7px 10px; font-size: 0.65rem; line-height: 1.5; }
+
+    /* Bottom sheet for marker info */
+    #info-sheet {
+      display: block;
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      max-height: 70vh;
+      background: var(--panel);
+      border-top: 1px solid var(--border);
+      border-radius: 16px 16px 0 0;
+      box-shadow: 0 -8px 24px rgba(0,0,0,0.5);
+      z-index: 1001;
+      transform: translateY(110%);
+      transition: transform 0.22s ease;
+      overflow-y: auto;
+      color: var(--ink);
+      padding: 8px 18px 22px;
+    }
+    #info-sheet.open { transform: translateY(0); }
+    #info-sheet .sheet-grab { width: 40px; height: 4px; border-radius: 2px; background: #475569; margin: 4px auto 10px; }
+    #info-sheet .sheet-close { position: absolute; top: 6px; right: 8px; background: transparent; color: var(--muted); border: none; font-size: 1.6rem; cursor: pointer; padding: 2px 10px; line-height: 1; }
+    #info-sheet .sheet-close:hover { color: var(--ink); }
+    #info-sheet .biz { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; padding-right: 32px; }
+    #info-sheet .addr { font-size: 0.85rem; color: var(--muted); margin-bottom: 8px; }
+    #info-sheet .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; color: white; margin-right: 4px; margin-bottom: 4px; }
+    #info-sheet .desc { margin-top: 8px; color: #e2e8f0; font-size: 0.88rem; line-height: 1.5; }
+    #info-sheet .amt { color: #fde68a; font-weight: 600; }
+    #info-sheet .amt sup { font-size: 0.7em; color: #fbbf24; margin-left: 1px; }
+    #info-sheet .src { margin-top: 12px; padding-top: 8px; border-top: 1px solid #334155; font-size: 0.72rem; color: var(--muted); }
+    #info-sheet .src a { color: #93c5fd; }
+
+    #sheet-backdrop {
+      display: block;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.35);
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.22s ease;
+      z-index: 1000;
+    }
+    #sheet-backdrop.open { opacity: 1; pointer-events: auto; }
   }
 </style>
 </head>
@@ -108,6 +159,13 @@
     <a href="https://www.wtol.com/article/news/local/here-are-the-19-toledo-properties-selected-for-vibrancy-initiative-grants/512-a58ea8f9-4b68-4e3d-84ec-6d1434970a5c" target="_blank" rel="noopener">WTOL</a> ·
     Tiles &copy; CARTO / OSM contributors
   </footer>
+</div>
+
+<div id="sheet-backdrop"></div>
+<div id="info-sheet" aria-hidden="true" role="dialog">
+  <div class="sheet-grab"></div>
+  <button class="sheet-close" type="button" aria-label="Close">&times;</button>
+  <div class="sheet-body"></div>
 </div>
 
 <script>
@@ -267,6 +325,42 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 const list = document.getElementById('list');
 const markers = [];
+const startedMobile = window.innerWidth <= 720;
+
+const infoSheet = document.getElementById('info-sheet');
+const sheetBody = infoSheet.querySelector('.sheet-body');
+const sheetBackdrop = document.getElementById('sheet-backdrop');
+function openInfoSheet(html) {
+  sheetBody.innerHTML = html;
+  infoSheet.classList.add('open');
+  sheetBackdrop.classList.add('open');
+  infoSheet.setAttribute('aria-hidden', 'false');
+}
+function closeInfoSheet() {
+  infoSheet.classList.remove('open');
+  sheetBackdrop.classList.remove('open');
+  infoSheet.setAttribute('aria-hidden', 'true');
+}
+infoSheet.querySelector('.sheet-close').addEventListener('click', closeInfoSheet);
+sheetBackdrop.addEventListener('click', closeInfoSheet);
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeInfoSheet(); });
+
+function panForSheet(p) {
+  const targetZoom = Math.max(map.getZoom(), 16);
+  requestAnimationFrame(() => {
+    const sheetH = infoSheet.offsetHeight;
+    const mapElem = document.getElementById('map');
+    const mapRect = mapElem.getBoundingClientRect();
+    const visibleBottom = Math.min(window.innerHeight - sheetH, mapRect.bottom);
+    const visibleMidY = (mapRect.top + visibleBottom) / 2;
+    const mapCenterYInViewport = mapRect.top + mapRect.height / 2;
+    const offsetY = mapCenterYInViewport - visibleMidY;
+    const px = map.project([p.lat, p.lon], targetZoom);
+    px.y += offsetY;
+    const center = map.unproject(px, targetZoom);
+    map.setView(center, targetZoom, { animate: true });
+  });
+}
 
 properties.forEach((p, i) => {
   const color = colorFor(p);
@@ -292,23 +386,26 @@ properties.forEach((p, i) => {
     <div class="src"><sup>*</sup> Project descriptions and estimated investment figures come from the City of Toledo's <a href="${dashboardUrl}" target="_blank" rel="noopener">Vibrancy Initiative dashboard</a> (or its <a href="${rawDataUrl}" target="_blank" rel="noopener">raw feature-service JSON</a>). Dollar amounts are the applicant's estimated total project cost, not the city grant amount.</div>
   `;
   const popupMaxWidth = Math.min(380, window.innerWidth - 40);
-  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map).bindPopup(popupHtml, { maxWidth: popupMaxWidth, autoPan: false });
-  marker.on('popupopen', (e) => {
-    const targetZoom = Math.max(map.getZoom(), 16);
-    const popupEl = e.popup.getElement();
-    const popupHeight = popupEl ? popupEl.offsetHeight : 260;
-    const mapHeight = map.getSize().y;
-    const isMobile = window.innerWidth <= 720;
-    let offset;
-    if (isMobile) {
-      offset = Math.min(Math.max(popupHeight - mapHeight * 0.15, mapHeight * 0.32), mapHeight * 0.42);
-    } else {
-      offset = Math.min(popupHeight / 2, mapHeight * 0.35);
+  const marker = L.marker([p.lat, p.lon], { icon }).addTo(map);
+  if (!startedMobile) {
+    marker.bindPopup(popupHtml, { maxWidth: popupMaxWidth, autoPan: false });
+    marker.on('popupopen', (e) => {
+      const targetZoom = Math.max(map.getZoom(), 16);
+      const popupEl = e.popup.getElement();
+      const popupHeight = popupEl ? popupEl.offsetHeight : 260;
+      const mapHeight = map.getSize().y;
+      const offset = Math.min(popupHeight / 2, mapHeight * 0.35);
+      const px = map.project([p.lat, p.lon], targetZoom);
+      px.y -= offset;
+      const center = map.unproject(px, targetZoom);
+      map.setView(center, targetZoom, { animate: true });
+    });
+  }
+  marker.on('click', () => {
+    if (window.innerWidth <= 720) {
+      openInfoSheet(popupHtml);
+      panForSheet(p);
     }
-    const px = map.project([p.lat, p.lon], targetZoom);
-    px.y -= offset;
-    const center = map.unproject(px, targetZoom);
-    map.setView(center, targetZoom, { animate: true });
   });
   markers.push({ marker, prop: p });
 
@@ -320,10 +417,21 @@ properties.forEach((p, i) => {
     <div class="meta">${p.programs.map(pr => `<span class="pill ${programClass[pr]}">${pr}</span>`).join(' ')}${isMulti ? ' <span class="pill multi">Multiple</span>' : ''}</div>
   `;
   li.addEventListener('click', () => {
-    marker.openPopup();
-    map.setView([p.lat, p.lon], 17, { animate: true });
+    if (window.innerWidth <= 720) {
+      openInfoSheet(popupHtml);
+      panForSheet(p);
+    } else {
+      marker.openPopup();
+      map.setView([p.lat, p.lon], 17, { animate: true });
+    }
   });
   list.appendChild(li);
+});
+
+map.on('click', () => {
+  if (window.innerWidth <= 720 && infoSheet.classList.contains('open')) {
+    closeInfoSheet();
+  }
 });
 
 const filterBtns = document.querySelectorAll('#filters button');
@@ -348,6 +456,7 @@ map.fitBounds(initialBounds);
 function resetMap() {
   document.querySelector('#filters button[data-f="all"]').click();
   map.closePopup();
+  closeInfoSheet();
   map.fitBounds(initialBounds);
 }
 
