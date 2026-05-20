@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toledo Economic Development Dashboard</title>
+<meta name="description" content="Daily brief on Toledo Ohio business development, grants, downtown, Warehouse District, Vistula/Ostrich Towne, Uptown, and Junction.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0; padding: 0; background: #fafaf7; color: #1a1a1a; line-height: 1.55; font-size: 15px;
+}
+.wrap { max-width: 980px; margin: 0 auto; padding: 28px 24px 60px; }
+header { border-bottom: 2px solid #1a4d8c; padding-bottom: 16px; margin-bottom: 24px; }
+h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; }
+.subtitle { color: #555; font-size: 13px; margin: 0; }
+.meta { display: flex; gap: 18px; margin-top: 10px; font-size: 12px; color: #666; flex-wrap: wrap; align-items: center; }
+.meta strong { color: #1a4d8c; font-weight: 600; }
+.badge {
+  font-size: 11px; padding: 3px 8px; border-radius: 10px; font-weight: 600; letter-spacing: 0.02em;
+}
+.badge-saved { background: #d8efd8; color: #1a5c1a; }
+.badge-info { background: #e6f0fb; color: #1a4d8c; }
+
+.banner {
+  background: #f0f4f8; border: 1px solid #d8e0ea; border-radius: 6px; padding: 10px 14px;
+  font-size: 12px; color: #444; margin-bottom: 18px;
+}
+.banner strong { color: #1a4d8c; }
+
+.follow-panel {
+  background: #fff; border: 1px solid #1a4d8c; border-radius: 8px; padding: 16px 20px; margin-bottom: 24px;
+}
+.follow-panel h2 {
+  margin: 0 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1a4d8c;
+  display: flex; align-items: center; gap: 8px;
+}
+.follow-panel .count {
+  background: #1a4d8c; color: #fff; padding: 1px 8px; border-radius: 10px; font-size: 11px;
+}
+.follow-subhead {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #888; font-weight: 700;
+  margin: 14px 0 6px;
+}
+.follow-empty { color: #888; font-size: 13px; font-style: italic; margin: 0; }
+.follow-empty kbd {
+  font-family: inherit; background: #f0f0eb; padding: 1px 6px; border-radius: 4px;
+  border: 1px solid #d0d0c8; font-style: normal; font-size: 12px;
+}
+.follow-list { list-style: none; padding: 0; margin: 0; }
+.follow-list li {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 6px 0; border-bottom: 1px dotted #d8d8d3; font-size: 14px;
+}
+.follow-list li:last-child { border-bottom: none; }
+.follow-list .follow-info { flex: 1; min-width: 0; }
+.follow-list .follow-info strong { color: #1a1a1a; }
+.follow-list .follow-info .followed-on { font-size: 11px; color: #888; margin-left: 6px; }
+.follow-list .follow-info .terms {
+  display: block; font-size: 11px; color: #666; margin-top: 2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.unfollow-btn {
+  background: transparent; border: 1px solid #c8c8c0; color: #666; padding: 4px 10px;
+  border-radius: 4px; cursor: pointer; font-size: 12px; transition: all 0.15s;
+}
+.unfollow-btn:hover { border-color: #8c1a1a; color: #8c1a1a; }
+
+.past-briefs {
+  display: flex; align-items: center; gap: 8px; margin: 0 0 14px; flex-wrap: wrap;
+  padding: 10px 14px; background: #f6f6f1; border-radius: 6px; font-size: 12px;
+}
+.past-briefs-label {
+  color: #888; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
+  margin-right: 4px;
+}
+.brief-pill {
+  display: inline-block; padding: 3px 11px; border-radius: 12px; font-size: 12px;
+  text-decoration: none; color: #1a4d8c; background: #fff;
+  border: 1px solid #d8e0ea; transition: all 0.15s;
+}
+.brief-pill:hover { background: #1a4d8c; color: #fff; border-color: #1a4d8c; }
+.brief-pill.all-archive { font-weight: 600; }
+
+.filters { display: flex; gap: 8px; margin: 18px 0 24px; flex-wrap: wrap; }
+.filter-btn {
+  background: #fff; border: 1px solid #d0d0d0; padding: 6px 12px; border-radius: 14px;
+  font-size: 12px; cursor: pointer; color: #444; transition: all 0.15s;
+}
+.filter-btn:hover { border-color: #1a4d8c; color: #1a4d8c; }
+.filter-btn.active { background: #1a4d8c; color: #fff; border-color: #1a4d8c; }
+
+.top-story {
+  background: linear-gradient(135deg, #fff8e7 0%, #ffefc7 100%);
+  border-left: 4px solid #d4831f; padding: 18px 22px; border-radius: 8px; margin-bottom: 24px;
+  position: relative;
+}
+.top-story-label {
+  display: inline-block; background: #d4831f; color: #fff; padding: 2px 10px;
+  border-radius: 4px; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+  font-weight: 700; margin-bottom: 8px;
+}
+.top-story h2 { margin: 0 0 8px; font-size: 18px; color: #1a1a1a; padding-right: 130px; }
+
+.story {
+  background: #fff; border: 1px solid #e3e3df; border-radius: 8px;
+  padding: 18px 20px; margin-bottom: 14px; transition: border-color 0.15s; position: relative;
+}
+.story:hover { border-color: #1a4d8c; }
+.story.is-followed { border-color: #d4831f; box-shadow: 0 0 0 1px #d4831f inset; }
+.story.is-author-followed { border-left: 4px solid #d4831f; }
+.author-badge {
+  position: absolute; top: 14px; right: 130px; background: #d4831f; color: #fff;
+  padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+.story-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 6px; padding-right: 110px; }
+.story h3 { margin: 0; font-size: 16px; color: #1a1a1a; line-height: 1.35; flex: 1; }
+.tags { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; }
+.tag {
+  font-size: 10px; padding: 2px 8px; border-radius: 4px; letter-spacing: 0.03em;
+  text-transform: uppercase; font-weight: 600; white-space: nowrap;
+}
+.tag-downtown { background: #e6f0fb; color: #1a4d8c; }
+.tag-warehouse { background: #fbe6e6; color: #8c1a1a; }
+.tag-vistula { background: #f0e6fb; color: #4d1a8c; }
+.tag-uptown { background: #e6fbe9; color: #1a8c2c; }
+.tag-junction { background: #fbf0e6; color: #8c4d1a; }
+.tag-grants { background: #fbf7e6; color: #8c7a1a; }
+.tag-citywide { background: #eaeaea; color: #444; }
+
+.people-row {
+  display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0; padding: 0; list-style: none;
+}
+.people-row .person-label {
+  font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.06em;
+  font-weight: 700; padding: 3px 0; margin-right: 4px;
+}
+.person-chip {
+  background: #f0f4f8; border: 1px solid #d8e0ea; color: #1a4d8c;
+  padding: 3px 9px 3px 26px; border-radius: 12px; font-size: 12px; cursor: pointer;
+  position: relative; transition: all 0.15s; font-family: inherit;
+}
+.person-chip::before {
+  content: "☆"; position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
+  font-size: 13px; line-height: 1; color: #888;
+}
+.person-chip:hover { background: #1a4d8c; color: #fff; border-color: #1a4d8c; }
+.person-chip:hover::before { color: #fff; }
+.person-chip.is-followed { background: #fff8e7; border-color: #d4831f; color: #8c5a1a; }
+.person-chip.is-followed::before { content: "★"; color: #d4831f; }
+
+.follow-btn {
+  position: absolute; top: 14px; right: 14px; background: transparent; border: 1px solid #d0d0c8;
+  padding: 4px 10px 4px 8px; border-radius: 14px; cursor: pointer; font-size: 12px; color: #666;
+  display: inline-flex; align-items: center; gap: 4px; transition: all 0.15s; font-family: inherit;
+}
+.follow-btn:hover { border-color: #d4831f; color: #d4831f; }
+.follow-btn .star { font-size: 13px; line-height: 1; }
+.follow-btn.is-active { border-color: #d4831f; color: #d4831f; background: #fff8e7; }
+.follow-btn.is-active .star { color: #d4831f; }
+.top-story .follow-btn { background: rgba(255,255,255,0.7); }
+
+/* Source-date chip on each story card */
+.story-date {
+  display: inline-block; font-size: 10px; font-weight: 600; letter-spacing: 0.03em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 4px;
+  margin: 4px 0 2px;
+}
+.story-date.age-new      { background: #d8efd8; color: #1a5c1a; } /* within 48h */
+.story-date.age-recent   { background: #fbf0d8; color: #8c6a1a; } /* 3-7 days */
+.story-date.age-ongoing  { background: #eaeaea; color: #555;    } /* 8+ days */
+.story-date.age-future   { background: #e6f0fb; color: #1a4d8c; } /* future event */
+
+/* ---------- Story chain tracking (see docs/superpowers/specs/2026-05-20-story-chain-tracking-design.md) ---------- */
+
+.story-new-badge {
+  background: #d4831f; color: #fff; font-size: 10px; padding: 2px 7px;
+  border-radius: 8px; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; vertical-align: middle; margin-left: 4px;
+}
+
+.chain-trigger {
+  display: inline-block; margin-top: 10px; padding: 0; border: none;
+  background: transparent; font: inherit; cursor: pointer;
+}
+.chain-trigger.is-followed { font-size: 12px; font-weight: 600; color: #8c6a1a; }
+.chain-trigger.is-unfollowed { font-size: 11px; font-weight: 400; color: #888; }
+.chain-trigger:hover { text-decoration: underline; }
+
+.chain-expanded { margin-top: 10px; border-top: 1px dotted #e5cba3; padding-top: 10px; }
+.chain-expanded[hidden] { display: none; }
+.chain-label {
+  font-size: 10px; color: #888; text-transform: uppercase;
+  letter-spacing: 0.06em; font-weight: 700; margin: 0 0 8px;
+}
+.chain-list { border-left: 2px solid #d4831f; padding-left: 12px; margin: 0; }
+.chain-entry { position: relative; margin-bottom: 10px; }
+.chain-entry:last-child { margin-bottom: 0; }
+.chain-entry::before {
+  content: ""; position: absolute; left: -18px; top: 4px;
+  width: 10px; height: 10px; border-radius: 50%; background: #d4831f;
+}
+.chain-entry .chain-date {
+  display: block; font-size: 11px; font-weight: 700;
+  color: #8c6a1a; text-transform: uppercase;
+}
+.chain-entry .chain-headline {
+  display: block; font-size: 12px; font-weight: 600; color: #1a1a1a;
+}
+.chain-entry .chain-snippet {
+  display: block; font-size: 11px; color: #666; margin-top: 2px;
+}
+
+/* Still in motion — visual treatment for ongoing/older stories grouped together */
+.section-title.still-in-motion {
+  color: #666; border-color: #c8c8c0;
+}
+.section-title.still-in-motion::after {
+  content: " — older stories with no new movement in last 48h";
+  color: #888; font-size: 11px; font-weight: 500; text-transform: none; letter-spacing: 0;
+}
+.story.is-ongoing { background: #fafaf6; }
+
+.story p { margin: 8px 0; color: #333; font-size: 14px; }
+.why { font-size: 13px; color: #444; padding: 10px 12px; background: #f6f6f1;
+  border-radius: 6px; margin-top: 10px; border-left: 3px solid #1a4d8c; }
+.why strong { color: #1a4d8c; }
+.sources-inline { margin-top: 10px; font-size: 12px; }
+.sources-inline a {
+  color: #1a4d8c; text-decoration: none; margin-right: 12px;
+  border-bottom: 1px dotted #1a4d8c; padding-bottom: 1px;
+}
+.sources-inline a:hover { border-bottom-style: solid; }
+
+.section-title {
+  font-size: 13px; font-weight: 700; color: #1a4d8c; text-transform: uppercase;
+  letter-spacing: 0.06em; margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 1px solid #d8d8d3;
+}
+.watch-list { background: #f6f6f1; border-radius: 8px; padding: 18px 22px; margin-top: 28px; }
+.watch-list h3 { margin: 0 0 10px; font-size: 14px; color: #1a4d8c; text-transform: uppercase; letter-spacing: 0.05em; }
+.watch-list ol { margin: 0; padding-left: 22px; }
+.watch-list li { margin-bottom: 8px; font-size: 14px; color: #333; }
+.live-sources { margin-top: 30px; padding: 18px 22px; background: #f0f4f8; border-radius: 8px; }
+.live-sources h3 { margin: 0 0 10px; font-size: 14px; color: #1a4d8c; text-transform: uppercase; letter-spacing: 0.05em; }
+.live-sources .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; margin-top: 10px; }
+.live-sources a {
+  display: block; padding: 8px 12px; background: #fff; border-radius: 6px;
+  text-decoration: none; color: #1a4d8c; font-size: 13px; border: 1px solid #d8e0ea; transition: all 0.15s;
+}
+.live-sources a:hover { background: #1a4d8c; color: #fff; border-color: #1a4d8c; }
+.archive-link { display: inline-block; margin-top: 12px; color: #1a4d8c; font-size: 13px; }
+.footer-note {
+  margin-top: 36px; padding-top: 18px; border-top: 1px solid #d8d8d3;
+  font-size: 12px; color: #777; text-align: center;
+}
+.hidden { display: none; }
+
+/* Inline address links inside story text */
+.addr-link {
+  font-family: inherit; font-size: inherit; line-height: inherit;
+  background: transparent; border: none; padding: 0; cursor: pointer;
+  color: #1a4d8c; border-bottom: 1px dotted #1a4d8c;
+  padding-bottom: 1px; text-align: inherit;
+}
+.addr-link::before {
+  content: "📍"; font-size: 0.85em; margin-right: 3px;
+  filter: grayscale(0.2);
+}
+.addr-link:hover { border-bottom-style: solid; }
+.addr-link[aria-expanded="true"] {
+  background: #eaf1f9; border-radius: 3px; padding: 0 4px;
+}
+
+/* Headline chip for stories whose address isn't in the prose */
+.headline-loc-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-family: inherit; background: #eaf1f9; border: 1px solid #c5d6ea;
+  color: #1a4d8c; padding: 2px 9px; border-radius: 12px;
+  font-size: 11px; font-weight: 600; cursor: pointer;
+  margin-top: 4px;
+}
+.headline-loc-chip::before { content: "📍"; font-size: 11px; }
+.headline-loc-chip:hover { background: #d8e6f4; }
+.headline-loc-chip[aria-expanded="true"] { background: #d8e6f4; }
+
+/* Mini-map slot — collapsed by default, expands on .open */
+.story-map {
+  height: 0; overflow: hidden;
+  transition: height 0.22s ease;
+  margin-top: 0; border-radius: 6px;
+  position: relative;
+}
+.story-map.open {
+  height: 220px;
+  margin-top: 12px;
+  border: 1px solid #d8d8d3;
+}
+.story-map .leaflet-container { height: 100%; width: 100%; border-radius: 6px; }
+
+/* "Open in Google Maps" escape hatch on each mini-map */
+.story-map .gmaps-link {
+  position: absolute; right: 8px; bottom: 8px; z-index: 500;
+  background: rgba(255,255,255,0.92); color: #1a4d8c;
+  border: 1px solid #c5d6ea; border-radius: 4px;
+  font-size: 11px; padding: 3px 8px; text-decoration: none;
+}
+.story-map .gmaps-link:hover { background: #fff; }
+
+/* "View 17 properties on the Vibrancy map" external link on top story */
+.vibrancy-map-link {
+  display: inline-block; margin-top: 10px; padding: 6px 12px;
+  background: #1a4d8c; color: #fff; border-radius: 4px;
+  text-decoration: none; font-size: 13px; font-weight: 600;
+}
+.vibrancy-map-link:hover { background: #0f3a73; }
+
+@media (max-width: 600px) {
+  .top-story h2, .story-header { padding-right: 0; }
+  .follow-btn { position: static; margin-top: 8px; }
+  .author-badge { position: static; display: inline-block; margin-bottom: 6px; }
+  .story-map.open { height: 180px; margin-top: 10px; }
+}
+
+/* Desktop: 2-column card grid. Top story / section titles / panels span full width;
+   ordinary story cards arrange in 2 columns. Dense flow keeps gaps minimal. */
+@media (min-width: 900px) {
+  .wrap {
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 14px;
+    grid-auto-flow: dense;
+    align-items: start;
+  }
+  header, .banner, .follow-panel, .past-briefs, .filters, .top-story,
+  .section-title, .watch-list, .live-sources, .footer-note {
+    grid-column: 1 / -1;
+  }
+  /* Story cards: each takes 1 column; grid row-gap handles spacing. */
+  .story { margin-bottom: 0; }
+  /* Section title sits flush above its cards (grid row-gap provides the breathing room). */
+  .section-title { margin: 14px 0 0; padding-bottom: 6px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Toledo Economic Development Dashboard</h1>
+  <p class="subtitle">Business development · Grants · Downtown · Warehouse District · Vistula/Ostrich Towne · Uptown · Junction</p>
+  <div class="meta">
+    <span><strong>Last refreshed:</strong> <span id="meta-date">—</span></span>
+    <span><strong>Window:</strong> <span id="meta-window">—</span></span>
+    <span><strong>Auto-refresh:</strong> <span id="meta-auto-refresh">—</span></span>
+    <span id="env-badge" class="badge badge-info">Live site</span>
+  </div>
+</header>
+
+<div class="banner" id="env-banner">
+  Author's followed items are loaded from <code>followed_stories.json</code> and marked with a ★ badge. You can also follow items locally in your browser — those follows stay on this device.
+</div>
+
+<div class="follow-panel">
+  <h2>★ Following <span class="count" id="follow-count-total">0</span></h2>
+  <p class="follow-empty" id="follow-empty">No follows yet. Tap <kbd>★ Follow</kbd> on a story, or click a person chip, to track items locally in your browser.</p>
+  <div id="follow-stories-wrap" style="display:none;">
+    <div class="follow-subhead">Stories <span class="count" id="follow-count-stories">0</span></div>
+    <ul class="follow-list" id="follow-list-stories"></ul>
+  </div>
+  <div id="follow-people-wrap" style="display:none;">
+    <div class="follow-subhead">People <span class="count" id="follow-count-people">0</span></div>
+    <ul class="follow-list" id="follow-list-people"></ul>
+  </div>
+</div>
+
+<div class="past-briefs" id="past-briefs"></div>
+
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="followed">★ Followed only</button>
+  <button class="filter-btn" data-filter="grants">Grants</button>
+  <button class="filter-btn" data-filter="downtown">Downtown</button>
+  <button class="filter-btn" data-filter="warehouse">Warehouse Dist</button>
+  <button class="filter-btn" data-filter="vistula">Vistula / Ostrich Towne</button>
+  <button class="filter-btn" data-filter="uptown">Uptown</button>
+  <button class="filter-btn" data-filter="junction">Junction</button>
+  <button class="filter-btn" data-filter="citywide">Citywide</button>
+</div>
+
+<div id="loading-banner" class="banner" style="text-align:center;">Loading stories…</div>
+<div id="error-banner" class="banner" style="display:none; background:#fdecea; border-color:#f5c2c0; color:#8c1a1a;"></div>
+
+<main id="stories"></main>
+
+<div class="watch-list" id="watch-list" style="display:none;">
+  <h3>What to watch in the next report</h3>
+  <ol id="watch-list-items"></ol>
+</div>
+
+<div class="live-sources" id="live-sources" style="display:none;">
+  <h3>Live source pages (always current)</h3>
+  <div class="grid" id="live-sources-grid"></div>
+  <a class="archive-link" href="archive/">→ Browse daily markdown archive</a>
+</div>
+
+<div class="footer-note">
+  Refreshed automatically each morning at 5:00 AM ET. Markdown archives committed daily. <a href="archive/">View daily briefs</a> · <a href="../">View the 2026 Vibrancy Initiative grant map →</a>
+</div>
+
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  // -- Storage / config (unchanged from previous dashboard) --
+  const STORAGE_KEY = 'toledo_dashboard_follows_v2';
+  const FILTER_KEY = 'toledo_dashboard_filter';
+  const REPO_FOLLOW_FILE = 'followed_stories.json';
+
+  // -- Date routing --
+  function targetDate() {
+    const url = new URL(window.location.href);
+    const param = url.searchParams.get('date');
+    if (param && /^\d{4}-\d{2}-\d{2}$/.test(param)) return param;
+    // Default = today in local TZ, YYYY-MM-DD
+    const d = new Date();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${d.getFullYear()}-${m}-${day}`;
+  }
+
+  // Task 6 fills in the rest of the render pipeline.
+  console.log('Stories-as-JSON shell loaded, target date:', targetDate());
+})();
+</script>
+
+</body>
+</html>
