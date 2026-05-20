@@ -1129,10 +1129,17 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   }
 
   function openMapFor(card, item, trigger) {
+    // If Leaflet failed to load (CDN failure), bail out to Google Maps.
+    if (typeof L === 'undefined') {
+      const lat = item.lat ?? (item.path && item.path[0][0]) ?? (item.bbox && item.bbox[0][0]);
+      const lon = item.lon ?? (item.path && item.path[0][1]) ?? (item.bbox && item.bbox[0][1]);
+      window.open(`https://www.google.com/maps?q=${lat},${lon}`, '_blank', 'noopener');
+      return;
+    }
+
     const id = card.dataset.storyId;
     let state = cardMaps.get(id);
 
-    // Toggle off if the same trigger was already active
     if (state && state.currentTrigger === trigger && state.mapDiv.classList.contains('open')) {
       closeMap(card);
       return;
@@ -1144,7 +1151,6 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
       cardMaps.set(id, state);
     }
 
-    // Reset aria on previous trigger (if any)
     if (state.currentTrigger && state.currentTrigger !== trigger) {
       state.currentTrigger.setAttribute('aria-expanded', 'false');
     }
@@ -1153,14 +1159,11 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
     mapDiv.classList.add('open');
 
-    // Lazy-init Leaflet on first open for this card
     const initMap = () => {
       if (!state.map) state.map = buildLeafletMap(mapDiv);
       state.map.invalidateSize();
       renderItem(state, item);
     };
-    // Wait for the CSS height transition before invalidateSize, otherwise
-    // Leaflet measures a 0-height container and tiles never load.
     setTimeout(initMap, 230);
   }
 
@@ -1172,6 +1175,15 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
     if (state.currentTrigger) state.currentTrigger.setAttribute('aria-expanded', 'false');
     state.currentTrigger = null;
   }
+
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    const focused = document.activeElement;
+    if (!focused) return;
+    const card = focused.closest('.story-item');
+    if (!card) return;
+    closeMap(card);
+  });
 
   (async function init(){
     await loadAuthorFollows();
