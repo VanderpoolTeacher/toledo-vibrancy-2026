@@ -68,6 +68,22 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 }
 .unfollow-btn:hover { border-color: #8c1a1a; color: #8c1a1a; }
 
+.past-briefs {
+  display: flex; align-items: center; gap: 8px; margin: 0 0 14px; flex-wrap: wrap;
+  padding: 10px 14px; background: #f6f6f1; border-radius: 6px; font-size: 12px;
+}
+.past-briefs-label {
+  color: #888; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
+  margin-right: 4px;
+}
+.brief-pill {
+  display: inline-block; padding: 3px 11px; border-radius: 12px; font-size: 12px;
+  text-decoration: none; color: #1a4d8c; background: #fff;
+  border: 1px solid #d8e0ea; transition: all 0.15s;
+}
+.brief-pill:hover { background: #1a4d8c; color: #fff; border-color: #1a4d8c; }
+.brief-pill.all-archive { font-weight: 600; }
+
 .filters { display: flex; gap: 8px; margin: 18px 0 24px; flex-wrap: wrap; }
 .filter-btn {
   background: #fff; border: 1px solid #d0d0d0; padding: 6px 12px; border-radius: 14px;
@@ -146,6 +162,27 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 .follow-btn.is-active { border-color: #d4831f; color: #d4831f; background: #fff8e7; }
 .follow-btn.is-active .star { color: #d4831f; }
 .top-story .follow-btn { background: rgba(255,255,255,0.7); }
+
+/* Source-date chip on each story card */
+.story-date {
+  display: inline-block; font-size: 10px; font-weight: 600; letter-spacing: 0.03em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 4px;
+  margin: 4px 0 2px;
+}
+.story-date.age-new      { background: #d8efd8; color: #1a5c1a; } /* within 48h */
+.story-date.age-recent   { background: #fbf0d8; color: #8c6a1a; } /* 3-7 days */
+.story-date.age-ongoing  { background: #eaeaea; color: #555;    } /* 8+ days */
+.story-date.age-future   { background: #e6f0fb; color: #1a4d8c; } /* future event */
+
+/* Still in motion — visual treatment for ongoing/older stories grouped together */
+.section-title.still-in-motion {
+  color: #666; border-color: #c8c8c0;
+}
+.section-title.still-in-motion::after {
+  content: " — older stories with no new movement in last 48h";
+  color: #888; font-size: 11px; font-weight: 500; text-transform: none; letter-spacing: 0;
+}
+.story.is-ongoing { background: #fafaf6; }
 
 .story p { margin: 8px 0; color: #333; font-size: 14px; }
 .why { font-size: 13px; color: #444; padding: 10px 12px; background: #f6f6f1;
@@ -241,6 +278,12 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
+<div class="past-briefs" id="past-briefs">
+  <span class="past-briefs-label">Past briefs:</span>
+  <a class="brief-pill" href="https://github.com/VanderpoolTeacher/toledo-vibrancy-2026/blob/main/dashboard/archive/2026-05-19_toledo_development_brief.md" target="_blank" rel="noopener" title="May 19, 2026 — Vibrancy 19 grants top story">May 19</a>
+  <a class="brief-pill all-archive" href="archive/" title="Browse all daily briefs">All →</a>
+</div>
+
 <div class="filters" id="filters">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn" data-filter="followed">★ Followed only</button>
@@ -259,6 +302,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   <button class="follow-btn" data-follow="watershed-weekend-riverwalk"><span class="star">☆</span><span class="label">Follow</span></button>
   <span class="top-story-label">Top Story · May 20, 2026</span>
   <h2>Glass City Riverwalk hits 50% complete — Watershed Weekend June 11–14 will mark the halfway milestone</h2>
+  <span class="story-date age-future" data-source-date="2026-03-25">Announced Mar 25 · event Jun 11–14</span>
   <p>Metroparks Toledo has scheduled a four-day celebration June 11–14 along Glass City Riverwalk to mark the halfway point of the 10-year, $250M project, which now connects six Toledo neighborhoods along the Maumee River. The weekend opens June 11 at <strong>The Bend</strong> — the new elevated trail behind One SeaGate linking the Riverwalk to the MLK Bridge bike/ped lane. Saturday's <strong>River Crossing Expo</strong> will close the MLK Bridge to motor traffic for rock climbing, paddling, mountain biking and outdoor-skills demos. The weekend also includes an Art Loop anchored by <em>Starburst</em> (a 15-foot illuminated sculpture), the TECHLEDO electronic music festival at The Ribbon and Market Hall, an international vendor fair, and a 5K with BRB Run Club.</p>
   <p>The 50% completion marker is more than a programming hook — the Riverwalk is the spine of every other downtown-adjacent investment thesis the city is selling: Glass City Metropark, the future Vistula Metropark, the proposed Vistula soccer stadium, Owens Corning's new 30-year commitment, the East-side urban campground, and Crane Development's Warehouse District buildout all sit within (or are marketed against) this connective tissue. First half completes this summer; full build wraps 2032.</p>
   <div class="why"><strong>Why it matters:</strong> This is the single most consequential piece of soft infrastructure shaping Toledo's downtown thesis. The halfway celebration converts a 10-year construction story into a public-facing brand moment and locks in private-investor confidence for the second half of the build. Anyone making placement decisions in Vistula, the Warehouse District, or East Toledo should plan to be visibly present. Strong turnout will accelerate the next round of Riverwalk-adjacent land assemblies; weak turnout will trigger a quieter pivot back to construction-milestone reporting.</div>
@@ -273,12 +317,14 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <div class="story story-item" data-story-id="swanky-scoops" data-tags="warehouse"
      data-people="Alissa Vieira|Owner, Swanky Scoops|Alissa Vieira Swanky Scoops Toledo"
+     data-source-date="2026-05-16"
      data-search-terms="Swanky Scoops Warehouse District Toledo Vieira ice cream opening">
   <button class="follow-btn" data-follow="swanky-scoops"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Swanky Scoops opening a Warehouse District scoop shop</h3>
     <div class="tags"><span class="tag tag-warehouse">Warehouse Dist</span></div>
   </div>
+  <span class="story-date age-recent">Reported May 16 · 4 days ago</span>
   <p>The Blade reported (May 16) that Alissa Vieira's artisanal ice cream business, Swanky Scoops, is opening a brick-and-mortar shop in the Warehouse District — graduating from its production-only kitchen at 130 10th Street into a destination retail space with more square footage, more seating, expanded hours, and event programming.</p>
   <div class="why"><strong>Why it matters:</strong> Small ticket on its own, but it lands in the right place at the right time — the Warehouse District is being reframed as a daytime/family-traffic destination through Huron Yards' grocery and restaurant additions and the upcoming beer garden. A scoop shop turns "people pass through here for ballgames" into "people walk here on weekends." Track which block they sign in — Huron Yards-adjacent reinforces the Erie Street cluster; Hensville-adjacent diversifies the entertainment-zone tenant mix.</div>
   <div class="sources-inline">
@@ -287,23 +333,25 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="huron-yards-phase-two" data-tags="warehouse downtown" data-people="" data-search-terms="Huron Yards Crane Development Warehouse District The Station Okun grocery">
+<div class="story story-item is-ongoing" data-story-id="huron-yards-phase-two" data-tags="warehouse downtown" data-people="" data-source-date="" data-search-terms="Huron Yards Crane Development Warehouse District The Station Okun grocery">
   <button class="follow-btn" data-follow="huron-yards-phase-two"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Huron Yards phase two nearing completion</h3>
     <div class="tags"><span class="tag tag-warehouse">Warehouse Dist</span></div>
   </div>
+  <span class="story-date age-ongoing">Ongoing · no fresh reporting this window</span>
   <p>Crane Development's Huron Yards is on track to wrap phase two in 2026. The former Alleyway building at 28 N. Erie St. is being renovated into a new restaurant called <strong>The Station</strong>, and a grocery store is taking the ground floor of the old Okun Produce building. Resident parking and the upcoming beer garden's site work are finished.</p>
   <div class="why"><strong>Why it matters:</strong> A grocery store in the Warehouse District is the missing-amenity piece that turns downtown-adjacent districts from "lively at night" into "lively all day." Strengthens the case for the next residential phase.</div>
   <div class="sources-inline"><a href="https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/" target="_blank" rel="noopener">Toledo City Paper</a></div>
 </div>
 
-<div class="story story-item" data-story-id="port-warehouse-liquid-terminal" data-tags="warehouse citywide" data-people="" data-search-terms="Toledo Port Authority warehouse liquid bulk terminal cargo">
+<div class="story story-item is-ongoing" data-story-id="port-warehouse-liquid-terminal" data-tags="warehouse citywide" data-people="" data-source-date="2026-04-13" data-search-terms="Toledo Port Authority warehouse liquid bulk terminal cargo">
   <button class="follow-btn" data-follow="port-warehouse-liquid-terminal"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Port of Toledo pursues new warehouse and liquid bulk terminal</h3>
     <div class="tags"><span class="tag tag-warehouse">Warehouse Dist</span><span class="tag tag-citywide">Citywide</span></div>
   </div>
+  <span class="story-date age-ongoing">Reported Apr 13 · 5 weeks ago</span>
   <p>The Toledo-Lucas County Port Authority is pursuing a new warehouse and liquid bulk terminal to expand cargo handling capacity, per The Blade (April 13).</p>
   <div class="why"><strong>Why it matters:</strong> Slower-moving than retail news, but the strongest indicator of industrial-side capacity. A liquid terminal signals long-term industrial demand confidence and may anchor downstream logistics jobs.</div>
   <div class="sources-inline"><a href="https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104" target="_blank" rel="noopener">The Blade</a></div>
@@ -311,12 +359,13 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <div class="section-title">Vistula District / Ostrich Towne</div>
 
-<div class="story story-item" data-story-id="ostrich-towne-tenants" data-tags="vistula" data-people="" data-search-terms="Ostrich Towne Vistula Toledo tenant Riverside BBQ CuriosiTEA Molly's Avestruz">
+<div class="story story-item" data-story-id="ostrich-towne-tenants" data-tags="vistula" data-people="" data-source-date="2026-05-18" data-search-terms="Ostrich Towne Vistula Toledo tenant Riverside BBQ CuriosiTEA Molly's Avestruz">
   <button class="follow-btn" data-follow="ostrich-towne-tenants"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Ostrich Towne tenant pipeline expanding beyond the original two</h3>
     <div class="tags"><span class="tag tag-vistula">Vistula</span></div>
   </div>
+  <span class="story-date age-new">Tenant roster updated · within last 48h</span>
   <p>Beyond the existing operating tenants (Molly's Irish Pub and Avestruz Tapas &amp; Tequila), Ostrich Towne's roster shows <strong>Riverside BBQ Company</strong> targeting an April opening and <strong>CuriosiTEA Emporium</strong> expected later in 2026. With Watershed Weekend traffic on the adjacent MLK Bridge in June and the start of the Glass City Riverwalk extension to the Vistula side this summer, the district is on track for its first real test of foot-traffic demand.</p>
   <div class="why"><strong>Why it matters:</strong> The Ostrich Towne thesis has been "two anchors plus a Vibrancy/Riverwalk tailwind equals a destination district." The next two tenant openings are the second leg of that thesis. If Riverside BBQ and CuriosiTEA both open and survive their first summer, the district shifts from "novelty" to "neighborhood" — and the leasing pitch to the next 3–5 tenants gets materially easier. Watch the Vibrancy 19 property list (still pending detailed publication) to see whether any awards land inside Vistula and feed this pipeline.</div>
   <div class="sources-inline">
@@ -325,12 +374,13 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="vistula-metropark" data-tags="vistula downtown" data-people="" data-search-terms="Vistula Metropark Toledo Water Street riverfront 20th park Metroparks">
+<div class="story story-item is-ongoing" data-story-id="vistula-metropark" data-tags="vistula downtown" data-people="" data-source-date="2026-04-22" data-search-terms="Vistula Metropark Toledo Water Street riverfront 20th park Metroparks">
   <button class="follow-btn" data-follow="vistula-metropark"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>$23M Vistula Metropark advances — design consultant hired</h3>
     <div class="tags"><span class="tag tag-vistula">Vistula</span></div>
   </div>
+  <span class="story-date age-ongoing">Reported Apr 22 · 4 weeks ago</span>
   <p>Metroparks Toledo is advancing what will become its 20th park: a $23M riverfront park along Water Street between Olive and Magnolia. The Blade reported (April 22) Metroparks hired a design consultant; some elements expected to open later in 2026.</p>
   <div class="why"><strong>Why it matters:</strong> Public green space is the most consistent leading indicator for private investment in adjacent parcels in Toledo. Expect land-banking activity within a 4–6 block radius of Water Street over the next 12 months.</div>
   <div class="sources-inline">
@@ -339,14 +389,16 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="soccer-stadium-vistula" data-tags="vistula"
+<div class="story story-item is-ongoing" data-story-id="soccer-stadium-vistula" data-tags="vistula"
      data-people="Summit Street Sports|Stadium developer group|Summit Street Sports Toledo soccer stadium"
+     data-source-date="2026-04-14"
      data-search-terms="Summit Street Sports Toledo soccer stadium USL Ohio sports facility fund $1 billion">
   <button class="follow-btn" data-follow="soccer-stadium-vistula"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Soccer stadium proposal — new financing details surface, applying for Ohio $1B sports facility fund</h3>
     <div class="tags"><span class="tag tag-vistula">Vistula</span></div>
   </div>
+  <span class="story-date age-ongoing">Reported Apr 14 · 5 weeks ago</span>
   <p>New filings reviewed by The Blade (April 14) clarify what's actually being pitched: the $83.6M, 7,500-seat stadium is being advanced by <strong>Summit Street Sports</strong> on dormant land off Summit Street near Toledo Pickle Company, directly across the river from Glass City Metropark. The group is targeting a United Soccer League franchise and a 2028–29 opening, with capacity to host 140+ events per year (matches plus concerts). Both Summit Street Sports and the Toledo Mud Hens (for Fifth Third Field renovation) applied for a share of Ohio's new $1B sports facility fund.</p>
   <div class="why"><strong>Why it matters:</strong> The stadium has moved from "trial balloon" to "filed proposal competing for state dollars" — a different category of project to track. The 140-event capacity figure is the real argument: at that volume the stadium functions as a year-round programming engine for Vistula, not just a 17-match-per-year venue. The state award timing is now the gating decision. A meaningful slice of the $1B fund makes this a 2028 anchor for the entire Vistula thesis; without it, the proposal slows or gets re-cut.</div>
   <div class="sources-inline">
@@ -358,24 +410,27 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <div class="section-title">Uptown / Junction</div>
 
-<div class="story story-item" data-story-id="innovation-post-tenants" data-tags="uptown junction"
+<div class="story story-item is-ongoing" data-story-id="innovation-post-tenants" data-tags="uptown junction"
      data-people=""
+     data-source-date=""
      data-search-terms="Innovation Post Toledo Uptown Wurtec WorkSpring Junior Achievement SEGULA Technologies tenants">
   <button class="follow-btn" data-follow="innovation-post-tenants"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Innovation Post tenant slate firms up — four named tenants</h3>
     <div class="tags"><span class="tag tag-uptown">Uptown</span><span class="tag tag-junction">Junction</span></div>
   </div>
+  <span class="story-date age-ongoing">Ongoing · tenant list published earlier in year</span>
   <p>The Innovation Post — the centerpiece commercial space inside the $53M RAISE footprint — will initially house <strong>four named tenants</strong>: Wurtec Incorporated, WorkSpring, Junior Achievement of Northwestern Ohio, and SEGULA Technologies USA. Together they span industrial supply (Wurtec), flexible office (WorkSpring), workforce/education (Junior Achievement), and engineering services (SEGULA — a French-headquartered global engineering firm). City planners separately note that ~67% of Uptown is currently parking lots and green space — the basis for the "extraordinary opportunity for new development" framing during the RAISE design phase.</p>
   <div class="why"><strong>Why it matters:</strong> First time the Uptown redevelopment story has named-tenant specificity rather than infrastructure-and-vision rhetoric. Four tenants is enough to start sketching second-order effects — lunch/service demand, daytime population shift, parking absorption. SEGULA Technologies in particular signals to other engineering and advanced-manufacturing companies that Uptown is viable, which compounds. The 67% parking/green-space stat is the political framing developers should expect through 2026 design-phase community meetings.</div>
 </div>
 
-<div class="story story-item" data-story-id="raise-uptown-junction" data-tags="uptown junction grants" data-people="" data-search-terms="Connecting Toledo Neighborhoods Opportunity RAISE Uptown Junction Dorr Street design construction">
+<div class="story story-item is-ongoing" data-story-id="raise-uptown-junction" data-tags="uptown junction grants" data-people="" data-source-date="" data-search-terms="Connecting Toledo Neighborhoods Opportunity RAISE Uptown Junction Dorr Street design construction">
   <button class="follow-btn" data-follow="raise-uptown-junction"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Connecting Toledo Neighborhoods to Opportunity — $53M, 38-block redevelopment in design</h3>
     <div class="tags"><span class="tag tag-uptown">Uptown</span><span class="tag tag-junction">Junction</span></div>
   </div>
+  <span class="story-date age-ongoing">Multi-year project · design phase through 2026</span>
   <p>The federally-funded $53M project covering 38 blocks (13th–21st Street, Adams to Monroe) is in design through 2026, construction 2027–2029, completion targeted 2031. Funded by a $20M USDOT RAISE grant.</p>
   <div class="why"><strong>Why it matters:</strong> Biggest neighborhood-scale infrastructure investment in this part of Toledo in a generation. Junction's 45% vacancy rate means infrastructure is going in <em>ahead of</em> private development — a deliberate "build it and they will come" bet.</div>
   <div class="sources-inline">
@@ -386,14 +441,16 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <div class="section-title">Downtown</div>
 
-<div class="story story-item" data-story-id="glass-city-urban-campground" data-tags="downtown"
+<div class="story story-item is-ongoing" data-story-id="glass-city-urban-campground" data-tags="downtown"
      data-people="Matt Killam|Chief Outreach Officer, Metroparks Toledo|Matt Killam Metroparks Toledo"
+     data-source-date=""
      data-search-terms="Glass City Metropark urban campground Toledo East Side Marina Land Bank">
   <button class="follow-btn" data-follow="glass-city-urban-campground"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Glass City Metropark urban campground — opening 2026</h3>
     <div class="tags"><span class="tag tag-downtown">Downtown</span></div>
   </div>
+  <span class="story-date age-ongoing">Ongoing · build phase, opening later 2026</span>
   <p>Metroparks Toledo is moving into the build phase on a new urban campground on the East Toledo riverfront, sited between the National Museum of the Great Lakes and the Craig Memorial Bridge, adjacent to the Glass City Marina that Metroparks already operates. The campground will be small but full-service — RV hookups, tent sites, cabins, and a pavilion. Funding stack: a Land and Water Conservation Fund federal grant pays for the access road and campsites; a ~$1M grant from the Lucas County Land Bank (out of $3.2M from the State of Ohio) covers site cleanup. Per Chief Outreach Officer Matt Killam, the campground is part of the broader Glass City Riverwalk project.</p>
   <div class="why"><strong>Why it matters:</strong> An urban riverfront campground is an unusual asset for a Midwestern downtown — and boaters from the adjacent marina sharing the pavilion makes for a meaningfully different visitor pattern than Toledo currently captures. It also locks in another contiguous public-investment parcel along the East Toledo riverfront, the next neighborhood in line after Vistula for the Riverwalk-driven private-investment effect. Expect East Toledo land assemblies and small-business positioning to start showing up in the next 12 months.</div>
   <div class="sources-inline">
@@ -403,14 +460,16 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="owens-corning-250m" data-tags="downtown"
+<div class="story story-item is-ongoing" data-story-id="owens-corning-250m" data-tags="downtown"
      data-people=""
+     data-source-date="2026-04-07"
      data-search-terms="Owens Corning Toledo headquarters tax incentive 250 million 30 year Riverwalk easement TPS PILOT">
   <button class="follow-btn" data-follow="owens-corning-250m"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Owens Corning — $250M, 30-year HQ stay + Riverwalk easement bundled in deal</h3>
     <div class="tags"><span class="tag tag-downtown">Downtown</span></div>
   </div>
+  <span class="story-date age-ongoing">Reported Apr 7–8 · 6 weeks ago · council vote pending</span>
   <p>In exchange for the property-tax incentive extension, Owens Corning will invest $250M in building and technology improvements, create 25 new jobs, maintain 1,036 existing high-wage jobs, and commit to keeping its world HQ downtown for 30 more years. New detail already in the public record: alongside the 30-year commitment, Owens Corning will enter a payment-in-lieu-of-taxes agreement with Toledo Public Schools and a separate agreement with the city and Metroparks Toledo allowing the <strong>final phase of the Glass City Riverwalk to be built on the Owens Corning campus</strong>. April reporting indicated a final City Council vote was expected at month-end; no formal vote outcome has surfaced this window.</p>
   <div class="why"><strong>Why it matters:</strong> The campus easement is the under-reported detail — it means the Riverwalk's terminal phase is no longer dependent on a future negotiation; it's bundled into the same deal that gives Owens Corning its tax extension. That removes one of the largest tail risks on completing the 10-year Riverwalk build by 2032. Track the council vote outcome; if it stalls, the Riverwalk completion math gets harder.</div>
   <div class="sources-inline">
@@ -420,22 +479,24 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="connectoledo-music-grant" data-tags="downtown junction grants" data-people="" data-search-terms="ConnecToledo music series grant Promenade Park Glass City Junction Park Danny Thomas">
+<div class="story story-item is-ongoing" data-story-id="connectoledo-music-grant" data-tags="downtown junction grants" data-people="" data-source-date="" data-search-terms="ConnecToledo music series grant Promenade Park Glass City Junction Park Danny Thomas">
   <button class="follow-btn" data-follow="connectoledo-music-grant"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>ConnecToledo lands $120K multi-year grant for free music series</h3>
     <div class="tags"><span class="tag tag-downtown">Downtown</span><span class="tag tag-junction">Junction</span></div>
   </div>
+  <span class="story-date age-ongoing">Ongoing · 3-year program covering 2026–2028</span>
   <p>ConnecToledo will run a free outdoor music series at Promenade Park, Glass City Metropark, Junction Park, and Danny Thomas Park through 2026, 2027, and 2028.</p>
   <div class="why"><strong>Why it matters:</strong> A three-year programming commitment with venues spanning Junction through downtown is the soft infrastructure that builds cross-neighborhood foot traffic patterns.</div>
 </div>
 
-<div class="story story-item" data-story-id="mind-and-soul-gallery" data-tags="downtown" data-people="" data-search-terms="Mind and Soul Gallery Studios Gardner Building Madison Avenue Toledo opening">
+<div class="story story-item" data-story-id="mind-and-soul-gallery" data-tags="downtown" data-people="" data-source-date="2026-05-16" data-search-terms="Mind and Soul Gallery Studios Gardner Building Madison Avenue Toledo opening">
   <button class="follow-btn" data-follow="mind-and-soul-gallery"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Mind and Soul Gallery &amp; Studios opens in the Gardner Building</h3>
     <div class="tags"><span class="tag tag-downtown">Downtown</span></div>
   </div>
+  <span class="story-date age-recent">Opened May 16 · 4 days ago</span>
   <p>Held its grand opening Saturday, May 16, in the Gardner Building on Madison Avenue.</p>
   <div class="why"><strong>Why it matters:</strong> The Madison Avenue corridor activation pattern is the story to watch — each new ground-floor tenant either reinforces the gallery/creative cluster or doesn't.</div>
 </div>
@@ -444,12 +505,14 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <div class="story story-item" data-story-id="vibrancy-19-grants" data-tags="grants citywide downtown"
      data-people="Wade Kapszukiewicz|Mayor of Toledo|Wade Kapszukiewicz Toledo mayor;Brandon Sehlhorst|Chief Growth Officer, City of Toledo|Brandon Sehlhorst Toledo Chief Growth Officer"
+     data-source-date="2026-05-15"
      data-search-terms="Toledo Vibrancy Initiative cumulative 5 year context 100 projects 135 million leveraged">
   <button class="follow-btn" data-follow="vibrancy-19-grants"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Vibrancy Initiative — five-year context for the May 15 awards</h3>
     <div class="tags"><span class="tag tag-grants">Grants</span><span class="tag tag-citywide">Citywide</span></div>
   </div>
+  <span class="story-date age-recent">Announced May 15 · 5 days ago</span>
   <p>Newly visible in the program-history framing: since the Vibrancy Initiative launched in 2021, it has invested in 100+ projects and leveraged $135M+ in private-sector capital into Toledo redevelopment. The 2026 cycle ($630K pool → 19 projects → est. $13.5M private spend, announced May 15) is on-trend rather than an outlier — the leverage ratio has held in the 20–25× range across cycles.</p>
   <div class="why"><strong>Why it matters:</strong> The 22× leverage figure on the 2026 cycle reads better when paired with multi-year context: the city isn't claiming a one-off; it's claiming a repeatable program at scale. If you're modeling future commercial-corridor investment in Toledo, the right base case is "$600–650K of city money per cycle drawing $13–15M of private spend" — and that's the framing the Department of Economic Development is using publicly to justify the budget.</div>
   <div class="sources-inline">
@@ -459,23 +522,25 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   </div>
 </div>
 
-<div class="story story-item" data-story-id="small-business-app-growth" data-tags="citywide grants" data-people="" data-search-terms="Toledo small business applications growth 2026 Vibrancy Planning Grant">
+<div class="story story-item is-ongoing" data-story-id="small-business-app-growth" data-tags="citywide grants" data-people="" data-source-date="" data-search-terms="Toledo small business applications growth 2026 Vibrancy Planning Grant">
   <button class="follow-btn" data-follow="small-business-app-growth"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>Small business application growth used as 2026 framing</h3>
     <div class="tags"><span class="tag tag-citywide">Citywide</span></div>
   </div>
+  <span class="story-date age-ongoing">Ongoing · 2026 framing piece, no fresh data this window</span>
   <p>Toledo officials are pointing to a 7%+ rise in business applications nationwide in January as a leading indicator for steady local small business growth in 2026.</p>
   <div class="why"><strong>Why it matters:</strong> National growth is a soft signal for Toledo specifically — but the city is using it publicly to frame 2026 as a growth year.</div>
   <div class="sources-inline"><a href="https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b" target="_blank" rel="noopener">WTOL</a></div>
 </div>
 
-<div class="story story-item" data-story-id="promedica-medical-mutual" data-tags="citywide" data-people="" data-search-terms="ProMedica Medical Mutual Toledo network in-network coverage dispute">
+<div class="story story-item is-ongoing" data-story-id="promedica-medical-mutual" data-tags="citywide" data-people="" data-source-date="" data-search-terms="ProMedica Medical Mutual Toledo network in-network coverage dispute">
   <button class="follow-btn" data-follow="promedica-medical-mutual"><span class="star">☆</span><span class="label">Follow</span></button>
   <div class="story-header">
     <h3>ProMedica / Medical Mutual network dispute — watching brief</h3>
     <div class="tags"><span class="tag tag-citywide">Citywide</span></div>
   </div>
+  <span class="story-date age-ongoing">Watching brief · no resolution this window</span>
   <p>WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the Toledo area.</p>
   <div class="why"><strong>Why it matters:</strong> Not core to economic development, but ProMedica is a major downtown employer; insurance-network turbulence affects workforce attraction.</div>
   <div class="sources-inline"><a href="https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5" target="_blank" rel="noopener">WTOL</a></div>
@@ -513,7 +578,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 </div>
 
 <div class="footer-note">
-  Refreshed automatically each morning at 5:00 AM ET. Markdown archives committed daily. <a href="archive/">View daily briefs</a> · <a href="../">View the 2026 Vibrancy Initiative grant map →</a>
+  Refreshed automatically each morning at 5:00 AM ET. Markdown archives committed daily. <a href="archive/">Browse the daily-brief archive</a> · <a href="../">View the 2026 Vibrancy Initiative grant map →</a>
 </div>
 
 </div>
