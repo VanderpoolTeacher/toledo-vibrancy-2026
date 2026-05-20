@@ -1075,8 +1075,29 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
       state.layer = m;
       state.map.setView([item.lat, item.lon], 16, { animate: true });
       updateGmapsLink(state.mapDiv, item.lat, item.lon);
+      return;
     }
-    // Task 7 fills in 'line' and 'polygon' branches
+    if (item.shape === 'line') {
+      const line = L.polyline(item.path, { color: '#1a4d8c', weight: 5, opacity: 0.85 })
+        .bindTooltip(item.label);
+      line.addTo(state.map);
+      state.layer = line;
+      state.map.fitBounds(line.getBounds(), { padding: [20, 20] });
+      const mid = item.path[Math.floor(item.path.length / 2)];
+      updateGmapsLink(state.mapDiv, mid[0], mid[1]);
+      return;
+    }
+    if (item.shape === 'polygon') {
+      const rect = L.rectangle(item.bbox, {
+        color: '#1a4d8c', weight: 1, fillColor: '#1a4d8c', fillOpacity: 0.15
+      }).bindTooltip(item.label);
+      rect.addTo(state.map);
+      state.layer = rect;
+      state.map.fitBounds(rect.getBounds(), { padding: [20, 20] });
+      const c = rect.getBounds().getCenter();
+      updateGmapsLink(state.mapDiv, c.lat, c.lng);
+      return;
+    }
   }
 
   function updateGmapsLink(mapDiv, lat, lon) {
