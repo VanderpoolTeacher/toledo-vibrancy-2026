@@ -1014,7 +1014,10 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
       const id = card.dataset.storyId;
       const loc = STORY_LOCATIONS[id];
       if (!loc) return;
-      if (loc.externalMap) return; // handled in Task 9
+      if (loc.externalMap) {
+        renderExternalMapLink(card, loc.externalMap);
+        return;
+      }
       const items = collectLocationItems(loc);
       items.forEach(item => {
         const onClick = (trigger) => openMapFor(card, item, trigger);
@@ -1023,6 +1026,18 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
         if (!trigger) trigger = appendHeadlineChip(card, item.label, onClick);
       });
     });
+  }
+
+  function renderExternalMapLink(card, ext) {
+    const a = document.createElement('a');
+    a.className = 'vibrancy-map-link';
+    a.href = ext.href;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = '→ ' + ext.label;
+    const sources = card.querySelector('.sources-inline');
+    if (sources) sources.insertAdjacentElement('afterend', a);
+    else card.appendChild(a);
   }
 
   // Flatten a STORY_LOCATIONS entry into a uniform list of {label, match, shape, ...}.
