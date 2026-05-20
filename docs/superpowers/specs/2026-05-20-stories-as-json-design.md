@@ -91,19 +91,25 @@ JSON is the source of truth. Markdown is a derived view.
     { "title": "The Blade", "url": "https://www.toledoblade.com/a-e/food/..." }
   ],
 
-  "location": {
-    "shape": "point",
-    "label": "Warehouse District (block TBD)",
-    "match": null,
-    "lat": 41.6493,
-    "lon": -83.5407
-  },
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Warehouse District (block TBD)",
+      "match": null,
+      "lat": 41.6493,
+      "lon": -83.5407
+    }
+  ],
+
+  "external_map_link": null,
 
   "related_story_ids": ["huron-yards-phase-two"],
 
   "search_terms": "Swanky Scoops Warehouse District Toledo Vieira ice cream opening"
 }
 ```
+
+For multi-site stories (e.g., ConnecToledo's 4 parks), `locations` carries multiple `point` entries. For stories that link out to a separate map instead of an inline mini-map (the original vibrancy-19-grants top story), set `locations: []` and `external_map_link: { href, label }`.
 
 ### Field reference
 
@@ -120,13 +126,14 @@ JSON is the source of truth. Markdown is a derived view.
 | `why_it_matters` | string | yes | rendered in the existing `.why` block |
 | `people` | object[] | yes (may be `[]`) | each: `{name, role, search_terms}` |
 | `sources` | object[] | yes (may be `[]`) | each: `{title, url}` |
-| `location` | object \| null | optional | if present, drives the story-map feature |
-| `location.shape` | `"point"` \| `"line"` \| `"polygon"` | when location present | |
-| `location.label` | string | when location present | popup tooltip / chip text |
-| `location.match` | string \| null | when location present | substring to wrap in prose; `null` → headline chip |
-| `location.lat`/`lon` | number | when shape is `point` | |
-| `location.path` | `[[lat,lon], ...]` | when shape is `line` | |
-| `location.bbox` | `[[lat,lon], [lat,lon]]` | when shape is `polygon` | |
+| `locations` | object[] | yes (may be `[]`) | 0..N location entries; drives the story-map feature |
+| `locations[].shape` | `"point"` \| `"line"` \| `"polygon"` | when entry present | |
+| `locations[].label` | string | when entry present | popup tooltip / chip text |
+| `locations[].match` | string \| null | when entry present | substring to wrap in prose; `null` → headline chip |
+| `locations[].lat`/`lon` | number | when shape is `point` | |
+| `locations[].path` | `[[lat,lon], ...]` | when shape is `line` | |
+| `locations[].bbox` | `[[lat,lon], [lat,lon]]` | when shape is `polygon` | |
+| `external_map_link` | object \| null | optional | `{href, label}` for stories that link to an external map instead of rendering inline |
 | `related_story_ids` | string[] | optional | seeds future "connections" UI |
 | `search_terms` | string | yes (may be empty) | matches existing `data-search-terms` |
 
