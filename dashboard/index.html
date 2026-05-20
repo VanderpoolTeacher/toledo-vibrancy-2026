@@ -963,12 +963,87 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
   filterButtons.forEach(b => b.addEventListener('click', () => applyFilter(b.dataset.filter)));
   try { currentFilter = localStorage.getItem(FILTER_KEY) || 'all'; } catch (e) {}
 
+  // Wrap a substring inside a card's textual content with a clickable button.
+  // Walks text nodes inside the card's <p> and .why elements so we don't disturb
+  // other elements (tags, sources, people chips).
+  function wrapMatchInCard(card, matchText, onClick) {
+    const candidates = card.querySelectorAll('p, .why');
+    for (const el of candidates) {
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      const textNodes = [];
+      while (walker.nextNode()) textNodes.push(walker.currentNode);
+      for (const node of textNodes) {
+        const idx = node.nodeValue.indexOf(matchText);
+        if (idx < 0) continue;
+        const before = node.nodeValue.slice(0, idx);
+        const after  = node.nodeValue.slice(idx + matchText.length);
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'addr-link';
+        btn.textContent = matchText;
+        btn.setAttribute('aria-expanded', 'false');
+        btn.addEventListener('click', e => { e.stopPropagation(); onClick(btn); });
+        const frag = document.createDocumentFragment();
+        if (before) frag.appendChild(document.createTextNode(before));
+        frag.appendChild(btn);
+        if (after) frag.appendChild(document.createTextNode(after));
+        node.parentNode.replaceChild(frag, node);
+        return btn; // wrap only the first occurrence
+      }
+    }
+    return null;
+  }
+
+  // Append a headline chip for a location whose address isn't in the prose.
+  function appendHeadlineChip(card, label, onClick) {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'headline-loc-chip';
+    chip.textContent = label;
+    chip.setAttribute('aria-expanded', 'false');
+    chip.addEventListener('click', e => { e.stopPropagation(); onClick(chip); });
+    // Slip it right under the story header (or h2 for top story)
+    const header = card.querySelector('.story-header') || card.querySelector('h2');
+    if (header) header.insertAdjacentElement('afterend', chip);
+    return chip;
+  }
+
+  // Hydrate every story's triggers, but don't wire opening yet — Task 6 fills in onClick.
+  function hydrateStoryTriggers() {
+    document.querySelectorAll('.story-item').forEach(card => {
+      const id = card.dataset.storyId;
+      const loc = STORY_LOCATIONS[id];
+      if (!loc) return;
+      if (loc.externalMap) return; // handled in Task 9
+      const items = collectLocationItems(loc);
+      items.forEach(item => {
+        const onClick = (trigger) => openMapFor(card, item, trigger);
+        let trigger = null;
+        if (item.match) trigger = wrapMatchInCard(card, item.match, onClick);
+        if (!trigger) trigger = appendHeadlineChip(card, item.label, onClick);
+      });
+    });
+  }
+
+  // Flatten a STORY_LOCATIONS entry into a uniform list of {label, match, shape, ...}.
+  function collectLocationItems(loc) {
+    const out = [];
+    if (loc.points) loc.points.forEach(p => out.push({ shape: 'point', ...p }));
+    if (loc.line)   out.push({ shape: 'line',    ...loc.line });
+    if (loc.polygon) out.push({ shape: 'polygon', ...loc.polygon });
+    return out;
+  }
+
+  // Placeholder for Task 6 — leaves chips/links inert for now.
+  function openMapFor(_card, _item, _trigger) { /* TODO Task 6 */ }
+
   (async function init(){
     await loadAuthorFollows();
     renderAuthorBadges();
     renderPersonChips();
     renderStoryFollowState();
     renderFollowPanel();
+    hydrateStoryTriggers();
     applyFilter();
   })();
 })();
