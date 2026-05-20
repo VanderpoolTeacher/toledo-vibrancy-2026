@@ -1034,8 +1034,108 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
     return out;
   }
 
-  // Placeholder for Task 6 — leaves chips/links inert for now.
-  function openMapFor(_card, _item, _trigger) { /* TODO Task 6 */ }
+  // Per-card map state, keyed by data-story-id.
+  //   { mapDiv, map, layer, currentTrigger }
+  const cardMaps = new Map();
+
+  function ensureMapContainer(card) {
+    let mapDiv = card.querySelector('.story-map');
+    if (mapDiv) return mapDiv;
+    mapDiv = document.createElement('div');
+    mapDiv.className = 'story-map';
+    mapDiv.setAttribute('role', 'region');
+    card.appendChild(mapDiv);
+    return mapDiv;
+  }
+
+  function buildLeafletMap(mapDiv) {
+    const map = L.map(mapDiv, {
+      zoomControl: true,
+      attributionControl: true,
+      scrollWheelZoom: false  // wheel zoom on a small card is disorienting
+    }).setView([41.6528, -83.5379], 13);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap, &copy; CARTO',
+      subdomains: 'abcd', maxZoom: 19
+    }).addTo(map);
+    // Click to re-enable wheel zoom (Leaflet UX best practice for inline maps)
+    map.on('click', () => map.scrollWheelZoom.enable());
+    return map;
+  }
+
+  function clearOverlay(state) {
+    if (state.layer) { state.layer.remove(); state.layer = null; }
+  }
+
+  function renderItem(state, item) {
+    clearOverlay(state);
+    if (item.shape === 'point') {
+      const m = L.marker([item.lat, item.lon]).bindTooltip(item.label);
+      m.addTo(state.map);
+      state.layer = m;
+      state.map.setView([item.lat, item.lon], 16, { animate: true });
+      updateGmapsLink(state.mapDiv, item.lat, item.lon);
+    }
+    // Task 7 fills in 'line' and 'polygon' branches
+  }
+
+  function updateGmapsLink(mapDiv, lat, lon) {
+    let a = mapDiv.querySelector('.gmaps-link');
+    if (!a) {
+      a = document.createElement('a');
+      a.className = 'gmaps-link';
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'Open in Google Maps ↗';
+      mapDiv.appendChild(a);
+    }
+    a.href = `https://www.google.com/maps?q=${lat},${lon}`;
+  }
+
+  function openMapFor(card, item, trigger) {
+    const id = card.dataset.storyId;
+    let state = cardMaps.get(id);
+
+    // Toggle off if the same trigger was already active
+    if (state && state.currentTrigger === trigger && state.mapDiv.classList.contains('open')) {
+      closeMap(card);
+      return;
+    }
+
+    const mapDiv = ensureMapContainer(card);
+    if (!state) {
+      state = { mapDiv, map: null, layer: null, currentTrigger: null };
+      cardMaps.set(id, state);
+    }
+
+    // Reset aria on previous trigger (if any)
+    if (state.currentTrigger && state.currentTrigger !== trigger) {
+      state.currentTrigger.setAttribute('aria-expanded', 'false');
+    }
+    state.currentTrigger = trigger;
+    trigger.setAttribute('aria-expanded', 'true');
+
+    mapDiv.classList.add('open');
+
+    // Lazy-init Leaflet on first open for this card
+    const initMap = () => {
+      if (!state.map) state.map = buildLeafletMap(mapDiv);
+      state.map.invalidateSize();
+      renderItem(state, item);
+    };
+    // Wait for the CSS height transition before invalidateSize, otherwise
+    // Leaflet measures a 0-height container and tiles never load.
+    setTimeout(initMap, 230);
+  }
+
+  function closeMap(card) {
+    const id = card.dataset.storyId;
+    const state = cardMaps.get(id);
+    if (!state) return;
+    state.mapDiv.classList.remove('open');
+    if (state.currentTrigger) state.currentTrigger.setAttribute('aria-expanded', 'false');
+    state.currentTrigger = null;
+  }
 
   (async function init(){
     await loadAuthorFollows();
