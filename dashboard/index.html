@@ -176,6 +176,46 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 .story-date.age-ongoing  { background: #eaeaea; color: #555;    } /* 8+ days */
 .story-date.age-future   { background: #e6f0fb; color: #1a4d8c; } /* future event */
 
+/* ---------- Story chain tracking (see docs/superpowers/specs/2026-05-20-story-chain-tracking-design.md) ---------- */
+
+.story-new-badge {
+  background: #d4831f; color: #fff; font-size: 10px; padding: 2px 7px;
+  border-radius: 8px; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; vertical-align: middle; margin-left: 4px;
+}
+
+.chain-trigger {
+  display: inline-block; margin-top: 10px; padding: 0; border: none;
+  background: transparent; font: inherit; cursor: pointer;
+}
+.chain-trigger.is-followed { font-size: 12px; font-weight: 600; color: #8c6a1a; }
+.chain-trigger.is-unfollowed { font-size: 11px; font-weight: 400; color: #888; }
+.chain-trigger:hover { text-decoration: underline; }
+
+.chain-expanded { margin-top: 10px; border-top: 1px dotted #e5cba3; padding-top: 10px; }
+.chain-expanded[hidden] { display: none; }
+.chain-label {
+  font-size: 10px; color: #888; text-transform: uppercase;
+  letter-spacing: 0.06em; font-weight: 700; margin: 0 0 8px;
+}
+.chain-list { border-left: 2px solid #d4831f; padding-left: 12px; margin: 0; }
+.chain-entry { position: relative; margin-bottom: 10px; }
+.chain-entry:last-child { margin-bottom: 0; }
+.chain-entry::before {
+  content: ""; position: absolute; left: -18px; top: 4px;
+  width: 10px; height: 10px; border-radius: 50%; background: #d4831f;
+}
+.chain-entry .chain-date {
+  display: block; font-size: 11px; font-weight: 700;
+  color: #8c6a1a; text-transform: uppercase;
+}
+.chain-entry .chain-headline {
+  display: block; font-size: 12px; font-weight: 600; color: #1a1a1a;
+}
+.chain-entry .chain-snippet {
+  display: block; font-size: 11px; color: #666; margin-top: 2px;
+}
+
 /* Still in motion — visual treatment for ongoing/older stories grouped together */
 .section-title.still-in-motion {
   color: #666; border-color: #c8c8c0;
