@@ -680,7 +680,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
       }
     },
     "soccer-stadium-vistula": {
-      points: [{ label: "Proposed stadium — Vistula riverfront", match: "Vistula riverfront", lat: 41.6539, lon: -83.5215 }]
+      points: [{ label: "Proposed stadium — Vistula riverfront", match: "directly across the river from Glass City Metropark", lat: 41.6539, lon: -83.5215 }]
     },
     "raise-uptown-junction": {
       polygon: {
@@ -1008,7 +1008,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
     return chip;
   }
 
-  // Hydrate every story's triggers, but don't wire opening yet — Task 6 fills in onClick.
+  // Hydrate every story's address triggers (inline links and headline chips).
   function hydrateStoryTriggers() {
     document.querySelectorAll('.story-item').forEach(card => {
       const id = card.dataset.storyId;

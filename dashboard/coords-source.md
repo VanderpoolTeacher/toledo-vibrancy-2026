@@ -35,9 +35,9 @@ vistula-metropark.magnolia | Water St & Magnolia St (NE end) | 41.6572 | -83.523
 
 ## Polygon: RAISE 38-block area, 13th–21st St × Adams–Monroe
 
-raise-uptown-junction.sw | SW corner: 13th St & Monroe St | 41.6537 | -83.5520 | no Nominatim hit for intersection — kept best-effort; https://toledo.oh.gov/raise
+raise-uptown-junction.se | SE corner: 13th St & Monroe St | 41.6537 | -83.5520 | no Nominatim hit for intersection — kept best-effort; https://toledo.oh.gov/raise
 
-raise-uptown-junction.ne | NE corner: 21st St & Adams St | 41.6580 | -83.5610 | no Nominatim hit for intersection — kept best-effort; https://toledo.oh.gov/raise
+raise-uptown-junction.nw | NW corner: 21st St & Adams St | 41.6580 | -83.5610 | no Nominatim hit for intersection — kept best-effort; https://toledo.oh.gov/raise
 
 ---
 
