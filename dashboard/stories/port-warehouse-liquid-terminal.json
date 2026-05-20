@@ -1,0 +1,35 @@
+{
+  "id": "port-warehouse-liquid-terminal",
+  "headline": "Port of Toledo pursues new warehouse and liquid bulk terminal",
+  "section": "Warehouse District",
+  "tags": [
+    "warehouse",
+    "citywide"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-04-13",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "The Toledo-Lucas County Port Authority is pursuing a new warehouse and liquid bulk terminal to expand cargo handling capacity, per The Blade (April 13)."
+  ],
+  "why_it_matters": "Slower-moving than retail news, but the strongest indicator of industrial-side capacity. A liquid terminal signals long-term industrial demand confidence and may anchor downstream logistics jobs.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade",
+      "url": "https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo-Lucas County Port Authority",
+      "match": null,
+      "lat": 41.6538,
+      "lon": -83.5283
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Toledo Port Authority warehouse liquid bulk terminal cargo"
+}

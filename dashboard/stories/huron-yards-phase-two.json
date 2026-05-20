@@ -1,0 +1,35 @@
+{
+  "id": "huron-yards-phase-two",
+  "headline": "Huron Yards phase two nearing completion",
+  "section": "Warehouse District",
+  "tags": [
+    "warehouse",
+    "downtown"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "Crane Development's Huron Yards is on track to wrap phase two in 2026. The former Alleyway building at 28 N. Erie St. is being renovated into a new restaurant called The Station , and a grocery store is taking the ground floor of the old Okun Produce building. Resident parking and the upcoming beer garden's site work are finished."
+  ],
+  "why_it_matters": "A grocery store in the Warehouse District is the missing-amenity piece that turns downtown-adjacent districts from \"lively at night\" into \"lively all day.\" Strengthens the case for the next residential phase.",
+  "people": [],
+  "sources": [
+    {
+      "title": "Toledo City Paper",
+      "url": "https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "28 N. Erie St",
+      "match": "28 N. Erie St.",
+      "lat": 41.6492,
+      "lon": -83.5407
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Huron Yards Crane Development Warehouse District The Station Okun grocery"
+}

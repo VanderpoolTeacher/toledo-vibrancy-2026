@@ -1,0 +1,29 @@
+{
+  "id": "mind-and-soul-gallery",
+  "headline": "Mind and Soul Gallery & Studios opens in the Gardner Building",
+  "section": "Downtown",
+  "tags": [
+    "downtown"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-05-16",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "Held its grand opening Saturday, May 16, in the Gardner Building on Madison Avenue."
+  ],
+  "why_it_matters": "The Madison Avenue corridor activation pattern is the story to watch — each new ground-floor tenant either reinforces the gallery/creative cluster or doesn't.",
+  "people": [],
+  "sources": [],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Gardner Building (506 Madison Ave)",
+      "match": "Gardner Building",
+      "lat": 41.6522,
+      "lon": -83.5359
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Mind and Soul Gallery Studios Gardner Building Madison Avenue Toledo opening"
+}

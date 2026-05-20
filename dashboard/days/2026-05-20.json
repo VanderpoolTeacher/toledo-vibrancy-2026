@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-20",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+  "top_story_id": "watershed-weekend-riverwalk",
+  "sections": [
+    {
+      "title": "",
+      "story_ids": [
+        "watershed-weekend-riverwalk"
+      ]
+    },
+    {
+      "title": "Warehouse District",
+      "story_ids": [
+        "swanky-scoops",
+        "huron-yards-phase-two",
+        "port-warehouse-liquid-terminal"
+      ]
+    },
+    {
+      "title": "Vistula District / Ostrich Towne",
+      "story_ids": [
+        "ostrich-towne-tenants",
+        "vistula-metropark",
+        "soccer-stadium-vistula"
+      ]
+    },
+    {
+      "title": "Uptown / Junction",
+      "story_ids": [
+        "innovation-post-tenants",
+        "raise-uptown-junction"
+      ]
+    },
+    {
+      "title": "Downtown",
+      "story_ids": [
+        "glass-city-urban-campground",
+        "owens-corning-250m",
+        "connectoledo-music-grant",
+        "mind-and-soul-gallery"
+      ]
+    },
+    {
+      "title": "Citywide",
+      "story_ids": [
+        "vibrancy-19-grants",
+        "small-business-app-growth",
+        "promedica-medical-mutual"
+      ]
+    }
+  ],
+  "ongoing_story_ids": [
+    "huron-yards-phase-two",
+    "port-warehouse-liquid-terminal",
+    "vistula-metropark",
+    "soccer-stadium-vistula",
+    "innovation-post-tenants",
+    "raise-uptown-junction",
+    "glass-city-urban-campground",
+    "owens-corning-250m",
+    "connectoledo-music-grant",
+    "small-business-app-growth",
+    "promedica-medical-mutual"
+  ],
+  "watch_list": [
+    "Watershed Weekend RSVPs and programming detail. June 11–14 lineup still being filled in; additional vendor confirmations and any business-district tie-ins (Vistula, Warehouse, East Toledo) will signal who's positioning for the halfway-point visibility moment.",
+    "Vibrancy 19 — property addresses. Full list of awarded parcels is still being absorbed publicly; cluster patterns by Legacy Commercial Corridor are the real signal.",
+    "Owens Corning council vote outcome. Was the late-April vote formalized? If yes, the Riverwalk-completion easement is locked in.",
+    "State $1B sports facility fund award timing. When Ohio names recipients, both the Vistula soccer stadium and the Fifth Third Field renovation move from concept to budgeted (or shelved).",
+    "Ostrich Towne — Riverside BBQ and CuriosiTEA opening dates. Second wave of district tenants is the make-or-break leg of the \"create a district from scratch\" thesis.",
+    "Innovation Post lease specifics. Square-foot allocations among Wurtec, WorkSpring, Junior Achievement of NW Ohio, and SEGULA — and how many employees each brings on day one."
+  ],
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    }
+  ]
+}

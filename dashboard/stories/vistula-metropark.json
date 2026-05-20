@@ -1,0 +1,47 @@
+{
+  "id": "vistula-metropark",
+  "headline": "$23M Vistula Metropark advances — design consultant hired",
+  "section": "Vistula District / Ostrich Towne",
+  "tags": [
+    "vistula",
+    "downtown"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-04-22",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "Metroparks Toledo is advancing what will become its 20th park: a $23M riverfront park along Water Street between Olive and Magnolia. The Blade reported (April 22) Metroparks hired a design consultant; some elements expected to open later in 2026."
+  ],
+  "why_it_matters": "Public green space is the most consistent leading indicator for private investment in adjacent parcels in Toledo. Expect land-banking activity within a 4–6 block radius of Water Street over the next 12 months.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade",
+      "url": "https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "line",
+      "label": "Water St (Olive to Magnolia)",
+      "match": "Water Street between Olive and Magnolia",
+      "path": [
+        [
+          41.6535,
+          -83.5293
+        ],
+        [
+          41.6572,
+          -83.5237
+        ]
+      ]
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Vistula Metropark Toledo Water Street riverfront 20th park Metroparks"
+}

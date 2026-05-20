@@ -1,0 +1,42 @@
+{
+  "id": "owens-corning-250m",
+  "headline": "Owens Corning — $250M, 30-year HQ stay + Riverwalk easement bundled in deal",
+  "section": "Downtown",
+  "tags": [
+    "downtown"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-04-07",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "In exchange for the property-tax incentive extension, Owens Corning will invest $250M in building and technology improvements, create 25 new jobs, maintain 1,036 existing high-wage jobs, and commit to keeping its world HQ downtown for 30 more years. New detail already in the public record: alongside the 30-year commitment, Owens Corning will enter a payment-in-lieu-of-taxes agreement with Toledo Public Schools and a separate agreement with the city and Metroparks Toledo allowing the final phase of the Glass City Riverwalk to be built on the Owens Corning campus . April reporting indicated a final City Council vote was expected at month-end; no formal vote outcome has surfaced this window."
+  ],
+  "why_it_matters": "The campus easement is the under-reported detail — it means the Riverwalk's terminal phase is no longer dependent on a future negotiation; it's bundled into the same deal that gives Owens Corning its tax extension. That removes one of the largest tail risks on completing the 10-year Riverwalk build by 2032. Track the council vote outcome; if it stalls, the Riverwalk completion math gets harder.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade",
+      "url": "https://www.toledoblade.com/local/city/2026/04/07/toledo-seeks-extension-tax-agreement-with-owens-corning/stories/20260407124"
+    },
+    {
+      "title": "13abc — Riverwalk inclusion",
+      "url": "https://www.13abc.com/2026/04/08/owens-corning-seeking-extension-property-tax-exemption-inclusion-metropark-riverwalk/"
+    },
+    {
+      "title": "WTOL",
+      "url": "https://www.wtol.com/article/life/owens-corning-commits-to-stay-in-downtown-toledo-with-250-million-investment/512-5d074143-ac26-41c9-81d4-a68b80fcbfa9"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Owens Corning HQ",
+      "match": null,
+      "lat": 41.6476,
+      "lon": -83.535
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Owens Corning Toledo headquarters tax incentive 250 million 30 year Riverwalk easement TPS PILOT"
+}

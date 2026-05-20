@@ -1,0 +1,48 @@
+{
+  "id": "raise-uptown-junction",
+  "headline": "Connecting Toledo Neighborhoods to Opportunity — $53M, 38-block redevelopment in design",
+  "section": "Uptown / Junction",
+  "tags": [
+    "uptown",
+    "junction",
+    "grants"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "The federally-funded $53M project covering 38 blocks (13th–21st Street, Adams to Monroe) is in design through 2026, construction 2027–2029, completion targeted 2031. Funded by a $20M USDOT RAISE grant."
+  ],
+  "why_it_matters": "Biggest neighborhood-scale infrastructure investment in this part of Toledo in a generation. Junction's 45% vacancy rate means infrastructure is going in ahead of private development — a deliberate \"build it and they will come\" bet.",
+  "people": [],
+  "sources": [
+    {
+      "title": "City of Toledo — RAISE",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Toledo City Paper",
+      "url": "https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "polygon",
+      "label": "RAISE area — 13th–21st St × Adams–Monroe",
+      "match": "13th–21st Street, Adams to Monroe",
+      "bbox": [
+        [
+          41.6537,
+          -83.552
+        ],
+        [
+          41.658,
+          -83.561
+        ]
+      ]
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Connecting Toledo Neighborhoods Opportunity RAISE Uptown Junction Dorr Street design construction"
+}

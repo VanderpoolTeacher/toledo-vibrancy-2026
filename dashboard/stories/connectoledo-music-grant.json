@@ -1,0 +1,52 @@
+{
+  "id": "connectoledo-music-grant",
+  "headline": "ConnecToledo lands $120K multi-year grant for free music series",
+  "section": "Downtown",
+  "tags": [
+    "downtown",
+    "junction",
+    "grants"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "ConnecToledo will run a free outdoor music series at Promenade Park, Glass City Metropark, Junction Park, and Danny Thomas Park through 2026, 2027, and 2028."
+  ],
+  "why_it_matters": "A three-year programming commitment with venues spanning Junction through downtown is the soft infrastructure that builds cross-neighborhood foot traffic patterns.",
+  "people": [],
+  "sources": [],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Promenade Park",
+      "match": "Promenade Park",
+      "lat": 41.6503,
+      "lon": -83.5333
+    },
+    {
+      "shape": "point",
+      "label": "Glass City Metropark",
+      "match": "Glass City Metropark",
+      "lat": 41.6547,
+      "lon": -83.5168
+    },
+    {
+      "shape": "point",
+      "label": "Junction Park",
+      "match": "Junction Park",
+      "lat": 41.6411,
+      "lon": -83.5611
+    },
+    {
+      "shape": "point",
+      "label": "Danny Thomas Park",
+      "match": "Danny Thomas Park",
+      "lat": 41.6254,
+      "lon": -83.565
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "ConnecToledo music series grant Promenade Park Glass City Junction Park Danny Thomas"
+}

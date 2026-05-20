@@ -1,0 +1,48 @@
+{
+  "id": "soccer-stadium-vistula",
+  "headline": "Soccer stadium proposal — new financing details surface, applying for Ohio $1B sports facility fund",
+  "section": "Vistula District / Ostrich Towne",
+  "tags": [
+    "vistula"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-04-14",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "New filings reviewed by The Blade (April 14) clarify what's actually being pitched: the $83.6M, 7,500-seat stadium is being advanced by Summit Street Sports on dormant land off Summit Street near Toledo Pickle Company, directly across the river from Glass City Metropark. The group is targeting a United Soccer League franchise and a 2028–29 opening, with capacity to host 140+ events per year (matches plus concerts). Both Summit Street Sports and the Toledo Mud Hens (for Fifth Third Field renovation) applied for a share of Ohio's new $1B sports facility fund."
+  ],
+  "why_it_matters": "The stadium has moved from \"trial balloon\" to \"filed proposal competing for state dollars\" — a different category of project to track. The 140-event capacity figure is the real argument: at that volume the stadium functions as a year-round programming engine for Vistula, not just a 17-match-per-year venue. The state award timing is now the gating decision. A meaningful slice of the $1B fund makes this a 2028 anchor for the entire Vistula thesis; without it, the proposal slows or gets re-cut.",
+  "people": [
+    {
+      "name": "Summit Street Sports",
+      "role": "Stadium developer group",
+      "search_terms": "Summit Street Sports Toledo soccer stadium"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Blade — new filings",
+      "url": "https://www.toledoblade.com/sports/mud-hens/2026/04/14/new-filings-show-what-toledo-s-soccer-stadium-ballpark-upgrades/stories/20260414109"
+    },
+    {
+      "title": "WTOL",
+      "url": "https://www.wtol.com/article/sports/local-sports/proposals-for-pro-soccer-stadium-in-toledo-fifth-third-field-renovation/512-92e453a6-70d6-4864-9ffb-1c3e5a650b95"
+    },
+    {
+      "title": "The Blade — original report",
+      "url": "https://www.toledoblade.com/sports/mud-hens/2026/03/04/briggs-toledo-group-planning-83-million-7-500-seat-riverfront-soccer-stadium/stories/20260304112"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Proposed stadium — Vistula riverfront",
+      "match": "directly across the river from Glass City Metropark",
+      "lat": 41.6539,
+      "lon": -83.5215
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Summit Street Sports Toledo soccer stadium USL Ohio sports facility fund $1 billion"
+}

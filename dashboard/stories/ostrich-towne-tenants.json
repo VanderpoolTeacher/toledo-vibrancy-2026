@@ -1,0 +1,38 @@
+{
+  "id": "ostrich-towne-tenants",
+  "headline": "Ostrich Towne tenant pipeline expanding beyond the original two",
+  "section": "Vistula District / Ostrich Towne",
+  "tags": [
+    "vistula"
+  ],
+  "posted_date": "2026-05-20",
+  "source_date": "2026-05-18",
+  "last_updated": "2026-05-20",
+  "paragraphs": [
+    "Beyond the existing operating tenants (Molly's Irish Pub and Avestruz Tapas & Tequila), Ostrich Towne's roster shows Riverside BBQ Company targeting an April opening and CuriosiTEA Emporium expected later in 2026. With Watershed Weekend traffic on the adjacent MLK Bridge in June and the start of the Glass City Riverwalk extension to the Vistula side this summer, the district is on track for its first real test of foot-traffic demand."
+  ],
+  "why_it_matters": "The Ostrich Towne thesis has been \"two anchors plus a Vibrancy/Riverwalk tailwind equals a destination district.\" The next two tenant openings are the second leg of that thesis. If Riverside BBQ and CuriosiTEA both open and survive their first summer, the district shifts from \"novelty\" to \"neighborhood\" — and the leasing pitch to the next 3–5 tenants gets materially easier. Watch the Vibrancy 19 property list (still pending detailed publication) to see whether any awards land inside Vistula and feed this pipeline.",
+  "people": [],
+  "sources": [
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "WTOL feature",
+      "url": "https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Ostrich Towne (Vistula)",
+      "match": "Ostrich Towne",
+      "lat": 41.6509,
+      "lon": -83.5367
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Ostrich Towne Vistula Toledo tenant Riverside BBQ CuriosiTEA Molly's Avestruz"
+}
