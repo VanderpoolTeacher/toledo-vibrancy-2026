@@ -272,12 +272,12 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 .story-map .gmaps-link:hover { background: #fff; }
 
 /* "View 17 properties on the Vibrancy map" external link on top story */
-.top-story .vibrancy-map-link {
+.vibrancy-map-link {
   display: inline-block; margin-top: 10px; padding: 6px 12px;
   background: #1a4d8c; color: #fff; border-radius: 4px;
   text-decoration: none; font-size: 13px; font-weight: 600;
 }
-.top-story .vibrancy-map-link:hover { background: #0f3a73; }
+.vibrancy-map-link:hover { background: #0f3a73; }
 
 @media (max-width: 600px) {
   .top-story h2, .story-header { padding-right: 0; }
@@ -1084,6 +1084,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
   function renderItem(state, item) {
     clearOverlay(state);
+    state.mapDiv.setAttribute('aria-label', 'Map of ' + item.label);
     if (item.shape === 'point') {
       const m = L.marker([item.lat, item.lon]).bindTooltip(item.label);
       m.addTo(state.map);
