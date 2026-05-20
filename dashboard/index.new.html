@@ -418,27 +418,108 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 
 <script>
 (function(){
-  'use strict';
+'use strict';
 
-  // -- Storage / config (unchanged from previous dashboard) --
-  const STORAGE_KEY = 'toledo_dashboard_follows_v2';
-  const FILTER_KEY = 'toledo_dashboard_filter';
-  const REPO_FOLLOW_FILE = 'followed_stories.json';
+// -- Storage / config (unchanged from previous dashboard) --
+const STORAGE_KEY = 'toledo_dashboard_follows_v2';
+const FILTER_KEY = 'toledo_dashboard_filter';
+const REPO_FOLLOW_FILE = 'followed_stories.json';
 
-  // -- Date routing --
-  function targetDate() {
-    const url = new URL(window.location.href);
-    const param = url.searchParams.get('date');
-    if (param && /^\d{4}-\d{2}-\d{2}$/.test(param)) return param;
-    // Default = today in local TZ, YYYY-MM-DD
-    const d = new Date();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${d.getFullYear()}-${m}-${day}`;
+// -- DOM refs --
+const loadingBanner = document.getElementById('loading-banner');
+const errorBanner = document.getElementById('error-banner');
+const storiesEl = document.getElementById('stories');
+const watchListWrap = document.getElementById('watch-list');
+const watchListItems = document.getElementById('watch-list-items');
+const liveSourcesWrap = document.getElementById('live-sources');
+const liveSourcesGrid = document.getElementById('live-sources-grid');
+const pastBriefsEl = document.getElementById('past-briefs');
+const metaDate = document.getElementById('meta-date');
+const metaWindow = document.getElementById('meta-window');
+const metaAutoRefresh = document.getElementById('meta-auto-refresh');
+
+// -- Date routing --
+function targetDate() {
+  const url = new URL(window.location.href);
+  const param = url.searchParams.get('date');
+  if (param && /^\d{4}-\d{2}-\d{2}$/.test(param)) return param;
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
+function formatDateLong(iso) {
+  // "2026-05-20" -> "May 20, 2026"
+  const [y, m, d] = iso.split('-').map(n => parseInt(n, 10));
+  const dt = new Date(y, m - 1, d);
+  return dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function showError(message) {
+  errorBanner.textContent = message;
+  errorBanner.style.display = 'block';
+  loadingBanner.style.display = 'none';
+}
+
+// -- Load pipeline --
+async function loadDashboard(date) {
+  // 1. Fetch day-file
+  let day;
+  try {
+    const res = await fetch(`days/${date}.json`, { cache: 'no-cache' });
+    if (res.status === 404) {
+      loadingBanner.style.display = 'none';
+      storiesEl.innerHTML = `<p class="banner" style="text-align:center;">No brief published for ${date}.</p>`;
+      return;
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    day = await res.json();
+  } catch (e) {
+    showError(`Couldn't load brief for ${date} — ${e.message}. Check your connection.`);
+    return;
   }
 
-  // Task 6 fills in the rest of the render pipeline.
-  console.log('Stories-as-JSON shell loaded, target date:', targetDate());
+  // 2. Collect unique story IDs
+  const ids = [];
+  const seen = new Set();
+  for (const section of (day.sections || [])) {
+    for (const sid of (section.story_ids || [])) {
+      if (!seen.has(sid)) { seen.add(sid); ids.push(sid); }
+    }
+  }
+
+  // 3. Fetch all stories in parallel. Resolve individually so one 404 doesn't fail the whole page.
+  const storyResults = await Promise.all(ids.map(async (id) => {
+    try {
+      const res = await fetch(`stories/${id}.json`, { cache: 'no-cache' });
+      if (!res.ok) return { id, error: `HTTP ${res.status}`, story: null };
+      const story = await res.json();
+      return { id, error: null, story };
+    } catch (e) {
+      return { id, error: e.message, story: null };
+    }
+  }));
+
+  const stories = {};
+  for (const r of storyResults) {
+    if (r.story) stories[r.id] = r.story;
+  }
+
+  // 4. Render — Task 7 fills this in
+  renderDashboard(day, stories, storyResults);
+
+  loadingBanner.style.display = 'none';
+}
+
+function renderDashboard(_day, _stories, _storyResults) {
+  // Task 7: render sections, top story, ongoing
+  // Task 8: render past-briefs, watch-list, live-sources, meta
+  // Task 10: wire follow/filter/people-chip init pipeline
+}
+
+// -- Kick off --
+loadDashboard(targetDate());
 })();
 </script>
 
