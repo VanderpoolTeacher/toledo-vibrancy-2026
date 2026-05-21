@@ -512,10 +512,188 @@ async function loadDashboard(date) {
   loadingBanner.style.display = 'none';
 }
 
-function renderDashboard(_day, _stories, _storyResults) {
-  // Task 7: render sections, top story, ongoing
-  // Task 8: render past-briefs, watch-list, live-sources, meta
-  // Task 10: wire follow/filter/people-chip init pipeline
+function renderDashboard(day, stories, storyResults) {
+  // Header meta strip
+  metaDate.textContent = formatDateLong(day.date);
+  metaWindow.textContent = day.window || '';
+  metaAutoRefresh.textContent = day.auto_refresh || '';
+  document.title = `${day.title || 'Toledo Economic Development Dashboard'} — ${formatDateLong(day.date)}`;
+
+  // Build cards by section, in order
+  const ongoingSet = new Set(day.ongoing_story_ids || []);
+  const topId = day.top_story_id;
+  storiesEl.innerHTML = '';
+
+  for (const section of (day.sections || [])) {
+    if (section.title) {
+      const titleEl = document.createElement('div');
+      titleEl.className = 'section-title';
+      titleEl.textContent = section.title;
+      storiesEl.appendChild(titleEl);
+    }
+    for (const sid of (section.story_ids || [])) {
+      const story = stories[sid];
+      if (!story) {
+        storiesEl.appendChild(renderErrorCard(sid));
+        continue;
+      }
+      const card = renderStoryCard(story, {
+        isTop: sid === topId,
+        isOngoing: ongoingSet.has(sid),
+      });
+      storiesEl.appendChild(card);
+    }
+  }
+
+  // Task 8 fills in past-briefs / watch-list / live-sources
+  // Task 10 fills in init pipeline (follows / filter / story-maps)
+}
+
+function renderStoryCard(story, { isTop, isOngoing }) {
+  const card = document.createElement('div');
+  const classes = ['story-item'];
+  if (isTop) classes.push('top-story');
+  else classes.push('story');
+  if (isOngoing) classes.push('is-ongoing');
+  card.className = classes.join(' ');
+  card.dataset.storyId = story.id;
+  card.dataset.tags = (story.tags || []).join(' ');
+  card.dataset.searchTerms = story.search_terms || '';
+  card.dataset.sourceDate = story.source_date || '';
+  const peopleStr = (story.people || [])
+    .map(p => `${p.name}|${p.role || ''}|${p.search_terms || p.name}`)
+    .join(';');
+  card.dataset.people = peopleStr;
+
+  // Follow button
+  const followBtn = document.createElement('button');
+  followBtn.className = 'follow-btn';
+  followBtn.dataset.follow = story.id;
+  followBtn.innerHTML = '<span class="star">☆</span><span class="label">Follow</span>';
+  card.appendChild(followBtn);
+
+  if (isTop) {
+    const label = document.createElement('span');
+    label.className = 'top-story-label';
+    label.textContent = `Top Story · ${formatDateLong(story.posted_date)}`;
+    card.appendChild(label);
+    const h = document.createElement('h2');
+    h.textContent = story.headline;
+    card.appendChild(h);
+  } else {
+    const header = document.createElement('div');
+    header.className = 'story-header';
+    const h = document.createElement('h3');
+    h.textContent = story.headline;
+    header.appendChild(h);
+    const tags = document.createElement('div');
+    tags.className = 'tags';
+    for (const t of (story.tags || [])) {
+      const tagEl = document.createElement('span');
+      tagEl.className = `tag tag-${t}`;
+      tagEl.textContent = tagLabel(t);
+      tags.appendChild(tagEl);
+    }
+    header.appendChild(tags);
+    card.appendChild(header);
+  }
+
+  if (story.source_date || isOngoing) {
+    const dateChip = document.createElement('span');
+    dateChip.className = 'story-date ' + ageClass(story.source_date, isOngoing);
+    dateChip.textContent = recencyLabel(story.source_date, isOngoing);
+    card.appendChild(dateChip);
+  }
+
+  for (const para of (story.paragraphs || [])) {
+    const p = document.createElement('p');
+    p.innerHTML = para;
+    card.appendChild(p);
+  }
+
+  if (story.why_it_matters) {
+    const why = document.createElement('div');
+    why.className = 'why';
+    why.innerHTML = '<strong>Why it matters:</strong> ' + story.why_it_matters;
+    card.appendChild(why);
+  }
+
+  if (story.sources && story.sources.length) {
+    const src = document.createElement('div');
+    src.className = 'sources-inline';
+    for (const s of story.sources) {
+      const a = document.createElement('a');
+      a.href = s.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = s.title;
+      src.appendChild(a);
+    }
+    card.appendChild(src);
+  }
+
+  if (story.external_map_link) {
+    const a = document.createElement('a');
+    a.className = 'vibrancy-map-link';
+    a.href = story.external_map_link.href;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = '→ ' + story.external_map_link.label;
+    card.appendChild(a);
+  }
+
+  return card;
+}
+
+function renderErrorCard(sid) {
+  const card = document.createElement('div');
+  card.className = 'story story-item';
+  card.dataset.storyId = sid;
+  card.innerHTML = `<h3 style="color:#8c1a1a;">Story unavailable: <code>${sid}</code></h3><p>Could not load <code>stories/${sid}.json</code>. The brief may reference a story that hasn't been published yet.</p>`;
+  return card;
+}
+
+function tagLabel(t) {
+  const map = {
+    downtown: 'Downtown', warehouse: 'Warehouse Dist', vistula: 'Vistula',
+    uptown: 'Uptown', junction: 'Junction', grants: 'Grants', citywide: 'Citywide',
+  };
+  return map[t] || t;
+}
+
+function ageClass(sourceDate, isOngoing) {
+  if (!sourceDate) return isOngoing ? 'age-ongoing' : 'age-recent';
+  const days = daysSince(sourceDate);
+  if (days < 0) return 'age-future';
+  if (days <= 2) return 'age-new';
+  if (days <= 7) return 'age-recent';
+  return 'age-ongoing';
+}
+
+function recencyLabel(sourceDate, isOngoing) {
+  if (!sourceDate) {
+    return isOngoing ? 'Ongoing · no fresh reporting this window' : 'Recently reported';
+  }
+  const days = daysSince(sourceDate);
+  const niceDate = formatDateShort(sourceDate);
+  if (days < 0) return `Announced ${niceDate}`;
+  if (days <= 2) return `Reported ${niceDate} · within last 48h`;
+  if (days <= 7) return `Reported ${niceDate} · ${days} day${days === 1 ? '' : 's'} ago`;
+  const weeks = Math.round(days / 7);
+  return `Reported ${niceDate} · ${weeks} week${weeks === 1 ? '' : 's'} ago`;
+}
+
+function daysSince(iso) {
+  const [y, m, d] = iso.split('-').map(n => parseInt(n, 10));
+  const then = Date.UTC(y, m - 1, d);
+  const now = Date.now();
+  return Math.floor((now - then) / (1000 * 60 * 60 * 24));
+}
+
+function formatDateShort(iso) {
+  const [y, m, d] = iso.split('-').map(n => parseInt(n, 10));
+  const dt = new Date(y, m - 1, d);
+  return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
 // -- Kick off --
