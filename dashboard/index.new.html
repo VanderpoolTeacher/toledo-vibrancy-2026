@@ -411,7 +411,7 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
 </div>
 
 <div class="footer-note">
-  Refreshed automatically each morning at 5:00 AM ET. Markdown archives committed daily. <a href="archive/">View daily briefs</a> · <a href="../">View the 2026 Vibrancy Initiative grant map →</a>
+  Refreshed automatically each morning at 5:00 AM ET. Markdown archives committed daily. <a href="archive/">Browse the daily-brief archive</a> · <a href="../">View the 2026 Vibrancy Initiative grant map →</a>
 </div>
 
 </div>
@@ -621,10 +621,10 @@ function renderStoryCard(story, { isTop, isOngoing }) {
     card.appendChild(header);
   }
 
-  if (story.source_date || isOngoing) {
+  if (story.date_label || story.source_date || isOngoing) {
     const dateChip = document.createElement('span');
-    dateChip.className = 'story-date ' + ageClass(story.source_date, isOngoing);
-    dateChip.textContent = recencyLabel(story.source_date, isOngoing);
+    dateChip.className = 'story-date ' + (story.date_age_class || ageClass(story.source_date, isOngoing));
+    dateChip.textContent = story.date_label || recencyLabel(story.source_date, isOngoing);
     card.appendChild(dateChip);
   }
 
