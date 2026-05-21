@@ -1,0 +1,51 @@
+{
+  "id": "brownfield-health-district",
+  "headline": "Toledo lands $571K state grant to demolish former Health District building, clear 1.8 acres for redevelopment",
+  "section": "Downtown",
+  "tags": [
+    "downtown",
+    "grants",
+    "citywide"
+  ],
+  "posted_date": "2026-05-21",
+  "source_date": "2026-05-19",
+  "last_updated": "2026-05-21",
+  "paragraphs": [
+    "The City of Toledo was awarded $571,342 from Ohio's Brownfield Remediation Program (11th round, part of a statewide $61M announcement) to abate asbestos and demolish the city-owned building formerly leased by the Toledo-Lucas County Regional Health District. The 73-year-old structure requires over $10 million in capital improvements and sits on a 1.8-acre property. The Health District announced in 2025 it would relocate to the Diocese of Toledo's former Pastoral Center, leaving the downtown property vacant.",
+    "Chief Growth Officer Brandon Sehlhorst described the award as helping the city 'address a soon-to-be-vacant and functionally obsolete property in downtown Toledo.' No specific redeveloper or redevelopment program has been named for the cleared parcel."
+  ],
+  "why_it_matters": "Cleared downtown land is scarce and contested in Toledo's current development cycle — 1.8 acres in the government-center cluster is a meaningful parcel. The brownfield grant removes the asbestos/demolition cost barrier that would otherwise keep the property in limbo for years. Watch for what comes next: a surface lot would be a missed opportunity; a structured disposition through the Toledo Community Improvement Corporation's Shovel Ready Sites model would be the right frame. The property address and its walkability to Glass City Metropark will matter when the RFP (if one comes) is written.",
+  "people": [
+    {
+      "name": "Brandon Sehlhorst",
+      "role": "Chief Growth Officer, City of Toledo",
+      "search_terms": "Brandon Sehlhorst Toledo Chief Growth Officer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "City of Toledo press release",
+      "url": "https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/"
+    },
+    {
+      "title": "WTOL — statewide brownfield round",
+      "url": "https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Former Health District building — downtown Toledo",
+      "match": null,
+      "lat": 41.6605,
+      "lon": -83.5551
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["vibrancy-19-grants"],
+  "search_terms": "Toledo brownfield remediation Health District demolition downtown 640 Jackson asbestos abatement Ohio grant"
+}

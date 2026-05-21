@@ -1,28 +1,33 @@
 {
   "id": "ostrich-towne-tenants",
-  "headline": "Ostrich Towne tenant pipeline expanding beyond the original two",
+  "headline": "Ostrich Towne: three tenants now open, CuriosiTEA the next opening to watch",
   "section": "Vistula District / Ostrich Towne",
   "tags": [
     "vistula"
   ],
   "posted_date": "2026-05-20",
   "source_date": "2026-05-18",
-  "date_label": "Tenant roster updated · within last 48h",
+  "date_label": "Updated May 21, 2026",
   "date_age_class": "age-new",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-21",
   "paragraphs": [
-    "Beyond the existing operating tenants (Molly's Irish Pub and Avestruz Tapas & Tequila), Ostrich Towne's roster shows Riverside BBQ Company targeting an April opening and CuriosiTEA Emporium expected later in 2026. With Watershed Weekend traffic on the adjacent MLK Bridge in June and the start of the Glass City Riverwalk extension to the Vistula side this summer, the district is on track for its first real test of foot-traffic demand."
+    "Ostrich Towne now has three operating tenants: Molly's Irish Pub, Avestruz Tapas & Tequila, and Riverside Barbeque Company, which held its grand opening in September 2025 at 915 N. Summit St. Riverside BBQ offers Texas-style smoked meats, a full bar, and live music in a converted beer distribution warehouse — a venue format well-suited to the district's industrial bones. CuriosiTEA Emporium remains the next expected opening, though no confirmed date has surfaced this window.",
+    "With three tenants open and Watershed Weekend foot traffic expected on the adjacent MLK Bridge in June, the district enters summer 2026 at a meaningfully different baseline than a year ago. The question for this season is whether the three-anchor cluster is enough to build dwell-time and return visits without a fourth or fifth tenant to extend the visit loop."
   ],
-  "why_it_matters": "The Ostrich Towne thesis has been \"two anchors plus a Vibrancy/Riverwalk tailwind equals a destination district.\" The next two tenant openings are the second leg of that thesis. If Riverside BBQ and CuriosiTEA both open and survive their first summer, the district shifts from \"novelty\" to \"neighborhood\" — and the leasing pitch to the next 3–5 tenants gets materially easier. Watch the Vibrancy 19 property list (still pending detailed publication) to see whether any awards land inside Vistula and feed this pipeline.",
+  "why_it_matters": "The Ostrich Towne thesis has always been 'anchor tenants plus Riverwalk tailwind equals a destination district.' Riverside BBQ's survival through its first winter confirms the first leg of that thesis. The watch item has shifted: CuriosiTEA's opening date is now the leading indicator for whether the district can sustain enough variety to pull repeat visitors. Watch the Vibrancy 19 property list — if any of the 19 awards land inside Vistula, the leasing pitch to the next wave of tenants gets materially easier.",
   "people": [],
   "sources": [
     {
-      "title": "Ostrich Towne",
-      "url": "https://ostrichtowne.com/"
+      "title": "WTOL — Riverside BBQ grand opening",
+      "url": "https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d"
     },
     {
-      "title": "WTOL feature",
+      "title": "WTOL — Ostrich Towne growth",
       "url": "https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6"
+    },
+    {
+      "title": "Ostrich Towne directory",
+      "url": "https://ostrichtowne.com/directory/"
     }
   ],
   "locations": [
@@ -35,6 +40,6 @@
     }
   ],
   "external_map_link": null,
-  "related_story_ids": [],
-  "search_terms": "Ostrich Towne Vistula Toledo tenant Riverside BBQ CuriosiTEA Molly's Avestruz"
+  "related_story_ids": ["vistula-metropark", "soccer-stadium-vistula"],
+  "search_terms": "Ostrich Towne Vistula Toledo Riverside BBQ CuriosiTEA Molly's Avestruz tenants open"
 }

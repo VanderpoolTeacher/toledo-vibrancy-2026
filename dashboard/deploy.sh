@@ -15,6 +15,26 @@ if ! git rev-parse --git-dir >/dev/null 2>&1; then
   exit 1
 fi
 
+# Validate every JSON file under dashboard/ BEFORE staging. A broken JSON
+# would 404-poison the dashboard until the next manual fix. Running this
+# pre-stage means an aborted run doesn't leave corrupt files in the index.
+if command -v jq >/dev/null 2>&1; then
+  bad_files=()
+  while IFS= read -r f; do
+    if ! jq empty "$f" >/dev/null 2>&1; then
+      bad_files+=("$f")
+    fi
+  done < <(find dashboard -name '*.json' -type f)
+  if [ ${#bad_files[@]} -gt 0 ]; then
+    echo "Invalid JSON in:"
+    printf '  %s\n' "${bad_files[@]}"
+    echo "Aborting deploy."
+    exit 1
+  fi
+else
+  echo "WARNING: jq not installed; skipping JSON validation."
+fi
+
 # Stage dashboard changes only (don't accidentally commit the Vibrancy map)
 git add dashboard/
 

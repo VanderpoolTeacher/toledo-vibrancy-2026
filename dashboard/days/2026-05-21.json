@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-21",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+  "top_story_id": "owens-corning-250m",
+  "sections": [
+    {
+      "title": "",
+      "story_ids": [
+        "owens-corning-250m"
+      ]
+    },
+    {
+      "title": "Warehouse District",
+      "story_ids": [
+        "swanky-scoops",
+        "huron-yards-phase-two",
+        "port-warehouse-liquid-terminal"
+      ]
+    },
+    {
+      "title": "Vistula District / Ostrich Towne",
+      "story_ids": [
+        "ostrich-towne-tenants",
+        "vistula-metropark",
+        "soccer-stadium-vistula"
+      ]
+    },
+    {
+      "title": "Uptown / Junction",
+      "story_ids": [
+        "innovation-post-tenants",
+        "raise-uptown-junction"
+      ]
+    },
+    {
+      "title": "Downtown",
+      "story_ids": [
+        "watershed-weekend-riverwalk",
+        "brownfield-health-district",
+        "glass-city-urban-campground",
+        "connectoledo-music-grant",
+        "mind-and-soul-gallery"
+      ]
+    },
+    {
+      "title": "Citywide",
+      "story_ids": [
+        "vibrancy-19-grants",
+        "small-business-app-growth",
+        "promedica-medical-mutual"
+      ]
+    }
+  ],
+  "ongoing_story_ids": [
+    "swanky-scoops",
+    "huron-yards-phase-two",
+    "port-warehouse-liquid-terminal",
+    "vistula-metropark",
+    "soccer-stadium-vistula",
+    "innovation-post-tenants",
+    "raise-uptown-junction",
+    "watershed-weekend-riverwalk",
+    "glass-city-urban-campground",
+    "connectoledo-music-grant",
+    "mind-and-soul-gallery",
+    "vibrancy-19-grants",
+    "small-business-app-growth",
+    "promedica-medical-mutual"
+  ],
+  "watch_list": [
+    "Watershed Weekend June 11–14 — 21 days out. Programming is largely set; watch for business-district tie-ins from Vistula, Warehouse District, and East Toledo operators who want the halfway-point visibility moment.",
+    "Vibrancy 19 property list — still not published in full. Cluster patterns by Legacy Commercial Corridor are the signal. Any Vistula awards would accelerate Ostrich Towne's next leasing wave.",
+    "State $1B sports facility fund award timing. When Ohio names recipients, Summit Street Sports' $83.6M stadium either moves to budgeted or gets re-cut.",
+    "CuriosiTEA Emporium opening date at Ostrich Towne. With Riverside BBQ confirmed open, CuriosiTEA is now the make-or-break fourth tenant for the district's summer thesis.",
+    "Former Health District building disposition. $571K in demo funding is confirmed — watch for an RFP or TCIC Shovel Ready Sites designation on the cleared 1.8-acre downtown parcel.",
+    "Innovation Post lease specifics — square-foot allocations among Wurtec, WorkSpring, Junior Achievement of NW Ohio, and SEGULA, and day-one employee counts."
+  ],
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "Watershed Weekend — Metroparks",
+      "url": "https://metroparkstoledo.com/learn-and-play/watershed-weekend/"
+    }
+  ]
+}
