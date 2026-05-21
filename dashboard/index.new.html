@@ -696,6 +696,143 @@ function formatDateShort(iso) {
   return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
+// Chain-tracking renderers — call from post-render init pipeline (Task 10).
+// Both must run AFTER cards are in the DOM and AFTER follow-state is rendered.
+
+// STORY_CHAINS — temporary stub. Replaced by data-layer fetcher once
+// docs/superpowers/specs/2026-05-20-stories-as-json-design.md ships.
+// Schema: STORY_CHAINS[storyId] = { isFreshChapter: bool, entries: [{date, headline, snippet}, ...] }
+// `entries` is ordered most-recent-first. Empty entries array = no prior chain.
+const STORY_CHAINS = {
+  "soccer-stadium-vistula": {
+    isFreshChapter: true,
+    entries: [
+      { date: "May 14, 2026", headline: "Filings reviewed by The Blade clarify proposal",
+        snippet: "\"$83.6M, 7,500-seat stadium on dormant land off Summit Street…\"" },
+      { date: "Apr 18, 2026", headline: "Group applies for state sports facility fund",
+        snippet: "\"Summit Street Sports and Mud Hens both applied for share of $1B fund…\"" },
+      { date: "Mar 02, 2026", headline: "Trial-balloon stage",
+        snippet: "\"Dormant land off Summit Street being considered for stadium use…\"" }
+    ]
+  },
+  "vibrancy-19-grants": {
+    isFreshChapter: false,
+    entries: [
+      { date: "May 15, 2026", headline: "Mayor announces 19 awards",
+        snippet: "\"$630K to 17 properties across 10 neighborhoods, est. $13.5M leveraged…\"" },
+      { date: "Apr 02, 2026", headline: "Application window closes",
+        snippet: "\"82 applications submitted across three programs…\"" }
+    ]
+  }
+};
+
+function getChainFor(storyId) {
+  return STORY_CHAINS[storyId] || { isFreshChapter: false, entries: [] };
+}
+
+function renderChainTriggers() {
+  document.querySelectorAll('.story-item').forEach(card => {
+    const id = card.dataset.storyId;
+    if (!id) return;
+    const chain = getChainFor(id);
+    // Remove any previously-rendered trigger + expanded block so this function is idempotent.
+    const oldTrigger = card.querySelector(':scope > .chain-trigger');
+    const oldExpanded = card.querySelector(':scope > .chain-expanded');
+    const wasExpanded = oldTrigger && oldTrigger.getAttribute('aria-expanded') === 'true';
+    if (oldTrigger) oldTrigger.remove();
+    if (oldExpanded) oldExpanded.remove();
+    if (!chain.entries.length) return;
+
+    const isFollowed = card.classList.contains('is-followed');
+    const expandedId = 'chain-' + id;
+
+    const trigger = document.createElement('button');
+    trigger.type = 'button';
+    trigger.className = 'chain-trigger ' + (isFollowed ? 'is-followed' : 'is-unfollowed');
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.setAttribute('aria-controls', expandedId);
+    const caretChar = isFollowed ? '▼' : '▾';
+    const caretSpan = document.createElement('span');
+    caretSpan.setAttribute('aria-hidden', 'true');
+    caretSpan.textContent = caretChar;
+    trigger.textContent = '';
+    trigger.appendChild(caretSpan);
+    trigger.appendChild(document.createTextNode(' See updates (' + chain.entries.length + ')'));
+
+    const expanded = document.createElement('div');
+    expanded.className = 'chain-expanded';
+    expanded.id = expandedId;
+    expanded.setAttribute('role', 'region');
+    expanded.setAttribute('aria-label', 'Earlier in this story');
+    expanded.setAttribute('aria-live', 'polite');
+    expanded.hidden = true;
+
+    const label = document.createElement('p');
+    label.className = 'chain-label';
+    label.textContent = 'Earlier in this story';
+    expanded.appendChild(label);
+
+    const list = document.createElement('ul');
+    list.className = 'chain-list';
+    chain.entries.forEach(entry => {
+      const li = document.createElement('li');
+      li.className = 'chain-entry';
+      const d = document.createElement('span'); d.className = 'chain-date'; d.textContent = entry.date;
+      const h = document.createElement('span'); h.className = 'chain-headline'; h.textContent = entry.headline;
+      const s = document.createElement('span'); s.className = 'chain-snippet'; s.textContent = entry.snippet;
+      li.appendChild(d); li.appendChild(h); li.appendChild(s);
+      list.appendChild(li);
+    });
+    expanded.appendChild(list);
+
+    card.appendChild(trigger);
+    card.appendChild(expanded);
+
+    trigger.addEventListener('click', () => {
+      const open = trigger.getAttribute('aria-expanded') === 'true';
+      const next = !open;
+      trigger.setAttribute('aria-expanded', String(next));
+      expanded.hidden = !next;
+      const downCaret = isFollowed ? '▼' : '▾';
+      const upCaret = isFollowed ? '▲' : '▴';
+      const newCaret = next ? upCaret : downCaret;
+      const newLabel = (next ? ' Hide updates (' : ' See updates (') + chain.entries.length + ')';
+      // Rebuild trigger contents with aria-hidden caret span (matches construction in Step 4.0).
+      const span = document.createElement('span');
+      span.setAttribute('aria-hidden', 'true');
+      span.textContent = newCaret;
+      trigger.textContent = '';
+      trigger.appendChild(span);
+      trigger.appendChild(document.createTextNode(newLabel));
+    });
+
+    if (wasExpanded) {
+      // Re-open the chain to preserve user's expansion state across re-render
+      // (e.g., when follow state toggles). Spec: toggling follow does not collapse.
+      trigger.click();
+    }
+  });
+}
+
+function renderNewUpdateBadge() {
+  document.querySelectorAll('.story-item').forEach(card => {
+    const id = card.dataset.storyId;
+    if (!id) return;
+    const old = card.querySelector(':scope .story-new-badge');
+    if (old) old.remove();
+    const chain = getChainFor(id);
+    if (!card.classList.contains('is-followed')) return;
+    if (!chain.isFreshChapter) return;
+    const headline = card.querySelector('.story-header h3, .top-story h2');
+    if (!headline) return;
+    const badge = document.createElement('span');
+    badge.className = 'story-new-badge';
+    badge.setAttribute('aria-label', 'new update available in this brief');
+    badge.textContent = 'New Update';
+    headline.appendChild(badge);
+  });
+}
+
 // -- Kick off --
 loadDashboard(targetDate());
 })();
