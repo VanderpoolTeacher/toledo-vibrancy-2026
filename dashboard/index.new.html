@@ -556,7 +556,16 @@ function renderDashboard(day, stories, storyResults) {
   renderWatchList(day.watch_list || []);
   renderLiveSources(day.live_sources || []);
 
-  // Task 10 fills in init pipeline (follows / filter / story-maps)
+  // Init pipeline — cards exist in DOM now; wire up follow/filter/people/maps/chain UI.
+  loadAuthorFollows().then(() => {
+    renderAuthorBadges();
+    renderPersonChips();
+    renderStoryFollowState();   // also calls renderChainTriggers + renderNewUpdateBadge
+    bindFollowButtons();
+    renderFollowPanel();
+    hydrateStoryTriggers();
+    applyFilter();
+  });
 }
 
 function renderStoryCard(story, { isTop, isOngoing }) {
@@ -893,6 +902,251 @@ function renderNewUpdateBadge() {
     badge.setAttribute('aria-label', 'new update available in this brief');
     badge.textContent = 'New Update';
     headline.appendChild(badge);
+  });
+}
+
+// === Follow panel + filter + person chips (ported from live dashboard) ===
+
+let authorFollows = { stories: {}, people: {} };
+
+async function loadAuthorFollows() {
+  try {
+    const res = await fetch(REPO_FOLLOW_FILE, { cache: 'no-cache' });
+    if (!res.ok) return;
+    const data = await res.json();
+    authorFollows = { stories: {}, people: {} };
+    (data.stories || data.followed || []).forEach(s => { if (s.id) authorFollows.stories[s.id] = s; });
+    (data.people || []).forEach(p => { if (p.id) authorFollows.people[p.id] = p; });
+  } catch (e) { /* file may not exist yet */ }
+}
+
+function personId(name) {
+  return 'person:' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function parsePeople(card) {
+  const raw = card.dataset.people || '';
+  if (!raw.trim()) return [];
+  return raw.split(';').map(s => s.trim()).filter(Boolean).map(entry => {
+    const [name, role, terms] = entry.split('|').map(x => (x || '').trim());
+    return { id: personId(name), name, role: role || '', search_terms: terms || name };
+  });
+}
+
+function loadFollows() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    return { stories: raw.stories || {}, people: raw.people || {} };
+  } catch (e) { return { stories: {}, people: {} }; }
+}
+
+function saveFollows(follows) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(follows)); } catch (e) {}
+}
+
+function storyMetadata(id) {
+  const card = document.querySelector('[data-story-id="' + id + '"]');
+  if (!card) return null;
+  const headlineEl = card.querySelector('h2, h3');
+  const tags = (card.dataset.tags || '').split(/\s+/).filter(Boolean);
+  const terms = card.dataset.searchTerms || '';
+  const sources = Array.from(card.querySelectorAll('.sources-inline a'))
+    .map(a => ({ title: a.textContent.trim(), url: a.href }));
+  const people = parsePeople(card).map(p => p.name);
+  return { id, headline: headlineEl ? headlineEl.textContent.trim() : id, tags, search_terms: terms, sources, people };
+}
+
+const followCountTotal = document.getElementById('follow-count-total');
+const followCountStories = document.getElementById('follow-count-stories');
+const followCountPeople = document.getElementById('follow-count-people');
+const followStoriesWrap = document.getElementById('follow-stories-wrap');
+const followPeopleWrap = document.getElementById('follow-people-wrap');
+const followListStories = document.getElementById('follow-list-stories');
+const followListPeople = document.getElementById('follow-list-people');
+const followEmpty = document.getElementById('follow-empty');
+
+function renderAuthorBadges() {
+  document.querySelectorAll('.story-item').forEach(card => {
+    const id = card.dataset.storyId;
+    const isAuthor = !!authorFollows.stories[id];
+    card.classList.toggle('is-author-followed', isAuthor);
+    const existing = card.querySelector('.author-badge');
+    if (existing) existing.remove();
+    if (isAuthor) {
+      const badge = document.createElement('span');
+      badge.className = 'author-badge';
+      badge.textContent = '★ Followed';
+      badge.title = "Followed in author's daily brief";
+      card.appendChild(badge);
+    }
+  });
+}
+
+function renderFollowPanel() {
+  const follows = loadFollows();
+  const storyIds = Object.keys(follows.stories);
+  const peopleIds = Object.keys(follows.people);
+  const total = storyIds.length + peopleIds.length;
+  followCountTotal.textContent = total;
+  followCountStories.textContent = storyIds.length;
+  followCountPeople.textContent = peopleIds.length;
+  followEmpty.style.display = total === 0 ? 'block' : 'none';
+  followStoriesWrap.style.display = storyIds.length === 0 ? 'none' : 'block';
+  followPeopleWrap.style.display = peopleIds.length === 0 ? 'none' : 'block';
+
+  followListStories.innerHTML = '';
+  storyIds.forEach(id => {
+    const entry = follows.stories[id];
+    const li = document.createElement('li');
+    const info = document.createElement('div');
+    info.className = 'follow-info';
+    const headline = document.createElement('strong');
+    headline.textContent = entry.headline || id;
+    info.appendChild(headline);
+    const date = document.createElement('span');
+    date.className = 'followed-on';
+    date.textContent = '· followed ' + (entry.followed_at || '').slice(0,10);
+    info.appendChild(date);
+    const terms = document.createElement('span');
+    terms.className = 'terms';
+    terms.textContent = 'Search terms: ' + (entry.search_terms || '(none)');
+    info.appendChild(terms);
+    li.appendChild(info);
+    const btn = document.createElement('button');
+    btn.className = 'unfollow-btn';
+    btn.textContent = 'Unfollow';
+    btn.addEventListener('click', () => toggleStoryFollow(id, false));
+    li.appendChild(btn);
+    followListStories.appendChild(li);
+  });
+
+  followListPeople.innerHTML = '';
+  peopleIds.forEach(id => {
+    const entry = follows.people[id];
+    const li = document.createElement('li');
+    const info = document.createElement('div');
+    info.className = 'follow-info';
+    const name = document.createElement('strong');
+    name.textContent = entry.name || id;
+    info.appendChild(name);
+    const role = document.createElement('span');
+    role.className = 'followed-on';
+    role.textContent = entry.role ? '· ' + entry.role : '';
+    info.appendChild(role);
+    const terms = document.createElement('span');
+    terms.className = 'terms';
+    terms.textContent = 'Search terms: ' + (entry.search_terms || entry.name);
+    info.appendChild(terms);
+    li.appendChild(info);
+    const btn = document.createElement('button');
+    btn.className = 'unfollow-btn';
+    btn.textContent = 'Unfollow';
+    btn.addEventListener('click', () => togglePersonFollow(id, null, false));
+    li.appendChild(btn);
+    followListPeople.appendChild(li);
+  });
+}
+
+function renderStoryFollowState() {
+  const follows = loadFollows();
+  document.querySelectorAll('.follow-btn').forEach(btn => {
+    const id = btn.dataset.follow;
+    const isOn = !!follows.stories[id];
+    btn.classList.toggle('is-active', isOn);
+    btn.querySelector('.star').textContent = isOn ? '★' : '☆';
+    btn.querySelector('.label').textContent = isOn ? 'Following' : 'Follow';
+    const card = document.querySelector('[data-story-id="' + id + '"]');
+    if (card) card.classList.toggle('is-followed', isOn);
+  });
+  // Chain-tracking UI must reflect the current follow state. Re-render after
+  // every follow change. (Mirrors live dashboard behavior.)
+  if (typeof renderChainTriggers === 'function') renderChainTriggers();
+  if (typeof renderNewUpdateBadge === 'function') renderNewUpdateBadge();
+}
+
+function renderPersonChips() {
+  const follows = loadFollows();
+  document.querySelectorAll('.story-item').forEach(card => {
+    const existing = card.querySelector('.people-row');
+    if (existing) existing.remove();
+    const people = parsePeople(card);
+    if (people.length === 0) return;
+    const row = document.createElement('div');
+    row.className = 'people-row';
+    const label = document.createElement('span');
+    label.className = 'person-label';
+    label.textContent = 'People:';
+    row.appendChild(label);
+    people.forEach(p => {
+      const chip = document.createElement('button');
+      chip.className = 'person-chip';
+      if (follows.people[p.id]) chip.classList.add('is-followed');
+      chip.textContent = p.name;
+      chip.title = p.role ? p.role + '  ·  click to ' + (follows.people[p.id] ? 'unfollow' : 'follow') : 'click to ' + (follows.people[p.id] ? 'unfollow' : 'follow');
+      chip.addEventListener('click', e => { e.stopPropagation(); togglePersonFollow(p.id, p); });
+      row.appendChild(chip);
+    });
+    const header = card.querySelector('.story-header');
+    if (header) header.insertAdjacentElement('afterend', row);
+    else {
+      const h2 = card.querySelector('h2');
+      if (h2) h2.insertAdjacentElement('afterend', row);
+    }
+  });
+}
+
+function toggleStoryFollow(id, force) {
+  const follows = loadFollows();
+  const meta = storyMetadata(id);
+  if (!meta) return;
+  const currentlyFollowed = !!follows.stories[id];
+  const next = typeof force === 'boolean' ? force : !currentlyFollowed;
+  if (next) follows.stories[id] = Object.assign({}, meta, { followed_at: new Date().toISOString() });
+  else delete follows.stories[id];
+  saveFollows(follows);
+  renderStoryFollowState();
+  renderFollowPanel();
+  applyFilter();
+}
+
+function togglePersonFollow(id, personMeta, force) {
+  const follows = loadFollows();
+  const currentlyFollowed = !!follows.people[id];
+  const next = typeof force === 'boolean' ? force : !currentlyFollowed;
+  if (next) {
+    if (!personMeta) return;
+    follows.people[id] = Object.assign({}, personMeta, { followed_at: new Date().toISOString() });
+  } else { delete follows.people[id]; }
+  saveFollows(follows);
+  renderPersonChips();
+  renderFollowPanel();
+}
+
+let currentFilter = 'all';
+const filterButtons = document.querySelectorAll('.filter-btn');
+const allItems = () => document.querySelectorAll('.story-item');
+
+function applyFilter(filter) {
+  if (filter) currentFilter = filter;
+  const follows = loadFollows();
+  allItems().forEach(el => {
+    const id = el.dataset.storyId;
+    const tags = (el.dataset.tags || '').split(/\s+/);
+    let show = true;
+    if (currentFilter === 'followed') show = !!follows.stories[id] || !!authorFollows.stories[id];
+    else if (currentFilter !== 'all') show = tags.includes(currentFilter);
+    el.classList.toggle('hidden', !show);
+  });
+  filterButtons.forEach(b => b.classList.toggle('active', b.dataset.filter === currentFilter));
+  try { localStorage.setItem(FILTER_KEY, currentFilter); } catch (e) {}
+}
+
+filterButtons.forEach(b => b.addEventListener('click', () => applyFilter(b.dataset.filter)));
+try { currentFilter = localStorage.getItem(FILTER_KEY) || 'all'; } catch (e) {}
+
+function bindFollowButtons() {
+  document.querySelectorAll('.follow-btn').forEach(btn => {
+    btn.addEventListener('click', e => { e.stopPropagation(); toggleStoryFollow(btn.dataset.follow); });
   });
 }
 
