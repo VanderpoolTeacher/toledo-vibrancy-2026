@@ -438,6 +438,10 @@ const metaDate = document.getElementById('meta-date');
 const metaWindow = document.getElementById('meta-window');
 const metaAutoRefresh = document.getElementById('meta-auto-refresh');
 
+// Map story-id → its loaded story object (populated at render time).
+// Used by the story-maps hydration to look up locations.
+const STORY_BY_ID = {};
+
 // -- Date routing --
 function targetDate() {
   const url = new URL(window.location.href);
@@ -503,7 +507,10 @@ async function loadDashboard(date) {
 
   const stories = {};
   for (const r of storyResults) {
-    if (r.story) stories[r.id] = r.story;
+    if (r.story) {
+      stories[r.id] = r.story;
+      STORY_BY_ID[r.id] = r.story;
+    }
   }
 
   // 4. Render — Task 7 fills this in
@@ -888,6 +895,202 @@ function renderNewUpdateBadge() {
     headline.appendChild(badge);
   });
 }
+
+// === Story-maps (inline mini-maps on address clicks) ===
+// Adapted from the live dashboard's implementation. The only data-source change
+// is reading from each story's locations[] array instead of a global constant.
+
+const cardMaps = new Map();  // story-id → {mapDiv, map, layer, currentTrigger}
+
+function wrapMatchInCard(card, matchText, onClick) {
+  const candidates = card.querySelectorAll('p, .why');
+  for (const el of candidates) {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    for (const node of textNodes) {
+      const idx = node.nodeValue.indexOf(matchText);
+      if (idx < 0) continue;
+      const before = node.nodeValue.slice(0, idx);
+      const after  = node.nodeValue.slice(idx + matchText.length);
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'addr-link';
+      btn.textContent = matchText;
+      btn.setAttribute('aria-expanded', 'false');
+      btn.addEventListener('click', e => { e.stopPropagation(); onClick(btn); });
+      const frag = document.createDocumentFragment();
+      if (before) frag.appendChild(document.createTextNode(before));
+      frag.appendChild(btn);
+      if (after) frag.appendChild(document.createTextNode(after));
+      node.parentNode.replaceChild(frag, node);
+      return btn;
+    }
+  }
+  return null;
+}
+
+function appendHeadlineChip(card, label, onClick) {
+  const chip = document.createElement('button');
+  chip.type = 'button';
+  chip.className = 'headline-loc-chip';
+  chip.textContent = label;
+  chip.setAttribute('aria-expanded', 'false');
+  chip.addEventListener('click', e => { e.stopPropagation(); onClick(chip); });
+  const header = card.querySelector('.story-header') || card.querySelector('h2');
+  if (header) header.insertAdjacentElement('afterend', chip);
+  return chip;
+}
+
+function hydrateStoryTriggers() {
+  document.querySelectorAll('.story-item').forEach(card => {
+    const id = card.dataset.storyId;
+    const story = STORY_BY_ID[id];
+    if (!story) return;
+    // External-map stories already render their link inside the card (Task 7);
+    // skip story-map hydration for them.
+    if (story.external_map_link) return;
+    for (const loc of (story.locations || [])) {
+      const onClick = (trigger) => openMapFor(card, loc, trigger);
+      let trigger = null;
+      if (loc.match) trigger = wrapMatchInCard(card, loc.match, onClick);
+      if (!trigger) trigger = appendHeadlineChip(card, loc.label, onClick);
+    }
+  });
+}
+
+function ensureMapContainer(card) {
+  let mapDiv = card.querySelector('.story-map');
+  if (mapDiv) return mapDiv;
+  mapDiv = document.createElement('div');
+  mapDiv.className = 'story-map';
+  mapDiv.setAttribute('role', 'region');
+  card.appendChild(mapDiv);
+  return mapDiv;
+}
+
+function buildLeafletMap(mapDiv) {
+  const map = L.map(mapDiv, {
+    zoomControl: true,
+    attributionControl: true,
+    scrollWheelZoom: false
+  }).setView([41.6528, -83.5379], 13);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap, &copy; CARTO',
+    subdomains: 'abcd', maxZoom: 19
+  }).addTo(map);
+  map.on('click', () => map.scrollWheelZoom.enable());
+  return map;
+}
+
+function clearOverlay(state) {
+  if (state.layer) { state.layer.remove(); state.layer = null; }
+}
+
+function renderItem(state, item) {
+  clearOverlay(state);
+  state.mapDiv.setAttribute('aria-label', 'Map of ' + item.label);
+  if (item.shape === 'point') {
+    const m = L.marker([item.lat, item.lon]).bindTooltip(item.label);
+    m.addTo(state.map);
+    state.layer = m;
+    state.map.setView([item.lat, item.lon], 16, { animate: true });
+    updateGmapsLink(state.mapDiv, item.lat, item.lon);
+    return;
+  }
+  if (item.shape === 'line') {
+    const line = L.polyline(item.path, { color: '#1a4d8c', weight: 5, opacity: 0.85 })
+      .bindTooltip(item.label);
+    line.addTo(state.map);
+    state.layer = line;
+    state.map.fitBounds(line.getBounds(), { padding: [20, 20] });
+    const mid = item.path[Math.floor(item.path.length / 2)];
+    updateGmapsLink(state.mapDiv, mid[0], mid[1]);
+    return;
+  }
+  if (item.shape === 'polygon') {
+    const rect = L.rectangle(item.bbox, {
+      color: '#1a4d8c', weight: 1, fillColor: '#1a4d8c', fillOpacity: 0.15
+    }).bindTooltip(item.label);
+    rect.addTo(state.map);
+    state.layer = rect;
+    state.map.fitBounds(rect.getBounds(), { padding: [20, 20] });
+    const c = rect.getBounds().getCenter();
+    updateGmapsLink(state.mapDiv, c.lat, c.lng);
+    return;
+  }
+}
+
+function updateGmapsLink(mapDiv, lat, lon) {
+  let a = mapDiv.querySelector('.gmaps-link');
+  if (!a) {
+    a = document.createElement('a');
+    a.className = 'gmaps-link';
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = 'Open in Google Maps ↗';
+    mapDiv.appendChild(a);
+  }
+  a.href = `https://www.google.com/maps?q=${lat},${lon}`;
+}
+
+function openMapFor(card, item, trigger) {
+  // Leaflet-fallback: if Leaflet didn't load, open Google Maps in a new tab.
+  if (typeof L === 'undefined') {
+    const lat = item.lat ?? (item.path && item.path[0][0]) ?? (item.bbox && item.bbox[0][0]);
+    const lon = item.lon ?? (item.path && item.path[0][1]) ?? (item.bbox && item.bbox[0][1]);
+    window.open(`https://www.google.com/maps?q=${lat},${lon}`, '_blank', 'noopener');
+    return;
+  }
+
+  const id = card.dataset.storyId;
+  let state = cardMaps.get(id);
+
+  if (state && state.currentTrigger === trigger && state.mapDiv.classList.contains('open')) {
+    closeMap(card);
+    return;
+  }
+
+  const mapDiv = ensureMapContainer(card);
+  if (!state) {
+    state = { mapDiv, map: null, layer: null, currentTrigger: null };
+    cardMaps.set(id, state);
+  }
+
+  if (state.currentTrigger && state.currentTrigger !== trigger) {
+    state.currentTrigger.setAttribute('aria-expanded', 'false');
+  }
+  state.currentTrigger = trigger;
+  trigger.setAttribute('aria-expanded', 'true');
+
+  mapDiv.classList.add('open');
+
+  const initMap = () => {
+    if (!state.map) state.map = buildLeafletMap(mapDiv);
+    state.map.invalidateSize();
+    renderItem(state, item);
+  };
+  setTimeout(initMap, 230);
+}
+
+function closeMap(card) {
+  const id = card.dataset.storyId;
+  const state = cardMaps.get(id);
+  if (!state) return;
+  state.mapDiv.classList.remove('open');
+  if (state.currentTrigger) state.currentTrigger.setAttribute('aria-expanded', 'false');
+  state.currentTrigger = null;
+}
+
+// Esc-to-close on the focused card
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  const focused = document.activeElement;
+  if (!focused) return;
+  const card = focused.closest('.story-item');
+  if (!card) return;
+  closeMap(card);
+});
 
 // -- Kick off --
 loadDashboard(targetDate());
