@@ -110,6 +110,18 @@ The federally-funded $53M project covering 38 blocks (13th–21st Street, Adams 
 
 ## Downtown
 
+### Hotel Lorraine faces foreclosure and structural collapse risk — Lucas County files against NJ-based owner
+_Source: 2026-05-19_
+
+Lucas County prosecutors filed a foreclosure motion against Zoeva Tower LLC on May 19, after the New Jersey-based owner accumulated roughly $80,000 in unpaid property taxes across 14 parcels at 1117 Jefferson Ave. — the century-old Hotel Lorraine, closed since 2019. The structural situation escalated that same week: the building's Jefferson-facing brick facade began bowing at the seventh floor, prompting Toledo Fire & Rescue to close Jefferson Street between 11th and 12th streets. The city gave the owner 72 hours to repair the facade or face fines and potential criminal charges.
+
+Zoeva Tower LLC purchased the property for more than $1.1 million in 2023 with a stated plan to convert the 1925-built hotel into 150 residential units under the name 'Zoeva Tower.' That plan has not advanced, and the building's condition has deteriorated to the point of public safety risk. If the owner fails to address the facade and the unpaid taxes, the property will proceed to a sheriff's auction — with a minimum opening bid matching the outstanding tax balance — before year-end. Lucas County Treasurer Lindsay Webb said: 'Having it sit vacant and experience the kind of nuisance problems that it's experiencing isn't doing our community any favors.'
+
+**Why it matters:** The Hotel Lorraine is a high-visibility downtown landmark two blocks from the government center and visible on Jefferson Avenue — one of downtown's primary corridors. A sheriff's sale would reset the clock on redevelopment by putting the property in the hands of a new owner (or the land bank), which is actually the faster path to re-use than the current stalemate. The pattern is familiar: NJ/NY-based LLCs acquire Toledo historic structures at low cost, propose ambitious plans, do nothing, and eventually become nuisance properties. Each foreclosure that routes a property through the land bank or a competitive sheriff's sale strengthens the city's long-term property-activation pipeline — but the facade collapse risk is the immediate story.
+
+**Sources:** [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/) · [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6) · [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
+
+
 ### Glass City Riverwalk hits 50% complete — Watershed Weekend June 11–14 will mark the halfway milestone
 _Source: 2026-03-25_
 
@@ -162,6 +174,54 @@ Held its grand opening Saturday, May 16, in the Gardner Building on Madison Aven
 
 ## Citywide
 
+### Nordstrom Rack picks Toledo for first metro-area store — anchors $75M Westgate Village North development
+_Source: 2026-05-14_
+
+Nordstrom announced on May 14 that it will open a 21,000-square-foot Nordstrom Rack at Westgate Village North — the first Nordstrom-brand store ever to serve the Toledo market. The store is scheduled to open in summer 2027. Westgate Village North is a 27-acre retail development at the northwest corner of Central Avenue and Secor Road (3311 Secor Road), developed by Abbell Associates in partnership with the Nikki Group on the former Elder-Beerman site. The Toledo-Lucas County Plan Commission approved the $75 million development in February 2026; the project calls for three to four retail and restaurant buildings aimed at 'new-to-market' national brands.
+
+Nordstrom Rack President Gemma Lionello said the company looks forward to 'being a part of the Toledo community,' while Abbell CEO Liz Holland called Nordstrom 'best-in-class' and the anchor needed to 'bring a first-rate selection' to the west Toledo corridor. No other tenants have been named publicly, though Abbell indicated it is in active negotiations with national retailers and restaurant brands.
+
+**Why it matters:** A Nordstrom Rack is a category-one retail signal — it means the market's household-income profile and retail-gap analysis cleared Nordstrom's bar, which is conservative. For Toledo's retail narrative, which has been battered by years of suburban-mall contraction and Sears/Elder-Beerman closures, landing a first-ever Nordstrom brand location is a meaningful data point. For Westgate Village North specifically, a national anchor dramatically improves leasing velocity for the remaining three to four buildings — once the anchor signs, smaller tenants follow faster. Track who else is announced in the next 90 days.
+
+**Sources:** [Nordstrom press release](https://press.nordstrom.com/news-releases/news-release-details/nordstrom-rack-open-new-location-toledo-ohio) · [WTOL — $75M Westgate Village North plan](https://www.wtol.com/article/news/local/75-million-westgate-village-north-plan-up-for-review/512-3f461339-9898-489a-ae84-4cbac055d0be) · [The Blade — Secor Road retail project approved](https://www.toledoblade.com/local/city/2026/02/12/secor-road-retail-project-approved-plan-commission/stories/20260212131) · [PR Newswire — Nordstrom Rack Toledo announcement](https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html)
+
+
+### Michigan-based JVIS acquires Toledo Molding & Die for ~$80M, preserving 629 NW Ohio manufacturing jobs
+_Source: 2026-05-15_
+
+A U.S. Bankruptcy Court judge in Houston signed the sale order on May 14, authorizing the transfer of Toledo Molding & Die's Tiffin and Bowling Green operations to TNJ Ohio, an affiliate of Michigan-based JVIS, for approximately $80 million. More than 629 manufacturing workers — whose jobs were threatened when parent company First Brands Group entered bankruptcy — will retain their positions. The acquisition marks JVIS's first manufacturing footprint in Ohio.
+
+JVIS Vice President of External Affairs David Robinson described the deal as 'an important milestone' and said TMD's 'experienced employees, strong customer relationships, and manufacturing capabilities align extremely well with our long-term strategy.' The company said it plans to continue operations at both facilities without interruption.
+
+**Why it matters:** Toledo Molding & Die is one of the legacy automotive-supply names tied to northwest Ohio's manufacturing identity — the 'Toledo' in the brand matters symbolically even though the plants are in Tiffin and Bowling Green. Preserving 629 jobs and keeping the operations in regional hands (via a Midwest acquirer) avoids the supplier-base contraction that would ripple into Toledo-area Tier 1 customers. It also signals that northwest Ohio's automotive-supply assets still attract acquirer interest despite industry headwinds.
+
+**Sources:** [The Blade — Acquisition of Toledo Molding & Die](https://www.toledoblade.com/business/automotive/2026/05/15/acquisition-molding-die-save-600-jobs/stories/20260515090) · [13abc — JVIS buys TMD operations](https://www.13abc.com/2026/05/15/toledo-molding-die-operations-tiffin-bowling-green-purchased-by-jvis/) · [WTOL — Michigan-based company acquires Toledo Molding & Die](https://www.wtol.com/article/money/business/michigan-based-manufacturing-company-acquires-toledo-molding-die/512-a46192b7-06bb-4514-9a3c-0736804d84ad) · [JVIS press release](https://jvis.us/2026/05/15/jvis-acquires-tmd-to-expanding-range-capacity-and-molding-capabilities/)
+
+
+### Lucas County launches LCReady program to pre-certify development sites — aims for 10 in year one
+_Source: 2026-04-01_
+
+Lucas County launched LCReady on April 1, a site-certification program designed to eliminate the regulatory guesswork that slows corporate location decisions. The county's economic development team will pre-certify properties of 20-plus acres or with buildings of 50,000-plus square feet — verifying zoning, utility capacity (water, sewer, electricity), environmental assessments, and endangered-species reviews before a prospect ever calls. The county is targeting 10 certified sites in year one; three properties were already identified at launch: a former potential jail site on Detroit Avenue near Alexis Road, and parcels in Oregon and Waterville.
+
+A parallel AI-powered permitting portal is in development to help catch application errors and reduce back-and-forth with the Building Regulations Department. Deputy Lucas County Administrator Matt Heyrman framed the program's purpose: 'One of the things we're trying to do with this program is make sure we can provide that certainty and provide that speed to market.' Commissioner Pete Gerken echoed the urgency: 'The longer it takes to get things done, people get less interested in doing them.'
+
+**Why it matters:** Site selectors eliminate most candidate markets in the first 48 hours — often because zoning or environmental data is incomplete. LCReady compresses that decision funnel by pre-doing the work that usually takes months after a prospect emerges. Paired with JobsOhio's marketing reach, certified sites give Lucas County a credible tool to compete for the facility investments that the region's industrial land base can absorb.
+
+**Sources:** [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c) · [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/) · [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)
+
+
+### UToledo inaugurates Northwest Ohio Cancer Research Institute — 60+ researchers, $13M in active NIH grants
+_Source: 2026-03-03_
+
+The University of Toledo inaugurated the Northwest Ohio Cancer Research Institute on March 3, 2026, at the Health Science Campus. The institute brings together more than 60 cancer researchers — including more than 50 UToledo faculty — whose active work is backed by nearly $13 million in grants from federal agencies, primarily the National Institutes of Health. Dr. Jian-Ting Zhang, a UToledo College of Medicine and Life Sciences professor, serves as inaugural director. ProMedica is among the clinical partners. Working groups are focused initially on breast, pancreatic, and prostate cancers; a biorepository will collect and catalog biological samples and clinical data to support multi-study research.
+
+The institute is the operational anchor for 'Healthy Toledo,' one of three strategic launch pads unveiled by UToledo President Dr. James Holloway. The Healthy Toledo initiative frames the university as a regional public-health asset — clinical care plus education of the healthcare workforce — tied explicitly to improving outcomes in Lucas County.
+
+**Why it matters:** A formalized cancer research institute changes UToledo's positioning from 'hospital with a medical school' to 'research destination attracting federal grants.' The $13M in active NIH funding is the number to track: sustained federal grant performance is what eventually attracts pharmaceutical and biotech partnerships, and those translate into IP, spin-out companies, and high-wage research jobs that stay in Toledo. The ProMedica partnership is the community-facing proof point — it connects bench research to the city's largest health system and to the patient populations in Lucas County that carry disproportionate cancer burden.
+
+**Sources:** [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2) · [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117) · [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
+
+
 ### Vibrancy Initiative — five-year context for the May 15 awards
 _Source: 2026-05-15_
 
@@ -205,35 +265,52 @@ WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the 
 
 ## Sources
 
+- [The Blade](https://www.toledoblade.com/a-e/food/2026/05/16/new-location-same-charm-swanky-scoops-open-shop-warehouse-district/stories/20260517009)
+- [Swanky Scoops](https://www.swankyscoops419.com/)
 - [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
-- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
-- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
-- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
-- [Toledo City Paper](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
-- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
-- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
-- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
-- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
-- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
 - [The Blade — new filings](https://www.toledoblade.com/sports/mud-hens/2026/04/14/new-filings-show-what-toledo-s-soccer-stadium-ballpark-upgrades/stories/20260414109)
 - [WTOL](https://www.wtol.com/article/sports/local-sports/proposals-for-pro-soccer-stadium-in-toledo-fifth-third-field-renovation/512-92e453a6-70d6-4864-9ffb-1c3e5a650b95)
 - [The Blade — original report](https://www.toledoblade.com/sports/mud-hens/2026/03/04/briggs-toledo-group-planning-83-million-7-500-seat-riverfront-soccer-stadium/stories/20260304112)
 - [WTOL](https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b)
+- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
+- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
+- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
+- [Toledo City Paper](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
+- [The Blade — Acquisition of Toledo Molding & Die](https://www.toledoblade.com/business/automotive/2026/05/15/acquisition-molding-die-save-600-jobs/stories/20260515090)
+- [13abc — JVIS buys TMD operations](https://www.13abc.com/2026/05/15/toledo-molding-die-operations-tiffin-bowling-green-purchased-by-jvis/)
+- [WTOL — Michigan-based company acquires Toledo Molding & Die](https://www.wtol.com/article/money/business/michigan-based-manufacturing-company-acquires-toledo-molding-die/512-a46192b7-06bb-4514-9a3c-0736804d84ad)
+- [JVIS press release](https://jvis.us/2026/05/15/jvis-acquires-tmd-to-expanding-range-capacity-and-molding-capabilities/)
+- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
+- [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2)
+- [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117)
+- [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
+- [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c)
+- [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/)
+- [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)
+- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
+- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
+- [Nordstrom press release](https://press.nordstrom.com/news-releases/news-release-details/nordstrom-rack-open-new-location-toledo-ohio)
+- [WTOL — $75M Westgate Village North plan](https://www.wtol.com/article/news/local/75-million-westgate-village-north-plan-up-for-review/512-3f461339-9898-489a-ae84-4cbac055d0be)
+- [The Blade — Secor Road retail project approved](https://www.toledoblade.com/local/city/2026/02/12/secor-road-retail-project-approved-plan-commission/stories/20260212131)
+- [PR Newswire — Nordstrom Rack Toledo announcement](https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html)
+- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
+- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
+- [City of Toledo press release](https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program)
+- [13abc](https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/)
+- [WTOL — statewide brownfield round](https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f)
+- [City announcement](https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods)
+- [Vibrancy Initiative hub](https://toledo.oh.gov/business/vibrancy)
+- [13abc](https://www.13abc.com/2026/04/01/toledos-vibrancy-initiative-making-600000-available-local-businesses-revitalize-community/)
 - [WTOL — Council approves](https://www.wtol.com/article/news/council-approves-measure-to-keep-owens-corning-in-toledo/512-e3a45faf-5064-4604-85c4-949e19dbf57c)
 - [The Blade](https://www.toledoblade.com/local/city/2026/04/07/toledo-seeks-extension-tax-agreement-with-owens-corning/stories/20260407124)
 - [13abc — Riverwalk inclusion](https://www.13abc.com/2026/04/08/owens-corning-seeking-extension-property-tax-exemption-inclusion-metropark-riverwalk/)
 - [WTOL — original](https://www.wtol.com/article/life/owens-corning-commits-to-stay-in-downtown-toledo-with-250-million-investment/512-5d074143-ac26-41c9-81d4-a68b80fcbfa9)
+- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
+- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
+- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
+- [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/)
+- [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6)
+- [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
 - [The Blade](https://www.toledoblade.com/local/community-events/2026/03/25/festival-to-celebrate-halfway-point-of-glass-city-riverwalk/stories/20260325087)
 - [WTOL](https://www.wtol.com/article/entertainment/events/metroparks-toledo-announces-watershed-weekend-in-celebration-of-downtown-riverwalk-this-june/512-17906811-719f-4196-8486-ec58efce033b)
 - [Watershed Weekend — Metroparks](https://metroparkstoledo.com/learn-and-play/watershed-weekend/)
-- [City of Toledo press release](https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program)
-- [13abc](https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/)
-- [WTOL — statewide brownfield round](https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f)
-- [The Blade](https://www.toledoblade.com/a-e/food/2026/05/16/new-location-same-charm-swanky-scoops-open-shop-warehouse-district/stories/20260517009)
-- [Swanky Scoops](https://www.swankyscoops419.com/)
-- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
-- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
-- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
-- [City announcement](https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods)
-- [Vibrancy Initiative hub](https://toledo.oh.gov/business/vibrancy)
-- [13abc](https://www.13abc.com/2026/04/01/toledos-vibrancy-initiative-making-600000-available-local-businesses-revitalize-community/)

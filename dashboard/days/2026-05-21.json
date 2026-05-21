@@ -37,6 +37,7 @@
     {
       "title": "Downtown",
       "story_ids": [
+        "hotel-lorraine-foreclosure",
         "watershed-weekend-riverwalk",
         "brownfield-health-district",
         "glass-city-urban-campground",
@@ -47,6 +48,10 @@
     {
       "title": "Citywide",
       "story_ids": [
+        "nordstrom-rack-westgate-village",
+        "jvis-toledo-molding-die",
+        "lcready-site-certification",
+        "utoledo-cancer-research-institute",
         "vibrancy-19-grants",
         "small-business-app-growth",
         "promedica-medical-mutual"

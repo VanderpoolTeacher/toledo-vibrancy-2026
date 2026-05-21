@@ -1,0 +1,56 @@
+{
+  "id": "nordstrom-rack-westgate-village",
+  "headline": "Nordstrom Rack picks Toledo for first metro-area store — anchors $75M Westgate Village North development",
+  "section": "Citywide",
+  "tags": ["citywide"],
+  "posted_date": "2026-05-21",
+  "source_date": "2026-05-14",
+  "last_updated": "2026-05-21",
+  "paragraphs": [
+    "Nordstrom announced on May 14 that it will open a 21,000-square-foot Nordstrom Rack at Westgate Village North — the first Nordstrom-brand store ever to serve the Toledo market. The store is scheduled to open in summer 2027. Westgate Village North is a 27-acre retail development at the northwest corner of Central Avenue and Secor Road (3311 Secor Road), developed by Abbell Associates in partnership with the Nikki Group on the former Elder-Beerman site. The Toledo-Lucas County Plan Commission approved the $75 million development in February 2026; the project calls for three to four retail and restaurant buildings aimed at 'new-to-market' national brands.",
+    "Nordstrom Rack President Gemma Lionello said the company looks forward to 'being a part of the Toledo community,' while Abbell CEO Liz Holland called Nordstrom 'best-in-class' and the anchor needed to 'bring a first-rate selection' to the west Toledo corridor. No other tenants have been named publicly, though Abbell indicated it is in active negotiations with national retailers and restaurant brands."
+  ],
+  "why_it_matters": "A Nordstrom Rack is a category-one retail signal — it means the market's household-income profile and retail-gap analysis cleared Nordstrom's bar, which is conservative. For Toledo's retail narrative, which has been battered by years of suburban-mall contraction and Sears/Elder-Beerman closures, landing a first-ever Nordstrom brand location is a meaningful data point. For Westgate Village North specifically, a national anchor dramatically improves leasing velocity for the remaining three to four buildings — once the anchor signs, smaller tenants follow faster. Track who else is announced in the next 90 days.",
+  "people": [
+    {
+      "name": "Liz Holland",
+      "role": "CEO, Abbell Associates",
+      "search_terms": "Liz Holland Abbell Associates Westgate Village Toledo"
+    },
+    {
+      "name": "Gemma Lionello",
+      "role": "President, Nordstrom Rack",
+      "search_terms": "Gemma Lionello Nordstrom Rack president"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nordstrom press release",
+      "url": "https://press.nordstrom.com/news-releases/news-release-details/nordstrom-rack-open-new-location-toledo-ohio"
+    },
+    {
+      "title": "WTOL — $75M Westgate Village North plan",
+      "url": "https://www.wtol.com/article/news/local/75-million-westgate-village-north-plan-up-for-review/512-3f461339-9898-489a-ae84-4cbac055d0be"
+    },
+    {
+      "title": "The Blade — Secor Road retail project approved",
+      "url": "https://www.toledoblade.com/local/city/2026/02/12/secor-road-retail-project-approved-plan-commission/stories/20260212131"
+    },
+    {
+      "title": "PR Newswire — Nordstrom Rack Toledo announcement",
+      "url": "https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Westgate Village North — 3311 Secor Rd., West Toledo",
+      "match": null,
+      "lat": 41.6778,
+      "lon": -83.6266
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [],
+  "search_terms": "Nordstrom Rack Toledo Westgate Village North Abbell Associates Secor Road Elder-Beerman retail development 2027"
+}
