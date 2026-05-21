@@ -264,6 +264,66 @@ WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the 
 **Sources:** [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
 
 
+### Dean Monske and Gary Thompson make the case for hyperscale data centers at RGP's 700-attendee annual meeting
+_Source: 2026-03-05_
+
+About 700 regional business, civic, and government leaders gathered at Glass City Center on March 5 for the Regional Growth Partnership's 2026 annual meeting, where RGP president Dean Monske and executive vice president Gary Thompson made a public case for landing hyperscale AI data centers in Northwest Ohio. Monske flagged active misinformation campaigns against data-center siting and said RGP has 'diligently been trying to overcome that misinformation for well over a year.' Thompson, who has led RGP's data-center recruitment effort for four years, told the crowd: 'I have stood in front of hyperscale data centers in the morning, in the afternoon, in the evening, in the sun, in the rain, in the wind, in the snow — they don't make any noise.' The meeting also spotlighted 2025 regional results: 4,895 new jobs, 16,177 retained jobs, and $3.3 billion in capital investments across the 17-county NW Ohio footprint.
+
+The push comes as Meta's $800 million AI-optimized data center in Wood County — RGP's most prominent recent win — is under construction, and as global AI infrastructure spending is forecast to grow from $189 billion (2023) to $4.8 trillion by 2033. The Blade's editorial board followed the meeting with an endorsement of RGP's regional positioning argument on March 9.
+
+**Why it matters:** The annual meeting is the clearest annual signal of where RGP is placing its recruitment chips. Monske and Thompson publicly staking the organization's credibility on hyperscale data-center attraction — and doing so in front of 700 decision-makers — signals that NW Ohio's energy infrastructure and land availability are being actively marketed as AI-economy assets. How many of those pitches convert in 2026–27 will define the next chapter of the region's investment thesis.
+
+**Sources:** [WTOL — Meta and more: RGP seeks to land data centers to meet AI boom](https://www.wtol.com/article/tech/meta-and-more-regional-growth-partnership-seeks-to-land-data-centers-to-meet-ai-boom/512-fbc14c47-e387-48ff-940e-db8c31cad259) · [The Blade — Editorial: RGP makes case](https://www.toledoblade.com/opinion/editorials/2026/03/09/editorial-rgp-makes-case/stories/20260310006) · [RGP — 2026 Annual Meeting](https://rgp.org/rgp-2026-annual-meeting/)
+
+
+### TMACOG rebrands as Lake Erie West Regional Council; Toledo City Councilman George Sarantou elected chair
+_Source: 2026-01-30_
+
+Members of the Toledo Metropolitan Area Council of Governments (TMACOG) voted January 30, 2026, to adopt a new name: Lake Erie West Regional Council. The General Assembly simultaneously elected new leadership for the year, naming Toledo City Councilman George Sarantou as chair, Lucas County Commissioner Lisa Sobecki as vice chair, and Sandusky County Commissioner Scott Miller as second vice chair. Outgoing chair, Northwood Mayor Ed Schimmel, called the renaming a signal that member communities 'do so as partners in one connected region.'
+
+Executive Director Sandy Spang framed the identity shift as a forward-looking move: 'This new identity represents our intent to expand partnerships, empower connection, and amplify impact across the region.' The council coordinates transportation planning, water quality, and economic development across a five-county NW Ohio and SE Michigan area.
+
+**Why it matters:** The rebranding is not cosmetic — tying the regional planning council's identity to Lake Erie places water-based economic assets (port access, Great Lakes connectivity, waterfront development) at the center of its regional story. Sarantou's election as chair gives Toledo City Council a direct voice in setting the agenda for cross-municipal economic development coordination in 2026.
+
+**Sources:** [TMACOG — Lake Erie West Regional Council name change announcement](https://tmacog.org/news/toledo-metropolitan-area-council-of-governments-adopts-new-name-lake-erie-west-regional-council) · [BG Independent News — TMACOG adopts new name](https://bgindependentmedia.org/tmacog-adopts-new-name-lake-erie-west-regional-council/) · [Sandusky Register — TMACOG renamed Lake Erie West Regional Council](https://www.sent-trib.com/2026/03/02/tmacog-renamed-lake-erie-west-regional-council/)
+
+
+### Lucas County Land Bank marks $1B economic impact at 15 years; David Mann pivots focus to Old South End housing ownership
+_Source: 2026-04-22_
+
+The Lucas County Land Bank celebrated 15 years of operation in April 2026, with an independent analysis placing its cumulative economic impact at more than $1 billion — generated through nearly 4,500 demolitions and rehabilitation of roughly 900 homes across the county. President and CEO David Mann marked the milestone but immediately shifted the conversation forward: 'The question is, how do we help to convince them?' — referring to private investors who continue to favor rental returns over owner-occupied housing. Mann said the Land Bank's next priority is the Old South End, where a separately announced $1 million coordinated housing pilot (March 2026) already signals movement.
+
+That March pilot, organized through the Old South End Partnership, was backed by the John Henry Eldred Jr. Foundation and The Stranahan Supporting Organization of the Greater Toledo Community Foundation, with Mann's Land Bank as a founding partner alongside Historic South Initiative, LISC Toledo, Maumee Valley Habitat for Humanity, and LadderUp Housing. The Land Bank has designated the Old South End as a RISE (Rebuild, Invest, Stabilize, and Engage) neighborhood. Mann also sits on the Toledo Community Improvement Corporation board, giving the Land Bank a seat at the table for Toledo's broader $20 million Shovel Ready Sites Fund.
+
+**Why it matters:** Mann's $1B milestone anchors the Land Bank's credibility as a deployment platform — and his public challenge on investor incentives for homeownership, not just rentals, names the structural gap that has historically limited neighborhood stabilization outcomes. With his dual role on the TCIC board and his leadership of the Old South End RISE designation, Mann is now a central figure in both the site-prep pipeline and the neighborhood-scale housing agenda.
+
+**Sources:** [13abc — Lucas County Land Bank celebrates milestone as Toledo makes a housing push](https://www.13abc.com/2026/04/22/lucas-county-land-bank-celebrates-milestone-toledo-makes-housing-push/) · [WTOL — Report: Lucas County Land Bank has made over $1B impact in county over 15 years](https://www.wtol.com/article/news/local/lucas-county-land-bank-billion-dollar-impact-in-county-15-years/512-b0cb4e6c-69c0-4ae0-8e81-093f364dda74) · [WTOL — $1M housing initiative aims to revitalize Old South End](https://www.wtol.com/article/news/local/housing-initiative-revitalize-old-south-end-toledo/512-d7d71bd0-5745-473c-8c37-d738316abd93) · [13abc — Old South End Partnership launches $1M housing pilot](https://www.13abc.com/2026/03/19/local-partnership-works-strengthen-foundation-old-south-end/)
+
+
+### Sehlhorst leads newly constituted TCIC board as Toledo deploys $20M Shovel Ready Sites Fund
+_Source: 2026-02-19_
+
+Brandon Sehlhorst, the City of Toledo's Chief Growth Officer, now serves dual-hatted as executive director of the Toledo Community Improvement Corporation — the public nonprofit launched in August 2025 to proactively assemble and prepare development-ready real estate. In February 2026, the TCIC deployed its first major tool: a $20 million Shovel Ready Sites Fund, structured as a bond against the 35-year JEDZ revenue-sharing agreement with Rossford. The fund begins acquiring and clearing strategic parcels — starting with 1400 N. Summit — so employers can 'move quickly and invest here,' in Mayor Kapszukiewicz's phrasing.
+
+The nine-member TCIC board brings together a cross-section of the Toledo EDO ecosystem: Mayor Wade Kapszukiewicz, City Council President Vanice S. Williams, Chief Equity Officer Dr. Tiffany Whitman, and Sehlhorst as ex-officio city seats; with appointed members Tyran Boyd (Boyd & Associates Consulting, minority business representation), Julia Randles (Crane Development, real estate), Metroparks Executive Director David Zenk, Lucas County Land Bank President David Mann, and Matthew Heyrman (Greater Toledo Community Foundation, regional development). Historical precedent from sites like Southwyck, Textileather, and Ironville — which together now generate $114 million in annual payroll and $1.3 billion in capital investment — provides the proof-of-concept rationale.
+
+**Why it matters:** The TCIC board is the first place where the City, the Land Bank, Metroparks, and private real estate are formally at the same table under a single funding vehicle. Sehlhorst's executive-director role makes him the operational hub of Toledo's proactive site-prep strategy — a shift from reactive deal-making to positioning land ahead of demand. The $20M deployment is the first live test of whether Toledo can compete on site-readiness speed.
+
+**Sources:** [Spectrum News 1 — Toledo $20M Shovel Ready Sites Fund](https://spectrumnews1.com/oh/columbus/news/2026/02/19/toledo--20m-initiative-economy) · [WTOL — Toledo announces $20M initiative to support city's economic future](https://www.wtol.com/article/news/local/toledo-shovel-ready-sites-fund-20-million-jobs-housing-growth/512-4cd6c164-7339-4a83-a2d8-420d31c9993b) · [The Blade — Toledo aims to be proactive with shovel ready sites fund](https://www.toledoblade.com/local/city/2026/02/19/toledo-aims-proactive-with-shovel-ready-sites-fund/stories/20260219119) · [Toledo Community Improvement Corporation](https://www.toledocic.com/) · [The Blade — Meet the individuals poised to serve on Toledo's CIC board (Sept. 2025)](https://www.toledoblade.com/local/city/2025/09/03/individuals-poised-to-serve-on-toledo-s-community-improvement-corporation-board/stories/20250903102)
+
+
+### Dean Monske and RGP land global EV innovation summit's U.S. debut at Toledo's Glass City Center
+_Source: 2025-11-11_
+
+Toledo will host EVIS America — the U.S. debut of the Electric Vehicle Innovation Summit — at Glass City Center on November 3–5, 2026, a booking RGP's Dean Monske described as a generational positioning moment. The summit, previously held five times in Abu Dhabi, combines three co-located conferences: EVIS America (EVs), FutureFuelCON (hydrogen), and Mobility TechEX (autonomous and connected mobility). RGP secured the partnership with the event organizer, aligning Toledo's auto-supply-chain legacy with the global transition to electric mobility. Monske stated: 'For decades, Northwest Ohio has powered the automotive industry. Now, as EVIS America arrives, we're proud to open our doors to the world's leaders in EVs, hydrogen, AI, and mobility.'
+
+Mayor Kapszukiewicz framed the booking as consistent with Toledo's industrial identity: 'Hosting EVIS America reflects what Toledo has always been about: hard work, innovation, and building the future together.' The Glass City Center venue — which also hosted the RGP 2026 annual meeting and a series of Owens Corning investor events — is becoming the region's primary platform for national and international economic development signaling.
+
+**Why it matters:** Monske's EVIS win is a recruitment asset as much as an event: landing an international mobility summit brings site selectors, investors, and OEM supply-chain executives into Toledo's orbit on RGP's terms. The November 2026 event is also a live test of Glass City Center's capacity to attract marquee conferences — and of Toledo's ability to position itself as a transition-economy hub, not just a legacy-auto market.
+
+**Sources:** [PR Newswire — The World of Future Mobility Arrives in America: EVIS 2026 Launches in Toledo, Ohio](https://www.prnewswire.com/news-releases/the-world-of-future-mobility-arrives-in-america-evis-2026-launches-in-toledo-ohio-302611911.html) · [WTOL — Toledo to host international electric vehicle summit's US debut](https://www.wtol.com/article/news/local/toledo-host-international-electric-vehicle-innovation-summit-american-debut/512-aa57ba0f-1734-4bd0-a65e-a206d7ec6650) · [The EV Report — EVIS America 2026 Debuts in Toledo](https://theevreport.com/evis-america-2026-debuts-in-toledo)
+
+
 ---
 
 ## What to watch in the next report
@@ -274,62 +334,84 @@ WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the 
 4. CuriosiTEA Emporium opening date at Ostrich Towne. With Riverside BBQ confirmed open, CuriosiTEA is now the make-or-break fourth tenant for the district's summer thesis.
 5. Former Health District building disposition. $571K in demo funding is confirmed — watch for an RFP or TCIC Shovel Ready Sites designation on the cleared 1.8-acre downtown parcel.
 6. Innovation Post lease specifics — square-foot allocations among Wurtec, WorkSpring, Junior Achievement of NW Ohio, and SEGULA, and day-one employee counts.
+7. TCIC Shovel Ready Sites Fund — first site acquisition. 1400 N. Summit is the named target; watch for the RFP or board authorization on the actual land purchase and timeline.
+8. Old South End housing pilot outcomes. The $1M initial tranche is live; watch for David Mann and the Land Bank to announce first RISE-designated properties entering the rehab pipeline.
+9. EVIS America 2026 (Nov 3–5, Glass City Center) — speaker announcements and exhibitor/sponsor list will signal which OEMs and mobility investors are being drawn into Toledo's orbit ahead of the summit.
+10. RGP data-center pipeline — Gary Thompson has been working this sector for four years. Any hyperscale site announcement in the 17-county footprint would be the biggest RGP win since Meta.
 
 ---
 
 ## Sources
 
-- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
-- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
+- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
+- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
+- [City of Toledo press release](https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program)
+- [13abc](https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/)
+- [WTOL — statewide brownfield round](https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f)
+- [WTOL — Meta and more: RGP seeks to land data centers to meet AI boom](https://www.wtol.com/article/tech/meta-and-more-regional-growth-partnership-seeks-to-land-data-centers-to-meet-ai-boom/512-fbc14c47-e387-48ff-940e-db8c31cad259)
+- [The Blade — Editorial: RGP makes case](https://www.toledoblade.com/opinion/editorials/2026/03/09/editorial-rgp-makes-case/stories/20260310006)
+- [RGP — 2026 Annual Meeting](https://rgp.org/rgp-2026-annual-meeting/)
+- [The Blade](https://www.toledoblade.com/local/community-events/2026/03/25/festival-to-celebrate-halfway-point-of-glass-city-riverwalk/stories/20260325087)
+- [WTOL](https://www.wtol.com/article/entertainment/events/metroparks-toledo-announces-watershed-weekend-in-celebration-of-downtown-riverwalk-this-june/512-17906811-719f-4196-8486-ec58efce033b)
+- [Watershed Weekend — Metroparks](https://metroparkstoledo.com/learn-and-play/watershed-weekend/)
 - [Nordstrom press release](https://press.nordstrom.com/news-releases/news-release-details/nordstrom-rack-open-new-location-toledo-ohio)
 - [WTOL — $75M Westgate Village North plan](https://www.wtol.com/article/news/local/75-million-westgate-village-north-plan-up-for-review/512-3f461339-9898-489a-ae84-4cbac055d0be)
 - [The Blade — Secor Road retail project approved](https://www.toledoblade.com/local/city/2026/02/12/secor-road-retail-project-approved-plan-commission/stories/20260212131)
 - [PR Newswire — Nordstrom Rack Toledo announcement](https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html)
-- [WTOL](https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b)
+- [TMACOG — Lake Erie West Regional Council name change announcement](https://tmacog.org/news/toledo-metropolitan-area-council-of-governments-adopts-new-name-lake-erie-west-regional-council)
+- [BG Independent News — TMACOG adopts new name](https://bgindependentmedia.org/tmacog-adopts-new-name-lake-erie-west-regional-council/)
+- [Sandusky Register — TMACOG renamed Lake Erie West Regional Council](https://www.sent-trib.com/2026/03/02/tmacog-renamed-lake-erie-west-regional-council/)
+- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
+- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
 - [The Blade](https://www.toledoblade.com/a-e/food/2026/05/16/new-location-same-charm-swanky-scoops-open-shop-warehouse-district/stories/20260517009)
 - [Swanky Scoops](https://www.swankyscoops419.com/)
-- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
-- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
-- [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2)
-- [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117)
-- [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
-- [City of Toledo press release](https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program)
-- [13abc](https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/)
-- [WTOL — statewide brownfield round](https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f)
+- [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c)
+- [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/)
+- [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)
+- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
+- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
+- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
+- [WTOL](https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b)
+- [Spectrum News 1 — Toledo $20M Shovel Ready Sites Fund](https://spectrumnews1.com/oh/columbus/news/2026/02/19/toledo--20m-initiative-economy)
+- [WTOL — Toledo announces $20M initiative to support city's economic future](https://www.wtol.com/article/news/local/toledo-shovel-ready-sites-fund-20-million-jobs-housing-growth/512-4cd6c164-7339-4a83-a2d8-420d31c9993b)
+- [The Blade — Toledo aims to be proactive with shovel ready sites fund](https://www.toledoblade.com/local/city/2026/02/19/toledo-aims-proactive-with-shovel-ready-sites-fund/stories/20260219119)
+- [Toledo Community Improvement Corporation](https://www.toledocic.com/)
+- [The Blade — Meet the individuals poised to serve on Toledo's CIC board (Sept. 2025)](https://www.toledoblade.com/local/city/2025/09/03/individuals-poised-to-serve-on-toledo-s-community-improvement-corporation-board/stories/20250903102)
+- [13abc — Lucas County Land Bank celebrates milestone as Toledo makes a housing push](https://www.13abc.com/2026/04/22/lucas-county-land-bank-celebrates-milestone-toledo-makes-housing-push/)
+- [WTOL — Report: Lucas County Land Bank has made over $1B impact in county over 15 years](https://www.wtol.com/article/news/local/lucas-county-land-bank-billion-dollar-impact-in-county-15-years/512-b0cb4e6c-69c0-4ae0-8e81-093f364dda74)
+- [WTOL — $1M housing initiative aims to revitalize Old South End](https://www.wtol.com/article/news/local/housing-initiative-revitalize-old-south-end-toledo/512-d7d71bd0-5745-473c-8c37-d738316abd93)
+- [13abc — Old South End Partnership launches $1M housing pilot](https://www.13abc.com/2026/03/19/local-partnership-works-strengthen-foundation-old-south-end/)
+- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
+- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
+- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
+- [City announcement](https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods)
+- [Vibrancy Initiative hub](https://toledo.oh.gov/business/vibrancy)
+- [13abc](https://www.13abc.com/2026/04/01/toledos-vibrancy-initiative-making-600000-available-local-businesses-revitalize-community/)
+- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
+- [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
 - [The Blade — new filings](https://www.toledoblade.com/sports/mud-hens/2026/04/14/new-filings-show-what-toledo-s-soccer-stadium-ballpark-upgrades/stories/20260414109)
 - [WTOL](https://www.wtol.com/article/sports/local-sports/proposals-for-pro-soccer-stadium-in-toledo-fifth-third-field-renovation/512-92e453a6-70d6-4864-9ffb-1c3e5a650b95)
 - [The Blade — original report](https://www.toledoblade.com/sports/mud-hens/2026/03/04/briggs-toledo-group-planning-83-million-7-500-seat-riverfront-soccer-stadium/stories/20260304112)
-- [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/)
-- [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6)
-- [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
+- [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2)
+- [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117)
+- [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
+- [PR Newswire — The World of Future Mobility Arrives in America: EVIS 2026 Launches in Toledo, Ohio](https://www.prnewswire.com/news-releases/the-world-of-future-mobility-arrives-in-america-evis-2026-launches-in-toledo-ohio-302611911.html)
+- [WTOL — Toledo to host international electric vehicle summit's US debut](https://www.wtol.com/article/news/local/toledo-host-international-electric-vehicle-innovation-summit-american-debut/512-aa57ba0f-1734-4bd0-a65e-a206d7ec6650)
+- [The EV Report — EVIS America 2026 Debuts in Toledo](https://theevreport.com/evis-america-2026-debuts-in-toledo)
+- [Toledo City Paper — Huron Yards and the two-person team](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
+- [Crane Development — Huron Yards](https://www.cranedevelopment.com/huronyards)
+- [The Blade — Live, work, play, and stay: Toledo developers unveil Huron Yards (Aug 25, 2025)](https://www.toledoblade.com/business/development/2025/08/25/live-work-play-and-stay-toledo-developers-unveil-huron-yards/stories/20250822124)
 - [The Blade — Acquisition of Toledo Molding & Die](https://www.toledoblade.com/business/automotive/2026/05/15/acquisition-molding-die-save-600-jobs/stories/20260515090)
 - [13abc — JVIS buys TMD operations](https://www.13abc.com/2026/05/15/toledo-molding-die-operations-tiffin-bowling-green-purchased-by-jvis/)
 - [WTOL — Michigan-based company acquires Toledo Molding & Die](https://www.wtol.com/article/money/business/michigan-based-manufacturing-company-acquires-toledo-molding-die/512-a46192b7-06bb-4514-9a3c-0736804d84ad)
 - [JVIS press release](https://jvis.us/2026/05/15/jvis-acquires-tmd-to-expanding-range-capacity-and-molding-capabilities/)
-- [Toledo City Paper — Huron Yards and the two-person team](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
-- [Crane Development — Huron Yards](https://www.cranedevelopment.com/huronyards)
-- [The Blade — Live, work, play, and stay: Toledo developers unveil Huron Yards (Aug 25, 2025)](https://www.toledoblade.com/business/development/2025/08/25/live-work-play-and-stay-toledo-developers-unveil-huron-yards/stories/20250822124)
-- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
-- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
-- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
-- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
-- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
-- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
-- [City announcement](https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods)
-- [Vibrancy Initiative hub](https://toledo.oh.gov/business/vibrancy)
-- [13abc](https://www.13abc.com/2026/04/01/toledos-vibrancy-initiative-making-600000-available-local-businesses-revitalize-community/)
+- [Signature Associates — Historic Ohio Plate Glass building sees new life (June 10, 2025)](https://www.signatureassociates.com/historic-ohio-plate-glass-building-sees-new-life-as-construction-companies-share-space/)
+- [The Blade — Ohio Plate Glass building, new life for construction companies (June 10, 2025)](https://www.toledoblade.com/business/development/2025/06/10/ohio-plate-glass-building-new-life-construction-companies-share-space-historic/stories/20250609078)
+- [WTOL — Two construction companies partnering, moving to downtown Toledo office](https://www.wtol.com/video/news/local/two-conscruction-companies-partnering-moving-to-downtown-toledo-office/512-7625d9ce-9be6-41ec-bfc1-6273892d3e89)
 - [WTOL — Council approves](https://www.wtol.com/article/news/council-approves-measure-to-keep-owens-corning-in-toledo/512-e3a45faf-5064-4604-85c4-949e19dbf57c)
 - [The Blade](https://www.toledoblade.com/local/city/2026/04/07/toledo-seeks-extension-tax-agreement-with-owens-corning/stories/20260407124)
 - [13abc — Riverwalk inclusion](https://www.13abc.com/2026/04/08/owens-corning-seeking-extension-property-tax-exemption-inclusion-metropark-riverwalk/)
 - [WTOL — original](https://www.wtol.com/article/life/owens-corning-commits-to-stay-in-downtown-toledo-with-250-million-investment/512-5d074143-ac26-41c9-81d4-a68b80fcbfa9)
-- [Signature Associates — Historic Ohio Plate Glass building sees new life (June 10, 2025)](https://www.signatureassociates.com/historic-ohio-plate-glass-building-sees-new-life-as-construction-companies-share-space/)
-- [The Blade — Ohio Plate Glass building, new life for construction companies (June 10, 2025)](https://www.toledoblade.com/business/development/2025/06/10/ohio-plate-glass-building-new-life-construction-companies-share-space-historic/stories/20250609078)
-- [WTOL — Two construction companies partnering, moving to downtown Toledo office](https://www.wtol.com/video/news/local/two-conscruction-companies-partnering-moving-to-downtown-toledo-office/512-7625d9ce-9be6-41ec-bfc1-6273892d3e89)
-- [The Blade](https://www.toledoblade.com/local/community-events/2026/03/25/festival-to-celebrate-halfway-point-of-glass-city-riverwalk/stories/20260325087)
-- [WTOL](https://www.wtol.com/article/entertainment/events/metroparks-toledo-announces-watershed-weekend-in-celebration-of-downtown-riverwalk-this-june/512-17906811-719f-4196-8486-ec58efce033b)
-- [Watershed Weekend — Metroparks](https://metroparkstoledo.com/learn-and-play/watershed-weekend/)
-- [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
-- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
-- [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c)
-- [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/)
-- [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)
+- [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/)
+- [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6)
+- [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
