@@ -151,20 +151,19 @@ For multi-site stories (e.g., ConnecToledo's 4 parks), `locations` carries multi
   "window": "Rolling 48-hour focus",
   "auto_refresh": "Daily 5:00 AM",
 
-  "top_story_id": "watershed-weekend-riverwalk",
+  "top_story_id": "owens-corning-250m",
 
   "sections": [
-    { "title": "Warehouse District", "story_ids": ["swanky-scoops", "huron-yards-phase-two", "port-warehouse-liquid-terminal"] },
-    { "title": "Vistula District / Ostrich Towne", "story_ids": ["ostrich-towne-tenants", "vistula-metropark", "soccer-stadium-vistula"] },
-    { "title": "Uptown / Junction", "story_ids": ["innovation-post-tenants", "raise-uptown-junction"] },
-    { "title": "Downtown", "story_ids": ["glass-city-urban-campground", "owens-corning-250m", "connectoledo-music-grant", "mind-and-soul-gallery"] },
-    { "title": "Citywide", "story_ids": ["vibrancy-19-grants", "small-business-app-growth", "promedica-medical-mutual"] }
+    { "title": "", "story_ids": ["owens-corning-250m"] },
+    { "title": "New stories", "story_ids": ["hotel-lorraine-foreclosure", "nordstrom-rack-westgate-village", "jvis-toledo-molding-die", "foundation-steel-hq-move", "brownfield-health-district", "lcready-site-certification", "rgp-2026-annual-meeting-data-centers", "tcic-board-sehlhorst-shovel-ready"] },
+    { "title": "Updates this brief", "story_ids": ["ostrich-towne-tenants", "huron-yards-phase-two"] },
+    { "title": "Ongoing", "story_ids": ["watershed-weekend-riverwalk", "swanky-scoops", "vistula-metropark", "soccer-stadium-vistula", "innovation-post-tenants", "raise-uptown-junction", "glass-city-urban-campground", "connectoledo-music-grant", "vibrancy-19-grants", "promedica-medical-mutual"] }
   ],
 
   "ongoing_story_ids": [
-    "huron-yards-phase-two", "port-warehouse-liquid-terminal", "vistula-metropark", "soccer-stadium-vistula",
-    "innovation-post-tenants", "raise-uptown-junction", "glass-city-urban-campground", "owens-corning-250m",
-    "connectoledo-music-grant", "small-business-app-growth", "promedica-medical-mutual"
+    "watershed-weekend-riverwalk", "swanky-scoops", "vistula-metropark", "soccer-stadium-vistula",
+    "innovation-post-tenants", "raise-uptown-junction", "glass-city-urban-campground",
+    "connectoledo-music-grant", "vibrancy-19-grants", "promedica-medical-mutual"
   ],
 
   "watch_list": [
@@ -184,10 +183,21 @@ For multi-site stories (e.g., ConnecToledo's 4 parks), `locations` carries multi
 
 ### Day-file rules
 
+- **Sections are organized by recency, not by district.** The standing structure is:
+  1. An untitled section (`"title": ""`) holding only the top story, so it renders prominently at the page top with the special top-story styling.
+  2. **`"New stories"`** — net-new today (each story's `posted_date` equals today's date). Order is editorial, most consequential first.
+  3. **`"Updates this brief"`** — existing stories whose `last_updated` equals today but `posted_date` is earlier. Skip the top story here (it's already in the untitled section).
+  4. **`"Ongoing"`** — carry-forward stories with no movement this brief (`last_updated < today`). Order: lead carry-forward first, then by editorial weight.
+
+  District information still travels with each story via the `tags` array and the per-story `section` field — it's just no longer the primary grouping axis of the day-file.
 - **Carry-forward is explicit.** Every story shown today must appear in today's `sections`. There's no automatic "active stories" derivation; the daily task lists each one.
-- **`top_story_id` must reference a story_id that appears in `sections`.** Otherwise it's a dangling reference.
-- **`ongoing_story_ids` is a subset of all `story_ids` in `sections`.** Stories in this list get the gray `is-ongoing` background; others render with the default white card.
+- **`top_story_id` must reference a story_id that appears in `sections`.** Otherwise it's a dangling reference. By convention the top story sits alone in the untitled first section.
+- **`ongoing_story_ids` is exactly the story_ids in the `"Ongoing"` section.** Stories in this list get the gray `is-ongoing` background; others render with the default white card. (Note: this is now a tight equivalence, not a loose subset relationship.)
 - **`watch_list` and `live_sources` move out of `index.html` into the day-file** so they can change day-over-day.
+
+### Empty buckets
+
+If a recency bucket has zero stories on a given day, omit that section from `sections` rather than including an empty-array placeholder. A truly quiet day might have only the top story + `Ongoing` section.
 
 ## Render pipeline
 
@@ -250,7 +260,7 @@ The 5 AM scheduled agent's new responsibilities, in order:
 1. **Read existing state.** List `dashboard/stories/` to avoid ID collisions. Read yesterday's `dashboard/days/<yesterday>.json` to know what was relevant yesterday.
 2. **For each NEW story discovered today:** write `dashboard/stories/<new-id>.json` with `posted_date: <today>`, `last_updated: <today>`, full content.
 3. **For each EXISTING story with new developments:** edit `dashboard/stories/<id>.json` in place — update paragraphs, add sources, refresh `last_updated`. **Do NOT change `posted_date`.**
-4. **Write `dashboard/days/<today>.json`** — top_story_id, sections + ordering, ongoing_story_ids, watch_list, live_sources.
+4. **Write `dashboard/days/<today>.json`** — `top_story_id`, `sections` organized by recency (untitled top-story section, then `"New stories"`, `"Updates this brief"`, `"Ongoing"` — see Day-file rules above), `ongoing_story_ids` exactly mirroring the Ongoing section's story_ids, `watch_list`, `live_sources`.
 5. **Run `python3 dashboard/scripts/render_brief.py <today>`** → writes `dashboard/archive/<today>_toledo_development_brief.md`.
 6. **Run `dashboard/deploy.sh`** (unchanged) — stages `dashboard/`, commits, pushes.
 
