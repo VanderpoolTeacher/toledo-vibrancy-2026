@@ -545,7 +545,10 @@ function renderDashboard(day, stories, storyResults) {
     }
   }
 
-  // Task 8 fills in past-briefs / watch-list / live-sources
+  renderPastBriefs(day.date);
+  renderWatchList(day.watch_list || []);
+  renderLiveSources(day.live_sources || []);
+
   // Task 10 fills in init pipeline (follows / filter / story-maps)
 }
 
@@ -651,6 +654,59 @@ function renderErrorCard(sid) {
   card.dataset.storyId = sid;
   card.innerHTML = `<h3 style="color:#8c1a1a;">Story unavailable: <code>${sid}</code></h3><p>Could not load <code>stories/${sid}.json</code>. The brief may reference a story that hasn't been published yet.</p>`;
   return card;
+}
+
+function renderPastBriefs(currentDateIso) {
+  pastBriefsEl.innerHTML = '';
+  const label = document.createElement('span');
+  label.className = 'past-briefs-label';
+  label.textContent = 'Past briefs:';
+  pastBriefsEl.appendChild(label);
+
+  // Pills for the previous 3 days. Each links to ?date=<iso>; the dashboard
+  // gracefully shows a "no brief" message if the day-file doesn't exist.
+  const [y, m, d] = currentDateIso.split('-').map(n => parseInt(n, 10));
+  const seed = new Date(Date.UTC(y, m - 1, d));
+  for (let i = 1; i <= 3; i++) {
+    const dt = new Date(seed);
+    dt.setUTCDate(seed.getUTCDate() - i);
+    const iso = dt.toISOString().slice(0, 10);
+    const pill = document.createElement('a');
+    pill.className = 'brief-pill';
+    pill.href = `?date=${iso}`;
+    pill.textContent = dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+    pastBriefsEl.appendChild(pill);
+  }
+  const allLink = document.createElement('a');
+  allLink.className = 'brief-pill all-archive';
+  allLink.href = 'archive/';
+  allLink.textContent = 'All →';
+  pastBriefsEl.appendChild(allLink);
+}
+
+function renderWatchList(items) {
+  if (!items.length) { watchListWrap.style.display = 'none'; return; }
+  watchListWrap.style.display = '';
+  watchListItems.innerHTML = '';
+  for (const item of items) {
+    const li = document.createElement('li');
+    li.innerHTML = item;  // items may contain inline <strong>/<em>
+    watchListItems.appendChild(li);
+  }
+}
+
+function renderLiveSources(sources) {
+  if (!sources.length) { liveSourcesWrap.style.display = 'none'; return; }
+  liveSourcesWrap.style.display = '';
+  liveSourcesGrid.innerHTML = '';
+  for (const s of sources) {
+    const a = document.createElement('a');
+    a.href = s.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = s.title;
+    liveSourcesGrid.appendChild(a);
+  }
 }
 
 function tagLabel(t) {
