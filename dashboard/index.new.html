@@ -516,6 +516,10 @@ async function loadDashboard(date) {
   // 4. Render — Task 7 fills this in
   renderDashboard(day, stories, storyResults);
 
+  // Show a graceful message if a day-file is structurally empty.
+  if (!day.sections || day.sections.length === 0) {
+    storiesEl.innerHTML = `<p class="banner" style="text-align:center;">Brief for ${date} is empty — no sections.</p>`;
+  }
   loadingBanner.style.display = 'none';
 }
 
