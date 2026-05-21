@@ -33,10 +33,10 @@
   "locations": [
     {
       "shape": "point",
-      "label": "Ostrich Towne (Vistula)",
+      "label": "Ostrich Towne — 915 N Summit St",
       "match": "Ostrich Towne",
-      "lat": 41.6509,
-      "lon": -83.5367
+      "lat": 41.6566,
+      "lon": -83.5269
     }
   ],
   "external_map_link": null,

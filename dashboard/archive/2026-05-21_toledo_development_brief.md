@@ -33,11 +33,25 @@ The Blade reported (May 16) that Alissa Vieira's artisanal ice cream business, S
 
 ### Huron Yards phase two nearing completion
 
-Crane Development's Huron Yards is on track to wrap phase two in 2026. The former Alleyway building at 28 N. Erie St. is being renovated into a new restaurant called The Station , and a grocery store is taking the ground floor of the old Okun Produce building. Resident parking and the upcoming beer garden's site work are finished.
+Crane Development's Huron Yards is wrapping phase two in 2026 with three additions at 28 N. Erie St.: The Station, a sports bar and restaurant in the former Alleyway building; a first-floor grocery store in the renovated Okun Produce building; and HQ, a flexible shared-office environment on the upper floors of 28 Erie with private offices, dedicated desks, and collaborative workspace — coming late 2026. Resident parking and beer garden site work are already complete.
 
-**Why it matters:** A grocery store in the Warehouse District is the missing-amenity piece that turns downtown-adjacent districts from "lively at night" into "lively all day." Strengthens the case for the next residential phase.
+Phase one's ribbon cutting, attended by Mayor Wade Kapszukiewicz, took place August 25, 2025, marking the opening of The Produce Lofts. Phase two adds the amenity stack that developers argue converts a ballgame-night district into a daily-use one.
 
-**Sources:** [Toledo City Paper](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
+**Why it matters:** The HQ co-working layer is the least-discussed piece of Huron Yards and arguably the most important for daytime activation. If it fills, it seeds foot traffic for The Station's lunch-and-weekday revenue base and validates the grocery store's daily-shopper thesis. Watch HQ occupancy in Q4 2026 as the leading indicator for whether Crane pursues a phase three residential or office building.
+
+**Sources:** [Toledo City Paper — Huron Yards and the two-person team](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/) · [Crane Development — Huron Yards](https://www.cranedevelopment.com/huronyards) · [The Blade — Live, work, play, and stay: Toledo developers unveil Huron Yards (Aug 25, 2025)](https://www.toledoblade.com/business/development/2025/08/25/live-work-play-and-stay-toledo-developers-unveil-huron-yards/stories/20250822124)
+
+
+### Foundation Steel moves HQ from Swanton to Warehouse District, bringing 40 jobs downtown
+_Source: 2025-06-10_
+
+Foundation Steel LLC is relocating its headquarters from Swanton to the historic Ohio Plate Glass building at 303 Morris St. in Toledo's Warehouse District, partnering with Mosser Construction in a joint $7.5 million renovation of the 47,000-square-foot, 115-year-old structure. The two companies will operate separately but share the renovated space. Foundation Steel executive vice president Danny Dymarkowski said the renovation is expected to complete within 12 to 18 months of the June 2025 announcement — putting occupancy in late 2026 or early 2027.
+
+The move brings 40 Foundation Steel employees to downtown Toledo, generating approximately $3.3 million in annual payroll. Owner Charlotte Dymarkowski said the company had originally planned to remain in Swanton but called 303 Morris 'the right place to be,' noting the building's river views and the opportunity to reinvest in the city. Mayor Kapszukiewicz cited Foundation Steel's expansion in his April 2026 State of the City address as one of several major investments building Toledo's job base.
+
+**Why it matters:** Foundation Steel (annual revenue $60–65M, AISC-certified) is not a glamour tenant, but it is exactly the kind of high-wage, skilled-trades employer that anchors a district's daytime economy. Forty employees at 303 Morris adds a new anchor to the Warehouse District's northern edge, distinct from the Huron Yards/Erie Street cluster. Watch whether the renovation timeline holds — occupancy by end of 2026 would give the Warehouse District two major office additions (HQ at 28 Erie and 303 Morris) in the same quarter.
+
+**Sources:** [Signature Associates — Historic Ohio Plate Glass building sees new life (June 10, 2025)](https://www.signatureassociates.com/historic-ohio-plate-glass-building-sees-new-life-as-construction-companies-share-space/) · [The Blade — Ohio Plate Glass building, new life for construction companies (June 10, 2025)](https://www.toledoblade.com/business/development/2025/06/10/ohio-plate-glass-building-new-life-construction-companies-share-space-historic/stories/20250609078) · [WTOL — Two construction companies partnering, moving to downtown Toledo office](https://www.wtol.com/video/news/local/two-conscruction-companies-partnering-moving-to-downtown-toledo-office/512-7625d9ce-9be6-41ec-bfc1-6273892d3e89)
 
 
 ### Port of Toledo pursues new warehouse and liquid bulk terminal
@@ -265,39 +279,42 @@ WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the 
 
 ## Sources
 
-- [The Blade](https://www.toledoblade.com/a-e/food/2026/05/16/new-location-same-charm-swanky-scoops-open-shop-warehouse-district/stories/20260517009)
-- [Swanky Scoops](https://www.swankyscoops419.com/)
-- [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
-- [The Blade — new filings](https://www.toledoblade.com/sports/mud-hens/2026/04/14/new-filings-show-what-toledo-s-soccer-stadium-ballpark-upgrades/stories/20260414109)
-- [WTOL](https://www.wtol.com/article/sports/local-sports/proposals-for-pro-soccer-stadium-in-toledo-fifth-third-field-renovation/512-92e453a6-70d6-4864-9ffb-1c3e5a650b95)
-- [The Blade — original report](https://www.toledoblade.com/sports/mud-hens/2026/03/04/briggs-toledo-group-planning-83-million-7-500-seat-riverfront-soccer-stadium/stories/20260304112)
-- [WTOL](https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b)
-- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
-- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
-- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
-- [Toledo City Paper](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
-- [The Blade — Acquisition of Toledo Molding & Die](https://www.toledoblade.com/business/automotive/2026/05/15/acquisition-molding-die-save-600-jobs/stories/20260515090)
-- [13abc — JVIS buys TMD operations](https://www.13abc.com/2026/05/15/toledo-molding-die-operations-tiffin-bowling-green-purchased-by-jvis/)
-- [WTOL — Michigan-based company acquires Toledo Molding & Die](https://www.wtol.com/article/money/business/michigan-based-manufacturing-company-acquires-toledo-molding-die/512-a46192b7-06bb-4514-9a3c-0736804d84ad)
-- [JVIS press release](https://jvis.us/2026/05/15/jvis-acquires-tmd-to-expanding-range-capacity-and-molding-capabilities/)
-- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
-- [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2)
-- [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117)
-- [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
-- [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c)
-- [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/)
-- [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)
-- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
-- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
+- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
+- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
 - [Nordstrom press release](https://press.nordstrom.com/news-releases/news-release-details/nordstrom-rack-open-new-location-toledo-ohio)
 - [WTOL — $75M Westgate Village North plan](https://www.wtol.com/article/news/local/75-million-westgate-village-north-plan-up-for-review/512-3f461339-9898-489a-ae84-4cbac055d0be)
 - [The Blade — Secor Road retail project approved](https://www.toledoblade.com/local/city/2026/02/12/secor-road-retail-project-approved-plan-commission/stories/20260212131)
 - [PR Newswire — Nordstrom Rack Toledo announcement](https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html)
-- [City of Toledo — RAISE](https://toledo.oh.gov/raise)
-- [Toledo City Paper](https://toledocitypaper.com/news/toledo-to-embark-on-redevelopment-project-in-uptown/)
+- [WTOL](https://www.wtol.com/article/money/economy/toledo-sees-strong-start-to-2026-with-small-business-growth/512-5ee14fb7-5888-4499-ad1b-6adbbdd94c6b)
+- [The Blade](https://www.toledoblade.com/a-e/food/2026/05/16/new-location-same-charm-swanky-scoops-open-shop-warehouse-district/stories/20260517009)
+- [Swanky Scoops](https://www.swankyscoops419.com/)
+- [The Blade](https://www.toledoblade.com/local/city/2026/04/22/design-of-the-future-vistula-metropark-begins-park-district-honors-2-people/stories/20260422095)
+- [13abc](https://www.13abc.com/2026/03/05/public-green-space-impacting-private-investment-vistula-neighborhood/)
+- [UToledo News — Institute launch](https://news.utoledo.edu/index.php/03_04_2026/university-of-toledo-launches-cancer-research-institute-2)
+- [The Blade — UToledo launches cancer research institute](https://www.toledoblade.com/local/education/2026/03/03/university-launches-cancer-research-institute/stories/20260303117)
+- [WTOL — UToledo announces NW Ohio Cancer Research Institute](https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512)
 - [City of Toledo press release](https://toledo.oh.gov/news/2026/05/19/city-of-toledo-awarded-571-342-grant-from-ohio-brownfield-remediation-program)
 - [13abc](https://www.13abc.com/2026/05/19/city-toledo-awarded-grant-demolish-former-health-district-building/)
 - [WTOL — statewide brownfield round](https://www.wtol.com/article/tech/science/environment/state-awards-61m-for-brownfield-remediation-in-75-counties-here-are-the-projects-receiving-grants-in-northwest-ohio/512-36f54f6e-7273-4a2c-abff-abe2c2c7e13f)
+- [The Blade — new filings](https://www.toledoblade.com/sports/mud-hens/2026/04/14/new-filings-show-what-toledo-s-soccer-stadium-ballpark-upgrades/stories/20260414109)
+- [WTOL](https://www.wtol.com/article/sports/local-sports/proposals-for-pro-soccer-stadium-in-toledo-fifth-third-field-renovation/512-92e453a6-70d6-4864-9ffb-1c3e5a650b95)
+- [The Blade — original report](https://www.toledoblade.com/sports/mud-hens/2026/03/04/briggs-toledo-group-planning-83-million-7-500-seat-riverfront-soccer-stadium/stories/20260304112)
+- [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/)
+- [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6)
+- [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
+- [The Blade — Acquisition of Toledo Molding & Die](https://www.toledoblade.com/business/automotive/2026/05/15/acquisition-molding-die-save-600-jobs/stories/20260515090)
+- [13abc — JVIS buys TMD operations](https://www.13abc.com/2026/05/15/toledo-molding-die-operations-tiffin-bowling-green-purchased-by-jvis/)
+- [WTOL — Michigan-based company acquires Toledo Molding & Die](https://www.wtol.com/article/money/business/michigan-based-manufacturing-company-acquires-toledo-molding-die/512-a46192b7-06bb-4514-9a3c-0736804d84ad)
+- [JVIS press release](https://jvis.us/2026/05/15/jvis-acquires-tmd-to-expanding-range-capacity-and-molding-capabilities/)
+- [Toledo City Paper — Huron Yards and the two-person team](https://toledocitypaper.com/the-city/huron-yards-and-the-two-person-team/)
+- [Crane Development — Huron Yards](https://www.cranedevelopment.com/huronyards)
+- [The Blade — Live, work, play, and stay: Toledo developers unveil Huron Yards (Aug 25, 2025)](https://www.toledoblade.com/business/development/2025/08/25/live-work-play-and-stay-toledo-developers-unveil-huron-yards/stories/20250822124)
+- [WTOL — Riverside BBQ grand opening](https://www.wtol.com/article/life/food/riverside-barbeque-company-opening-date-july-4-ostrich-towne-north-toledo/512-ff3ad4fe-3b93-495e-9ce2-10bd236e7b9d)
+- [WTOL — Ostrich Towne growth](https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6)
+- [Ostrich Towne directory](https://ostrichtowne.com/directory/)
+- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
+- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
+- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
 - [City announcement](https://toledo.oh.gov/news/2026/05/15/mayor-kapszukiewicz-announces-19-vibrancy-initiative-grant-awards-expected-to-spur-13-5-million-in-investment-across-10-neighborhoods)
 - [Vibrancy Initiative hub](https://toledo.oh.gov/business/vibrancy)
 - [13abc](https://www.13abc.com/2026/04/01/toledos-vibrancy-initiative-making-600000-available-local-businesses-revitalize-community/)
@@ -305,12 +322,14 @@ WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the 
 - [The Blade](https://www.toledoblade.com/local/city/2026/04/07/toledo-seeks-extension-tax-agreement-with-owens-corning/stories/20260407124)
 - [13abc — Riverwalk inclusion](https://www.13abc.com/2026/04/08/owens-corning-seeking-extension-property-tax-exemption-inclusion-metropark-riverwalk/)
 - [WTOL — original](https://www.wtol.com/article/life/owens-corning-commits-to-stay-in-downtown-toledo-with-250-million-investment/512-5d074143-ac26-41c9-81d4-a68b80fcbfa9)
-- [Toledo City Paper](https://toledocitypaper.com/tcp-art-culture/metroparks-toledo-is-opening-a-new-urban-campground-in-2026/)
-- [Woodall's Campground Magazine](https://woodallscm.com/metroparks-toledo-plans-to-open-new-campground-in-2026/)
-- [NBC24](https://nbc24.com/news/local/metroparks-to-develop-campground-on-east-toledo-riverfront)
-- [13abc — Hotel Lorraine faces foreclosure](https://www.13abc.com/2026/05/19/century-old-lorraine-hotel-faces-foreclosure-over-unpaid-taxes-safety-concerns/)
-- [WTOL — Foreclosure action filed](https://www.wtol.com/article/news/local/foreclosure-action-filed-against-llc-that-owns-hotel-lorraine-property-toledo/512-c0cba540-4e1a-43d5-991b-c96433045bc6)
-- [WTOL — Jefferson Street closed](https://www.wtol.com/article/news/local/hotel-lorraine-vacant-structural-integrity-bricks-bowing-facade-falling-brick/512-fe42514f-81f6-4b7e-9b2f-2c6aaac74591)
+- [Signature Associates — Historic Ohio Plate Glass building sees new life (June 10, 2025)](https://www.signatureassociates.com/historic-ohio-plate-glass-building-sees-new-life-as-construction-companies-share-space/)
+- [The Blade — Ohio Plate Glass building, new life for construction companies (June 10, 2025)](https://www.toledoblade.com/business/development/2025/06/10/ohio-plate-glass-building-new-life-construction-companies-share-space-historic/stories/20250609078)
+- [WTOL — Two construction companies partnering, moving to downtown Toledo office](https://www.wtol.com/video/news/local/two-conscruction-companies-partnering-moving-to-downtown-toledo-office/512-7625d9ce-9be6-41ec-bfc1-6273892d3e89)
 - [The Blade](https://www.toledoblade.com/local/community-events/2026/03/25/festival-to-celebrate-halfway-point-of-glass-city-riverwalk/stories/20260325087)
 - [WTOL](https://www.wtol.com/article/entertainment/events/metroparks-toledo-announces-watershed-weekend-in-celebration-of-downtown-riverwalk-this-june/512-17906811-719f-4196-8486-ec58efce033b)
 - [Watershed Weekend — Metroparks](https://metroparkstoledo.com/learn-and-play/watershed-weekend/)
+- [WTOL](https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5)
+- [The Blade](https://www.toledoblade.com/local/transportation/2026/04/13/port-seeks-boost-new-warehouse-liquid-terminal/stories/20260408104)
+- [WTOL — Lucas County launches LCReady](https://www.wtol.com/article/news/local/lucas-county-launches-program-to-speed-up-development-sites/512-67ec7a3c-102a-4ab5-b65e-b545d87a734c)
+- [13abc — Lucas County starts program](https://www.13abc.com/2026/04/01/lucas-county-starts-program-ease-process-businesses-begin-or-expand/)
+- [The Blade — County launches site-certification program](https://www.toledoblade.com/business/development/2026/04/01/county-launches-site-certification-program-begins-work-on-permit-portal/stories/20260401119)

@@ -1,0 +1,56 @@
+{
+  "id": "foundation-steel-hq-move",
+  "headline": "Foundation Steel moves HQ from Swanton to Warehouse District, bringing 40 jobs downtown",
+  "section": "Warehouse District",
+  "tags": [
+    "warehouse",
+    "downtown",
+    "citywide"
+  ],
+  "posted_date": "2026-05-21",
+  "source_date": "2025-06-10",
+  "last_updated": "2026-05-21",
+  "paragraphs": [
+    "Foundation Steel LLC is relocating its headquarters from Swanton to the historic Ohio Plate Glass building at 303 Morris St. in Toledo's Warehouse District, partnering with Mosser Construction in a joint $7.5 million renovation of the 47,000-square-foot, 115-year-old structure. The two companies will operate separately but share the renovated space. Foundation Steel executive vice president Danny Dymarkowski said the renovation is expected to complete within 12 to 18 months of the June 2025 announcement — putting occupancy in late 2026 or early 2027.",
+    "The move brings 40 Foundation Steel employees to downtown Toledo, generating approximately $3.3 million in annual payroll. Owner Charlotte Dymarkowski said the company had originally planned to remain in Swanton but called 303 Morris 'the right place to be,' noting the building's river views and the opportunity to reinvest in the city. Mayor Kapszukiewicz cited Foundation Steel's expansion in his April 2026 State of the City address as one of several major investments building Toledo's job base."
+  ],
+  "why_it_matters": "Foundation Steel (annual revenue $60–65M, AISC-certified) is not a glamour tenant, but it is exactly the kind of high-wage, skilled-trades employer that anchors a district's daytime economy. Forty employees at 303 Morris adds a new anchor to the Warehouse District's northern edge, distinct from the Huron Yards/Erie Street cluster. Watch whether the renovation timeline holds — occupancy by end of 2026 would give the Warehouse District two major office additions (HQ at 28 Erie and 303 Morris) in the same quarter.",
+  "people": [
+    {
+      "name": "Charlotte Dymarkowski",
+      "role": "Owner and President/CEO, Foundation Steel LLC",
+      "search_terms": "Charlotte Dymarkowski Foundation Steel Toledo"
+    },
+    {
+      "name": "Danny Dymarkowski",
+      "role": "Executive Vice President, Foundation Steel LLC",
+      "search_terms": "Danny Dymarkowski Foundation Steel Toledo"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Signature Associates — Historic Ohio Plate Glass building sees new life (June 10, 2025)",
+      "url": "https://www.signatureassociates.com/historic-ohio-plate-glass-building-sees-new-life-as-construction-companies-share-space/"
+    },
+    {
+      "title": "The Blade — Ohio Plate Glass building, new life for construction companies (June 10, 2025)",
+      "url": "https://www.toledoblade.com/business/development/2025/06/10/ohio-plate-glass-building-new-life-construction-companies-share-space-historic/stories/20250609078"
+    },
+    {
+      "title": "WTOL — Two construction companies partnering, moving to downtown Toledo office",
+      "url": "https://www.wtol.com/video/news/local/two-conscruction-companies-partnering-moving-to-downtown-toledo-office/512-7625d9ce-9be6-41ec-bfc1-6273892d3e89"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Foundation Steel / Ohio Plate Glass — 303 Morris St",
+      "match": "303 Morris",
+      "lat": 41.6412,
+      "lon": -83.5389
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["huron-yards-phase-two"],
+  "search_terms": "Foundation Steel Toledo Warehouse District 303 Morris Ohio Plate Glass Mosser Construction Charlotte Dymarkowski Danny Dymarkowski"
+}

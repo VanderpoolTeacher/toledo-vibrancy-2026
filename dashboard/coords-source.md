@@ -10,12 +10,15 @@ huron-yards-phase-two | 28 N. Erie St | 41.6492 | -83.5407 | Nominatim: "28, Nor
 port-warehouse-liquid-terminal | Toledo-Lucas County Port Authority HQ (One Maritime Plaza) | 41.6538 | -83.5283 | Nominatim: "One Maritime Plaza, Glass City Riverwalk, Vistula Historic District, Toledo" — adjusted lat from 41.6526, lon from -83.5305 (~220 m correction)
 
 ostrich-towne-tenants | Ostrich Towne (219 N. Superior St, Vistula warehouse district) | 41.6509 | -83.5367 | Nominatim: "219, North Superior Street, Saint Clair Street Historic District, Toledo" — major correction from best-effort 41.6610/-83.5380 (~1100 m); original centroid was for the broader Vistula neighbourhood, not the building
+ostrich-towne-tenants | AUDIT 2026-05-21: corrected to 915 N Summit St per story prose (Riverside BBQ address). Old coords 41.6509/-83.5367 were ~750 m west of actual building. New coords 41.6566/-83.5269 from Nominatim: "915, North Summit Street, Vistula Historic District, Toledo" (OSM way 173954609). Label updated to "Ostrich Towne — 915 N Summit St".
 
 soccer-stadium-vistula | Proposed Vistula riverfront stadium site (across from Glass City Metropark) | 41.6539 | -83.5215 | no Nominatim hit for proposed site — kept best-effort; label notes "proposed"
 
 owens-corning-250m | Owens Corning World HQ (1 Owens Corning Pkwy) | 41.6476 | -83.5350 | Nominatim: "1, Owens Corning Parkway, Saint Clair Street Historic District, Toledo" — adjusted lat from 41.6438, lon from -83.5375 (~450 m correction)
 
 mind-and-soul-gallery | Gardner Building (506 Madison Ave) | 41.6520 | -83.5359 | Nominatim: "506, Madison Avenue, Downtown, Toledo" — adjusted lon from -83.5377 (~160 m correction)
+
+foundation-steel-hq-move | Foundation Steel / Ohio Plate Glass — 303 Morris St | 41.6412 | -83.5389 | Nominatim: "303, Morris Street, Middle Grounds, Toledo" (OSM way 8785428) — 2026-05-21
 
 ## ConnecToledo music series — 4 parks
 

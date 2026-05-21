@@ -16,6 +16,7 @@
       "story_ids": [
         "swanky-scoops",
         "huron-yards-phase-two",
+        "foundation-steel-hq-move",
         "port-warehouse-liquid-terminal"
       ]
     },
@@ -60,7 +61,6 @@
   ],
   "ongoing_story_ids": [
     "swanky-scoops",
-    "huron-yards-phase-two",
     "port-warehouse-liquid-terminal",
     "vistula-metropark",
     "soccer-stadium-vistula",
