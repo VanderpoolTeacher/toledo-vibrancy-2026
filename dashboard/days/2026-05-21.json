@@ -12,55 +12,45 @@
       ]
     },
     {
-      "title": "Warehouse District",
-      "story_ids": [
-        "swanky-scoops",
-        "huron-yards-phase-two",
-        "foundation-steel-hq-move",
-        "port-warehouse-liquid-terminal"
-      ]
-    },
-    {
-      "title": "Vistula District / Ostrich Towne",
-      "story_ids": [
-        "ostrich-towne-tenants",
-        "vistula-metropark",
-        "soccer-stadium-vistula"
-      ]
-    },
-    {
-      "title": "Uptown / Junction",
-      "story_ids": [
-        "innovation-post-tenants",
-        "raise-uptown-junction"
-      ]
-    },
-    {
-      "title": "Downtown",
+      "title": "New stories",
       "story_ids": [
         "hotel-lorraine-foreclosure",
-        "watershed-weekend-riverwalk",
+        "nordstrom-rack-westgate-village",
+        "jvis-toledo-molding-die",
+        "foundation-steel-hq-move",
         "brownfield-health-district",
-        "glass-city-urban-campground",
-        "connectoledo-music-grant",
-        "mind-and-soul-gallery"
+        "lcready-site-certification",
+        "rgp-2026-annual-meeting-data-centers",
+        "tcic-board-sehlhorst-shovel-ready",
+        "lake-erie-west-regional-council-sarantou",
+        "land-bank-mann-1b-milestone-ose",
+        "evis-america-2026-monske-rgp",
+        "utoledo-cancer-research-institute"
       ]
     },
     {
-      "title": "Citywide",
+      "title": "Updates this brief",
       "story_ids": [
-        "nordstrom-rack-westgate-village",
-        "jvis-toledo-molding-die",
-        "lcready-site-certification",
-        "utoledo-cancer-research-institute",
+        "ostrich-towne-tenants",
+        "huron-yards-phase-two"
+      ]
+    },
+    {
+      "title": "Ongoing",
+      "story_ids": [
+        "watershed-weekend-riverwalk",
+        "swanky-scoops",
+        "port-warehouse-liquid-terminal",
+        "vistula-metropark",
+        "soccer-stadium-vistula",
+        "innovation-post-tenants",
+        "raise-uptown-junction",
+        "glass-city-urban-campground",
+        "connectoledo-music-grant",
+        "mind-and-soul-gallery",
         "vibrancy-19-grants",
         "small-business-app-growth",
-        "promedica-medical-mutual",
-        "rgp-2026-annual-meeting-data-centers",
-        "lake-erie-west-regional-council-sarantou",
-        "land-bank-mann-1b-milestone-ose",
-        "tcic-board-sehlhorst-shovel-ready",
-        "evis-america-2026-monske-rgp"
+        "promedica-medical-mutual"
       ]
     }
   ],
