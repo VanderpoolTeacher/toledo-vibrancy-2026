@@ -1015,6 +1015,25 @@ h1 { font-size: 24px; margin: 0 0 4px; color: #1a4d8c; letter-spacing: -0.01em; 
     });
   }
 
+  function renderNewUpdateBadge() {
+    document.querySelectorAll('.story-item').forEach(card => {
+      const id = card.dataset.storyId;
+      if (!id) return;
+      const old = card.querySelector(':scope .story-new-badge');
+      if (old) old.remove();
+      const chain = getChainFor(id);
+      if (!card.classList.contains('is-followed')) return;
+      if (!chain.isFreshChapter) return;
+      const headline = card.querySelector('.story-header h3, .top-story h2');
+      if (!headline) return;
+      const badge = document.createElement('span');
+      badge.className = 'story-new-badge';
+      badge.setAttribute('aria-label', 'new update available in this brief');
+      badge.textContent = 'New Update';
+      headline.appendChild(badge);
+    });
+  }
+
   function renderPersonChips() {
     const follows = loadFollows();
     document.querySelectorAll('.story-item').forEach(card => {
