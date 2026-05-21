@@ -566,6 +566,7 @@ function renderDashboard(day, stories, storyResults) {
       const card = renderStoryCard(story, {
         isTop: sid === topId,
         isOngoing: ongoingSet.has(sid),
+        briefDate: day.date,
       });
       storiesEl.appendChild(card);
     }
@@ -587,7 +588,7 @@ function renderDashboard(day, stories, storyResults) {
   });
 }
 
-function renderStoryCard(story, { isTop, isOngoing }) {
+function renderStoryCard(story, { isTop, isOngoing, briefDate }) {
   const card = document.createElement('div');
   const classes = ['story-item'];
   if (isTop) classes.push('top-story');
@@ -613,7 +614,7 @@ function renderStoryCard(story, { isTop, isOngoing }) {
   if (isTop) {
     const label = document.createElement('span');
     label.className = 'top-story-label';
-    label.textContent = `Top Story · ${formatDateLong(story.posted_date)}`;
+    label.textContent = `Top Story · ${formatDateLong(briefDate || story.posted_date)}`;
     card.appendChild(label);
     const h = document.createElement('h2');
     h.textContent = story.headline;
