@@ -1,0 +1,155 @@
+{
+  "date": "2026-05-22",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+  "top_story_id": "blade-superior-street-hq",
+  "sections": [
+    {
+      "title": "",
+      "story_ids": [
+        "blade-superior-street-hq"
+      ]
+    },
+    {
+      "title": "New stories",
+      "story_ids": [
+        "toledo-vehicle-registration-fee",
+        "inverness-village-duplexes-dorr-street"
+      ]
+    },
+    {
+      "title": "Ongoing",
+      "story_ids": [
+        "hotel-lorraine-foreclosure",
+        "brownfield-health-district",
+        "nordstrom-rack-westgate-village",
+        "jvis-toledo-molding-die",
+        "owens-corning-250m",
+        "ostrich-towne-tenants",
+        "huron-yards-phase-two",
+        "tcic-board-sehlhorst-shovel-ready",
+        "lake-erie-west-regional-council-sarantou",
+        "land-bank-mann-1b-milestone-ose",
+        "utoledo-cancer-research-institute",
+        "evis-america-2026-monske-rgp",
+        "rgp-2026-annual-meeting-data-centers",
+        "lcready-site-certification",
+        "foundation-steel-hq-move",
+        "watershed-weekend-riverwalk",
+        "soccer-stadium-vistula",
+        "vistula-metropark",
+        "raise-uptown-junction",
+        "innovation-post-tenants",
+        "port-warehouse-liquid-terminal",
+        "connectoledo-music-grant",
+        "glass-city-urban-campground",
+        "mind-and-soul-gallery",
+        "vibrancy-19-grants",
+        "small-business-app-growth",
+        "promedica-medical-mutual",
+        "swanky-scoops"
+      ]
+    }
+  ],
+  "ongoing_story_ids": [
+    "hotel-lorraine-foreclosure",
+    "brownfield-health-district",
+    "nordstrom-rack-westgate-village",
+    "jvis-toledo-molding-die",
+    "owens-corning-250m",
+    "ostrich-towne-tenants",
+    "huron-yards-phase-two",
+    "tcic-board-sehlhorst-shovel-ready",
+    "lake-erie-west-regional-council-sarantou",
+    "land-bank-mann-1b-milestone-ose",
+    "utoledo-cancer-research-institute",
+    "evis-america-2026-monske-rgp",
+    "rgp-2026-annual-meeting-data-centers",
+    "lcready-site-certification",
+    "foundation-steel-hq-move",
+    "watershed-weekend-riverwalk",
+    "soccer-stadium-vistula",
+    "vistula-metropark",
+    "raise-uptown-junction",
+    "innovation-post-tenants",
+    "port-warehouse-liquid-terminal",
+    "connectoledo-music-grant",
+    "glass-city-urban-campground",
+    "mind-and-soul-gallery",
+    "vibrancy-19-grants",
+    "small-business-app-growth",
+    "promedica-medical-mutual",
+    "swanky-scoops"
+  ],
+  "watch_list": [
+    "Toledo City Council vote on the $5 vehicle registration fee — procedural deadline May 26 to start the new rate for the 2027 registration year. A 'no' vote forces 2027 SCMR-fund cuts and weakens the site-readiness narrative.",
+    "The Blade Superior Street property disposition. Block Communications has not announced a timeline, destination, or property plan. Watch for a public listing, a TCIC engagement, or a mothballed-property scenario — that will set the comparable for adjacent owners.",
+    "Watershed Weekend June 11–14 — 20 days out. Programming is largely set; watch for business-district tie-ins from Vistula, Warehouse District, and East Toledo operators who want the halfway-point visibility moment.",
+    "Vibrancy 19 property list — still not published in full. Cluster patterns by Legacy Commercial Corridor are the signal. Any Vistula awards would accelerate Ostrich Towne's next leasing wave.",
+    "State $1B sports facility fund award timing. When Ohio names recipients, Summit Street Sports' $83.6M stadium either moves to budgeted or gets re-cut.",
+    "CuriosiTEA Emporium opening date at Ostrich Towne. With Riverside BBQ confirmed open, CuriosiTEA is now the make-or-break fourth tenant for the district's summer thesis.",
+    "Former Health District building disposition. $571K in demo funding is confirmed — watch for an RFP or TCIC Shovel Ready Sites designation on the cleared 1.8-acre downtown parcel.",
+    "Hotel Lorraine 72-hour facade deadline has lapsed (issued May 19). Watch for fines filed, an emergency demolition order, or movement on the sheriff's sale calendar.",
+    "Innovation Post lease specifics — square-foot allocations among Wurtec, WorkSpring, Junior Achievement of NW Ohio, and SEGULA, and day-one employee counts.",
+    "TCIC Shovel Ready Sites Fund — first site acquisition. 1400 N. Summit is the named target; watch for the RFP or board authorization on the actual land purchase and timeline.",
+    "Old South End housing pilot outcomes. The $1M initial tranche is live; watch for David Mann and the Land Bank to announce first RISE-designated properties entering the rehab pipeline.",
+    "Dorr Street duplex developer identity — the 32-lot Inverness Village applicant wasn't named at Plan Commission. Their track record will signal whether this is a one-off or a duplex-build cycle leading edge.",
+    "EVIS America 2026 (Nov 3–5, Glass City Center) — speaker announcements and exhibitor/sponsor list will signal which OEMs and mobility investors are being drawn into Toledo's orbit ahead of the summit.",
+    "RGP data-center pipeline — Gary Thompson has been working this sector for four years. Any hyperscale site announcement in the 17-county footprint would be the biggest RGP win since Meta."
+  ],
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "Watershed Weekend — Metroparks",
+      "url": "https://metroparkstoledo.com/learn-and-play/watershed-weekend/"
+    }
+  ]
+}

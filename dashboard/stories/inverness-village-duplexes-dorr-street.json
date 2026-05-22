@@ -1,0 +1,39 @@
+{
+  "id": "inverness-village-duplexes-dorr-street",
+  "headline": "Plan Commission approves 32-lot duplex subdivision on Dorr Street — 64 housing units cleared for site-plan review in Inverness Village",
+  "section": "",
+  "tags": [
+    "southwest",
+    "housing"
+  ],
+  "posted_date": "2026-05-22",
+  "source_date": "2026-05-15",
+  "last_updated": "2026-05-22",
+  "paragraphs": [
+    "The Toledo City Plan Commission unanimously approved the preliminary layout for a 32-lot duplex subdivision on a vacant field along Dorr Street near Byrne Road, in the Inverness Village neighborhood. The plan calls for a U-shaped private road tying into Dorr at both ends, with on-site stormwater detention, sidewalks, underground utilities, and fire hydrants. The developer was not identified at the hearing. Detailed construction plans return to the commission for final review before any permits can issue.",
+    "At full buildout the project would add 64 housing units to a market segment Toledo has consistently undersupplied — duplex / small-multifamily product in established neighborhoods with intact street grids. Inverness Village sits along the Dorr/Byrne corridor, with proximity to Dorr Street's commercial spine and access to Anthony Wayne Trail for downtown commuting. Watch the pricing tier when units come back for site-plan review: market-rate duplex new construction at this scale would be a meaningful data point about Toledo's residential cost-floor and which household incomes can absorb new product without subsidy."
+  ],
+  "why_it_matters": "Housing supply is the constraint behind every employer-retention story the city tells, and behind Mayor Kapszukiewicz's 300,000-resident-by-2045 goal in the third-term strategic plan. 64 units in a single approval at Plan Commission is not a Vistula stadium, but it is exactly the kind of incremental supply that the population goal requires at scale. If this project closes and lays foundations on schedule, it sets a tempo other vacant-field sites in southwest Toledo can follow. The unidentified developer is the next data point to watch — that name and its track record will tell us whether this is a one-off or the leading edge of a duplex-build cycle.",
+  "people": [],
+  "sources": [
+    {
+      "title": "13abc — Plan Commission approves 32-lot duplex development on Dorr Street",
+      "url": "https://www.13abc.com/2026/05/15/toledo-plan-commission-approves-32-lot-duplex-development-dorr-street/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Dorr St near Byrne Rd — Inverness Village",
+      "match": "Dorr Street near Byrne Road",
+      "lat": 41.6529,
+      "lon": -83.6532
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "land-bank-mann-1b-milestone-ose",
+    "raise-uptown-junction"
+  ],
+  "search_terms": "Inverness Village Dorr Street Byrne duplex 32-lot subdivision plan commission housing supply southwest Toledo"
+}
