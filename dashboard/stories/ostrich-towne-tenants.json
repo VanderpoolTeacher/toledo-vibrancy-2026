@@ -1,6 +1,6 @@
 {
   "id": "ostrich-towne-tenants",
-  "headline": "Ostrich Towne: three tenants now open, CuriosiTEA the next opening to watch",
+  "headline": "Ostrich Towne setback: Avestruz closed in November, Italian concept pending — district enters summer on two confirmed anchors",
   "section": "Vistula District / Ostrich Towne",
   "tags": [
     "vistula"
@@ -9,12 +9,12 @@
   "source_date": "2026-05-18",
   "date_label": "Updated May 21, 2026",
   "date_age_class": "age-new",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-26",
   "paragraphs": [
-    "Ostrich Towne now has three operating tenants: Molly's Irish Pub, Avestruz Tapas & Tequila, and Riverside Barbeque Company, which held its grand opening in September 2025 at 915 N. Summit St. Riverside BBQ offers Texas-style smoked meats, a full bar, and live music in a converted beer distribution warehouse — a venue format well-suited to the district's industrial bones. CuriosiTEA Emporium remains the next expected opening, though no confirmed date has surfaced this window.",
-    "With three tenants open and Watershed Weekend foot traffic expected on the adjacent MLK Bridge in June, the district enters summer 2026 at a meaningfully different baseline than a year ago. The question for this season is whether the three-anchor cluster is enough to build dwell-time and return visits without a fourth or fifth tenant to extend the visit loop."
+    "Avestruz Tapas & Tequila — one of three restaurants previously cited as open at Ostrich Towne — closed unexpectedly in November 2025 after its management team resigned with minimal notice to investors, leaving employees without their final paychecks. Developer Joe Nachtrab stepped in to cover those wages. A sign on the door announced an Italian dining concept from Chef Paul Matthews — who also operates Riverside Barbeque Company — as the planned successor. That concept was targeted for early 2026 but had not confirmed an opening date as of late May.",
+    "With Avestruz gone, Ostrich Towne currently has two confirmed food-and-beverage anchors: Molly's Irish Pub and Riverside Barbeque Company. CuriosiTEA Emporium and the Italian concept remain the next expected openings, but neither has a confirmed date. The district enters the Watershed Weekend foot-traffic window (June 11–14) at a narrower tenant base than the spring framing suggested — and with a fourth tenant now overdue."
   ],
-  "why_it_matters": "The Ostrich Towne thesis has always been 'anchor tenants plus Riverwalk tailwind equals a destination district.' Riverside BBQ's survival through its first winter confirms the first leg of that thesis. The watch item has shifted: CuriosiTEA's opening date is now the leading indicator for whether the district can sustain enough variety to pull repeat visitors. Watch the Vibrancy 19 property list — if any of the 19 awards land inside Vistula, the leasing pitch to the next wave of tenants gets materially easier.",
+  "why_it_matters": "The Ostrich Towne thesis requires enough tenant variety to sustain dwell-time and return visits. Two anchors can hold weekend bar traffic, but it is a thinner summer case than the three-tenant baseline that had been tracked — and well short of the four-to-five-tenant mix needed to lock in daytime visits. The Italian concept, whenever it opens, is the pivotal signal: if Chef Paul Matthews delivers a second concept that works, Nachtrab has a development story that can absorb setbacks and rebuild. Watch for a confirmed opening date and for CuriosiTEA's status before Watershed Weekend.",
   "people": [],
   "sources": [
     {
@@ -24,6 +24,14 @@
     {
       "title": "WTOL — Ostrich Towne growth",
       "url": "https://www.wtol.com/article/money/business/small-business/vistula-district-ostrich-towne-growth-businesses-community-restaurants/512-dbe7ba1e-d81f-45e7-8d4c-99256a76d6c6"
+    },
+    {
+      "title": "WTOL — Avestruz closes unexpectedly, employees face pay delay",
+      "url": "https://www.wtol.com/article/news/local/ostrich-towne-restaurant-unexpectedly-closes-employees-delayed-pay/512-0006993c-f08c-4e5f-82cc-fea82254bdda"
+    },
+    {
+      "title": "The Blade — Ostrich Towne continues to draw interest despite difficulties (Dec. 2025)",
+      "url": "https://www.toledoblade.com/business/development/2025/12/05/ostrich-towne-continues-to-draw-interest-despite-difficulties/stories/20251201104"
     },
     {
       "title": "Ostrich Towne directory",
@@ -41,5 +49,5 @@
   ],
   "external_map_link": null,
   "related_story_ids": ["vistula-metropark", "soccer-stadium-vistula"],
-  "search_terms": "Ostrich Towne Vistula Toledo Riverside BBQ CuriosiTEA Molly's Avestruz tenants open"
+  "search_terms": "Ostrich Towne Vistula Toledo Riverside BBQ CuriosiTEA Molly's Avestruz closed Italian Chef Paul Matthews tenants"
 }
