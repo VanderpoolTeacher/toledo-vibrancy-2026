@@ -1,0 +1,43 @@
+{
+  "id": "swayne-field-englewood-renovation",
+  "headline": "Swayne Field Shopping Center renovation nearing completion in Englewood — $3.6M federal investment targets workforce training anchor and minority-owned businesses",
+  "section": "Englewood",
+  "tags": ["citywide"],
+  "posted_date": "2026-05-27",
+  "source_date": "2026-05-26",
+  "last_updated": "2026-05-27",
+  "paragraphs": [
+    "The Swayne Field Shopping Center in Toledo's Englewood neighborhood is nearing completion of a $3.6 million federally funded rehabilitation, The Blade reported May 26. The 92,000-square-foot, 7.4-acre facility is being redesigned from a car-centric strip center into a walkable plaza with green space, lighting, trees, landscaping including bioswales for stormwater management, and a complete facade update. A workforce training center is planned as the anchor tenant, alongside recruitment of small and minority-owned businesses.",
+    "The renovation is funded through $1.5 million in federal community project funds secured by U.S. Rep. Marcy Kaptur, a $1 million carryover in Community Development Block Grant funds, a $28,000 grant from the Toledo Community Foundation, and a Department of Energy Enhancement and Innovation Grant. A public arts commission call for integrated site artwork had a May 18, 2026 deadline, signaling the project is in its final pre-completion phase."
+  ],
+  "why_it_matters": "Commercial corridor rehabilitation in legacy neighborhoods like Englewood mirrors the same thesis driving Vibrancy grants elsewhere in Toledo — federal and municipal anchor investment unlocks private tenant recruitment and neighborhood confidence. The workforce training center anchor is the highest-leverage piece: it seeds daily foot traffic independent of retail sales cycles and binds the site to workforce-development partners across the city. If Swayne Field's tenant mix stabilizes around the training center plus minority-owned storefronts, it becomes a replicable model for Toledo's other aging shopping plazas along Detroit, Alexis, and Sylvania Avenues that haven't seen recapitalization in decades.",
+  "people": [
+    {
+      "name": "Marcy Kaptur",
+      "role": "U.S. Representative, 9th Congressional District of Ohio",
+      "search_terms": "Marcy Kaptur Toledo Ohio congressional community project funding Swayne Field Englewood"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Blade — Shopping center renovation anchors growth in Toledo's Englewood neighborhood",
+      "url": "https://www.toledoblade.com/local/city/2026/05/26/shopping-center-renovation-anchors-growth-toledos-englewood-neighborhood/stories/20260526083"
+    },
+    {
+      "title": "City of Toledo — Englewood Neighborhood Revitalization Strategy Area",
+      "url": "https://toledo.oh.gov/residents/neighborhoods/revitalization/neighborhood-revitalization-strategy-areas/englewood-neighborhood-revitalization-strategy-area"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Swayne Field Shopping Center — Detroit Ave & Monroe St, Englewood",
+      "match": "Swayne Field Shopping Center",
+      "lat": 41.6751,
+      "lon": -83.5672
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["vibrancy-19-grants", "raise-uptown-junction"],
+  "search_terms": "Swayne Field Shopping Center Englewood Toledo renovation workforce training minority business Kaptur community project federal grant"
+}
