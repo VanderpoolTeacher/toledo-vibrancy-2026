@@ -1,0 +1,49 @@
+{
+  "id": "heather-cove-villas-south-toledo",
+  "headline": "Heather Cove Villas: 28-unit 55+ development approved for south Toledo with 15-year tax abatement",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-05-28",
+  "source_date": "2026-05-28",
+  "last_updated": "2026-05-28",
+
+  "paragraphs": [
+    "Eagle Creek Builders is developing Heather Cove Villas, a 28-unit 55-and-older community on a 4-acre lot at 3322 Schneider Road in south Toledo's Glendale-Heatherdowns neighborhood. The Toledo City Plan Commission approved the zoning change and site plan; the city is supporting the project with a 15-year property-tax abatement. Pre-construction prices start at $229,900 for two-bedroom, two-bath villa-style homes with attached garages, covered porches, and sunrooms. The Blade reported on the project May 28.",
+    "The Schneider Road site sits behind an AutoZone, close to Heatherdowns-area shopping, the University of Toledo Medical Center, and Heather-Stebner Park. A private street and on-site parking are included in the plan. Eagle Creek is a Toledo-based homebuilder with an established track record in the local market."
+  ],
+  "why_it_matters": "55-and-older housing is one of the most consistently undersupplied segments of Toledo's residential market — and it also frees up existing single-family inventory when downsizers make the move. A 28-unit market-rate development at $229,900 in south Toledo tests whether new construction can pencil without deep subsidy outside the Vistula-Warehouse District core. The 15-year tax abatement signals that the city's residential incentive toolkit is reaching into legacy neighborhoods, not just the downtown investment zone. If pre-sales track well, Heather Cove validates a replicable model for other aging commercial or vacant parcels along south Toledo's Secor-Heatherdowns-Sylvania corridor.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade — Heather Cove Villas, south Toledo",
+      "url": "https://www.toledoblade.com/frontpage/2026/05/28/heather-cove-villas/stories/20260528073"
+    },
+    {
+      "title": "WTOL — New senior villas coming to south Toledo to offer more affordable options",
+      "url": "https://www.wtol.com/article/life/new-senior-villas-south-toledo/512-0f7659a4-0a9f-45d9-b910-9e085786cdb9"
+    },
+    {
+      "title": "WTOL — South Toledo villa development approved by plan commission",
+      "url": "https://www.wtol.com/article/news/local/south-toledo-heather-cove-villa-development-plan-commission/512-8cef6620-000d-46c2-b7b1-50d155b75791"
+    },
+    {
+      "title": "Eagle Creek Builders — Heather Cove",
+      "url": "https://www.eaglecreekbuilders.com/heather-cove"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Heather Cove Villas — 3322 Schneider Rd, south Toledo",
+      "match": "Schneider Road",
+      "lat": 41.627,
+      "lon": -83.600
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "inverness-village-duplexes-dorr-street"
+  ],
+  "search_terms": "Heather Cove Villas Eagle Creek Builders south Toledo 55+ senior housing Schneider Road Glendale Heatherdowns tax abatement plan commission"
+}
