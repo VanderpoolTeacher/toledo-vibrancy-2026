@@ -1,0 +1,47 @@
+{
+  "id": "collingwood-green-v-seniors-junction",
+  "headline": "Collingwood Green V opens in Toledo's Junction neighborhood — $29M, 75-unit affordable senior building",
+  "section": "Junction",
+  "tags": ["junction", "citywide"],
+
+  "posted_date": "2026-05-29",
+  "source_date": "2026-05-28",
+  "last_updated": "2026-05-29",
+
+  "paragraphs": [
+    "Lucas Metropolitan Housing opened Collingwood Green V on May 28 — a 75-unit, $29 million affordable apartment building at 400 Nebraska Ave. in Toledo's Junction neighborhood, designed for residents age 62 and older. The complex is the fifth building in the Collingwood Green series; monthly rents start at $1,050 for one-bedroom units and are capped at 50 to 70 percent of area median income. Utilities — electricity, gas heat, water, trash, and pest control — are included. A full-time Service Coordinator manages monthly programming, transportation resources, and healthcare access for residents.",
+    "Funding includes $6.7 million in federal American Rescue Plan Act dollars directed from the City of Toledo and Lucas County, along with federal and state Low Income Housing Tax Credits and Community Development Block Grant funds. Lucas Metropolitan Housing stated it has invested more than $100 million over the last two years in similar housing preservation and new-construction projects across the city. The Blade and 13abc both reported the opening May 28."
+  ],
+  "why_it_matters": "Collingwood Green V opens three blocks from the eastern edge of the $53M RAISE project area — the 38-block federal redevelopment now in design phase that will reshape Junction and Uptown through 2031. A 75-unit senior building in this corridor adds foot traffic, service demand, and residential stability ahead of the construction wave coming in 2027–2029. It also validates the city's layered housing investment thesis: ARPA dollars, LIHTC credits, and CDBG can deliver new market-quality units at price points Toledo's senior renters can afford without deep per-unit subsidy. Lucas Metropolitan Housing's $100M in two-year investment is the scale that shifts neighborhood confidence, and each opening tracks Mayor Kapszukiewicz's 300,000-resident-by-2045 population goal at the ground level.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade — $29M housing project opens for Toledo seniors",
+      "url": "https://www.toledoblade.com/local/city/2026/05/28/housing-project-opens-seniors/stories/20260531073"
+    },
+    {
+      "title": "13abc — New affordable senior housing opens in Toledo's Junction neighborhood",
+      "url": "https://www.13abc.com/2026/05/28/new-affordable-senior-housing-opens-toledos-junction-neighborhood/"
+    },
+    {
+      "title": "WTOL — Affordable senior housing complex opening in Junction neighborhood to meet growing need",
+      "url": "https://www.wtol.com/article/news/local/affordable-senior-housing-complex-junction-neighborhood-growing-need/512-9b495572-4c86-4cf7-aad5-569164c54521"
+    },
+    {
+      "title": "Collingwood Green Senior — Who We Are",
+      "url": "https://www.collingwoodgreen.org/whoweare"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Collingwood Green V — 400 Nebraska Ave., Junction neighborhood",
+      "match": "400 Nebraska Ave",
+      "lat": 41.665,
+      "lon": -83.548
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["raise-uptown-junction", "land-bank-mann-1b-milestone-ose"],
+  "search_terms": "Collingwood Green V Junction neighborhood Toledo senior housing 400 Nebraska Avenue affordable Lucas Metropolitan Housing $29M"
+}

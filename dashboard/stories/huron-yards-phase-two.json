@@ -1,6 +1,6 @@
 {
   "id": "huron-yards-phase-two",
-  "headline": "Huron Yards phase two nearing completion",
+  "headline": "Huron Yards phase two nearing completion — Okun Market grocery operator named as Ed Beczynski",
   "section": "Warehouse District",
   "tags": [
     "warehouse",
@@ -8,13 +8,25 @@
   ],
   "posted_date": "2026-05-20",
   "source_date": "",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-29",
   "paragraphs": [
     "Crane Development's Huron Yards is wrapping phase two in 2026 with three additions at 28 N. Erie St.: The Station, a sports bar and restaurant in the former Alleyway building; a first-floor grocery store in the renovated Okun Produce building; and HQ, a flexible shared-office environment on the upper floors of 28 Erie with private offices, dedicated desks, and collaborative workspace — coming late 2026. Resident parking and beer garden site work are already complete.",
-    "Phase one's ribbon cutting, attended by Mayor Wade Kapszukiewicz, took place August 25, 2025, marking the opening of The Produce Lofts. Phase two adds the amenity stack that developers argue converts a ballgame-night district into a daily-use one."
+    "Phase one's ribbon cutting, attended by Mayor Wade Kapszukiewicz, took place August 25, 2025, marking the opening of The Produce Lofts. Phase two adds the amenity stack that developers argue converts a ballgame-night district into a daily-use one.",
+    "WTOL reported May 28 that the first-floor grocery at 33 N. Huron St. — downtown Toledo's first grocery store — will be called Okun Market and operated by Ed Beczynski, who also owns Foccaccia's. Crane Development is targeting a late 2026 opening. The operator detail is significant: Beczynski is an established Toledo restaurateur, not a national chain or a startup, which reduces execution risk but also means the market will rely on local community patronage rather than a national brand's built-in traffic."
   ],
   "why_it_matters": "The HQ co-working layer is the least-discussed piece of Huron Yards and arguably the most important for daytime activation. If it fills, it seeds foot traffic for The Station's lunch-and-weekday revenue base and validates the grocery store's daily-shopper thesis. Watch HQ occupancy in Q4 2026 as the leading indicator for whether Crane pursues a phase three residential or office building.",
-  "people": [],
+  "people": [
+    {
+      "name": "Ed Beczynski",
+      "role": "Operator, Okun Market (also owner of Foccaccia's)",
+      "search_terms": "Ed Beczynski Okun Market Foccaccia's Toledo"
+    },
+    {
+      "name": "Julia Randles",
+      "role": "Partner, Crane Development",
+      "search_terms": "Julia Randles Crane Development Toledo"
+    }
+  ],
   "sources": [
     {
       "title": "Toledo City Paper — Huron Yards and the two-person team",
@@ -27,6 +39,10 @@
     {
       "title": "The Blade — Live, work, play, and stay: Toledo developers unveil Huron Yards (Aug 25, 2025)",
       "url": "https://www.toledoblade.com/business/development/2025/08/25/live-work-play-and-stay-toledo-developers-unveil-huron-yards/stories/20250822124"
+    },
+    {
+      "title": "WTOL — Downtown Toledo's first grocery store taking shape",
+      "url": "https://www.wtol.com/article/news/local/downtown-toledo-first-grocery-store-okun-market/512-a7b33c87-e807-44ca-863c-9265d0b47167"
     }
   ],
   "locations": [
@@ -40,5 +56,5 @@
   ],
   "external_map_link": null,
   "related_story_ids": [],
-  "search_terms": "Huron Yards Crane Development Warehouse District The Station Okun grocery"
+  "search_terms": "Huron Yards Crane Development Warehouse District The Station Okun Market Okun grocery Ed Beczynski Foccaccia's downtown Toledo grocery"
 }

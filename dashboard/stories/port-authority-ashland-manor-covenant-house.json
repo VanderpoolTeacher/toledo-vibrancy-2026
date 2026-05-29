@@ -1,0 +1,46 @@
+{
+  "id": "port-authority-ashland-manor-covenant-house",
+  "headline": "Toledo-Lucas County Port Authority moves to finance renovations at Ashland Manor and Covenant House — two more HUD-subsidized complexes entering preservation pipeline",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-05-29",
+  "source_date": "2026-05-28",
+  "last_updated": "2026-05-29",
+
+  "paragraphs": [
+    "The Toledo-Lucas County Port Authority's board indicated on May 28 that it intends to finance renovations at two HUD-subsidized affordable housing properties: Ashland Manor (2030 Ashland Ave., 188-unit Section 8 complex built in 1972 serving seniors and low-income residents) and Covenant House Apartments (702 N. Erie St., near the Warehouse District). Both properties are expected to change ownership — likely to a mission-aligned housing entity — as part of the deal, with Port Authority bond financing unlocking the renovation capital. The Blade first reported the planned action May 28.",
+    "The mechanism mirrors the Port Authority's November 2025 action on Heritage Village — where a board resolution unlocked $43 million for renovating 191 units in the Vistula neighborhood and south Toledo. The Ashland Manor and Covenant House action follows the same model: Port Authority issues bonds backed by project cash flows, at no direct cost to taxpayers, and the renovation capital is deployed without requiring a city or county budget line."
+  ],
+  "why_it_matters": "The Port Authority is quietly becoming the primary engine of Toledo's affordable housing preservation pipeline — Heritage Village in November 2025, Ashland Manor and Covenant House in May 2026. Each action extracts a deteriorating Section 8 property from limbo and puts renovation capital behind it through an off-balance-sheet structure that doesn't compete with city operating-fund priorities. Covenant House's location at 702 N. Erie St. puts it within two blocks of the Huron Yards development cluster, meaning the renovation investment will benefit from — and contribute to — the Warehouse District's rising service demand. Watch for the formal Port Authority board resolution and the identity of the new ownership entity, which will indicate whether this is a for-profit or nonprofit preservation deal.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade — Port authority intends to finance renovations at Ashland Manor, Covenant House",
+      "url": "https://www.toledoblade.com/local/city/2026/05/28/port-authority-ashland-manor-covenant-house-renovations/stories/20260528110"
+    },
+    {
+      "title": "WTOL — Port Authority approves $43M plan to renovate nearly 200 affordable housing units in Toledo (Heritage Village precedent)",
+      "url": "https://www.wtol.com/article/news/local/port-authority-approves-plan-to-renovate-nearly-200-affordable-housing-units-across-toledo/512-1ba02f08-3ceb-4c27-ae61-05992f330c94"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Ashland Manor — 2030 Ashland Ave.",
+      "match": "Ashland Manor",
+      "lat": 41.667,
+      "lon": -83.577
+    },
+    {
+      "shape": "point",
+      "label": "Covenant House Apartments — 702 N. Erie St.",
+      "match": "Covenant House",
+      "lat": 41.664,
+      "lon": -83.542
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["huron-yards-phase-two", "land-bank-mann-1b-milestone-ose"],
+  "search_terms": "Port Authority Ashland Manor Covenant House Toledo affordable housing renovation HUD Section 8 bond financing preservation"
+}

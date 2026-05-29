@@ -1,0 +1,49 @@
+{
+  "id": "jobsohio-ai-ready-ohio-toledo",
+  "headline": "JobsOhio expands AI Ready Ohio workforce program to Toledo — 3,000+ residents to receive in-person AI certification; UToledo anchors November regional event",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-05-29",
+  "source_date": "2026-05-28",
+  "last_updated": "2026-05-29",
+
+  "paragraphs": [
+    "JobsOhio announced on May 28 the expansion of its AI Ready Ohio program to the Toledo market — along with Greater Cincinnati and Columbus — bringing in-person artificial intelligence training and certification to more than 3,000 residents across those three metros. Online training is now available statewide. The program was launched as a pilot in November 2025 in partnership with the Enterprise Technology Association (ETA) and surpassed its original targets, achieving 170 percent of its pilot certification goals. UToledo and Bowling Green State University will co-anchor a Northwest Ohio regional event in November 2026.",
+    "The AI Ready Ohio expansion is part of JobsOhio's AI Super Sector strategy, which links Ohio's data-center and AI-infrastructure attractiveness to a demonstrable local talent pipeline. The Toledo expansion follows RGP's $800M Meta data-center win in Wood County and coincides with the region's preparations to host EVIS America (Nov. 3–5, 2026 at Glass City Center) — the U.S. debut of the international Electric Vehicle Innovation Summit that RGP's Dean Monske secured last year."
+  ],
+  "why_it_matters": "Workforce credential is the second pillar of Toledo's data-center recruitment pitch alongside land and power infrastructure. RGP and Gary Thompson have spent years making the infrastructure argument; AI Ready Ohio provides the talent-pipeline counterpart. A UToledo/BGSU-anchored November event stacks directly against the EVIS America window (Nov. 3–5), creating a two-event sequence that puts the full Toledo AI-economy story — new EV mobility innovation plus AI workforce depth — in front of site selectors and regional economic developers in the same week. Watch enrollment velocity through summer as the leading indicator of whether the Toledo program hits its certification targets ahead of the November anchor event.",
+  "people": [
+    {
+      "name": "Dean Monske",
+      "role": "President, Regional Growth Partnership",
+      "search_terms": "Dean Monske RGP Toledo Regional Growth Partnership"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UToledo News — JobsOhio Expands AI Ready Ohio Program to Train Thousands Statewide",
+      "url": "https://news.utoledo.edu/index.php/05_28_2026/jobsohio-expands-ai-ready-ohio-program-to-train-thousands-statewide"
+    },
+    {
+      "title": "PR Newswire — AI Ready Ohio Expands to Accelerate AI Education and Training Statewide",
+      "url": "https://www.prnewswire.com/news-releases/ai-ready-ohio-expands-to-accelerate-ai-education-and-training-statewide-302781343.html"
+    },
+    {
+      "title": "Enterprise Technology Association — JobsOhio Announces Expansion of AI Ready Ohio",
+      "url": "https://www.joineta.org/blog/jobsohio-announces-expansion-of-ai-ready-ohio-effort-with-enterprise-technology-association"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "University of Toledo — AI Ready Ohio Northwest Ohio anchor",
+      "match": null,
+      "lat": 41.658,
+      "lon": -83.614
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["rgp-2026-annual-meeting-data-centers", "evis-america-2026-monske-rgp", "utoledo-cancer-research-institute"],
+  "search_terms": "JobsOhio AI Ready Ohio Toledo workforce training certification UToledo BGSU artificial intelligence data center"
+}
