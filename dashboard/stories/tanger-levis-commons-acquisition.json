@@ -1,0 +1,49 @@
+{
+  "id": "tanger-levis-commons-acquisition",
+  "headline": "Tanger acquires Town Center at Levis Commons for $60M — national lifestyle-center operator enters Toledo market",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-05-30",
+  "source_date": "2026-05-28",
+  "last_updated": "2026-05-30",
+
+  "paragraphs": [
+    "Tanger Inc. acquired The Town Center at Levis Commons — a 300,000-square-foot, open-air lifestyle center in the Perrysburg submarket of Toledo — for approximately $60 million on May 28. Tanger used cash on hand and available liquidity for the transaction. The center was acquired from Hill Partners Inc., which has managed, leased, and owned Levis Commons since its opening in 2004. The property is 97% occupied, with tenants including Anthropologie, Sephora, Lululemon, Shake Shack, Starbucks, Athleta, Cinemark, Drybar, Ethan Allen, and Arhaus.",
+    "Management expects the center to deliver a first-year return of approximately 8.5 percent, with growth potential over time. The acquisition is Tanger's fourth full-price lifestyle center purchase in its current external growth strategy — following Pinecrest in Cleveland (February 2025), The Promenade at Chenal in Little Rock (December 2024), and Bridge Street Town Centre in Huntsville, Alabama (late 2023). Tanger's national portfolio historically consisted of outlet centers; the lifestyle-center acquisition strategy represents a deliberate broadening of its property type."
+  ],
+  "why_it_matters": "A $60M acquisition by a publicly traded REIT is a category-one signal of market confidence in the Toledo MSA's retail fundamentals — the kind of institutional underwriting that small-shop and franchise operators watch closely before committing to new locations. Levis Commons has long been the Toledo market's strongest open-air center, but Hill Partners is a regional owner; Tanger is a NYSE-listed REIT with national leasing reach, which means the tenant pipeline for Levis Commons just changed. Brands that passed on Toledo because the landlord lacked national relationships now have a more direct call path. For the broader Toledo retail narrative — which is simultaneously absorbing Nordstrom Rack at Westgate Village North and the ongoing question of what fills Westfield Franklin Park — a nationally managed Levis Commons raises the anchor-tenant competition that benefits all Toledo retail corridors.",
+  "people": [],
+  "sources": [
+    {
+      "title": "BusinessWire — Tanger Acquires The Town Center at Levis Commons in Toledo, Ohio",
+      "url": "https://www.businesswire.com/news/home/20260528308138/en/Tanger-Acquires-The-Town-Center-at-Levis-Commons-in-Toledo-Ohio"
+    },
+    {
+      "title": "13abc — The Town Center at Levis Commons announces upcoming sale to Tanger",
+      "url": "https://www.13abc.com/2026/05/13/town-center-levis-commons-sold-outlet-giant-tanger/"
+    },
+    {
+      "title": "Chain Store Age — Tanger purchases Ohio lifestyle center for $60 million",
+      "url": "https://chainstoreage.com/tanger-purchases-ohio-lifestyle-center-60-million"
+    },
+    {
+      "title": "Shopping Center Business — Tanger acquires Levis Commons for $60 million",
+      "url": "https://shoppingcenterbusiness.com/tanger-acquires-the-town-center-at-levis-commons-in-perrysburg-ohio-for-60-million/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Town Center at Levis Commons — Perrysburg, OH",
+      "match": null,
+      "lat": 41.558,
+      "lon": -83.630
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "nordstrom-rack-westgate-village"
+  ],
+  "search_terms": "Tanger Levis Commons Perrysburg Toledo acquisition $60 million retail lifestyle center Hill Partners open-air 2026"
+}

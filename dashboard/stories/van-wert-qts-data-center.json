@@ -1,0 +1,55 @@
+{
+  "id": "van-wert-qts-data-center",
+  "headline": "QTS Data Centers announces $10B, 902-acre campus in Van Wert — NW Ohio lands its largest-ever data center investment",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-05-30",
+  "source_date": "2026-05-29",
+  "last_updated": "2026-05-30",
+
+  "paragraphs": [
+    "The City of Van Wert and QTS Data Centers announced on May 29 a data center campus expected to deliver approximately $10 billion in capital investment to northwest Ohio. QTS — a Blackstone portfolio company — will construct seven buildings across 902 acres near U.S. 30 in Van Wert. Groundbreaking is targeted for Q4 2026; the campus is not expected to be fully operational until 2032. The project is projected to generate more than $200 million in tax revenue over 20 years and to create approximately 1,500 construction jobs and 200 permanent full-time positions at QTS once operations begin.",
+    "QTS is partnering with American Electric Power (AEP) to secure long-term reliable power for the campus. The facility will use a closed-loop cooling system that does not consume water for cooling once operational — a notable contrast to wet-cooled alternatives and a direct response to the regional conversation about water infrastructure and data-center siting. The Blade, WTOL, and Hometown Stations all reported the announcement on May 29."
+  ],
+  "why_it_matters": "The Van Wert QTS campus is the single largest capital investment ever announced in northwest Ohio's 17-county RGP footprint — by a wide margin. Dean Monske and Gary Thompson have spent years making the public case that NW Ohio's land availability, energy infrastructure, and cooling-water access make it competitive for hyperscale data-center investment; the Meta $800M campus in Wood County was the proof-of-concept, and Van Wert is the validation at a 12× larger scale. The announcement lands in the same week as the AI Ready Ohio Toledo expansion and ahead of EVIS America in November — the combined signal is that northwest Ohio's AI-economy positioning is converting from pitch to reality. For Toledo specifically, the Van Wert win raises the regional profile that site selectors see when they evaluate the broader market, and the AEP power partnership is a template for how future Toledo-area data-center deals might be structured. Watch for any Toledo-adjacent site announcements that follow; RGP rarely announces a single win without having other conversations active.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade — Van Wert announces agreement for $10B data center development",
+      "url": "https://www.toledoblade.com/business/development/2026/05/29/van-wert-announces-agreement-for-10b-data-center-development/stories/20260529091"
+    },
+    {
+      "title": "WTOL — $10B data center campus planned for Van Wert, bringing an anticipated 1,500 construction jobs",
+      "url": "https://www.wtol.com/article/news/local/van-wert-qts-data-center-campus-10-billion-investment/512-3949d55b-9fc9-48d8-a01e-ab81d9a58f6b"
+    },
+    {
+      "title": "Hometown Stations — Van Wert announces $10 billion QTS data center campus investment",
+      "url": "https://www.hometownstations.com/news/van_wert_county/van-wert-announces-10-billion-qts-data-center-campus-investment/article_18b9e9fc-010b-4353-95c0-4ed96293c1ed.html"
+    },
+    {
+      "title": "VW Independent — QTS Data Centers is the end user for VW data center",
+      "url": "https://thevwindependent.com/news/2026/05/29/qts-data-centers-is-the-end-user-for-vw-data-center/"
+    },
+    {
+      "title": "QTS Data Centers — Van Wert campus",
+      "url": "https://q.com/data-centers/van-wert/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "QTS Van Wert campus — 902 acres near U.S. 30, Van Wert, OH",
+      "match": null,
+      "lat": 40.869,
+      "lon": -84.582
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "rgp-2026-annual-meeting-data-centers",
+    "evis-america-2026-monske-rgp",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+  "search_terms": "QTS data center Van Wert Ohio $10 billion campus Blackstone AEP northwest Ohio hyperscale AI data center 2026"
+}
