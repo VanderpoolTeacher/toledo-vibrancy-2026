@@ -1,27 +1,39 @@
 {
   "id": "promedica-medical-mutual",
-  "headline": "ProMedica / Medical Mutual network dispute — watching brief",
+  "headline": "ProMedica / Medical Mutual network dispute — resolved with new multi-year agreement (November 2025)",
   "section": "Citywide",
   "tags": [
     "citywide"
   ],
   "posted_date": "2026-05-20",
-  "source_date": "",
-  "date_label": "Watching brief · no resolution this window",
-  "last_updated": "2026-05-20",
+  "source_date": "2025-11-14",
+  "last_updated": "2026-05-31",
   "paragraphs": [
-    "WTOL reports Medical Mutual may drop ProMedica as an in-network provider in the Toledo area."
+    "ProMedica and Medical Mutual finalized a new multi-year network participation agreement on November 14, 2025, ending a months-long dispute that had threatened to remove ProMedica from Medical Mutual's in-network provider list for the Toledo area. The agreement applies to all Medical Mutual and Medical Mutual-Paramount insurance products, including employer-sponsored health plans, commercial insurance, ACA marketplace plans, and Medicare Advantage. ProMedica remains in-network for all affected members.",
+    "The dispute originated in mid-2025 when Medical Mutual notified members that ProMedica could be dropped if a new contract was not reached before 2026. The November 14 resolution — reported simultaneously by 13abc, The Blade, and WTOL — closed that risk before it materialized. The story is closed out as of May 31, 2026."
   ],
-  "why_it_matters": "Not core to economic development, but ProMedica is a major downtown employer; insurance-network turbulence affects workforce attraction.",
+  "why_it_matters": "ProMedica is one of downtown Toledo's largest employers and a anchor of the city's healthcare economy. The resolution removes insurance-network turbulence as a workforce-attraction headwind — employees of Toledo's employers who carry Medical Mutual coverage can access ProMedica facilities without navigating out-of-network costs.",
   "people": [],
   "sources": [
     {
-      "title": "WTOL",
+      "title": "13abc — ProMedica, Medical Mutual/Paramount finalize agreement (Nov. 14, 2025)",
+      "url": "https://www.13abc.com/2025/11/14/promedica-medical-mutualparamount-finalize-agreement/"
+    },
+    {
+      "title": "The Blade — ProMedica remains in-network for Medical Mutual, Paramount customers (Nov. 14, 2025)",
+      "url": "https://www.toledoblade.com/news/medical/2025/11/14/promedica-finalizes-agreement-medical-mutual-paramount/stories/20251114128"
+    },
+    {
+      "title": "WTOL — ProMedica finalizes deal with Medical Mutual to continue in-network access for thousands of patients",
+      "url": "https://www.wtol.com/article/news/health/medical-mutual-promedica-finalize-deal-network-access-patients/512-85f16b8c-0ca1-4928-bfb8-bab1ee1e24c5"
+    },
+    {
+      "title": "WTOL — Medical Mutual may drop ProMedica as in-network provider (original dispute reporting)",
       "url": "https://www.wtol.com/article/news/local/promedica-medical-mutual-network-dispute-2026-coverage-warning/512-97998a5c-f2ee-497c-ac7c-a3bb0ea66eb5"
     }
   ],
   "locations": [],
   "external_map_link": null,
   "related_story_ids": [],
-  "search_terms": "ProMedica Medical Mutual Toledo network in-network coverage dispute"
+  "search_terms": "ProMedica Medical Mutual Toledo network in-network coverage dispute resolved November 2025"
 }

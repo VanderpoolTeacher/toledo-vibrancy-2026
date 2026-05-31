@@ -1,0 +1,182 @@
+{
+  "date": "2026-05-31",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+
+  "top_story_id": "toledo-water-tower-permit-rejected",
+
+  "sections": [
+    {
+      "title": "",
+      "story_ids": ["toledo-water-tower-permit-rejected"]
+    },
+    {
+      "title": "New stories",
+      "story_ids": [
+        "toledo-yacht-club-sheriffs-sale"
+      ]
+    },
+    {
+      "title": "Updates this brief",
+      "story_ids": [
+        "van-wert-qts-data-center",
+        "promedica-medical-mutual"
+      ]
+    },
+    {
+      "title": "Ongoing",
+      "story_ids": [
+        "tanger-levis-commons-acquisition",
+        "welcome-home-ohio-toledo-lucas-county",
+        "collingwood-green-v-seniors-junction",
+        "huron-yards-phase-two",
+        "port-authority-ashland-manor-covenant-house",
+        "jobsohio-ai-ready-ohio-toledo",
+        "soccer-stadium-vistula",
+        "hotel-lorraine-foreclosure",
+        "watershed-weekend-riverwalk",
+        "ostrich-towne-tenants",
+        "blade-superior-street-hq",
+        "owens-corning-250m",
+        "tcic-board-sehlhorst-shovel-ready",
+        "vistula-metropark",
+        "heather-cove-villas-south-toledo",
+        "toledo-vehicle-registration-fee",
+        "lcready-site-certification",
+        "land-bank-mann-1b-milestone-ose",
+        "inverness-village-duplexes-dorr-street",
+        "nordstrom-rack-westgate-village",
+        "jvis-toledo-molding-die",
+        "foundation-steel-hq-move",
+        "brownfield-health-district",
+        "innovation-post-tenants",
+        "raise-uptown-junction",
+        "port-warehouse-liquid-terminal",
+        "lake-erie-west-regional-council-sarantou",
+        "utoledo-cancer-research-institute",
+        "evis-america-2026-monske-rgp",
+        "rgp-2026-annual-meeting-data-centers",
+        "connectoledo-music-grant",
+        "glass-city-urban-campground",
+        "mind-and-soul-gallery",
+        "vibrancy-19-grants",
+        "small-business-app-growth",
+        "swanky-scoops",
+        "swayne-field-englewood-renovation"
+      ]
+    }
+  ],
+
+  "ongoing_story_ids": [
+    "tanger-levis-commons-acquisition",
+    "welcome-home-ohio-toledo-lucas-county",
+    "collingwood-green-v-seniors-junction",
+    "huron-yards-phase-two",
+    "port-authority-ashland-manor-covenant-house",
+    "jobsohio-ai-ready-ohio-toledo",
+    "soccer-stadium-vistula",
+    "hotel-lorraine-foreclosure",
+    "watershed-weekend-riverwalk",
+    "ostrich-towne-tenants",
+    "blade-superior-street-hq",
+    "owens-corning-250m",
+    "tcic-board-sehlhorst-shovel-ready",
+    "vistula-metropark",
+    "heather-cove-villas-south-toledo",
+    "toledo-vehicle-registration-fee",
+    "lcready-site-certification",
+    "land-bank-mann-1b-milestone-ose",
+    "inverness-village-duplexes-dorr-street",
+    "nordstrom-rack-westgate-village",
+    "jvis-toledo-molding-die",
+    "foundation-steel-hq-move",
+    "brownfield-health-district",
+    "innovation-post-tenants",
+    "raise-uptown-junction",
+    "port-warehouse-liquid-terminal",
+    "lake-erie-west-regional-council-sarantou",
+    "utoledo-cancer-research-institute",
+    "evis-america-2026-monske-rgp",
+    "rgp-2026-annual-meeting-data-centers",
+    "connectoledo-music-grant",
+    "glass-city-urban-campground",
+    "mind-and-soul-gallery",
+    "vibrancy-19-grants",
+    "small-business-app-growth",
+    "swanky-scoops",
+    "swayne-field-englewood-renovation"
+  ],
+
+  "watch_list": [
+    "Water tower June 2 special session — 1:55 PM tomorrow; whether any of the 5 'no' votes flip; Kokosing contractor retention at risk if vote fails again.",
+    "Toledo Yacht Club June 10 sheriff's sale — 10 days out; watch for debt payoff, settlement, or civic rescue bid before the auction date.",
+    "Watershed Weekend June 11–14 — 11 days out; final vendor and operator tie-in announcements; Ostrich Towne and Warehouse District operators entering the key foot-traffic window.",
+    "Hotel Lorraine facade enforcement — 72-hour repair deadline lapsed ~May 21; watch for formal fines, emergency demolition order, or Zoeva Tower LLC compliance action.",
+    "Ohio sports fund litigation — Franklin County injunction still blocking $400M pool; next court action is the gating event for soccer stadium's $20.9M request.",
+    "QTS Van Wert community meeting June 11 — watch for AEP power agreement details and any ripple-site announcements in the Toledo MSA."
+  ],
+
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "Watershed Weekend — Metroparks",
+      "url": "https://metroparkstoledo.com/learn-and-play/watershed-weekend/"
+    },
+    {
+      "title": "City of Toledo — Water Tower projects",
+      "url": "https://toledo.oh.gov/residents/water/water-towers"
+    },
+    {
+      "title": "Toledo Yacht Club",
+      "url": "https://www.thetoledoyachtclub.com/"
+    }
+  ]
+}

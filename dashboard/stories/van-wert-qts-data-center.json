@@ -6,11 +6,12 @@
 
   "posted_date": "2026-05-30",
   "source_date": "2026-05-29",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
 
   "paragraphs": [
     "The City of Van Wert and QTS Data Centers announced on May 29 a data center campus expected to deliver approximately $10 billion in capital investment to northwest Ohio. QTS — a Blackstone portfolio company — will construct seven buildings across 902 acres near U.S. 30 in Van Wert. Groundbreaking is targeted for Q4 2026; the campus is not expected to be fully operational until 2032. The project is projected to generate more than $200 million in tax revenue over 20 years and to create approximately 1,500 construction jobs and 200 permanent full-time positions at QTS once operations begin.",
-    "QTS is partnering with American Electric Power (AEP) to secure long-term reliable power for the campus. The facility will use a closed-loop cooling system that does not consume water for cooling once operational — a notable contrast to wet-cooled alternatives and a direct response to the regional conversation about water infrastructure and data-center siting. The Blade, WTOL, and Hometown Stations all reported the announcement on May 29."
+    "QTS is partnering with American Electric Power (AEP) to secure long-term reliable power for the campus. The facility will use a closed-loop cooling system that does not consume water for cooling once operational — a notable contrast to wet-cooled alternatives and a direct response to the regional conversation about water infrastructure and data-center siting. The Blade, WTOL, and Hometown Stations all reported the announcement on May 29.",
+    "QTS and the City of Van Wert have scheduled a community information meeting for June 11 from 5:00 to 6:30 p.m. at the Vantage Career Center, where residents can learn more about the project, ask questions, and share perspectives. The VW Independent reported the construction and operations timeline details following the initial announcement."
   ],
   "why_it_matters": "The Van Wert QTS campus is the single largest capital investment ever announced in northwest Ohio's 17-county RGP footprint — by a wide margin. Dean Monske and Gary Thompson have spent years making the public case that NW Ohio's land availability, energy infrastructure, and cooling-water access make it competitive for hyperscale data-center investment; the Meta $800M campus in Wood County was the proof-of-concept, and Van Wert is the validation at a 12× larger scale. The announcement lands in the same week as the AI Ready Ohio Toledo expansion and ahead of EVIS America in November — the combined signal is that northwest Ohio's AI-economy positioning is converting from pitch to reality. For Toledo specifically, the Van Wert win raises the regional profile that site selectors see when they evaluate the broader market, and the AEP power partnership is a template for how future Toledo-area data-center deals might be structured. Watch for any Toledo-adjacent site announcements that follow; RGP rarely announces a single win without having other conversations active.",
   "people": [],
@@ -34,6 +35,10 @@
     {
       "title": "QTS Data Centers — Van Wert campus",
       "url": "https://q.com/data-centers/van-wert/"
+    },
+    {
+      "title": "VW Independent — Data center construction, operations timeline shared",
+      "url": "https://thevwindependent.com/news/2026/05/29/data-center-construction-operations-timeline-shared/"
     }
   ],
   "locations": [
