@@ -1,0 +1,62 @@
+{
+  "id": "four-corners-spitzer-nicholas",
+  "headline": "RKP Group advancing $190M Four Corners redevelopment — Spitzer and Nicholas buildings in active demolition phase downtown",
+  "section": "Downtown",
+  "tags": ["downtown"],
+
+  "posted_date": "2026-06-01",
+  "source_date": "2025-10-21",
+  "last_updated": "2026-06-01",
+
+  "paragraphs": [
+    "The Lucas County Land Bank's board voted in October 2025 to authorize pre-development agreements with RKP Group for the restoration of the historic Spitzer and Nicholas buildings at Toledo's Four Corners — the intersection of Madison Avenue and Huron Street, the only downtown corner where all four original buildings are still standing. RKP Group will have the exclusive right to redevelop both buildings if conditions are met. The $190 million project calls for approximately 400 new residential units — 180 to 200 in the Spitzer building and 200 to 220 in the Nicholas building — plus an active ground-floor commercial corridor across more than 500,000 square feet of historic office space. RKP Group has led several major Toledo projects over the past 15 years, including Standart Lofts, The Berdan, Fort Industry Square, and The Overmyer, collectively adding more than 350 residential units to downtown.",
+    "Interior demolition on the Spitzer and Nicholas buildings began in summer 2025 and is expected to continue through spring 2026. More than $5 million in public funds has been deployed for asbestos abatement, roof stabilization at the Spitzer building, and engineering work, with total public investment projected to exceed $15 million by end of 2026. The project benefits from nearly $20 million in state historic tax credits — $9.6 million awarded to Spitzer in June 2024 and $10 million to Nicholas in December 2023. Reconstruction on the Spitzer building is tentatively targeted to begin in 2026, with completion projected for 2028; the Nicholas building is slated for 2027–2028 construction, with a possible 2029–2030 opening. A previous pre-development team (ARK Developments and The Model Group) stepped back in 2025 due to factors beyond their control; the historic tax credits they secured transferred to the current effort."
+  ],
+  "why_it_matters": "The Spitzer and Nicholas buildings are among Toledo's most recognizable structures and have sat largely vacant for years — a conspicuous gap at the city's most historic downtown intersection. A 400-unit residential conversion at Madison and Huron would double the residential footprint of the existing downtown core and place hundreds of new residents within walking distance of the Warehouse District, Huron Yards, and the Glass City Riverwalk spine. RKP Group is the right developer for this: its track record in Toledo's adaptive-reuse projects removes the execution-risk question that stopped previous teams. The $15M+ in public investment this year — on top of $19M in state historic tax credits — signals that the Land Bank and state preservation programs are fully committed. Watch for the Spitzer financing stack to close in late 2026, which is the real gating event for whether the 2028 completion target is achievable.",
+  "people": [
+    {
+      "name": "David Mann",
+      "role": "President and CEO, Lucas County Land Bank",
+      "search_terms": "David Mann Lucas County Land Bank Toledo Four Corners Spitzer Nicholas"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WTOL — New team chosen to lead Four Corners redevelopment in downtown Toledo",
+      "url": "https://www.wtol.com/article/news/local/rkp-group-chosen-to-lead-four-corners-redevelopment-in-downtown-toledo/512-35fe1165-d286-42ec-8b58-e376117c9a20"
+    },
+    {
+      "title": "13abc — New developer working on Toledo Four Corners Project to revitalize historic buildings",
+      "url": "https://www.13abc.com/2025/09/17/new-developer-working-toledo-four-corners-project-revitalize-historic-buildings/"
+    },
+    {
+      "title": "13abc — Four Corners project moving forward with new team",
+      "url": "https://www.13abc.com/2025/10/21/four-corners-project-moving-forward-with-new-team/"
+    },
+    {
+      "title": "The Blade — Interior demolition begins on downtown Toledo's Spitzer Building",
+      "url": "https://www.toledoblade.com/local/city/2025/07/28/interior-demolition-begins-on-downtown-toledo-s-spitzer-building/stories/20250723124"
+    },
+    {
+      "title": "Toledo City Paper — Significant Redevelopment Plans for The Four Corners in Downtown Toledo",
+      "url": "https://toledocitypaper.com/the-city/significant-redevelopment-plans-for-the-four-corners-in-downtown-toledo/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Four Corners — Spitzer & Nicholas Buildings, Madison Ave & Huron St, downtown Toledo",
+      "match": "Four Corners",
+      "lat": 41.6612,
+      "lon": -83.5412
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "land-bank-mann-1b-milestone-ose",
+    "tcic-board-sehlhorst-shovel-ready",
+    "huron-yards-phase-two",
+    "watershed-weekend-riverwalk"
+  ],
+  "search_terms": "Four Corners downtown Toledo Spitzer building Nicholas building RKP Group redevelopment $190 million 400 residential units Madison Huron historic tax credits Land Bank demolition 2026"
+}
