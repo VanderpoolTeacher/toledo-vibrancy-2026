@@ -1,0 +1,52 @@
+{
+  "id": "opmobility-rossford-plant",
+  "headline": "OPmobility announces 541-job automotive exterior plant in Rossford — French supplier brings bumpers and tailgates for GM, Stellantis, Ford to I-75 corridor",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-06-02",
+  "source_date": "2026-06-01",
+  "last_updated": "2026-06-02",
+
+  "paragraphs": [
+    "OPmobility — a French automotive supplier formerly known as Plastic Omnium — announced June 1, alongside Governor Mike DeWine and JobsOhio, that it will build its first Midwest Exterior solutions facility in Rossford, Wood County. The approximately 600,000-square-foot plant is located on the west side of Glenwood Road south of Buck Road, just off I-75. It will produce plastic automotive exterior components — including bumpers and tailgates — for General Motors, Stellantis, and Ford. The announcement is backed by Ohio Tax Credit Authority approval and JobsOhio assistance; the City of Rossford made no direct financial contribution. Construction was already under way at the site at the time of the naming announcement.",
+    "The facility is projected to create more than 541 full-time direct jobs with $40 million in annual payroll by 2030, operating across three shifts five to six days per week. Production is targeted for the second half of 2027. An April 2026 announcement had flagged that an unnamed automotive manufacturer was coming to Rossford with 'nearly 1,000' total jobs expected including construction and indirect positions; the June 1 press release from OPmobility identified the company and confirmed the 541+ direct-employment figure. RGP posted the press release on its news hub, confirming regional EDO involvement in the site-selection process."
+  ],
+  "why_it_matters": "OPmobility is Europe's largest dedicated automotive exterior supplier — a company with roughly $9 billion in global revenue that has chosen the Toledo MSA's I-75 corridor for its first Midwest exterior plant. The 541 direct jobs and $40M payroll are the headline, but the supplier-network signal is equally important: bumpers and tailgates for GM, Stellantis, and Ford means OPmobility has locked in long-term vehicle-program contracts running through the 2020s production cycle, anchoring northwest Ohio's Tier-1 supply chain through the EV-transition period. The Rossford location is immediately south of Toledo on I-75 — the same labor market, same supplier ecosystem. JobsOhio's involvement confirms this was a competitively recruited win. Watch for the formal groundbreaking and the Ohio Tax Credit Authority incentive disclosure, which will reveal the full public investment behind the win.",
+  "people": [],
+  "sources": [
+    {
+      "title": "The Blade — French auto supplier announces factory in Rossford, more than 500 jobs",
+      "url": "https://www.toledoblade.com/business/automotive/2026/06/01/french-auto-supplier-announces-factory-in-rossford-more-than-500-jobs/stories/20260601067"
+    },
+    {
+      "title": "WTOL — Auto supplier behind Rossford manufacturing plant announced",
+      "url": "https://www.wtol.com/article/news/local/auto-supplier-rossford-manufacturing-plant-announced/512-3efcdfce-a771-4cba-bcdd-8cc8364e8c3c"
+    },
+    {
+      "title": "WTOL — Automotive manufacturing facility coming to Rossford, bringing nearly 1,000 jobs",
+      "url": "https://www.wtol.com/article/news/local/automotive-manufacturing-facility-coning-to-rossford/512-08e1ef71-a209-4645-8e87-2b3a3b8f1c32"
+    },
+    {
+      "title": "RGP — OPmobility strengthens its U.S. footprint with a new state-of-the-art plant in the Midwest",
+      "url": "https://rgp.org/opmobility-strengthens-its-u-s-footprint-with-a-new-state-of-the-art-plant-in-the-midwest/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "OPmobility Rossford plant — Glenwood Rd south of Buck Rd, off I-75",
+      "match": "Glenwood Road",
+      "lat": 41.597,
+      "lon": -83.573
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": [
+    "evis-america-2026-monske-rgp",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo",
+    "jvis-toledo-molding-die"
+  ],
+  "search_terms": "OPmobility Rossford Wood County Ohio automotive exterior plant bumpers tailgates GM Stellantis Ford 541 jobs I-75 JobsOhio 2026 manufacturing Plastic Omnium French auto supplier"
+}

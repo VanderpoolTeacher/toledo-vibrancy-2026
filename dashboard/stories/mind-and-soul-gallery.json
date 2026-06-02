@@ -1,6 +1,6 @@
 {
   "id": "mind-and-soul-gallery",
-  "headline": "Mind and Soul Gallery & Studios opens in the Gardner Building",
+  "headline": "Mind and Soul Gallery & Studios and FilmToledo anchor the Gardner Building — two creative tenants take root on Madison Ave",
   "section": "Downtown",
   "tags": [
     "downtown"
@@ -9,13 +9,23 @@
   "source_date": "2026-05-16",
   "date_label": "Opened May 16 · 4 days ago",
   "date_age_class": "age-recent",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-06-02",
   "paragraphs": [
-    "Held its grand opening Saturday, May 16, in the Gardner Building on Madison Avenue."
+    "Held its grand opening Saturday, May 16, in the Gardner Building on Madison Avenue.",
+    "FilmToledo — the nonprofit organization supporting film production in northwest Ohio — is opening its first permanent office at 500 Madison Ave, Suite 201, in the Gardner Building (at the corner of Madison Avenue and Superior Street) in early June 2026. The Toledo City Paper reported the new space will serve as a community creative hub with a dedicated screening area and will host film screenings, industry training workshops, and networking events. Ohio's film tax credit program has been actively attracting feature film production to the Toledo market in 2026, and FilmToledo's dedicated office space anchors the organization's capacity to grow that pipeline. The Blade reported separately on May 22 that an Ohio tax credit is actively supporting feature film production in Toledo."
   ],
-  "why_it_matters": "The Madison Avenue corridor activation pattern is the story to watch — each new ground-floor tenant either reinforces the gallery/creative cluster or doesn't.",
+  "why_it_matters": "The Madison Avenue corridor activation pattern is the story to watch — each new ground-floor tenant either reinforces the gallery/creative cluster or doesn't. FilmToledo's permanent office in the same building complex brings a second creative anchor to the Gardner Building and links the corridor directly to Toledo's growing film production pipeline. Two creative-economy tenants in the same building signals intentionality from the sector, not a one-off opening.",
   "people": [],
-  "sources": [],
+  "sources": [
+    {
+      "title": "Toledo City Paper — Reel to Real: FilmToledo's Next Act: New Offices Bring Big Opportunity",
+      "url": "https://toledocitypaper.com/the-city/reel-to-real-filmtoledos-next-act-new-offices-bring-big-opportunity/"
+    },
+    {
+      "title": "The Blade — Ohio tax credit helps bring feature film production to Toledo",
+      "url": "https://www.toledoblade.com/business/development/2026/05/22/ohio-tax-credit-helps-bring-feature-film-production-to-toledo/stories/20260508092"
+    }
+  ],
   "locations": [
     {
       "shape": "point",
