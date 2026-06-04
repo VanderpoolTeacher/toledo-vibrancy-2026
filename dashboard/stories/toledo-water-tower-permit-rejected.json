@@ -1,19 +1,19 @@
 {
   "id": "toledo-water-tower-permit-rejected",
-  "headline": "Toledo council's June 2 special session reconvenes on west Toledo water tower permit — vote today settles Kokosing contract fate",
+  "headline": "Toledo council approves west Toledo water tower permit 9–2 at June 2 special session — $85M project and Kokosing contract cleared",
   "section": "Citywide",
   "tags": ["citywide"],
 
   "posted_date": "2026-05-28",
   "source_date": "2026-05-26",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-04",
 
   "paragraphs": [
     "Toledo City Council voted 5–6 on May 26 against the special use permit needed for two 2-million-gallon water towers planned for Northover Road near Silver Creek Elementary School in west Toledo — the most contested portion of the city's $85 million, four-tower water infrastructure expansion. McPherson, Morris, Gadus, Kramer, and Jones voted against the permit; Martinez, Williams, Komives, Mac Driscoll, Sarantou, and Hobbs voted for it. The rejection pauses the Northover Road work while the remaining two tower sites — Schneider Park on the south side and Holland-Sylvania Road and West Sylvania Avenue — are unaffected.",
     "Kokosing was awarded the contract for the full project, and city officials warned that continued delay risks losing the contractor entirely — which would require a rebid at potentially higher cost. Crews had already begun clearing trees at the Northover Road site before the vote. Council member Theresa Morris, whose district includes the site, has opposed the location throughout: 'I really do feel that my constituents were done dirty, and I think the city didn't do due diligence in looking at other locations.' Nearby residents cited concerns about property values, neighborhood aesthetics, and loss of green space.",
-    "Toledo City Council convenes its special session today, June 2, at 1:55 p.m. at One Government Center to reconsider Ordinance 225-26 — the special use permit for the Northover Road towers. Under Ohio's procedural rules for reconsideration, a simple majority of the 11-member council is required to approve the permit. A successful re-vote clears Kokosing to proceed and preserves the full $85M project on schedule; a second rejection leaves the city with no current path on the Northover Road sites and would trigger either a rebid process or a hunt for alternative tower locations. Vote results are expected to be published by WTOL and The Blade today."
+    "Toledo City Council voted 9–2 at the June 2 special session to approve Ordinance 225-26 — the special use permit for the Northover Road towers — reversing the May 26 rejection by a decisive margin. Council members Theresa Morris and Theresa Gadus voted no; the remaining nine members voted in favor. With the permit approved, Kokosing can resume work at the Northover Road site and the full $85M, four-tower infrastructure expansion is back on schedule. WTOL reported the vote result on June 2."
   ],
-  "why_it_matters": "The $85M water tower project is designed to increase pressure across Toledo's distribution system and provide emergency reserve capacity as demand grows — the same infrastructure that underpins the city's site-readiness pitch for industrial and commercial development. RGP has spent more than a year marketing northwest Ohio to hyperscale data-center operators; data centers require stable, high-capacity water supply for cooling. A partially blocked water infrastructure expansion — particularly one with contractor-loss risk — directly undercuts the credibility of the site-readiness narrative that TCIC and LCReady are selling. The 5–6 vote margin is close enough that a reconsideration, compromise siting, or council re-vote could salvage the towers — but every month of delay compresses the Kokosing window and raises the cost of resolution.",
+  "why_it_matters": "The 9-2 approval resolves the sharpest near-term disruption risk to Toledo's water infrastructure program. The $85M project is the same utility backbone that underpins the site-readiness pitch TCIC and LCReady make to industrial prospects — data centers, in particular, require stable high-capacity water for cooling. With the Kokosing contract now secure and the permit in hand, the full four-tower expansion can proceed on the original schedule. The reversal from a 5-6 rejection to a 9-2 approval is a decisive margin that settles the question at council. Watch for tree clearing and site work to resume at Northover Road and for construction timeline confirmation from the city.",
   "people": [
     {
       "name": "Theresa Morris",
@@ -41,12 +41,16 @@
     {
       "title": "WTOL — Toledo City Council to reconsider permit for water tower project",
       "url": "https://www.wtol.com/article/news/local/toledo-council/toledo-city-council-reconsider-permit-water-tower-project/512-7bf0e578-b08d-47f5-8d4a-6bdf603a87b4"
+    },
+    {
+      "title": "WTOL — Toledo City Council votes to approve west Toledo water tower project",
+      "url": "https://www.wtol.com/article/news/local/toledo-city-council-votes-to-approve-west-toledo-water-tower-project-northover-silver-creek-elementary/512-0a196e27-2304-4710-9caf-a429537a82a5"
     }
   ],
   "locations": [
     {
       "shape": "point",
-      "label": "Northover Rd near Silver Creek Elementary (proposed tower site — permit rejected)",
+      "label": "Northover Rd near Silver Creek Elementary (water tower site — permit approved Jun 2)",
       "match": "Northover Road",
       "lat": 41.700,
       "lon": -83.640
