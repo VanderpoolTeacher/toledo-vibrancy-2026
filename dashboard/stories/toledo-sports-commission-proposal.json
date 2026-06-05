@@ -1,0 +1,50 @@
+{
+  "id": "toledo-sports-commission-proposal",
+  "headline": "Volunteer group proposes Toledo Sports Commission — modeled on Indianapolis and Cleveland to attract tournaments and visitors",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-06-05",
+  "source_date": "2026-05-31",
+  "last_updated": "2026-06-05",
+
+  "paragraphs": [
+    "A volunteer-led group is proposing the creation of a Toledo Sports Commission — a centralized organization designed to attract sporting events, tournaments, and visitors to the region, generating economic impact through sports tourism. WTOL's 'Leading Edge' program reported the initiative on May 31. Proponent Bruce Rump is modeling the proposal on two successful precedents: Indiana Sports Corp., launched in Indianapolis in 1979, attracted more than 450 national and international events and generated an estimated $4 billion in economic impact for the region; the Greater Cleveland Sports Commission has attracted more than 260 events and generated more than $1 billion in impact over 25 years.",
+    "Sports tourism consultant Dave Nolan — who helped launch the Greater Cleveland Sports Commission — is advising the Toledo effort. Nolan believes Toledo's niche is amateur and youth sports: soccer, lacrosse, pickleball, running events, figure skating, and youth tournaments, rather than competing with larger cities for professional franchises or marquee events. Governance, funding, and long-term priorities are not yet established. Most participants today are volunteers. No formal entity has been incorporated and no city council resolution has been filed."
+  ],
+  "why_it_matters": "A Toledo Sports Commission would give regional sports organizers, venues, and local government a single coordination point for event bidding and visitor recruitment — a function that has been notably absent during the planning phases for both the proposed soccer stadium and the RAISE/Uptown design process. Toledo already has Glass City Center, Fifth Third Field, and a growing riverfront park infrastructure; the missing piece is the organizational capacity to convert that venue inventory into a competitive bidding pipeline for national amateur events. Indianapolis and Cleveland built their sports-economy identities around precisely this institutional scaffolding. Whether this proposal advances from volunteer conversations to a funded organization is the first real test of whether Toledo's leadership will treat sports tourism as a line-item economic development strategy.",
+  "people": [
+    {
+      "name": "Bruce Rump",
+      "role": "Proponent, proposed Toledo Sports Commission",
+      "search_terms": "Bruce Rump Toledo Sports Commission"
+    },
+    {
+      "name": "Dave Nolan",
+      "role": "Sports tourism consultant; helped launch Greater Cleveland Sports Commission",
+      "search_terms": "Dave Nolan Toledo sports commission Cleveland sports commission"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WTOL — Can sports help reshape Toledo? New commission looks to Indianapolis and Cleveland for a roadmap",
+      "url": "https://www.wtol.com/article/news/local/leading-edge/can-sports-help-reshape-toledo-new-commission-looks-to-indianapolis-and-cleveland-for-a-roadmap/512-d7d86b14-dd41-45bb-b02c-c7d7314f24e7"
+    },
+    {
+      "title": "WTOL Leading Edge — Group proposes Toledo sports commission (May 31)",
+      "url": "https://www.wtol.com/video/news/local/leading-edge/leading-edge-group-proposes-toledo-sports-commission-return-of-american-white-pelican-may-31/512-eb82aa9e-3f80-46a7-a795-d01303d84938"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Glass City Center — Toledo's primary convention and event venue",
+      "match": null,
+      "lat": 41.6633,
+      "lon": -83.5355
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["soccer-stadium-vistula", "raise-uptown-junction", "watershed-weekend-riverwalk", "evis-america-2026-monske-rgp"],
+  "search_terms": "Toledo Sports Commission amateur sports tourism Indianapolis Cleveland economic impact tournaments 2026 Bruce Rump Dave Nolan"
+}
