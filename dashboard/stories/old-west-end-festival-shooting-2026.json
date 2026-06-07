@@ -1,0 +1,71 @@
+{
+  "id": "old-west-end-festival-shooting-2026",
+  "headline": "Old West End Festival mass shooting draws national coverage — 12 injured, Sunday cancelled, suspects at large as Watershed Weekend looms 4 days out",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-06-07",
+  "source_date": "2026-06-06",
+  "last_updated": "2026-06-07",
+
+  "paragraphs": [
+    "At approximately 5:30 p.m. on June 6, 2026, gunfire erupted near the 53rd annual Old West End Festival in Toledo's historic Old West End neighborhood — at the intersection of Delaware and Glenwood avenues. Toledo Police reported at least 12 people shot, two of them critically; victims ranged in age from 14 to 61, with most in their early 20s. Investigators believe at least two shooters opened fire, likely aiming at each other. Extensive security was in place — additional officers, off-duty security personnel, and mobile surveillance cameras linked to the department's real-time crime center — yet the shooting proceeded. All 12 victims are expected to survive. No suspects were in custody as of the evening of June 7.",
+    "Mayor Wade Kapszukiewicz described the incident as 'over the top' in terms of violence. Sunday's festival events were cancelled following coordination between organizers, Toledo law enforcement, and the city. Governor DeWine, Rep. Marcy Kaptur, and other elected officials issued public reactions. WTOL reported that Toledo Public Safety Director George Kral urged residents and attendees to share any photos or video taken at the festival. The story received national wire-service pickup and was covered by CNN, NBC, ABC, and Fox News — placing Toledo in a national public safety narrative at the start of summer festival season.",
+    "The Old West End Festival is one of Toledo's oldest and highest-attendance annual outdoor events, drawing thousands of visitors to the nationally recognized historic neighborhood adjacent to downtown. The shooting comes 5 days before Watershed Weekend (June 11–14), Metroparks Toledo's marquee 40-event celebration of the Glass City Riverwalk's 50% completion milestone. As of June 7, no adjustments to the Watershed Weekend schedule have been announced; the full event program remains on. Watch security posture and attendance turnout at Watershed Weekend as the first public signal of whether Toledo's outdoor-event confidence holds through the incident."
+  ],
+  "why_it_matters": "Toledo's outdoor festival economy is a pillar of the investment thesis being marketed to developers and site selectors — the argument that vibrant public spaces along the Maumee River drive private-sector confidence, foot traffic, and neighborhood activation. Watershed Weekend is the single most important outdoor-event proof point of that thesis in 2026. The OWE shooting — national coverage, 12 victims, suspects at large, Sunday cancelled — introduces a counter-narrative at a critical moment. Toledo's festivals have historically been safe; this is an outlier in the data, not a pattern. How the city performs over the next 96 hours — arrests, security posture for Watershed Weekend, mayoral messaging — will determine whether this incident becomes a footnote or a chilling factor in the outdoor-event confidence story that organizers and real estate developers alike are watching.",
+
+  "people": [
+    {
+      "name": "Wade Kapszukiewicz",
+      "role": "Mayor, City of Toledo",
+      "search_terms": "Wade Kapszukiewicz Toledo Mayor"
+    },
+    {
+      "name": "George Kral",
+      "role": "Public Safety Director, City of Toledo",
+      "search_terms": "George Kral Toledo Public Safety Director"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "WTOL — 12 people shot near Old West End Festival, two critically injured; no suspects in custody",
+      "url": "https://www.wtol.com/article/news/local/large-police-and-medical-presence-at-old-west-end-festival-saturday-afternoon/512-b2530204-93a7-4a95-9ba3-56acbc9d67b8"
+    },
+    {
+      "title": "WTOL — Elected officials react after 12 people shot near Old West End Festival",
+      "url": "https://www.wtol.com/article/news/local/dewine-kaptur-hicks-hudson-react-old-west-end-festival-shooting/512-44041b3e-8963-46f4-bda9-0c5d68b1360c"
+    },
+    {
+      "title": "13abc — Local leaders address mass shooting at Toledo festival",
+      "url": "https://www.13abc.com/2026/06/07/local-leaders-addresses-mass-shooting-toledo-festival/"
+    },
+    {
+      "title": "13abc — At least a dozen injured in Toledo festival mass shooting; police searching for suspects",
+      "url": "https://www.13abc.com/2026/06/06/toledo-police-searching-suspects-after-multiple-people-shot-near-old-west-end-fest/"
+    },
+    {
+      "title": "CNN — Toledo shooting: Police search for suspects after at least 12 people shot near a festival",
+      "url": "https://www.cnn.com/2026/06/06/us/old-west-end-festival-toledo-ohio-shooting"
+    },
+    {
+      "title": "NBC News — At least 12 shot near Ohio festival, gunmen still at large",
+      "url": "https://www.nbcnews.com/news/us-news/ohio-old-west-end-festival-shooting-rcna348826"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Old West End Festival — Delaware Ave & Glenwood Ave, Toledo",
+      "match": "Old West End Festival",
+      "lat": 41.665,
+      "lon": -83.552
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["watershed-weekend-riverwalk"],
+  "search_terms": "Old West End Festival shooting Toledo June 2026 mass shooting 12 shot Delaware Glenwood Watershed Weekend public safety"
+}
