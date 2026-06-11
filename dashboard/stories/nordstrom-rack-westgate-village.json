@@ -1,16 +1,18 @@
 {
   "id": "nordstrom-rack-westgate-village",
-  "headline": "Nordstrom Rack picks Toledo for first metro-area store — anchors $75M Westgate Village North development",
+  "headline": "Westgate Village North breaks ground — Trader Joe's leads seven-tenant roster at $60M west Toledo development",
   "section": "Citywide",
   "tags": ["citywide"],
   "posted_date": "2026-05-21",
   "source_date": "2026-05-14",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-06-11",
   "paragraphs": [
     "Nordstrom announced on May 14 that it will open a 21,000-square-foot Nordstrom Rack at Westgate Village North — the first Nordstrom-brand store ever to serve the Toledo market. The store is scheduled to open in summer 2027. Westgate Village North is a 27-acre retail development at the northwest corner of Central Avenue and Secor Road (3311 Secor Road), developed by Abbell Associates in partnership with the Nikki Group on the former Elder-Beerman site. The Toledo-Lucas County Plan Commission approved the $75 million development in February 2026; the project calls for three to four retail and restaurant buildings aimed at 'new-to-market' national brands.",
-    "Nordstrom Rack President Gemma Lionello said the company looks forward to 'being a part of the Toledo community,' while Abbell CEO Liz Holland called Nordstrom 'best-in-class' and the anchor needed to 'bring a first-rate selection' to the west Toledo corridor. No other tenants have been named publicly, though Abbell indicated it is in active negotiations with national retailers and restaurant brands."
+    "Nordstrom Rack President Gemma Lionello said the company looks forward to 'being a part of the Toledo community,' while Abbell CEO Liz Holland called Nordstrom 'best-in-class' and the anchor needed to 'bring a first-rate selection' to the west Toledo corridor. No other tenants had been named publicly at the time of the initial announcement.",
+    "Mayor Kapszukiewicz and Abbell CEO Liz Holland led a groundbreaking ceremony on June 10 at the Westgate Village North site. The city simultaneously announced the full tenant roster: Trader Joe's (Toledo's first location), Dick's House of Sport, Golf Galaxy, Sierra, Nordstrom Rack, Mission BBQ, and Smoothie King — all either new to Toledo or new to the northwest Ohio market. Also attending the ceremony: Toledo Chief Growth Officer Brandon Sehlhorst, District 5 City Council member Sam Melden, and Washington Local Schools Superintendent Kristine Martin. The total project cost is confirmed at $60 million.",
+    "Abbell Associates is partnering with The Nikki Group on an approximately $30 million redevelopment of the adjacent former Elder-Beerman site; additional retail tenants for that parcel are expected to be announced in coming months. No public opening timeline has been announced for either project."
   ],
-  "why_it_matters": "A Nordstrom Rack is a category-one retail signal — it means the market's household-income profile and retail-gap analysis cleared Nordstrom's bar, which is conservative. For Toledo's retail narrative, which has been battered by years of suburban-mall contraction and Sears/Elder-Beerman closures, landing a first-ever Nordstrom brand location is a meaningful data point. For Westgate Village North specifically, a national anchor dramatically improves leasing velocity for the remaining three to four buildings — once the anchor signs, smaller tenants follow faster. Track who else is announced in the next 90 days.",
+  "why_it_matters": "Trader Joe's is Toledo's most-requested national retailer — it has appeared on community wish lists for years and repeatedly cited a market size gap as the barrier. Landing it as the anchor of a new-build development, alongside Dick's House of Sport, Golf Galaxy, and five other new-to-market names, signals that Toledo's demographic and income profile finally clears national retailers' underwriting thresholds. The $60M project on the former Sears site converts a long-vacant anchor pad into a full retail block in one move. For the west Toledo corridor — which serves Washington Local, Sylvania, and Perrysburg shoppers — this is the most consequential retail announcement in a decade. Watch for the Nikki Group's Elder-Beerman parcel tenant announcements, which will determine whether the two-site development becomes a unified retail district.",
   "people": [
     {
       "name": "Liz Holland",
@@ -21,6 +23,11 @@
       "name": "Gemma Lionello",
       "role": "President, Nordstrom Rack",
       "search_terms": "Gemma Lionello Nordstrom Rack president"
+    },
+    {
+      "name": "Brandon Sehlhorst",
+      "role": "Chief Growth Officer, City of Toledo",
+      "search_terms": "Brandon Sehlhorst Toledo Chief Growth Officer TCIC"
     }
   ],
   "sources": [
@@ -39,6 +46,26 @@
     {
       "title": "PR Newswire — Nordstrom Rack Toledo announcement",
       "url": "https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-toledo-ohio-302770646.html"
+    },
+    {
+      "title": "City of Toledo — Mayor Kapszukiewicz Announces Future Tenants of Westgate Village North",
+      "url": "https://toledo.oh.gov/news/2026/06/10/mayor-kapszukiewicz-announces-future-tenants-of-westgate-village-north"
+    },
+    {
+      "title": "WTOL — It's official: Trader Joe's is coming to Toledo",
+      "url": "https://www.wtol.com/article/news/local/its-official-trader-joes-is-coming-to-toledo/512-24753422-ac77-4a93-9137-eec28a9a9a89"
+    },
+    {
+      "title": "13abc — Trader Joe's is coming to Toledo!",
+      "url": "https://www.13abc.com/2026/06/10/trader-joes-is-coming-toledo/"
+    },
+    {
+      "title": "13abc — Toledo breaks ground on Westgate Village North",
+      "url": "https://www.13abc.com/2026/06/10/toledo-breaks-ground-westgate-village-north/"
+    },
+    {
+      "title": "The Blade — Trader Joe's, Nordstrom Rack to be tenants in new Westgate Village North",
+      "url": "https://www.toledoblade.com/business/development/2026/06/10/trader-joe-s-golf-galaxy-to-be-tenants-in-new-westgate-village-north/stories/20260610036"
     }
   ],
   "locations": [
