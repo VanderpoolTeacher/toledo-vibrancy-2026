@@ -1,0 +1,70 @@
+{
+  "id": "ohio-capital-budget-2026-lucas-county",
+  "headline": "DeWine signs $3.7B Ohio capital budget — Lucas County lands ~$48.5M for UToledo, arts venues, and community facilities",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-06-17",
+  "source_date": "2026-06-15",
+  "last_updated": "2026-06-17",
+
+  "paragraphs": [
+    "Governor Mike DeWine signed Senate Bill 450 — Ohio's capital budget for fiscal years 2027 and 2028 — on June 15, 2026. The $3.7 billion statewide appropriation delivers approximately $48.5 million to Lucas County, anchored by $18.3 million-plus in University of Toledo facilities funding. Rep. Michele Grim reported the total following the Ohio House's final passage of the bill. Northwest Ohio's higher education institutions claim the largest share: Bowling Green State University receives $19 million plus funding for BGSU Firelands; Owens Community College receives $5.7 million; Northwest State Community College receives $4.1 million; Terra State Community College receives $1.4 million.",
+    "Toledo's arts and cultural venues receive a meaningful tranche from the bill: the Valentine Theatre and the Historic Ohio Theatre each receive $500,000; the Toledo Museum of Art, Toledo Live Arts, and the Toledo Arts Commission receive additional amounts from a pool totaling at least $2 million for the city's arts infrastructure. The Historic Ohio Theatre — whose restoration has been underway since lightning destroyed its marquee in 2008 — will receive the final capital funding needed to complete the multi-decade preservation project. Community service facilities also benefit: Cherry Street Mission (Mission Point) receives $407,500 and Unison Health receives $400,000 for facility improvements."
+  ],
+  "why_it_matters": "Capital budget allocations are the state writing the check for the infrastructure on which economic development happens. The UToledo appropriation lands at a moment when the university is positioning its research and innovation capacity as a workforce-pipeline asset for northwest Ohio's data center and advanced manufacturing bids. The arts venue funding matters because Toledo's cultural corridor — the Valentine, the Ohio Theatre, the Toledo Museum — is part of the soft infrastructure that makes the downtown-activation thesis credible to site selectors. A fully restored Historic Ohio Theatre has been a visible preservation gap on Lagrange Street for 17 years; closing that chapter removes a public-disinvestment signal from north Toledo's commercial corridor. Watch for UToledo to publish a facilities capital plan specifying which buildings receive the appropriation, and for the Historic Ohio Theatre board to announce a completion timeline.",
+
+  "people": [
+    {
+      "name": "Michele Grim",
+      "role": "State Representative, Ohio House (Toledo / Lucas County)",
+      "search_terms": "Michele Grim Ohio House Representative Toledo Lucas County capital budget"
+    },
+    {
+      "name": "Mike DeWine",
+      "role": "Governor, Ohio",
+      "search_terms": "Mike DeWine Ohio Governor capital budget SB 450"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Northwest Ohio projects receive millions in state capital budget funding",
+      "url": "https://www.13abc.com/2026/06/15/northwest-ohio-projects-receive-millions-state-capital-budget-funding/"
+    },
+    {
+      "title": "WTOL — Ohio's $3.7B budget proposal includes funding for wide variety of NW Ohio projects",
+      "url": "https://www.wtol.com/article/news/politics/state-politics/ohio-capital-budget-toledo-northwest-ohio-projects/512-e6041392-8049-49c2-b0f3-2ba7eafb0f38"
+    },
+    {
+      "title": "The Blade — Ohio capital budget includes $5.7M for Lucas County projects",
+      "url": "https://www.toledoblade.com/local/politics/2026/06/02/ohio-capital-budget-includes-5-7m-lucas-county-projects/stories/20260602102"
+    },
+    {
+      "title": "The Blade — DeWine signs $3.7B capital budget bill",
+      "url": "https://www.toledoblade.com/local/politics/2026/06/15/dewine-signs-3-7b-capital-budget-bill/stories/20260615063"
+    },
+    {
+      "title": "WTOL — New state funding helps finish the Historic Ohio Theatre restoration project",
+      "url": "https://www.wtol.com/article/news/local/new-state-funding-helps-finish-historic-ohio-theatre-restoration/512-7fe1296b-6205-4110-b2c0-fb8ab5088c17"
+    },
+    {
+      "title": "Ohio House — Rep. Grim delivers $48.5M for Lucas County in state capital budget",
+      "url": "https://ohiohouse.gov/members/michele-grim/news/rep-grim-ohio-house-pass-final-state-capital-budget-delivering-485-million-in-transformative-community-investments-for-lucas-county-120627"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "University of Toledo — $18.3M+ capital investment",
+      "match": "University of Toledo",
+      "lat": 41.6578,
+      "lon": -83.6154
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["utoledo-cancer-research-institute", "vibrancy-19-grants"],
+  "search_terms": "Ohio capital budget 2026 Lucas County Toledo UToledo arts venues Valentine Theatre Historic Ohio Theatre DeWine SB 450 Michele Grim"
+}
