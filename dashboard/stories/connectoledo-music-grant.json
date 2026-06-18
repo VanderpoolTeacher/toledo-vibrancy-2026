@@ -1,6 +1,6 @@
 {
   "id": "connectoledo-music-grant",
-  "headline": "ConnecToledo lands $120K multi-year grant for free music series",
+  "headline": "Levitt BLOC Toledo Music Series lineup announced — 12-week free concert run across 4 parks opens July 16",
   "section": "Downtown",
   "tags": [
     "downtown",
@@ -10,13 +10,31 @@
   "posted_date": "2026-05-20",
   "source_date": "",
   "date_label": "Ongoing · 3-year program covering 2026–2028",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-06-18",
   "paragraphs": [
-    "ConnecToledo will run a free outdoor music series at Promenade Park, Glass City Metropark, Junction Park, and Danny Thomas Park through 2026, 2027, and 2028."
+    "ConnecToledo, in partnership with Metroparks Toledo, the City of Toledo, and Toledo Design Collective, was awarded a multi-year Levitt Music Series Grant through a national public-voting and selection process to run a free outdoor music series at four Toledo parks — Promenade Park, Glass City Metropark, Junction Park, and Danny Thomas Park — through 2026, 2027, and 2028.",
+    "The full Levitt BLOC Toledo Music Series lineup was announced June 16, 2026, at a press conference at the Danny Thomas Park bandshell. The 2026 series runs July 16 through October 8, with the first show at Glass City Metropark on July 16. Programming spans gospel, soul, Tejano, punk, hip hop, electronic, and other genres, reflecting Toledo's cultural diversity. All shows are free and open to the public. The series is part of the Levitt Foundation's national BLOC program, which places free outdoor concert series in cities that win competitive grant rounds through community engagement."
   ],
   "why_it_matters": "A three-year programming commitment with venues spanning Junction through downtown is the soft infrastructure that builds cross-neighborhood foot traffic patterns.",
   "people": [],
-  "sources": [],
+  "sources": [
+    {
+      "title": "City of Toledo — City of Toledo and Community Partners Announce Levitt BLOC Toledo Music Series Lineup",
+      "url": "https://toledo.oh.gov/news/2026/06/16/city-of-toledo-and-community-partners-announce-levitt-bloc-toledo-music-series-lineup"
+    },
+    {
+      "title": "WTOL — Levitt BLOC Toledo Music Series bringing free music to local parks",
+      "url": "https://www.wtol.com/video/news/local/levitt-bloc-toledo-music-series-bringing-free-music-to-local-parks/512-a855311e-10b5-40b9-91a3-a1208e175654"
+    },
+    {
+      "title": "Spectrum News 1 — Toledo announces lineup for new live concert series",
+      "url": "https://spectrumnews1.com/oh/columbus/news/2026/06/16/toledo-announces-lineup-for-new-live-concert-series"
+    },
+    {
+      "title": "Levitt Foundation — Levitt BLOC Toledo",
+      "url": "https://levitt.org/bloc-toledo-oh/"
+    }
+  ],
   "locations": [
     {
       "shape": "point",
