@@ -1,0 +1,49 @@
+{
+  "id": "sarnies-downtown-toledo",
+  "headline": "Sarnie's deli returns to downtown Toledo — reopens at 614 Adams St. in former Fowl Fodder space",
+  "section": "Downtown",
+  "tags": ["downtown"],
+
+  "posted_date": "2026-06-22",
+  "source_date": "2026-06-20",
+  "last_updated": "2026-06-22",
+
+  "paragraphs": [
+    "Sarnie's, the downtown Toledo deli that closed during the COVID-19 pandemic, has reopened at 614 Adams St. in the Hylant building — the former Fowl Fodder space — bringing homemade breakfasts, deli sandwiches, and chopped salads back to the downtown lunch circuit. The Blade covered the reopening on June 20. Owner Gareth Jones, who also had a location at Levis Commons in Perrysburg before that closed, has said the focus remains on quality fresh food at a reasonable price. The Adams Street address puts Sarnie's directly in the orbit of the downtown government and office cluster.",
+    "The reopening is a small but genuine signal for downtown Toledo's food-and-beverage recovery: a brand with local recognition returning to a street-level location rather than a food hall or ghost kitchen model. 614 Adams St. is within walking distance of Toledo City Hall, the Lucas County government center, and the emerging Huron Yards corridor — a daytime lunch catchment area that has been undersupplied since the pandemic-era closures thinned the downtown dining roster."
+  ],
+  "why_it_matters": "Each returning downtown anchor — restaurant, gallery, service — adds a data point to the argument that the city's residential and office investments are producing the foot traffic that sustains street-level retail. Sarnie's is not a category-one investment, but its return to a brick-and-mortar Adams Street location after a pandemic-forced closure follows the same logic as Swanky Scoops in the Warehouse District: legacy brands coming back to Toledo's core are the leading indicator of rising commercial confidence, not just new-to-market names. Watch whether Sarnie's draws the daytime office population that will validate similar operator decisions on the same corridor.",
+
+  "people": [
+    {
+      "name": "Gareth Jones",
+      "role": "Owner, Sarnie's",
+      "search_terms": "Gareth Jones Sarnies Toledo deli downtown"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Back in business: Sarnie's opens up shop in downtown Toledo",
+      "url": "https://www.toledoblade.com/a-e/food/2026/06/20/sarnie-s-deli-back-business-shop-downtown/stories/20260621037"
+    },
+    {
+      "title": "WTOL — Sarnie's Deli returns after nearly five years",
+      "url": "https://www.wtol.com/video/news/local/sarnies-deli-returns-after-nearly-five-years/512-9544d2c2-a6b9-4f51-b158-3b1ec0d7e9db"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Sarnie's — 614 Adams St., downtown Toledo",
+      "match": "614 Adams St.",
+      "lat": 41.6628,
+      "lon": -83.5369
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["huron-yards-phase-two", "swanky-scoops"],
+  "search_terms": "Sarnies deli downtown Toledo 614 Adams Street Gareth Jones reopening Fowl Fodder Hylant building"
+}
