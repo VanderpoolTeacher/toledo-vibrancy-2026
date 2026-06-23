@@ -1,0 +1,52 @@
+{
+  "id": "toledo-flock-cameras-vote",
+  "headline": "Toledo City Council debates Flock license plate reader extension — privacy concerns mount ahead of vote on surveillance contract",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-06-23",
+  "source_date": "2026-06-22",
+  "last_updated": "2026-06-23",
+
+  "paragraphs": [
+    "Toledo City Council held a public hearing on June 22 on Ordinance O-286-26, which would authorize spending approximately $14,000 to extend the city's existing agreement with Flock Group Inc. for portable automatic license plate readers (ALPRs) used by the Toledo Police Department's Real Time Crime Center — the same public-safety infrastructure that was operational during the June 6 Old West End Festival mass shooting. Residents voiced concerns at the hearing about privacy and about which communities bear the disproportionate burden of surveillance under the ALPR program. Toledo police and the Lucas County Prosecutor's Office have argued the cameras are a key investigative tool that help track vehicles linked to serious crimes, identify suspects, and build criminal cases. The Blade covered the debate on June 22; 13abc and WTOL reported the hearing and upcoming vote. The council vote is scheduled for the regular June 23 session.",
+    "The Toledo vote comes as Flock ALPR contracts face growing national scrutiny: more than 30 cities have canceled Flock contracts in 2026, and Cleveland's Flock camera network is set to go dark on June 29 after the Cleveland City Council rejected an extension. Toledo's existing ALPR program was authorized in November 2025, when council voted to expand use of portable cameras; the June 23 vote is a one-year renewal at minimal cost. The substantive debate — who controls the data, how long records are retained, how enforcement use is audited, and whether the technology produces racially disproportionate outcomes — mirrors what Cleveland and other Ohio cities have confronted. Separately, a broader Ohio privacy debate has accompanied the national Flock backlash, with several state lawmakers examining whether statewide standards for ALPR use are needed."
+  ],
+  "why_it_matters": "Flock ALPRs are part of Toledo's Real Time Crime Center infrastructure — the same technology active at the OWE Festival on June 6 and cited by police as a tool in the subsequent investigation. For the economic development narrative, the outcome of the June 23 vote matters in two directions: a continued robust public-safety technology posture is part of the pitch Toledo makes to site selectors, event organizers, and insurance underwriters in the post-OWE environment; but a growing privacy and civil rights record around ALPR use could complicate that pitch if enforcement patterns draw public scrutiny. The national Flock cancel-wave signals that the surveillance-versus-privacy tension is not abstract — it is a governance decision other city councils have made and reversed. Watch the vote split for how Toledo's council reads the post-OWE public appetite for surveillance infrastructure versus civil liberties protections.",
+
+  "people": [
+    {
+      "name": "Erin Kramer",
+      "role": "Toledo City Council member",
+      "search_terms": "Erin Kramer Toledo City Council"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Toledo residents voice concerns about Flock cameras ahead of council vote",
+      "url": "https://www.13abc.com/2026/06/23/toledo-residents-voice-concerns-about-flock-cameras-ahead-council-vote/"
+    },
+    {
+      "title": "WTOL — Toledo City Council holds public hearing for concerns over Flock cameras; vote to be held Tuesday",
+      "url": "https://www.wtol.com/article/news/local/toledo-city-council-holds-public-hearing-for-concerns-over-flock-cameras-ahead-of-a-vote/512-3e47e3bb-8fd4-42fe-b7c7-c435a1afdb20"
+    },
+    {
+      "title": "WTOL — Toledo residents can weigh in on Flock license plate cameras at public hearing",
+      "url": "https://www.wtol.com/article/news/local/toledo-flock-camera-public-hearing-license-plate-readers/512-1241d3f3-d21d-4918-802d-0d5dd0e50daa"
+    },
+    {
+      "title": "The Blade — Council debates Flock contract renewal as public safety concerns persist",
+      "url": "https://www.toledoblade.com/local/city/2026/06/22/council-debates-flock-contract-renewal-public-safety-concerns-persist/stories/20260622077"
+    },
+    {
+      "title": "13abc — Toledo defends license plate cameras amid Ohio privacy debate",
+      "url": "https://www.13abc.com/2026/06/02/toledo-defends-license-plate-cameras-amid-ohio-privacy-debate/"
+    }
+  ],
+
+  "locations": [],
+  "external_map_link": null,
+  "related_story_ids": ["old-west-end-festival-shooting-2026", "toledo-special-event-safety-zones"],
+  "search_terms": "Flock cameras Toledo ALPR license plate readers privacy surveillance Real Time Crime Center Toledo City Council ordinance O-286-26 2026"
+}
