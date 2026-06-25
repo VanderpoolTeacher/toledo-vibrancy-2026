@@ -1,0 +1,213 @@
+{
+  "date": "2026-06-25",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+
+  "top_story_id": "old-west-end-festival-shooting-2026",
+
+  "sections": [
+    {
+      "title": "",
+      "story_ids": ["old-west-end-festival-shooting-2026"]
+    },
+    {
+      "title": "Ongoing",
+      "story_ids": [
+        "gordie-howe-bridge-opening-delayed",
+        "van-wert-qts-data-center",
+        "nordstrom-rack-westgate-village",
+        "four-corners-spitzer-nicholas",
+        "hotel-lorraine-foreclosure",
+        "opmobility-rossford-plant",
+        "tanger-levis-commons-acquisition",
+        "ohio-capital-budget-2026-lucas-county",
+        "owens-corning-250m",
+        "soccer-stadium-vistula",
+        "huron-yards-phase-two",
+        "vistula-metropark",
+        "toledo-yacht-club-sheriffs-sale",
+        "toledo-special-event-safety-zones",
+        "toledo-flock-cameras-vote",
+        "ostrich-towne-tenants",
+        "blade-superior-street-hq",
+        "tcic-board-sehlhorst-shovel-ready",
+        "heather-cove-villas-south-toledo",
+        "collingwood-green-v-seniors-junction",
+        "welcome-home-ohio-toledo-lucas-county",
+        "port-authority-ashland-manor-covenant-house",
+        "lcready-site-certification",
+        "land-bank-mann-1b-milestone-ose",
+        "inverness-village-duplexes-dorr-street",
+        "jvis-toledo-molding-die",
+        "foundation-steel-hq-move",
+        "brownfield-health-district",
+        "innovation-post-tenants",
+        "raise-uptown-junction",
+        "port-warehouse-liquid-terminal",
+        "lake-erie-west-regional-council-sarantou",
+        "utoledo-cancer-research-institute",
+        "evis-america-2026-monske-rgp",
+        "rgp-2026-annual-meeting-data-centers",
+        "jobsohio-ai-ready-ohio-toledo",
+        "glass-city-urban-campground",
+        "connectoledo-music-grant",
+        "vibrancy-19-grants",
+        "toledo-vehicle-registration-fee",
+        "toledo-water-tower-permit-rejected",
+        "small-business-app-growth",
+        "swanky-scoops",
+        "swayne-field-englewood-renovation",
+        "mind-and-soul-gallery",
+        "promedica-medical-mutual",
+        "toledo-sports-commission-proposal",
+        "watershed-weekend-riverwalk",
+        "sarnies-downtown-toledo"
+      ]
+    }
+  ],
+
+  "ongoing_story_ids": [
+    "gordie-howe-bridge-opening-delayed",
+    "van-wert-qts-data-center",
+    "nordstrom-rack-westgate-village",
+    "four-corners-spitzer-nicholas",
+    "hotel-lorraine-foreclosure",
+    "opmobility-rossford-plant",
+    "tanger-levis-commons-acquisition",
+    "ohio-capital-budget-2026-lucas-county",
+    "owens-corning-250m",
+    "soccer-stadium-vistula",
+    "huron-yards-phase-two",
+    "vistula-metropark",
+    "toledo-yacht-club-sheriffs-sale",
+    "toledo-special-event-safety-zones",
+    "toledo-flock-cameras-vote",
+    "ostrich-towne-tenants",
+    "blade-superior-street-hq",
+    "tcic-board-sehlhorst-shovel-ready",
+    "heather-cove-villas-south-toledo",
+    "collingwood-green-v-seniors-junction",
+    "welcome-home-ohio-toledo-lucas-county",
+    "port-authority-ashland-manor-covenant-house",
+    "lcready-site-certification",
+    "land-bank-mann-1b-milestone-ose",
+    "inverness-village-duplexes-dorr-street",
+    "jvis-toledo-molding-die",
+    "foundation-steel-hq-move",
+    "brownfield-health-district",
+    "innovation-post-tenants",
+    "raise-uptown-junction",
+    "port-warehouse-liquid-terminal",
+    "lake-erie-west-regional-council-sarantou",
+    "utoledo-cancer-research-institute",
+    "evis-america-2026-monske-rgp",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo",
+    "glass-city-urban-campground",
+    "connectoledo-music-grant",
+    "vibrancy-19-grants",
+    "toledo-vehicle-registration-fee",
+    "toledo-water-tower-permit-rejected",
+    "small-business-app-growth",
+    "swanky-scoops",
+    "swayne-field-englewood-renovation",
+    "mind-and-soul-gallery",
+    "promedica-medical-mutual",
+    "toledo-sports-commission-proposal",
+    "watershed-weekend-riverwalk",
+    "sarnies-downtown-toledo"
+  ],
+
+  "watch_list": [
+    "'Fireworks in the 419' July 4 — first activation of Special Event Safety Zones at Promenade Park (6 p.m. July 4 to 6 a.m. July 5); watch implementation, enforcement posture, and public response.",
+    "OWE case — arraignments for Crisp-Carr and Taylor at Lucas County Common Pleas Court expected in coming days; adult certification hearing for the teenage third defendant is the next milestone in that prosecution track.",
+    "Huron Yards Okun Market — late-2026 opening target for downtown Toledo's first grocery store; watch for construction progress and soft-opening announcement.",
+    "Vibrancy 19 — property list and first grant awards; watch for project-level construction starts across the 10 neighborhoods.",
+    "Gordie Howe Bridge — first published commercial freight volume data at the Windsor-Detroit crossing remains the leading operational indicator for Toledo's I-75 corridor site-selector pitch.",
+    "Westgate Village North — additional tenant announcements from The Nikki Group's adjacent Elder-Beerman parcel redevelopment; signals whether the two-site development becomes a unified retail district."
+  ],
+
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "Toledo Yacht Club",
+      "url": "https://www.thetoledoyachtclub.com/"
+    },
+    {
+      "title": "RKP Group — Four Corners",
+      "url": "https://rkp-group.com/news"
+    },
+    {
+      "title": "Ohio Capital Journal — Data Centers",
+      "url": "https://ohiocapitaljournal.com/tag/data-centers/"
+    },
+    {
+      "title": "VW Independent — QTS Data Center",
+      "url": "https://thevwindependent.com/"
+    },
+    {
+      "title": "Statehouse News Bureau — Data Centers",
+      "url": "https://www.statenews.org/tags/data-centers"
+    },
+    {
+      "title": "Old West End Toledo",
+      "url": "http://www.toledooldwestend.com/"
+    },
+    {
+      "title": "Windsor-Detroit Bridge Authority — Gordie Howe Bridge",
+      "url": "https://www.wdbridge.com/en/"
+    },
+    {
+      "title": "Levitt BLOC Toledo Music Series",
+      "url": "https://levitt.org/bloc-toledo-oh/"
+    }
+  ]
+}
