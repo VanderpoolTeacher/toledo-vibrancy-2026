@@ -1,0 +1,53 @@
+{
+  "id": "glass-city-jazzfest-2026",
+  "headline": "5th annual Glass City JazzFest announces August 14–15 lineup at Toledo Zoo Amphitheater and Glass City Metropark",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-07-01",
+  "source_date": "2026-07-01",
+  "last_updated": "2026-07-01",
+
+  "paragraphs": [
+    "The 5th annual Glass City JazzFest announced its 2026 lineup on July 1. The two-day festival returns August 14–15: the evening of August 14 at the Toledo Zoo Amphitheater (6–10:30 p.m.; $10 advance, $20 advance reserved, $20 day-of general admission), followed by a free all-day session August 15 at Glass City Metropark (1–10:30 p.m.), the signature riverside venue on the Glass City Riverwalk corridor. TARTA operates transit service to the event.",
+    "The dual-venue format places a ticketed cultural draw at the Toledo Zoo and a zero-barrier crowd day at Glass City Metropark on the same mid-August weekend. The Metropark's free day is the economic activation element: it brings thousands of visitors to the riverfront without a ticket price threshold, generating foot traffic for the Maumee riverside restaurants and vendors who rely on high-visibility summer Saturdays to anchor their revenue base."
+  ],
+  "why_it_matters": "Now in its 5th year, Glass City JazzFest is one of the Metropark system's most established mid-summer events and a direct test of the 'completed Riverwalk section as event attractor' thesis. Free attendance at Glass City Metropark on August 15 creates a no-barrier crowd day for the riverfront that supports the foot-traffic arguments Toledo EDOs and mixed-use developers near the corridor use in their investment cases. The dual-venue model — pairing a ticketed evening at the Zoo Amphitheater with a free riverfront day — also demonstrates the Metroparks-Toledo Zoo programming partnership maturing as a regional event-calendar anchor.",
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — 5th annual Glass City JazzFest announces 2026 lineup",
+      "url": "https://www.13abc.com/2026/07/01/5th-annual-glass-city-jazzfest-announces-2026-lineup/"
+    },
+    {
+      "title": "Glass City JazzFest — official site",
+      "url": "https://glasscityjazzfest.com/"
+    },
+    {
+      "title": "TARTA — Glass City JazzFest transit service",
+      "url": "https://tarta.com/community/events/glass-city-jazzfest/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Glass City Metropark — free day August 15",
+      "match": "Glass City Metropark",
+      "lat": 41.6547,
+      "lon": -83.5168
+    },
+    {
+      "shape": "point",
+      "label": "Toledo Zoo Amphitheater — ticketed evening August 14",
+      "match": "Toledo Zoo Amphitheater",
+      "lat": 41.6459,
+      "lon": -83.5680
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["connectoledo-music-grant", "glass-city-urban-campground", "watershed-weekend-riverwalk"],
+  "search_terms": "Glass City JazzFest 2026 Toledo Zoo Amphitheater Glass City Metropark August jazz festival riverfront"
+}

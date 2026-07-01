@@ -42,6 +42,9 @@ raise-uptown-junction.se | SE corner: 13th St & Monroe St | 41.6537 | -83.5520 |
 
 raise-uptown-junction.nw | NW corner: 21st St & Adams St | 41.6580 | -83.5610 | no Nominatim hit for intersection — kept best-effort; https://toledo.oh.gov/raise
 
+glass-city-jazzfest-2026.glasscity | Glass City Metropark (free day, Aug 15) | 41.6547 | -83.5168 | reused verified coords from connectoledo-music-grant.glasscity (Nominatim 2026-05-20)
+glass-city-jazzfest-2026.zoo | Toledo Zoo Amphitheater (2 Hippo Way) | 41.6459 | -83.5680 | best-effort; no Nominatim hit for amphitheater specifically; zoo complex centroid from OSM "Toledo Zoo" node — field-check recommended
+
 ---
 
 ## Vibrancy 17 cross-check (Step 1.3)
