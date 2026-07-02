@@ -1,0 +1,91 @@
+{
+  "id": "udd-tech-drone-manufacturing-holland",
+  "headline": "Ukrainian drone maker UDD Tech selects Holland (Lucas County) for first U.S. manufacturing center — 300 jobs, $18.4M, Pentagon Drone Dominance contract",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-02",
+  "source_date": "2026-06-29",
+  "last_updated": "2026-07-02",
+
+  "paragraphs": [
+    "UDD Tech Corporation — the U.S. entity representing Ukraine's F-Drones, which has more than three years of battlefield-tested drone development experience — has selected the Village of Holland in Lucas County, Ohio for its first U.S. assembly and manufacturing center. The announcement was part of Governor Mike DeWine's June 29 package of seven Ohio projects expected to create 1,221 jobs and more than $1.1 billion in total investment. UDD Tech will invest $18.4 million and create at least 300 jobs by December 31, 2029. The Ohio Tax Credit Authority approved a 1.642%, nine-year Job Creation Tax Credit for the project. Congresswoman Marcy Kaptur, JobsOhio (President and CEO JP Nauseef), and the Regional Growth Partnership were partners in securing the commitment.",
+    "The Holland facility will produce first-person-view (FPV) drones and unmanned systems for the U.S. Department of Defense's Drone Dominance Program — a $1 billion initiative targeting the purchase of more than 200,000 low-cost, consumable drones by 2027. UDD ranked sixth overall in Phase 1 of the program's competitive 'Gauntlet' evaluation and has already secured a U.S. government prototype contract for the delivery of 2,000 FPV drones. The facility will also support allied-nation demand, training and testing operations, and dual-use commercial drone applications. F-Drones CEO Stas Khutor has positioned the Lucas County site as UDD's production platform for scaling U.S.-based drone manufacturing under the DoD's drive to build a domestic industrial base capable of countering low-cost adversarial drone threats at scale."
+  ],
+  "why_it_matters": "UDD Tech's selection of Lucas County is the first defense-technology manufacturing investment in the Toledo metro tied directly to a Pentagon procurement program — a category distinct from the advanced automotive, glass, and industrial manufacturing that has historically defined northwest Ohio's economic identity. The Drone Dominance Program creates a durable federal demand signal for FPV drone production at scale; UDD's early ranking in the Gauntlet competition positions the Holland facility to grow with that program's output targets. For RGP, JobsOhio NW Ohio, and the City of Toledo's economic development pitch, this win adds a defense-tech dimension to the region's site-selector story — alongside the QTS Van Wert data center campus — signaling that northwest Ohio is competing for and capturing investment categories that did not exist in the region's portfolio three years ago.",
+
+  "people": [
+    {
+      "name": "Stas Khutor",
+      "role": "CEO, F-Drones (parent company of UDD Tech)",
+      "search_terms": "Stas Khutor F-Drones UDD Tech CEO Ohio"
+    },
+    {
+      "name": "Marcy Kaptur",
+      "role": "U.S. Representative, Ohio 9th Congressional District",
+      "search_terms": "Marcy Kaptur Ohio 9th district UDD Tech drone Holland"
+    },
+    {
+      "name": "JP Nauseef",
+      "role": "President and CEO, JobsOhio",
+      "search_terms": "JP Nauseef JobsOhio President CEO"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Ukrainian drone maker to open first US facility in Holland, creating hundreds of jobs (June 29, 2026)",
+      "url": "https://www.13abc.com/2026/06/29/ukrainian-drone-maker-open-first-us-facility-holland-creating-hundreds-jobs/"
+    },
+    {
+      "title": "13abc — Ukrainian drone maker picks Northwest Ohio for first US manufacturing center (July 1, 2026)",
+      "url": "https://www.13abc.com/2026/07/01/ukrainian-drone-maker-picks-northwest-ohio-first-us-manufacturing-center/"
+    },
+    {
+      "title": "WTOL — What is UDD Tech? Why Ukrainian drone technology is coming to Ohio",
+      "url": "https://www.wtol.com/article/money/business/udd-tech-corporation-ukrainian-drone-company-holland-ohio-fpv-drones/512-cda7da19-b615-4be7-ae2c-f3d588fab9b6"
+    },
+    {
+      "title": "WTOL — Federal drone program draws Ukrainian company to consider northwest Ohio",
+      "url": "https://www.wtol.com/article/news/local/ukrainian-drone-manufacturer-holland-lucas-county-ohio-300-jobs/512-c678668a-89fe-4278-9faa-b8b93d7abde3"
+    },
+    {
+      "title": "The Blade — $1.1B investments in Ohio include Ukrainian drone company coming to Holland (June 29, 2026)",
+      "url": "https://www.toledoblade.com/business/development/2026/06/29/1-1b-investments-in-ohio-include-ukrainian-drone-company-coming-to-holland/stories/20260629080"
+    },
+    {
+      "title": "GlobeNewswire — Leading Ukrainian Drone Manufacturer Selects Northwest Ohio For First U.S. Assembly and Manufacturing Center",
+      "url": "https://www.globenewswire.com/news-release/2026/06/29/3319133/0/en/Leading-Ukrainian-Drone-Manufacturer-Selects-Northwest-Ohio-For-First-U-S-Assembly-and-Manufacturing-Center.html"
+    },
+    {
+      "title": "JobsOhio — Leading Ukrainian Drone Manufacturer Selects Northwest Ohio",
+      "url": "https://www.jobsohio.com/newsroom/news-press/leading-ukrainian-drone-manufacturer-selects-northwest-ohio"
+    },
+    {
+      "title": "Kaptur.house.gov — Kaptur Announces That Leading Ukrainian Drone Manufacturer Selects Northwest Ohio",
+      "url": "https://kaptur.house.gov/media-center/press-releases/kaptur-announces-leading-ukrainian-drone-manufacturer-selects-northwest"
+    },
+    {
+      "title": "Governor DeWine — 7 Projects Set to Create 1,221 Jobs, More Than $1.1 Billion in Investments (June 29, 2026)",
+      "url": "https://governor.ohio.gov/media/news-and-media/governor-dewine-announces-7-projects-set-to-create-1221-jobs-more-than-1-1-billion-in-investments"
+    },
+    {
+      "title": "BG Independent News — Leading Ukrainian drone manufacturer chooses Northwest Ohio for first U.S. manufacturing center",
+      "url": "https://bgindependentmedia.org/leading-ukrainian-drone-manufacturer-chooses-northwest-ohio-for-first-u-s-manufacturing-center/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Holland, Lucas County — UDD Tech first U.S. drone manufacturing facility",
+      "match": "Village of Holland",
+      "lat": 41.617,
+      "lon": -83.712
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["van-wert-qts-data-center", "rgp-2026-annual-meeting-data-centers", "jobsohio-ai-ready-ohio-toledo", "evis-america-2026-monske-rgp"],
+  "search_terms": "UDD Tech Ukrainian Defense Drones F-Drones Holland Ohio Lucas County FPV drone manufacturing Pentagon Drone Dominance Program Stas Khutor Marcy Kaptur JobsOhio"
+}
