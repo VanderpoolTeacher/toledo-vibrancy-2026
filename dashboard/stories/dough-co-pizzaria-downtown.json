@@ -1,0 +1,45 @@
+{
+  "id": "dough-co-pizzaria-downtown",
+  "headline": "Dough & Co PizzAria opens at 329 N. Huron St. — eighth operator at a revolving downtown address, first one who owns the building",
+  "section": "Downtown",
+  "tags": ["downtown", "warehouse"],
+
+  "posted_date": "2026-07-09",
+  "source_date": "2026-07-04",
+  "last_updated": "2026-07-09",
+
+  "paragraphs": [
+    "Dough & Co PizzAria has opened at 329 N. Huron St. in downtown Toledo, becoming the eighth restaurant to occupy the address since 2000. The Blade reported July 4 on the opening; WTOL also covered the location's history of turnover and owner Tyler Scherting's bet on the Four Corners district's momentum. Scherting's approach differs from prior operators in one material way: he bought the building rather than leasing it, giving him a long-term stake in the neighborhood's success rather than a tenant relationship with a landlord. The menu centers on artisan-style pizzas made with 72-hour cold-fermented dough, house-made sauces, and fresh ingredients, with plans to expand offerings over time.",
+    "The location at 329 N. Huron St. sits one block from Fifth Third Field and within the corridor that includes Crane Development's Huron Yards, the under-construction Okun Market grocery, and the Four Corners mixed-use district anchored by the Huntington Center. Prior operators at 329 N. Huron included Hamburger Mary's, Poco Piati, and Diva. Scherting acknowledged the address's reputation in both The Blade and WTOL coverage, framing it as opportunity rather than warning: hundreds of apartments coming online nearby and proximity to Huntington Center and Fifth Third Field create a foot traffic floor that earlier operators did not have."
+  ],
+  "why_it_matters": "A restaurant operator who buys rather than rents signals a different confidence threshold than a tenant — ownership is a longer-term commitment to the block. The Four Corners / Huron Street corridor is the most active sub-district in downtown Toledo's current activation cycle: Okun Market is under construction at 33 N. Huron St., Huron Yards lofts are leased, and the planned apartment supply adjacent to Fifth Third Field has been the primary foot-traffic thesis for operators in the stretch. Dough & Co is a small-ticket story on its own, but it's the eighth data point at a single address — and the first one where the operator is a property owner rather than a renter.",
+
+  "people": [
+    {
+      "name": "Tyler Scherting",
+      "role": "Owner, Dough & Co PizzAria",
+      "search_terms": "Tyler Scherting Dough Co PizzAria Toledo"
+    }
+  ],
+
+  "sources": [
+    { "title": "The Blade — New slice on the block: Dough & Co PizzAria joins downtown Toledo community", "url": "https://www.toledoblade.com/a-e/food/2026/07/04/new-slice-block-dough-co-pizzaria-joins-downtown-toledo-community/stories/20260705015" },
+    { "title": "WTOL — New pizzeria bets on downtown Toledo address where restaurants have repeatedly come and gone", "url": "https://www.wtol.com/article/news/local/new-pizzeria-bets-on-downtown-toledo-address-where-restaurants-have-repeatedly-come-and-gone/512-ebfc4fa0-9420-47d5-822c-80d30636e55b" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Dough & Co PizzAria — 329 N. Huron St., Toledo",
+      "match": "329 N. Huron St.",
+      "lat": 41.6614,
+      "lon": -83.5388
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["huron-yards-phase-two", "four-corners-spitzer-nicholas", "sarnies-downtown-toledo"],
+
+  "search_terms": "Dough Co PizzAria Toledo downtown 329 Huron Street Tyler Scherting Four Corners pizza restaurant opening"
+}

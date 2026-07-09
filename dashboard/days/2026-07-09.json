@@ -1,0 +1,244 @@
+{
+  "date": "2026-07-09",
+  "title": "Toledo Economic Development Dashboard",
+  "window": "Rolling 48-hour focus",
+  "auto_refresh": "Daily 5:00 AM",
+
+  "top_story_id": "toledo-public-safety-income-tax",
+
+  "sections": [
+    {
+      "title": "",
+      "story_ids": ["toledo-public-safety-income-tax"]
+    },
+    {
+      "title": "New stories",
+      "story_ids": [
+        "toledo-2026-midyear-crime-stats",
+        "harvard-elementary-south-toledo-redevelopment",
+        "dough-co-pizzaria-downtown"
+      ]
+    },
+    {
+      "title": "Updates this brief",
+      "story_ids": ["toledo-river-east-replacement-grant"]
+    },
+    {
+      "title": "Ongoing",
+      "story_ids": [
+        "old-west-end-festival-shooting-2026",
+        "toledo-special-event-safety-zones",
+        "udd-tech-drone-manufacturing-holland",
+        "gordie-howe-bridge-opening-delayed",
+        "van-wert-qts-data-center",
+        "huron-yards-phase-two",
+        "soccer-stadium-vistula",
+        "vistula-metropark",
+        "owens-corning-250m",
+        "four-corners-spitzer-nicholas",
+        "nordstrom-rack-westgate-village",
+        "hotel-lorraine-foreclosure",
+        "opmobility-rossford-plant",
+        "tanger-levis-commons-acquisition",
+        "ohio-capital-budget-2026-lucas-county",
+        "blade-superior-street-hq",
+        "toledo-yacht-club-sheriffs-sale",
+        "toledo-flock-cameras-vote",
+        "ostrich-towne-tenants",
+        "tcic-board-sehlhorst-shovel-ready",
+        "heather-cove-villas-south-toledo",
+        "collingwood-green-v-seniors-junction",
+        "welcome-home-ohio-toledo-lucas-county",
+        "port-authority-ashland-manor-covenant-house",
+        "lcready-site-certification",
+        "land-bank-mann-1b-milestone-ose",
+        "inverness-village-duplexes-dorr-street",
+        "jvis-toledo-molding-die",
+        "foundation-steel-hq-move",
+        "brownfield-health-district",
+        "innovation-post-tenants",
+        "raise-uptown-junction",
+        "port-warehouse-liquid-terminal",
+        "lake-erie-west-regional-council-sarantou",
+        "utoledo-cancer-research-institute",
+        "evis-america-2026-monske-rgp",
+        "rgp-2026-annual-meeting-data-centers",
+        "jobsohio-ai-ready-ohio-toledo",
+        "glass-city-urban-campground",
+        "connectoledo-music-grant",
+        "vibrancy-19-grants",
+        "toledo-vehicle-registration-fee",
+        "toledo-water-tower-permit-rejected",
+        "small-business-app-growth",
+        "swanky-scoops",
+        "swayne-field-englewood-renovation",
+        "mind-and-soul-gallery",
+        "promedica-medical-mutual",
+        "toledo-sports-commission-proposal",
+        "watershed-weekend-riverwalk",
+        "sarnies-downtown-toledo",
+        "glass-city-jazzfest-2026"
+      ]
+    }
+  ],
+
+  "ongoing_story_ids": [
+    "old-west-end-festival-shooting-2026",
+    "toledo-special-event-safety-zones",
+    "udd-tech-drone-manufacturing-holland",
+    "gordie-howe-bridge-opening-delayed",
+    "van-wert-qts-data-center",
+    "huron-yards-phase-two",
+    "soccer-stadium-vistula",
+    "vistula-metropark",
+    "owens-corning-250m",
+    "four-corners-spitzer-nicholas",
+    "nordstrom-rack-westgate-village",
+    "hotel-lorraine-foreclosure",
+    "opmobility-rossford-plant",
+    "tanger-levis-commons-acquisition",
+    "ohio-capital-budget-2026-lucas-county",
+    "blade-superior-street-hq",
+    "toledo-yacht-club-sheriffs-sale",
+    "toledo-flock-cameras-vote",
+    "ostrich-towne-tenants",
+    "tcic-board-sehlhorst-shovel-ready",
+    "heather-cove-villas-south-toledo",
+    "collingwood-green-v-seniors-junction",
+    "welcome-home-ohio-toledo-lucas-county",
+    "port-authority-ashland-manor-covenant-house",
+    "lcready-site-certification",
+    "land-bank-mann-1b-milestone-ose",
+    "inverness-village-duplexes-dorr-street",
+    "jvis-toledo-molding-die",
+    "foundation-steel-hq-move",
+    "brownfield-health-district",
+    "innovation-post-tenants",
+    "raise-uptown-junction",
+    "port-warehouse-liquid-terminal",
+    "lake-erie-west-regional-council-sarantou",
+    "utoledo-cancer-research-institute",
+    "evis-america-2026-monske-rgp",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo",
+    "glass-city-urban-campground",
+    "connectoledo-music-grant",
+    "vibrancy-19-grants",
+    "toledo-vehicle-registration-fee",
+    "toledo-water-tower-permit-rejected",
+    "small-business-app-growth",
+    "swanky-scoops",
+    "swayne-field-englewood-renovation",
+    "mind-and-soul-gallery",
+    "promedica-medical-mutual",
+    "toledo-sports-commission-proposal",
+    "watershed-weekend-riverwalk",
+    "sarnies-downtown-toledo",
+    "glass-city-jazzfest-2026"
+  ],
+
+  "watch_list": [
+    "Toledo income tax — July 14 council vote to formally place the 0.25% public safety levy on the November ballot; today's mid-year crime stats (20 homicides, all other violent crime down) set the data backdrop for the 'prevent layoffs' argument; watch for final vote count and any council member defections.",
+    "OWE prosecution — Crisp-Carr pretrial hearing July 21 at 9 a.m. at Lucas County Common Pleas; joint-versus-separate trial track decision outstanding; teen defendant adult certification track continues.",
+    "RIVER East — $19.5M replacement grant confirmed via Sen. Husted (The Blade July 2); USDOT/FHWA construction agreement signing outstanding; scope question unresolved — can full Front Street and Main Street corridor be delivered at $19.5M vs. the original $28.5M design.",
+    "UDD Tech / Holland — construction timeline not yet announced; watch for site-plan filing with Village of Holland and first public milestone toward Pentagon Drone Dominance prototype contract delivery.",
+    "Huron Yards Okun Market — construction underway at 33 N. Huron St.; late-2026 opening target for downtown Toledo's first grocery; watch for contractor milestones and official opening date from Crane Development.",
+    "Harvard Elementary — TPS leasing option open; ReInvent Harvard Toledo and Harvard — Onward and Upward (Finkbeiner) both organizing; December 31 demolition moratorium is the hard deadline for any viable reuse agreement.",
+    "Safety Zone debrief — no official TPD/mayoral post-event assessment for the July 4 activation; Glass City JazzFest at Glass City Metropark (August 14–15) is the next planned Safety Zone activation."
+  ],
+
+  "live_sources": [
+    {
+      "title": "City of Toledo news",
+      "url": "https://toledo.oh.gov/news"
+    },
+    {
+      "title": "Downtown Toledo Inc.",
+      "url": "https://downtowntoledo.org/news"
+    },
+    {
+      "title": "The Blade — Business",
+      "url": "https://www.toledoblade.com/business"
+    },
+    {
+      "title": "The Blade — City",
+      "url": "https://www.toledoblade.com/local/city"
+    },
+    {
+      "title": "WTOL news",
+      "url": "https://www.wtol.com/news"
+    },
+    {
+      "title": "13abc",
+      "url": "https://www.13abc.com/"
+    },
+    {
+      "title": "Toledo City Paper — Business",
+      "url": "https://toledocitypaper.com/category/business/"
+    },
+    {
+      "title": "Regional Growth Partnership",
+      "url": "https://www.toledobiz.com/news_featured_stories.html"
+    },
+    {
+      "title": "Vibrancy Initiative hub",
+      "url": "https://toledo.oh.gov/business/vibrancy"
+    },
+    {
+      "title": "RAISE / Uptown-Junction",
+      "url": "https://toledo.oh.gov/raise"
+    },
+    {
+      "title": "Warehouse District Assoc.",
+      "url": "https://www.toledowarehouse.org/"
+    },
+    {
+      "title": "Ostrich Towne",
+      "url": "https://ostrichtowne.com/"
+    },
+    {
+      "title": "Toledo Yacht Club",
+      "url": "https://www.thetoledoyachtclub.com/"
+    },
+    {
+      "title": "RKP Group — Four Corners",
+      "url": "https://rkp-group.com/news"
+    },
+    {
+      "title": "Ohio Capital Journal — Data Centers",
+      "url": "https://ohiocapitaljournal.com/tag/data-centers/"
+    },
+    {
+      "title": "VW Independent — QTS Data Center",
+      "url": "https://thevwindependent.com/"
+    },
+    {
+      "title": "Statehouse News Bureau — Data Centers",
+      "url": "https://www.statenews.org/tags/data-centers"
+    },
+    {
+      "title": "Old West End Toledo",
+      "url": "http://www.toledooldwestend.com/"
+    },
+    {
+      "title": "Windsor-Detroit Bridge Authority — Gordie Howe Bridge",
+      "url": "https://www.wdbridge.com/en/"
+    },
+    {
+      "title": "Levitt BLOC Toledo Music Series",
+      "url": "https://levitt.org/bloc-toledo-oh/"
+    },
+    {
+      "title": "Glass City JazzFest",
+      "url": "https://glasscityjazzfest.com/"
+    },
+    {
+      "title": "JobsOhio NW Ohio — UDD Tech",
+      "url": "https://www.jobsohio.com/newsroom/news-press/leading-ukrainian-drone-manufacturer-selects-northwest-ohio"
+    },
+    {
+      "title": "Crane Development — Huron Yards / Okun Market",
+      "url": "https://www.cranedevelopment.com/huronyards"
+    }
+  ]
+}

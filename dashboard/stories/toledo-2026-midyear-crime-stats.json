@@ -1,0 +1,52 @@
+{
+  "id": "toledo-2026-midyear-crime-stats",
+  "headline": "Toledo mid-year 2026 crime briefing: 20 homicides at mid-year, all other violent crime categories down — data backdrop for July 14 levy vote",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-09",
+  "source_date": "2026-07-09",
+  "last_updated": "2026-07-09",
+
+  "paragraphs": [
+    "Toledo Mayor Wade Kapszukiewicz and Police Chief Mike Troendle held the city's mid-year 2026 crime statistics briefing on July 9, 2026. WTOL reported that Toledo recorded 20 homicides through the first half of 2026, with all other categories of violent crime down for the period. The 20 homicides figure tracks against the city's full-year pace of 38 homicides in both 2024 and 2025 — placing 2026 on a trajectory that could match or slightly exceed prior years, depending on the second-half pattern. West Toledo neighborhoods recorded the highest concentration of early-2026 homicides; south Toledo ranked second. The briefing was timed five days before Toledo City Council's scheduled July 14 vote on the proposed 0.25% temporary public safety income tax levy.",
+    "The mid-year data creates a nuanced backdrop for the July 14 vote. Declining trends across violent crime categories argue for the effectiveness of existing public safety investment — an argument council members have used to frame the levy as 'prevent layoffs' rather than 'fund new programs.' At 20 mid-year homicides, Toledo is not in a spiral; the case for the levy rests on fiscal necessity (the $49 million structural deficit threatens the staffing that produced the current trends) rather than on a crisis narrative. Council President Vanice Williams and other members have been explicit that they see the levy as structurally necessary to sustain baseline public safety operations. The mid-year data — released by the mayor and chief the week of the vote — provides the evidentiary floor for that argument."
+  ],
+  "why_it_matters": "Mid-year crime data released the week of a major fiscal vote is not coincidental. The administration is making the case that Toledo's public safety gains — documented in the statistics — are at risk without the levy's stable funding, not that Toledo is in a crisis that requires emergency spending. Whether voters find that argument compelling in November (if council advances the measure July 14) will depend in part on whether the second-half homicide trend holds. From an economic development lens, crime trends are one of the first data points site selectors pull for any major relocation or expansion analysis; a continued downward trajectory in most crime categories is a material positive for Toledo's competitiveness pitch, even as the public safety levy debate keeps crime in the political foreground.",
+
+  "people": [
+    {
+      "name": "Wade Kapszukiewicz",
+      "role": "Mayor, City of Toledo",
+      "search_terms": "Wade Kapszukiewicz Toledo Mayor"
+    },
+    {
+      "name": "Mike Troendle",
+      "role": "Chief of Police, Toledo Police Department",
+      "search_terms": "Mike Troendle Toledo Police Chief"
+    }
+  ],
+
+  "sources": [
+    { "title": "WTOL — Toledo police, mayor address mid-year crime statistics", "url": "https://www.wtol.com/article/news/local/toeldo-police-crime-statistics-updates/512-87d4fc50-42e5-4f6f-a5fa-9beacb9ee66a" },
+    { "title": "13abc — Toledo leaders to detail mid-year crime stats during Thursday briefing", "url": "https://www.13abc.com/2026/07/08/toledo-leaders-detail-mid-year-crime-stats-during-thursday-briefing/" },
+    { "title": "WTOL — West Toledo neighborhoods see highest concentration of homicides in early 2026", "url": "https://www.wtol.com/article/news/local/toledo-homicides-2026-decline-trend-victims-ages-northwood-sylvania-cases/512-b6b5ef15-4614-476c-a2e3-f97a36b03f11" },
+    { "title": "WTOL — Toledo police give mid-year crime statistics update", "url": "https://www.wtol.com/article/news/crime/toledo-police-crime-update-statistics-numbers-homicides-shootings-thefts-ohio-local-headlines/512-b6cbf59f-4bdf-43f0-8754-65d6a15cfda5" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Government Center",
+      "match": null,
+      "lat": 41.6634,
+      "lon": -83.5548
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["toledo-public-safety-income-tax", "old-west-end-festival-shooting-2026", "toledo-special-event-safety-zones"],
+
+  "search_terms": "Toledo mid-year crime statistics 2026 homicides shootings violent crime down Mayor Kapszukiewicz Chief Troendle briefing July"
+}

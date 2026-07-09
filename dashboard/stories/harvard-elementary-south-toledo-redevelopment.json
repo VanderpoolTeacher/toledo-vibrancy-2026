@@ -1,0 +1,47 @@
+{
+  "id": "harvard-elementary-south-toledo-redevelopment",
+  "headline": "Two community groups mobilize to repurpose Harvard Elementary after TPS closure — housing, food hall, tech center on table; demolition moratorium expires December 31",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-09",
+  "source_date": "2026-07-02",
+  "last_updated": "2026-07-09",
+
+  "paragraphs": [
+    "Harvard Elementary School in south Toledo closed as part of Toledo Public Schools' Transformation Plan 2.0, a restructuring approved by the TPS board in April 2026 to address a $68 million budget deficit. Two community groups have since organized to find alternative uses for the building. 'ReInvent Harvard Toledo' is exploring options including new housing, a fitness center, a tech center, a library annex, and a food hall. A separate group, 'Harvard — Onward and Upward,' is led by former Toledo Mayor Carty Finkbeiner and is pursuing historic designation for the building through the state of Ohio in parallel. Lucas County Plan Commission has already designated the Harvard building as a historic site. Toledo City Council has placed a moratorium on demolition permits for historically significant buildings through December 31, 2026 — creating a hard deadline by which the groups must advance a viable reuse plan or risk losing leverage. The Blade covered the organizing effort on July 2; 13abc reported on July 8.",
+    "Toledo Public Schools has said it has no interest in selling the Harvard property but is open to leasing. The leasing posture creates a path for non-profit or private operators to activate the building without requiring a sale — but it also means TPS retains the asset and any future reuse plan depends on an ongoing landlord relationship with the district. The December 31 moratorium deadline is the most immediate forcing function: if neither group secures a historic designation or an active reuse agreement with TPS before year end, the demolition moratorium lifts and the building's future becomes less certain. The ReInvent Harvard Toledo effort has described its goal as working alongside the city and the school board to identify development and investment opportunities."
+  ],
+  "why_it_matters": "Harvard Elementary is one of several TPS buildings entering the redevelopment pipeline as the district executes its Transformation Plan 2.0 restructuring. Each closed school building represents an adaptive-reuse question for the surrounding neighborhood — south Toledo in this case, which lacks many of the riverfront-adjacent catalysts energizing downtown and the Vistula corridor. A food hall, tech center, or housing conversion at Harvard would be a significant activation for the neighborhood. Former Mayor Finkbeiner's involvement raises the political profile of the effort and brings a network of city and county relationships to the table. The dual-group organizing structure (ReInvent Harvard Toledo and Harvard — Onward and Upward) is both a resource and a risk: parallel advocacy can accelerate momentum, but divided leadership can slow a single coherent pitch to TPS. The December 31 deadline is the calendar fact that separates planning from action.",
+
+  "people": [
+    {
+      "name": "Carty Finkbeiner",
+      "role": "Former Mayor of Toledo; co-leader, Harvard — Onward and Upward",
+      "search_terms": "Carty Finkbeiner Toledo mayor Harvard Elementary redevelopment"
+    }
+  ],
+
+  "sources": [
+    { "title": "The Blade — Can Harvard Elementary be saved? South Toledo group has a plan", "url": "https://www.toledoblade.com/local/city/2026/07/02/community-group-works-to-find-new-use-for-harvard-elementary/stories/20260701117" },
+    { "title": "13abc — South Toledo residents push for new use of Harvard Elementary building after closure", "url": "https://www.13abc.com/2026/07/08/south-toledo-residents-push-new-use-harvard-elementary-building-after-closure/" },
+    { "title": "WTOL — 'Let's go big' — Community members propose plan to 'reinvent' Harvard elementary school building", "url": "https://www.wtol.com/article/news/local/lets-go-big-community-members-propose-plan-to-reinvent-harvard-elementary-school-building/512-92da3ad2-3e41-4bea-bd93-04ef8b13eb18" },
+    { "title": "WTOL — Toledo Public Schools unveils sweeping 'Transformation 2.0' restructuring plan to address $68M deficit", "url": "https://www.wtol.com/article/news/local/toledo-public-schools-unveils-sweeping-transformation-restructuring-plan-to-address-68m-deficit-tps/512-0df02194-cc1f-4f4c-860a-f6f47a85f5a2" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Harvard Elementary School — South Toledo",
+      "match": "Harvard Elementary",
+      "lat": 41.6374,
+      "lon": -83.5558
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["collingwood-green-v-seniors-junction", "welcome-home-ohio-toledo-lucas-county"],
+
+  "search_terms": "Harvard Elementary Toledo TPS closed redevelopment adaptive reuse south Toledo Carty Finkbeiner ReInvent Harvard community food hall housing tech center"
+}
