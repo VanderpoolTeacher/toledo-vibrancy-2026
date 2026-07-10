@@ -1,0 +1,48 @@
+{
+  "id": "the-grand-the-glen-affordable-housing",
+  "headline": "The Grand and The Glen open in Toledo — Pivotal Housing Partners delivers 70 affordable units, nearly $30M investment across two neighborhoods",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-10",
+  "source_date": "2026-07-08",
+  "last_updated": "2026-07-10",
+
+  "paragraphs": [
+    "The City of Toledo joined Pivotal Housing Partners, community leaders, and residents for ribbon-cutting ceremonies on July 8, 2026 marking the completion of two affordable workforce housing developments — The Grand and The Glen — representing nearly $30 million in total investment. The Glen, at 3440 Glendale Ave. in south Toledo, occupies a 3.66-acre portion of the former Southland Shopping Center site and delivers 50 one- and two-bedroom apartments with rents starting under $800 per month. The Grand, sited at the corner of North Detroit and Grand avenues in central Toledo on the former Driggs Dairy property, consists of 20 three- and four-bedroom townhomes with rents starting at just over $1,000 per month. Both communities serve households earning between 50% and 70% of area median income (AMI) and together generated over 250 construction jobs during a February 2025–July 2026 build cycle.",
+    "Both developments were financed through a combination of Low-Income Housing Tax Credit equity allocated by the Ohio Housing Finance Agency (OHFA) and a KeyBank Community Development construction loan totaling $15.5 million for the two-site project. Total financing reached approximately $36.4 million across the development package. Both communities offer on-site management, fitness centers, playgrounds, pavilions, computer and printer stations, and community gathering spaces. The Southland adaptive-reuse model at The Glen — converting a long-underutilized retail anchor into residential density — is the approach that Toledo's Land Bank and Community Improvement Corporation have been seeking to replicate at comparable commercial corridors across the city."
+  ],
+  "why_it_matters": "Workforce housing at the 50–70% AMI band is one of the most persistent gaps in Toledo's housing pipeline — units priced too high for deep-subsidy programs and too modest for market-rate developers. The Grand and The Glen address this gap in two neighborhoods — central Toledo and south Toledo — that have limited proximity to the riverfront catalysts driving downtown investment. The Southland repurposing at The Glen is particularly notable: it converts a dead retail anchor into housing density without raising taxes, the same model the city has been advancing through the TCIC shovel-ready pipeline. At nearly $30M in investment and 70 units, this is among the largest affordable housing completions in Toledo in recent years, and a direct proof point for the Welcome Home Ohio and OHFA tax credit pipeline Toledo leaders have been cultivating.",
+  "people": [],
+
+  "sources": [
+    { "title": "City of Toledo — City and Community Partners Celebrate the Completion of The Grand and The Glen with Ribbon-Cutting Ceremonies", "url": "https://toledo.oh.gov/news/2026/07/08/city-and-community-partners-celebrate-the-completion-of-the-grand-and-the-glen-with-ribbon-cutting-ceremonies" },
+    { "title": "The Blade — City heralds opening of 2 new affordable housing developments", "url": "https://www.toledoblade.com/local/city/2026/07/08/ribbon-cutting-ceremonies-affordable-housing-developments/stories/20260708097" },
+    { "title": "City of Toledo — City Announces Groundbreakings for The Grand and The Glen (February 2025)", "url": "https://toledo.oh.gov/news/2025/02/26/city-and-community-partners-announce-groundbreakings-for-the-grand-townhomes-at-former-driggs-dairy-site-and-the-glen-workforce-housing-development-at-the-former-southland-shopping-plaza" },
+    { "title": "WTOL — 'Toledo is ready to grow': City holds groundbreaking for The Glen and The Grand affordable housing projects", "url": "https://www.wtol.com/article/news/local/city-of-toledo-holds-groundbreaking-for-two-affordable-housing-projects/512-db3433aa-c9fc-4876-9665-c6d430662935" },
+    { "title": "REJournals — KeyBank Community Development provides $15.5 million construction loan for two-site affordable housing project in Toledo", "url": "https://rejournals.com/keybank-community-development-provides-15-5-million-construction-loan-for-two-site-affordable-housing-project-in-toledo/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "The Glen — 3440 Glendale Ave., South Toledo",
+      "match": "The Glen",
+      "lat": 41.6403,
+      "lon": -83.6015
+    },
+    {
+      "shape": "point",
+      "label": "The Grand — N. Detroit Ave. & Grand Ave., Central Toledo",
+      "match": "The Grand",
+      "lat": 41.6670,
+      "lon": -83.5561
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["welcome-home-ohio-toledo-lucas-county", "heather-cove-villas-south-toledo", "inverness-village-duplexes-dorr-street", "port-authority-ashland-manor-covenant-house", "tcic-board-sehlhorst-shovel-ready"],
+
+  "search_terms": "The Grand The Glen Pivotal Housing Partners affordable housing Toledo Glendale Avenue Southland Shopping Center Driggs Dairy ribbon cutting 2026 KeyBank OHFA workforce housing central south Toledo"
+}
