@@ -1,0 +1,42 @@
+{
+  "id": "maumee-river-fertilizer-fish-kill-2026",
+  "headline": "Fertilizer spill in Henry County reaches the Maumee — fish kill confirmed upstream of Toledo; water quality officials say river remains safe",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-13",
+  "source_date": "2026-07-12",
+  "last_updated": "2026-07-13",
+
+  "paragraphs": [
+    "A liquid fertilizer spill that began in Henry County on July 3 has reached the Maumee River, triggering a fish kill in the Napoleon area and a HazMat response as of July 12. The Ohio EPA received a report July 3 that Huston Creek in Flatrock Township showed discolored water with an unusual odor; investigators determined that 28% UAN liquid fertilizer — containing ammonium nitrates — had released from the Farmers Elevator Associates property operated by Triway Nitrogen. A containment dam was placed in Huston Creek to limit the spill, but overnight rainfall on July 11–12 caused the dam to fail, allowing fertilizer-laden water to enter the Maumee. The Ohio EPA issued two violations to the responsible parties on July 11.",
+    "By July 12, a large fish kill was confirmed in the Maumee River from the mouth of Huston Creek to the area of Campbell's Soup — both locations in the Napoleon vicinity in Henry County, roughly 40 miles upstream of Toledo's downtown riverfront. The Napoleon Fire Department responded to reports of dead fish near Meyerholtz Park. Emergency sampling of the Maumee found all ammonia and nitrate levels well below regulatory thresholds of concern; the City of Napoleon is drawing water from the Wauseon raw water line as a precaution. Regional officials confirmed no immediate concern for Napoleon's drinking water supply and no restriction on recreational use of the Maumee River as of this brief."
+  ],
+  "why_it_matters": "The Maumee River is the backbone of Toledo's entire riverfront investment thesis — the Glass City Riverwalk, Metroparks Toledo, Glass City Metropark, and the outdoor-events calendar that underpins downtown activation all depend on a river residents trust for recreation and that presents well environmentally. A confirmed fish kill upstream, even one declared water-quality-safe by OEPA, is a reputational variable the riverfront economy cannot absorb in volume. The affected reach is near Napoleon — not Toledo's downtown riverfront — but the Maumee flows continuously downstream, and monitoring whether contamination migrates toward the Promenade Park and Glass City Metropark stretch is the key watch item. This event also surfaces the broader Maumee watershed nutrient and agricultural-runoff challenge that environmental advocates and outdoor-recreation stakeholders have long cited as the systemic risk to Toledo's water-quality-dependent development thesis.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "13abc — Dead fish discovered in Maumee River following liquid fertilizer spill in Henry County creek (July 12, 2026)", "url": "https://www.13abc.com/2026/07/12/dead-fish-discovered-maumee-river-following-liquid-fertilizer-spill-henry-county-creek/" },
+    { "title": "13abc — Two violations issued in Henry County creek contamination (July 11, 2026)", "url": "https://www.13abc.com/2026/07/11/two-violations-issued-henry-county-creek-contamination/" },
+    { "title": "WHIO — Fertilizer spill causes fish kill in Ohio's Maumee River", "url": "https://www.whio.com/news/local/large-number-dead-fish-appear-northern-ohio-river/MKZD6RAVBBGQZJVIRFLNBIMF2I/" },
+    { "title": "Northwest Signal — HazMat response launched due to dead fish in Maumee River", "url": "https://www.northwestsignal.net/news/article_11ee2d19-a14e-4f0d-816b-d526cd6d8eea.html" },
+    { "title": "Crescent-News — Chemical spill reaches the Maumee near Napoleon, many fish killed", "url": "http://www.crescent-news.com/news/local_news/chemcial-spill-reaches-the-maumee-near-napoleon-many-fish-killed/article_b2b51cd5-0890-4a65-96f1-d08b57a483e1.html" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Huston Creek / Maumee River fish kill — Napoleon, Henry County (~40 mi upstream of Toledo)",
+      "match": "Maumee River",
+      "lat": 41.3961,
+      "lon": -84.1256
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["watershed-weekend-riverwalk", "glass-city-urban-campground", "vistula-metropark"],
+
+  "search_terms": "Maumee River fertilizer spill fish kill Henry County Huston Creek UAN ammonium nitrate Napoleon Ohio EPA HazMat Triway Nitrogen Farmers Elevator"
+}
