@@ -1,0 +1,53 @@
+{
+  "id": "cyclosporiasis-toledo-2026",
+  "headline": "Cyclosporiasis outbreak tops 600 cases in NW Ohio — Lucas County leads state, food source under investigation as Toledo's summer events calendar runs",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-14",
+  "source_date": "2026-06-30",
+  "last_updated": "2026-07-14",
+
+  "paragraphs": [
+    "The Toledo-Lucas County Health Department confirmed on June 30 the first cases of cyclosporiasis — a diarrheal intestinal illness caused by the parasite Cyclospora cayetanensis — in Lucas County residents, marking the Toledo metro's entry into an outbreak spreading across northwest Ohio and southeast Michigan. By July 8, Lucas County was leading all Ohio counties in confirmed cases; The Blade reported at least 65 Lucas County residents ill as of July 1, with case counts climbing steadily into early July. The Ohio Department of Health (ODH) issued a formal advisory on July 8, with ODH Director Dr. Keith Vanderhoff urging precautions and noting cyclosporiasis requires antibiotic treatment not resolved by over-the-counter antidiarrheal medications. CNBC reported July 13 that the national outbreak has surpassed 1,000 confirmed cases, with the Midwest — and northwest Ohio in particular — disproportionately represented. NW Ohio total cases exceeded 600 as of mid-July.",
+    "No specific food item or venue has been publicly identified as the source of the Lucas County outbreak as of this brief. The Toledo-Lucas County Health Department, Monroe County Health Department in Michigan, Ohio Department of Health, and federal agencies are jointly investigating, with patient interviews focused on grocery and dining locations in the 2–14 days before symptom onset. Past national cyclosporiasis outbreaks have been linked to contaminated fresh produce. Symptoms include watery diarrhea, stomach cramping, bloating, fatigue, and nausea; onset typically follows ingestion by 2 to 14 days. The Toledo-Lucas County Health Department has published updated case counts and guidance at lucascountyhealth.com/cyclo."
+  ],
+  "why_it_matters": "Toledo's summer economic activation — the Glass City JazzFest on August 15, regular outdoor programming at Promenade Park and Glass City Metropark, and the downtown restaurant economy in the Warehouse District — is running alongside an active, unresolved parasitic outbreak with Lucas County at its epicenter. Lucas County's outsized case share (leading all Ohio counties despite comprising roughly 5% of the state's population) suggests a localized exposure pathway that the investigation has not yet closed. Until health authorities identify the food source and the exposure chain ends, the outbreak scope is open-ended. For Toledo's summer outdoor events and restaurant sectors, a prolonged investigation without a named source sustains ambient uncertainty; a named source tied to a Toledo venue or grocery would create immediate, concentrated business disruption. The Glass City JazzFest on August 15 at Glass City Metropark is the next major outdoor event on Toledo's calendar — and the most exposed to an outbreak that extends past mid-July without resolution.",
+
+  "people": [
+    {
+      "name": "Dr. Keith Vanderhoff",
+      "role": "Director, Ohio Department of Health",
+      "search_terms": "Keith Vanderhoff Ohio Department of Health cyclosporiasis Toledo"
+    }
+  ],
+
+  "sources": [
+    { "title": "13abc — Toledo-Lucas County Health Department confirms cases of cyclosporiasis (June 30, 2026)", "url": "https://www.13abc.com/2026/06/30/rise-cyclosporiasis-cases-confirmed-lucas-county-health-department-says/" },
+    { "title": "The Blade — Rare intestinal illness sickens at least 65 in Lucas County (July 1, 2026)", "url": "https://www.toledoblade.com/news/medical/2026/07/01/65-lucas-county-residents-cyclosporiasis-outbreak/stories/20260701125" },
+    { "title": "13abc — Local health experts explain cyclosporiasis rise in northwest Ohio, southeast Michigan (July 1, 2026)", "url": "https://www.13abc.com/2026/07/01/local-health-experts-explain-cyclosporiasis-rise-northwest-ohio-southeast-michigan/" },
+    { "title": "13abc — Experts say Cyclosporiasis cases continue to climb across southeast Michigan, northwest Ohio (July 6, 2026)", "url": "https://www.13abc.com/2026/07/06/experts-say-cyclosporiasis-cases-continue-climb-across-southeast-michigan-northwest-ohio/" },
+    { "title": "13abc — Lucas Co. tops cyclosporiasis cases in Ohio (July 8, 2026)", "url": "https://www.13abc.com/2026/07/08/lucas-co-tops-cyclosporiasis-cases-ohio/" },
+    { "title": "ODH — ODH Director Dr. Vanderhoff: Take Precautions, As Cyclosporiasis Can Be a Serious Illness (July 8, 2026)", "url": "https://odh.ohio.gov/media-center/odh-news-releases/cyclosporiasis-news-release-070826" },
+    { "title": "NPR — Cyclospora outbreaks grow in the Midwest (July 10, 2026)", "url": "https://www.npr.org/2026/07/10/nx-s1-5887517/cyclospora-outbreaks-grow-in-the-midwest" },
+    { "title": "CNBC — Outbreak of diarrhea-causing parasite grows to more than 1,000 cases (July 13, 2026)", "url": "https://www.cnbc.com/2026/07/13/outbreak-of-diarrhea-causing-parasite-grows-to-more-than-1000-cases.html" },
+    { "title": "13abc — Cyclosporiasis Outbreak Explained: Ohio's top doctor explains how to protect yourself (July 13, 2026)", "url": "https://www.13abc.com/video/2026/07/13/cyclosporiasis-outbreak-explained-ohios-top-doctor-explains-how-protect-yourself/" },
+    { "title": "Toledo-Lucas County Health Department — Cyclosporiasis 2026 case tracker", "url": "https://lucascountyhealth.com/cyclo/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo-Lucas County Health Department — outbreak investigation HQ",
+      "match": null,
+      "lat": 41.6510,
+      "lon": -83.5531
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["glass-city-urban-campground", "glass-city-jazzfest-2026", "watershed-weekend-riverwalk"],
+
+  "search_terms": "Cyclosporiasis Lucas County Toledo Ohio parasitic illness outbreak 2026 Cyclospora cayetanensis food safety northwest Ohio ODH TLCHD"
+}
