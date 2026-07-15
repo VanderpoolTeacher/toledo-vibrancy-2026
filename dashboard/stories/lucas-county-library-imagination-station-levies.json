@@ -1,0 +1,45 @@
+{
+  "id": "lucas-county-library-imagination-station-levies",
+  "headline": "Lucas County commissioners advance library and Imagination Station levies to November ballot — state budget cuts force local response",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-07-15",
+  "source_date": "2026-07-14",
+  "last_updated": "2026-07-15",
+
+  "paragraphs": [
+    "Lucas County commissioners voted on July 14, 2026 to advance renewal or replacement levies for both the Toledo Lucas County Public Library and Imagination Station Toledo's Science Museum to the November 3 ballot. The action follows state budget cuts to both institutions — reductions that emerged from the Ohio capital budget signed in spring 2026. The Blade reported July 14 on the commission vote, which was taken on the same evening Toledo City Council voted 11-1 to advance its public safety income tax levy to the November ballot, making November 3 a consequential multi-levy election day for Lucas County voters.",
+    "Toledo Lucas County Public Library operates 19 branches across Lucas County and is a central civic institution for workforce development, digital access, and literacy programming — all areas that Toledo's economic development agencies cite as part of the regional talent pipeline. Imagination Station, located at One Discovery Way in downtown Toledo, is the region's science museum and a downtown cultural anchor with a direct role in STEM education and science-career pipeline development. State funding reductions to both institutions — without a local levy replacement — would trigger operational cuts at a time when both institutions are active contributors to the talent attraction narrative Toledo EDOs have been advancing. The November 3 ballot now includes at least three separate tax proposals — the public safety levy and two civic institution levies — placing a significant aggregate ask before Toledo and Lucas County voters in a single election."
+  ],
+  "why_it_matters": "Two of Toledo's core civic infrastructure institutions — a 19-branch public library system and a downtown science museum — are now dependent on November ballot outcomes to offset state budget reductions. From an economic development lens, both institutions contribute to the 'talent infrastructure' thesis that Toledo EDOs use in site-selector pitches: workforce literacy, STEM education, and cultural amenity quality all flow through these assets. A levy failure for either institution would require immediate programming reductions that disproportionately affect Toledo's lowest-income neighborhoods, where library branches serve as de facto community centers. The November 3 ballot convergence — public safety levy, library levy, and Imagination Station levy — creates an unusual three-measure election that will test Lucas County voter appetite for local tax investment after a period of state funding retreat.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "The Blade — Lucas County Library and Imagination Station levies to November ballot after state cuts (July 14, 2026)", "url": "https://www.toledoblade.com/local/city/2026/07/14/lucas-county-library-imagination-station-levies-state-cuts/stories/20260714089" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Lucas County Public Library — Main Branch, 325 N. Michigan St.",
+      "match": "Toledo Lucas County Public Library",
+      "lat": 41.6644,
+      "lon": -83.5510
+    },
+    {
+      "shape": "point",
+      "label": "Imagination Station Toledo — One Discovery Way",
+      "match": "Imagination Station",
+      "lat": 41.6593,
+      "lon": -83.5423
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["toledo-public-safety-income-tax", "ohio-capital-budget-2026-lucas-county"],
+
+  "search_terms": "Toledo Lucas County Public Library Imagination Station science museum levy November ballot 2026 state budget cuts Lucas County commissioners Ohio capital budget"
+}
