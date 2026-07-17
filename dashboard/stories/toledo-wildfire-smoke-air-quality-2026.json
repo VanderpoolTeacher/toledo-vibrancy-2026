@@ -1,0 +1,48 @@
+{
+  "id": "toledo-wildfire-smoke-air-quality-2026",
+  "headline": "Canadian wildfire smoke shatters Toledo air quality records — AQI hits 688, events cancelled, Greater Toledo Classic Pro-Am scrubbed",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-17",
+  "source_date": "2026-07-16",
+  "last_updated": "2026-07-17",
+
+  "paragraphs": [
+    "Smoke from Canadian wildfires blanketed the Toledo metropolitan area on July 16, 2026, producing the worst air quality ever recorded in the region. The AQI (Air Quality Index) reached 688 at 6 p.m. — more than double the previous Toledo record — shattering the morning's own record of 529. The 'Hazardous' threshold is 300; Toledo exceeded it for most of the day. Monroe, Michigan recorded an AQI of 795, the highest reading in the local viewing area. Ohio and southeast Michigan remained under air quality advisories into July 17, with Toledo's AQI at approximately 417 — still hazardous but improving, with a return to normal conditions expected Friday afternoon.",
+    "The event prompted a 13 First Alert Weather Day for July 15–16 and triggered a cascade of outdoor cancellations and adjustments across Toledo and northwest Ohio. The Greater Toledo Classic Pro-Am — the KeyBank Pro-Am day at Highland Meadows Golf Club in Sylvania — was cancelled July 16. Tournament co-chairman Jennifer Pasztor cited player safety: 'You're outside and you're exposed to the environment and they want to keep everyone safe.' The Pro-Am is a major hospitality and sponsor engagement vehicle for the Greater Toledo Classic, an Epson Tour professional golf tournament hosted by LPGA champion Stacy Lewis running July 17–19. The main tournament is proceeding as scheduled today, July 17. City of Toledo pools were closed Thursday. The Rossford Balloon and Fireworks Festival was cancelled due to unsafe conditions for hot air balloon pilots. Youth camp programs throughout the area shifted indoor schedules."
+  ],
+  "why_it_matters": "Toledo's summer economic activation calendar is stacked through August 15 (Glass City JazzFest) and now faces a second compounding stressor alongside the active cyclosporiasis outbreak. A single-day air quality crisis causing the Greater Toledo Classic's Pro-Am cancellation is a direct hit to the sponsorship and hospitality value of an Epson Tour event that Toledo's sports tourism infrastructure depends on. More broadly, the wildfire smoke event illustrates the vulnerability of Toledo's outdoor event economy to climate-adjacent disruptions — a summer-season risk that is not systematically priced into the economic development calendar. The event is resolving rapidly (air quality improving July 17), so the near-term economic impact is bounded; but the July 16 record-shattering AQI reading will be a reference point for future event-planning risk assessments.",
+
+  "people": [
+    {
+      "name": "Jennifer Pasztor",
+      "role": "Co-chair, Greater Toledo Classic",
+      "search_terms": "Jennifer Pasztor Greater Toledo Classic golf Highland Meadows"
+    }
+  ],
+
+  "sources": [
+    { "title": "The Blade — Hazardous smoke lingers after record-setting day for Toledo air quality (July 16, 2026)", "url": "https://www.toledoblade.com/local/environment/2026/07/16/smoke-from-canadian-wildfires-puts-ohio-under-air-quality-advisory/stories/20260716078" },
+    { "title": "13abc — Canadian wildfire smoke causes cancelation of Greater Toledo Classic Pro-Am event Thursday (July 16, 2026)", "url": "https://www.13abc.com/2026/07/16/canadian-wildfire-smoke-causes-cancelation-greater-toledo-classic-pro-am-event-thursday/" },
+    { "title": "13abc — 13 First Alert Weather Day in effect into Friday due to hazardous air quality from wildfire smoke (July 15, 2026)", "url": "https://www.13abc.com/2026/07/15/wildfire-smoke-expected-bring-unhealthy-air-quality-toledo-area/" },
+    { "title": "WTOL — LIST | Wildfire smoke prompts outdoor event cancellations, adjustments in northwest Ohio and southeast Michigan", "url": "https://www.wtol.com/article/weather/weather-impact/wildfire-smoke-cancellations-events-air-quality-toledo-ohio-local-news-southeast-michigan/512-649346ba-f032-4017-9e0e-81ed92056ea2" },
+    { "title": "WTOL — What is the Air Quality Index? Wildfire smoke blankets Great Lakes region", "url": "https://www.wtol.com/article/weather/weather-impact/what-is-the-air-quality-index-wildfire-smoke-blankets-great-lakes-region-aqi-toledo-ohio/512-7731c5e2-2259-4a84-8e13-1c025a1f3654" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Highland Meadows Golf Club — Greater Toledo Classic (Pro-Am cancelled July 16)",
+      "match": "Highland Meadows Golf Club",
+      "lat": 41.7041,
+      "lon": -83.7116
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["glass-city-jazzfest-2026", "cyclosporiasis-toledo-2026", "glass-city-urban-campground"],
+
+  "search_terms": "Toledo air quality AQI wildfire smoke Canadian wildfires outdoor events Greater Toledo Classic Highland Meadows Sylvania First Alert Weather Day July 2026"
+}
