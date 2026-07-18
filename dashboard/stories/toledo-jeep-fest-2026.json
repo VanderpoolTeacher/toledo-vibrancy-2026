@@ -1,0 +1,40 @@
+{
+  "id": "toledo-jeep-fest-2026",
+  "headline": "Toledo Jeep Fest 2026 set for Aug. 6–9 — 10th festival, 85th Jeep anniversary, 100K+ attendees downtown",
+  "section": "Downtown",
+  "tags": ["downtown", "citywide"],
+
+  "posted_date": "2026-07-18",
+  "source_date": "2026-07-14",
+  "last_updated": "2026-07-18",
+
+  "paragraphs": [
+    "Toledo Jeep Fest 2026 is scheduled for August 6–9 at its downtown Toledo home, marking the 10th annual edition of the festival and the 85th anniversary of the Jeep brand. The four-day event brings together Jeep owners, automotive enthusiasts, families, and spectators for an All-Jeep Parade (1,400-plus Jeeps rolling through downtown streets), a Vendor Midway, an Indoor Jeep Exhibit, and family programming. 13abc reported July 14 that the festival will celebrate both milestones simultaneously, positioning Toledo as 'the heart of Jeep Country' — a reference to Stellantis's Toledo Assembly Complex, where every Jeep Wrangler and Gladiator built for the U.S. market is manufactured.",
+    "The 2025 Toledo Jeep Fest drew more than 100,000 attendees from 40 states and generated an estimated $8.3 million in economic activity — figures the 2026 event is expected to match or exceed given the dual milestone draw. The festival falls three weeks before the Glass City JazzFest (August 15), making early-to-mid August the most concentrated stretch of downtown economic activation on Toledo's 2026 calendar. Registration for 2026 TJF events opened in January; the four-day schedule and event maps are published at toledojeepfest.com."
+  ],
+  "why_it_matters": "Jeep Fest is Toledo's single largest annual summer visitor draw and the most visible expression of the city's Jeep manufacturing identity to a national audience. At $8.3 million in estimated economic impact and 100,000-plus attendees, it is the highest-impact sports-and-recreation event on Toledo's calendar — substantially larger than the Greater Toledo Classic and comparable to or exceeding the Glass City JazzFest in raw economic output. The 10th anniversary and 85th Jeep anniversary create a dual-milestone storyline that national automotive and travel media will pick up, amplifying Toledo's brand beyond its usual regional footprint. For downtown businesses, hoteliers, and restaurants, the August 6–9 window is the summer's peak economic activation date.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "13abc — Toledo Jeep Fest returns Aug. 6-9, celebrating 85th anniversary of Jeep (July 14, 2026)", "url": "https://www.13abc.com/2026/07/14/toledo-jeep-fest-returns-aug-6-9-celebrating-85th-anniversary-jeep/" },
+    { "title": "Toledo Jeep Fest — Official site", "url": "https://toledojeepfest.com/" },
+    { "title": "13abc — Toledo Jeep Fest 2026 registration is live (January 2026)", "url": "https://www.13abc.com/2026/01/03/toledo-jeep-fest-2026-registration-is-live/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Downtown Toledo — Toledo Jeep Fest 2026 venue (Aug. 6–9)",
+      "match": null,
+      "lat": 41.6639,
+      "lon": -83.5552
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["glass-city-jazzfest-2026", "toledo-sports-commission-proposal"],
+
+  "search_terms": "Toledo Jeep Fest 2026 August downtown Jeep Wrangler Gladiator Stellantis Toledo Assembly Complex 85th anniversary 10th festival"
+}

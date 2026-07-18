@@ -1,0 +1,59 @@
+{
+  "id": "greater-toledo-classic-2026",
+  "headline": "Ohio teen Mia Hammond wins Greater Toledo Classic as amateur — first Epson Tour amateur winner in five years",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-18",
+  "source_date": "2026-07-18",
+  "last_updated": "2026-07-18",
+
+  "paragraphs": [
+    "The 2026 Greater Toledo Classic concluded July 18–19 at Highland Meadows Golf Club in Sylvania as a 36-hole event after Canadian wildfire smoke forced organisers to cancel the Pro-Am (July 16) and postpone the first competitive round (July 17) entirely. The tournament — part of the Epson Tour, the LPGA's official qualifying series, and hosted by LPGA champion Stacy Lewis — was trimmed from its standard 54-hole format to preserve the schedule. Despite the curtailed format, 100-plus professional players competed across two rounds played on Saturday and Sunday.",
+    "Mia Hammond, a 17-year-old amateur from New Albany, Ohio, won the tournament at 12-under par (rounds of 66-66-69 across the full-length 54-hole format — scoring adjusted for the 36-hole completion) by one stroke over a three-player tie at 11-under: Erika Hara (Japan), Yue Ren (China), and Amanda Doherty (USA). Hammond became only the eighth amateur in Epson Tour history to win a professional tournament on the qualifying series and the first amateur to do so in five years. As an amateur, she is ineligible to receive prize money or LPGA qualifying points from the win, but the historic nature of her performance — at a home-state tournament in her first start at Highland Meadows — immediately attracted attention from national golf media. Hammond is represented by Sterling Sports Management. The tournament has annually donated proceeds to children's charities; the 2025 event donated $337,000."
+  ],
+  "why_it_matters": "The Greater Toledo Classic is one of Toledo's signature sports-tourism events — an Epson Tour professional golf event that draws players, sponsors, and spectators from across the country to Sylvania each summer. Hammond's amateur victory is a national-narrative moment for the tournament and for Ohio golf: a home-state teenager winning on the LPGA's qualifying series generates media coverage that extends well beyond northwest Ohio. For Toledo's sports and convention economy, the tournament's completion — despite wildfire smoke forcing a trimmed format — demonstrates the resilience of the event infrastructure and the hospitality of the host venue. The 2026 edition adds a story that will be told in Epson Tour lore for years and links Toledo to a historic amateur win.",
+
+  "people": [
+    {
+      "name": "Mia Hammond",
+      "role": "Amateur golfer, winner of 2026 Greater Toledo Classic",
+      "search_terms": "Mia Hammond amateur golfer Epson Tour Greater Toledo Classic New Albany Ohio"
+    },
+    {
+      "name": "Stacy Lewis",
+      "role": "Host, Greater Toledo Classic; LPGA champion",
+      "search_terms": "Stacy Lewis Greater Toledo Classic host LPGA"
+    },
+    {
+      "name": "Jennifer Pasztor",
+      "role": "Co-chairman, Greater Toledo Classic",
+      "search_terms": "Jennifer Pasztor Greater Toledo Classic tournament chairman"
+    }
+  ],
+
+  "sources": [
+    { "title": "Epson Tour — Greater Toledo Classic results (2026)", "url": "https://www.epsontour.com/tournaments/greater-toledo-classic-hosted-by-stacy-lewis/results" },
+    { "title": "Drive Chip and Putt — Amateur Mia Hammond Makes History on Epson Tour", "url": "https://www.drivechipandputt.com/amateur-mia-hammond-makes-history-on-epson-tour" },
+    { "title": "Ohio Golf Journal — Amateur Mia Hammond Wins Greater Toledo Classic", "url": "https://ohiogolfjournal.com/amateur-mia-hammond-wins-greater-toledo-classic/" },
+    { "title": "The Blade — Greater Toledo Classic trimmed to 36 holes after opening round postponement (July 17, 2026)", "url": "https://www.toledoblade.com/sports/pro/2026/07/17/greater-classic-trimmed-36-holes-opening-round-postponement/stories/20260717109" },
+    { "title": "13abc — Canadian wildfire smoke causes cancelation of Greater Toledo Classic Pro-Am event Thursday (July 16, 2026)", "url": "https://www.13abc.com/2026/07/16/canadian-wildfire-smoke-causes-cancelation-greater-toledo-classic-pro-am-event-thursday/" },
+    { "title": "WTOL — Greater Toledo Classic to donate $337K to children's charities, sets 2026 tournament dates", "url": "https://www.wtol.com/article/sports/golf/greater-toledo-classic-donating-337k-to-childrens-charities-sets-2026-tournament-dates/512-95feae2f-98e7-4de9-9142-7cdf372e9459" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Highland Meadows Golf Club — 2026 Greater Toledo Classic venue",
+      "match": "Highland Meadows Golf Club",
+      "lat": 41.7041,
+      "lon": -83.7116
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["toledo-wildfire-smoke-air-quality-2026", "toledo-sports-commission-proposal"],
+
+  "search_terms": "Greater Toledo Classic Epson Tour 2026 Mia Hammond amateur win Highland Meadows Sylvania golf LPGA qualifying Stacy Lewis"
+}
