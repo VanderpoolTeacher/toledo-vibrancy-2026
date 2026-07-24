@@ -1,0 +1,55 @@
+{
+  "id": "toledo-police-chief-transition-2026",
+  "headline": "Toledo Police Chief Troendle announces retirement; Kevin Braun named successor as public safety levy heads to voters",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-24",
+  "source_date": "2026-07-22",
+  "last_updated": "2026-07-24",
+
+  "paragraphs": [
+    "Toledo Police Chief Michael Troendle announced his retirement on July 22, 2026, after 32 years of service; his last day with the department is November 1. Mayor Wade Kapszukiewicz named Assistant Chief Kevin Braun as Troendle's successor, effective November 1. Troendle and Braun will work through a planned 90-day transition period before the handover. Troendle's tenure included the June 2026 Old West End Festival mass shooting, the subsequent policy sprint that produced the Special Event Safety Zones ordinance and the Flock license plate reader contract extension, and the July 2026 mid-year crime briefing showing 20 homicides through the first half of 2026 with decreases in other violent crime categories. The retirement announcement came after the City released that briefing on July 9 and as the 0.25% public safety income tax levy — certified by council 11-1 on July 14 — enters its November campaign period.",
+    "Kevin Braun is a Toledo native and graduate of Libbey High School. He joined the Toledo Police Department in December 2000 as a 911 call taker and has advanced through every level of the organization, serving as sergeant, lieutenant, captain, deputy chief, and assistant chief — a position he was promoted to in April 2025. Braun holds a bachelor's degree in criminal justice from Tiffin University and a master's degree in criminal justice from Bowling Green State University; he is also a graduate of the FBI National Academy in Quantico, Virginia. His leadership experience spans patrol operations, criminal investigations, community policing, crisis communications, organizational development, and strategic planning. 13abc reported July 23 that the leadership change prompted renewed calls for trust and accountability from Toledo community members."
+  ],
+
+  "why_it_matters": "Police leadership transitions are not typically economic development stories, but this one arrives at an unusually consequential moment for Toledo's public safety and fiscal landscape. The November 3 ballot will ask voters to approve a 0.25% public safety income tax levy framed by council as necessary to prevent police and fire layoffs, and the incoming chief takes over a department whose credibility with voters is a variable in that campaign. Braun's inside-candidate profile — Toledo native, 25-year career, promoted up through every rank — signals continuity rather than disruption, which is consistent with the administration's messaging heading into a levy campaign that needs public confidence in how the money will be spent. For Toledo's economic development pitch, stable and community-rooted police leadership during a period of elevated public safety focus — post-OWE shooting, active gang disruption strategy, levy campaign — is a more favorable signal to site selectors than a contested or externally-imposed succession would be.",
+
+  "people": [
+    {
+      "name": "Michael Troendle",
+      "role": "Outgoing Chief of Police, Toledo Police Department (retiring Nov. 1, 2026)",
+      "search_terms": "Michael Troendle Toledo Police Chief retirement 2026"
+    },
+    {
+      "name": "Kevin Braun",
+      "role": "Incoming Chief of Police, Toledo Police Department (effective Nov. 1, 2026)",
+      "search_terms": "Kevin Braun Toledo Police Chief 2026 Libbey successor"
+    }
+  ],
+
+  "sources": [
+    { "title": "Toledo.oh.gov — Toledo Police Chief Michael Troendle Announces Retirement; Assistant Chief Kevin Braun Named Next Chief of Police (July 22, 2026)", "url": "https://toledo.oh.gov/news/2026/07/22/toledo-police-chief-michael-troendle-announces-retirement-assistant-chief-kevin-braun-named-next-chief-of-police" },
+    { "title": "13abc — Toledo Police Chief Troendle to retire in November, Kevin Braun to lead department (July 22, 2026)", "url": "https://www.13abc.com/2026/07/21/toledo-police-department-announcement-planned-wednesday-morning/" },
+    { "title": "13abc — Who is Toledo's next police chief? (July 22, 2026)", "url": "https://www.13abc.com/2026/07/22/who-is-toledos-next-police-chief/" },
+    { "title": "WTOL — Who is Kevin Braun? What to know about the Toledo police leader who will succeed Chief Troendle (July 22, 2026)", "url": "https://www.wtol.com/article/news/local/kevin-braun-toledo-police-chief-glass-house-winner/512-904a513c-2a78-4b6d-afe8-9dd17b29b198" },
+    { "title": "Spectrum News 1 — After 32 years, Toledo Police Chief Michael Troendle announces retirement (July 22, 2026)", "url": "https://spectrumnews1.com/oh/columbus/news/2026/07/22/toledo-police-chief-michael-troendle-announces-retirement" },
+    { "title": "13abc — Toledo police leadership change prompts renewed calls for trust, accountability (July 23, 2026)", "url": "https://www.13abc.com/2026/07/23/toledo-police-leadership-change-prompts-renewed-calls-trust-accountability/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Police Department Headquarters — 525 N. Erie Street",
+      "match": null,
+      "lat": 41.6641,
+      "lon": -83.5540
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["toledo-public-safety-income-tax", "old-west-end-festival-shooting-2026", "toledo-special-event-safety-zones", "toledo-2026-midyear-crime-stats"],
+
+  "search_terms": "Toledo Police Chief Troendle retirement Kevin Braun successor 2026 Toledo Police Department leadership transition public safety levy"
+}
