@@ -1,0 +1,44 @@
+{
+  "id": "warren-sherman-townhomes-cbp",
+  "headline": "City of Toledo and Community Building Partners to construct 25 affordable for-sale townhomes in Warren Sherman — $220K with down payment assistance",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-26",
+  "source_date": "2026-07-23",
+  "last_updated": "2026-07-26",
+
+  "paragraphs": [
+    "The City of Toledo and Community Building Partners have announced a joint project to construct 25 affordable for-sale townhomes in the Warren Sherman neighborhood, supported by a $600,000 Welcome Home Ohio grant awarded to the City's Department of Housing and Community Development. Spectrum News 1 reported July 23 on the development as part of Ohio's broader push to expand homeownership access through the Welcome Home Ohio program, administered by the Ohio Department of Development. Each home will feature three bedrooms and a garage; the projected sale price is approximately $220,000, with down payment assistance available to qualified buyers.",
+    "Warren Sherman is a historically underinvested neighborhood in central Toledo, where homeownership rates trail city averages and the housing stock skews heavily toward older rental units. A 25-unit for-sale townhome development at $220,000 — new construction, below the regional market rate — introduces an ownership product at a scale and price point the neighborhood has rarely seen. The project builds on the broader Toledo housing push that includes The Grand and The Glen workforce housing developments (ribbon-cutting July 8), the Land Bank's rehabilitation pipeline, and the Maumee Valley Habitat for Humanity partnership."
+  ],
+
+  "why_it_matters": "For-sale affordable housing is structurally harder to finance than rental: the developer carries more risk, the buyer pool requires down payment support, and land acquisition often competes with higher-return uses. The $600K Welcome Home Ohio grant addresses part of that gap; Community Building Partners brings development capacity to execute in a neighborhood where the City has historically relied on scattered rehabilitation. The 25-unit scale is significant — large enough to shift the ownership inventory in a defined corridor rather than drop isolated units across the neighborhood. Warren Sherman sits adjacent to the RAISE/Junction and Uptown investment corridors; infrastructure investment accumulating around those corridors makes a for-sale product more viable here than it would have been three years ago.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "Spectrum News 1 — Ohio pushes to improve housing access (July 23, 2026)",
+      "url": "https://spectrumnews1.com/oh/toledo/news/2026/07/23/ohio-housing-access-grant"
+    },
+    {
+      "title": "Toledo City Paper — On The Radar July 2026",
+      "url": "https://toledocitypaper.com/news/on-the-radar-july-2026/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Warren Sherman neighborhood — central Toledo",
+      "match": "Warren Sherman",
+      "lat": 41.674,
+      "lon": -83.582
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["welcome-home-ohio-toledo-lucas-county", "raise-uptown-junction", "land-bank-mann-1b-milestone-ose", "the-grand-the-glen-affordable-housing"],
+  "search_terms": "Warren Sherman affordable townhomes Community Building Partners Welcome Home Ohio Toledo 2026 homeownership for-sale housing"
+}
