@@ -1,0 +1,39 @@
+{
+  "id": "lucas-county-budget-cut-2027",
+  "headline": "Lucas County commissioners ask all agencies to cut 2027 budgets by 13% — $27M structural gap driven by federal SNAP cuts",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-29",
+  "source_date": "2026-07-28",
+  "last_updated": "2026-07-29",
+
+  "paragraphs": [
+    "Lucas County commissioners and the county Office of Management and Budget sent a directive to all county department heads in late July 2026 requesting 13% cuts to 2027 operating budgets, 13abc reported July 28. The county is facing an estimated $7 million end-of-year shortfall in 2026 and a projected $27 million structural gap in 2027. The primary driver is federal SNAP cuts: the state of Ohio covered only $12.5 million of a $38 million hole created for county governments by the federal reductions, leaving Lucas County to absorb the remainder. Jail renovation debt service adds a secondary structural pressure. The directive language asked agency heads to 'consider all tools necessary to reach the target, including revisiting any fee structures or contracts, furlough days, staffing reductions, utilizing outside funds.' Commissioners identified three priority protections exempt from cuts: employee health benefits, jail debt service, and county SNAP supplement programs.",
+    "The 13% reduction request applies broadly across county departments and agencies. Entities with significant redevelopment or human services roles — including the Lucas County Land Bank, Lucas County Metropolitan Housing Authority, Lucas County Children Services, the Lucas County Health Department, and the Toledo-Lucas County Public Library — each operate with county funding streams that could be affected, though each has its own levy or separate funding mechanisms that partially insulate operations. The library system is simultaneously navigating separate state funding pressures and is among the November 3 ballot asks. The county's fiscal directive arrives alongside the City of Toledo's 0.25% public safety income tax levy — also on the November 3 ballot — creating an overlapping set of competing fiscal asks for Lucas County voters in the fall."
+  ],
+
+  "why_it_matters": "A $27 million structural gap at the county level is a significant fiscal stress signal for the Toledo region. The county government is a direct partner in multiple economic development and housing initiatives tracked in this brief — Land Bank operations, port authority coordination, LCMHA housing production, and public health infrastructure all carry county funding exposure. The timing is notable: the directive arrives as the county and city are simultaneously seeking voter approval for new revenue streams in November, and the federal SNAP funding shortfall illustrates how national-level budget decisions cascade into local government operations within months. For site selectors and regional investors, county fiscal stability is an underlying variable in assessments of workforce infrastructure, public safety capacity, and the long-term durability of the incentive programs that support economic development.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "13abc — Lucas County agencies asked to cut 2027 budget by 13% (July 28, 2026)", "url": "https://www.13abc.com/2026/07/28/lucas-county-agencies-asked-cut-2027-budget-by-13/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Lucas County Commissioners — One Government Center",
+      "match": null,
+      "lat": 41.6617,
+      "lon": -83.5548
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["lucas-county-library-imagination-station-levies", "toledo-public-safety-income-tax", "land-bank-mann-1b-milestone-ose", "welcome-home-ohio-toledo-lucas-county"],
+
+  "search_terms": "Lucas County budget 2027 commissioners 13 percent cut SNAP federal funding gap Toledo Ohio fiscal 2026"
+}

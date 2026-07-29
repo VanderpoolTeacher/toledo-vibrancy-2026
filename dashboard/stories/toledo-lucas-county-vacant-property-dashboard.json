@@ -1,0 +1,50 @@
+{
+  "id": "toledo-lucas-county-vacant-property-dashboard",
+  "headline": "Toledo and Lucas County launch Public Land Opportunities Dashboard — nearly 2,000 vacant parcels mapped in real time",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-07-29",
+  "source_date": "2026-07-28",
+  "last_updated": "2026-07-29",
+
+  "paragraphs": [
+    "The City of Toledo, Lucas County Land Bank, Lucas County Treasurer, and Lucas County Auditor jointly launched the Public Land Opportunities Dashboard on July 28, 2026, giving residents, investors, and developers real-time access to nearly 2,000 vacant and available parcels across Toledo and Lucas County. The tool is powered by AREIS — the county's property information system — and displays available parcels on an interactive map in yellow, with each parcel showing its address, parcel number, zoning classification, and direct links to the AREIS system for full records. The dashboard aggregates publicly owned or Land Bank-held properties that are available for acquisition, reducing the research burden that previously required multiple visits to different agency databases.",
+    "Land Bank CEO David Mann described the tool's intent as lowering the barrier to entry for prospective buyers at all levels of experience: 'This is an online shopping opportunity because you can go to the map that we've made available and see in real-time every lot that is available right now in your neighborhood.' Lucas County Treasurer Lindsay Webb emphasized accessibility for non-specialists: 'You don't have to have a background as a real estate expert...you can be Joe and Mary in 43613 and curious about what's happening in your neighborhood.' The dashboard is intended to serve both active redevelopment investors and residents seeking to understand vacancy patterns in their own neighborhoods."
+  ],
+
+  "why_it_matters": "Vacant property disposition is one of the highest-friction steps in Toledo's neighborhood revitalization pipeline — prospective buyers historically faced scattered data across the Land Bank, Treasurer, and Auditor, with no unified view of what was actually available. The Public Land Opportunities Dashboard consolidates that into a single real-time interface, directly reducing the search cost that deters smaller buyers and community organizations from entering the market. Nearly 2,000 parcels in one place is a meaningful inventory signal for site selectors and developers evaluating Toledo's urban infill potential. The launch connects directly to several active initiatives tracked in this brief: the Vibrancy 19 grant program, the Land Bank's milestone progress on Mann's 1B redevelopment pipeline, the Welcome Home Ohio housing program, and the broader RAISE/Uptown-Junction corridor strategy — each of which depends on efficient vacancy clearance. The tool also gives the public a transparent, current picture of city-county land policy in action.",
+
+  "people": [
+    {
+      "name": "David Mann",
+      "role": "CEO, Lucas County Land Bank",
+      "search_terms": "David Mann Lucas County Land Bank Toledo CEO"
+    },
+    {
+      "name": "Lindsay Webb",
+      "role": "Lucas County Treasurer",
+      "search_terms": "Lindsay Webb Lucas County Treasurer Toledo"
+    }
+  ],
+
+  "sources": [
+    { "title": "13abc — Toledo, Lucas County launch public dashboard for vacant property redevelopment (July 28, 2026)", "url": "https://www.13abc.com/2026/07/28/toledo-lucas-county-launch-public-dashboard-vacant-property-redevelopment/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Lucas County Auditor — One Government Center",
+      "match": null,
+      "lat": 41.6639,
+      "lon": -83.5552
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["land-bank-mann-1b-milestone-ose", "vibrancy-19-grants", "welcome-home-ohio-toledo-lucas-county", "raise-uptown-junction"],
+
+  "search_terms": "Toledo Lucas County vacant property dashboard Public Land Opportunities AREIS Land Bank Treasurer Auditor redevelopment 2026"
+}
