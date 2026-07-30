@@ -1,0 +1,42 @@
+{
+  "id": "vistula-north-summit-street-safety",
+  "headline": "Toledo wins $60K GM on Main Street Grant for North Summit Street safety corridor — one of five selected nationwide",
+  "section": "Vistula District / Ostrich Towne",
+  "tags": ["vistula"],
+
+  "posted_date": "2026-07-30",
+  "source_date": "2026-07-29",
+  "last_updated": "2026-07-30",
+
+  "paragraphs": [
+    "The City of Toledo was awarded a $60,000 GM on Main Street Grant on July 29 to implement an interim traffic-calming and pedestrian-safety project along North Summit Street in the Vistula neighborhood. Toledo is one of only five recipients selected nationwide from the GM on Main Street Grant Program, a joint initiative presented by General Motors and Main Street America. The award was reported by The Blade and WTOL on July 29; the City of Toledo announced it the same day.",
+    "The project will transform a 2,100-foot section of North Summit Street between Cherry and Olive streets — currently a five-lane high-speed arterial — by reducing the roadway to two travel lanes with a dedicated center turn lane at Lagrange Street. The project also installs four temporary median islands created with surface-mounted delineators and new pavement markings. The City's N. Summit Street Streetscape Enhancement Plan had long identified this corridor as a priority for pedestrian improvements; the GM grant funds an interim implementation that allows the city to demonstrate safety benefits and gather traffic data before pursuing permanent construction funding."
+  ],
+
+  "why_it_matters": "North Summit Street as a five-lane arterial is a structural barrier between the Vistula residential neighborhood and its riverfront. The interim traffic-calming project directly addresses the pedestrian environment needed to make the $23M Vistula Metropark accessible to the neighborhood it is meant to serve, and it supports foot traffic to the soccer stadium site on Water Street and to Vistula's emerging small-business corridor. The grant's national selectivity (one of five awarded) signals that Toledo's Vistula planning work has been recognized at a program level that typically rewards municipalities with strong documentation of community need. The interim approach — surface-mounted delineators rather than construction — accelerates the timeline while building a data case for the permanent capital project.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "City of Toledo — City of Toledo Awarded $60,000 GM on Main Street Grant (July 29, 2026)", "url": "https://toledo.oh.gov/news/2026/07/29/city-of-toledo-awarded-60-000-gm-on-main-street-grant" },
+    { "title": "The Blade — City of Toledo awarded selective grant for traffic improvements (July 29, 2026)", "url": "https://www.toledoblade.com/local/city/2026/07/29/city-of-toledo-awarded-selective-grant-for-traffic-improvements/stories/20260729103" },
+    { "title": "WTOL — City of Toledo awarded $60K grant for Vistula neighborhood street improvements (July 29, 2026)", "url": "https://www.wtol.com/article/traffic/60k-grant-awarded-for-vistula-neighborhood-street-improvements/512-a2575b0a-c4ab-4796-be23-b8c0ae9eb619" },
+    { "title": "Main Street America — GM on Main Grant Program Awards Five $60,000 Grants for Road Safety & Traffic Calming Initiatives", "url": "https://mainstreet.org/the-latest/news/gm-on-main-grant-program-awards-five-60-000-grants-for-road-safety-traffic-calming-initiatives" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "North Summit Street at Lagrange — Vistula traffic-calming corridor",
+      "match": "North Summit Street",
+      "lat": 41.6620,
+      "lon": -83.5375
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["vistula-metropark", "soccer-stadium-vistula"],
+
+  "search_terms": "North Summit Street Vistula Toledo traffic calming pedestrian safety GM Main Street grant streetscape 2026"
+}
