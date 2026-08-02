@@ -1,0 +1,46 @@
+{
+  "id": "tps-levy-november-2026",
+  "headline": "Toledo Public Schools places 6.9-mill levy on November 3 ballot — fourth fiscal measure as TPS closes $68M deficit; filing deadline August 5",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-02",
+  "source_date": "2026-07-29",
+  "last_updated": "2026-08-02",
+
+  "paragraphs": [
+    "The Toledo Public Schools board of education unanimously voted on July 29, 2026 to place a 6.9-mill, five-year property tax levy on the November 3 ballot, The Blade and 13abc reported. The levy must be filed with the Lucas County Board of Elections by August 5 to be eligible for the ballot. If passed, it would generate an estimated $22.8 million annually — the district projects this would keep TPS out of deficit through 2030 — and would cost homeowners $242 per year for every $100,000 in home value, based on the district's $3.3 billion property base. District leaders acknowledged that even with levy passage, additional cuts and program reviews remain on the table.",
+    "The levy placement follows an escalating fiscal crisis. TPS approved a $68 million budget reduction plan in April 2026 after operating at a structural deficit for four consecutive years. In 2026, both Moody's Investors Service and Standard & Poor's downgraded the district's credit ratings: Moody's cut TPS from A2 to Baa1, citing the four-year run of operating deficits; S&P lowered its rating from A+ to A-, warning of potential 'structurally imbalanced' operations by 2029 without significant fiscal adjustments. The credit downgrades raise TPS's borrowing costs and signal deteriorating financial standing to bond markets.",
+    "The TPS levy becomes the fourth separate tax measure before Lucas County voters on November 3 — joining the City of Toledo's 0.25% public safety income tax levy (advanced by City Council on July 14), the Toledo Lucas County Public Library levy, and the Imagination Station Toledo levy. All four measures are on the same ballot. November 3 represents the largest simultaneous multi-institution fiscal ask the Toledo-Lucas County community has seen in recent years, arriving as Lucas County government simultaneously manages a projected $27 million structural budget gap driven by federal SNAP funding cuts — and has asked all county departments to cut 2027 budgets by 13%."
+  ],
+  "why_it_matters": "Toledo Public Schools is the largest K-12 employer in Lucas County and a direct contributor to the regional talent pipeline that Toledo EDOs use in site-selector pitches. A levy failure would compound cuts already underway at a school district with credit rating downgrades from two agencies. More broadly, the aggregation of four simultaneous ballot asks — TPS, city safety levy, library, and Imagination Station — creates an unusual political environment where each measure competes against voter fatigue and fiscal-ask saturation. The cumulative tax impact on homeowners, and whether Lucas County voters support all four or prioritize selectively, will shape the fiscal environment for Toledo's public-sector anchors entering 2027 — affecting workforce infrastructure, cultural amenity quality, and public safety capacity simultaneously.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "The Blade — TPS Board of Education votes to send levy to the November ballot (July 28, 2026)", "url": "https://www.toledoblade.com/local/education/2026/07/28/tps-board-education-approves-placing-levy-november-ballot/stories/20260728120" },
+    { "title": "13abc — TPS board votes to put 6.9-mill levy on November ballot (July 29, 2026)", "url": "https://www.13abc.com/2026/07/29/tps-board-votes-put-69-mill-levy-november-ballot/" },
+    { "title": "WTOL — TPS board approves 6.9-mill property tax levy for November ballot", "url": "https://www.wtol.com/article/news/local/tps-board-approves-property-tax-levy-november-ballot/512-eb5fb626-25c7-413c-881a-c367f22d29f2" },
+    { "title": "Yahoo Finance / WTOL — Toledo Public Schools receives lower credit ratings from two credit agencies", "url": "https://www.yahoo.com/news/us/articles/toledo-public-schools-receives-lower-203824830.html" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Public Schools — Administration Building, 420 E. Manhattan Blvd.",
+      "match": "Toledo Public Schools",
+      "lat": 41.6445,
+      "lon": -83.5381
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "lucas-county-library-imagination-station-levies",
+    "toledo-public-safety-income-tax",
+    "lucas-county-budget-cut-2027"
+  ],
+
+  "search_terms": "Toledo Public Schools TPS levy November 2026 ballot 6.9 mill property tax deficit Moody S&P credit rating downgrade fiscal"
+}
