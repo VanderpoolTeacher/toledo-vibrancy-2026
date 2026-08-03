@@ -1,0 +1,72 @@
+{
+  "id": "oregon-vantage-data-center",
+  "headline": "Oregon, OH residents push charter amendment to cap data centers at 25MW; Vantage Data Centers named as developer; petition deadline August 5",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-03",
+  "source_date": "2026-07-29",
+  "last_updated": "2026-08-03",
+
+  "paragraphs": [
+    "Residents of Oregon, Ohio — a city of approximately 20,000 in eastern Lucas County — are collecting voter signatures for a proposed city charter amendment that would limit data center capacity within Oregon's city limits to 25 megawatts. The group Protect Oregon, Ohio has until August 5, 2026 to deliver approximately 1,700 valid signatures to the Lucas County Board of Elections to qualify the amendment for the November 3 ballot. If enough signatures are verified and voters approve the measure, it would restrict the scale of future data center development and steer projects toward brownfield and industrial sites rather than farmland — without banning data centers outright. Petition organizer James Davis has said the effort aims to prevent large-scale data center development from displacing residential and agricultural areas of the community.",
+    "City officials in Oregon confirmed Vantage Data Centers as the prospective developer for the project that triggered the petition drive, with a proposed site near Wynn and Corduroy Roads in Oregon. Vantage Data Centers, backed by Silver Lake Partners, is one of the largest hyperscale data center developers in North America. The current Oregon site plan calls for three buildings, with the potential for multiple end users per building. Oregon City Council has not taken a formal position on the petition. Separately, a statewide constitutional amendment to ban data centers over 25MW failed to gather sufficient signatures by its July 1 deadline — Conserve Ohio (formerly Ohio Residents for Responsible Development) collected approximately 70,000 of the required 413,488 signatures statewide, with Lucas County leading all Ohio counties at 6,482; the statewide effort continues on a 2027 track. A growing parallel concern among Ohio utility advocates is whether electricity ratepayers will absorb a disproportionate share of data center power demand costs."
+  ],
+  "why_it_matters": "The Oregon charter amendment effort is the first concrete local-government-level pushback against data center development in Lucas County, arriving precisely as the Regional Growth Partnership, JobsOhio, and the Toledo CIC are actively marketing the region's data center readiness to hyperscale investors. If the petition qualifies and voters approve it in November, Oregon would be the first municipality in northwest Ohio to cap data center capacity — a signal that community resistance to large-scale energy-intensive development is a variable in Toledo-area site selection. The timing compounds the broader statewide data center investment thesis: JobsOhio's AI-Ready Ohio initiative and the Gordie Howe Bridge freight corridor are both active in the same market window where local opposition is crystallizing. The August 5 signature deadline and the November 3 ballot — which already carries TPS, public safety, library, and Imagination Station levies — make this a watch-list item for the remainder of the summer.",
+
+  "people": [
+    {
+      "name": "James Davis",
+      "role": "Petition organizer, Protect Oregon Ohio",
+      "search_terms": "James Davis Protect Oregon Ohio data center charter amendment"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Oregon residents push charter amendment to limit data center size (July 16, 2026)",
+      "url": "https://www.13abc.com/2026/07/16/oregon-residents-push-charter-amendment-limit-data-center-size/"
+    },
+    {
+      "title": "13abc — Prospective developer named for Oregon data center, petition drive looks to put project to a public vote (July 29, 2026)",
+      "url": "https://www.13abc.com/2026/07/29/oregon-officials-eye-vantage-data-centers-proposed-development-near-wynn-corduroy-roads/"
+    },
+    {
+      "title": "WTOL — Oregon residents push amendment effort to halt proposed data center",
+      "url": "https://www.wtol.com/article/news/local/oregon-residents-push-amendment-effort-to-halt-proposed-data-center-at-city-council-meeting/512-0916aef8-ac54-4783-a80f-c0f167535578"
+    },
+    {
+      "title": "WTOL — Ohio data center petition push heads toward November ballot",
+      "url": "https://www.wtol.com/article/news/politics/state-politics/ohio-data-center-petition-push-heads-toward-november-election/512-973cbcff-97a8-4098-bd92-bdf52b73ce04"
+    },
+    {
+      "title": "Protect Oregon, Ohio — community site",
+      "url": "https://oregondc.community/"
+    },
+    {
+      "title": "Ballotpedia — Data center-related ballot measures, 2026",
+      "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Oregon, OH — proposed Vantage Data Centers site near Wynn & Corduroy Roads",
+      "match": null,
+      "lat": 41.6445,
+      "lon": -83.4574
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "van-wert-qts-data-center",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo",
+    "tps-levy-november-2026"
+  ],
+
+  "search_terms": "Oregon Ohio data center Vantage Data Centers charter amendment 25 megawatt petition Lucas County Protect Oregon ballot November 2026"
+}
