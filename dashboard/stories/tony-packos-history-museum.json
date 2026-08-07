@@ -1,0 +1,39 @@
+{
+  "id": "tony-packos-history-museum",
+  "headline": "Tony Packo's opens history museum at original 1902 Front Street restaurant",
+  "section": "East Toledo",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-07",
+  "source_date": "",
+  "last_updated": "2026-08-07",
+
+  "paragraphs": [
+    "Tony Packo's Café has opened a history museum at its original location on Front Street in East Toledo — the corner storefront where the Packo family restaurant was founded in the early 20th century. The Blade reported on July 30, 2026 that the museum addition was in planning; the opening occurred in early August 2026, per BG Independent News. The museum offers what organizers describe as an 'immersive journey' through nearly 100 years of restaurant history, with memorabilia, photographs, and exhibits tracing the restaurant's evolution from a neighborhood Hungarian hot dog stand into a nationally recognized Toledo institution. The original Front Street location remains in operation as a restaurant alongside the new dedicated museum component.",
+    "Tony Packo's is among the most recognized Toledo brands nationally, elevated to broad cultural awareness by the television series M*A*S*H — Corporal Klinger, the Toledo-native character played by Jamie Farr, repeatedly cited Packo's as his favorite restaurant throughout the show's 11-year run. The restaurant's collection of celebrity-signed hot dog buns — a tradition sparked by Burt Reynolds in 1972, who humorously signed a bun instead of a menu — has grown to hundreds of signatures from presidents, entertainers, and athletes displayed on the restaurant's walls. The museum formalizes and expands this living collection into a dedicated exhibit space at the Front Street building where the Packo legacy began, giving the location a tourism identity distinct from its role as a dining destination."
+  ],
+  "why_it_matters": "Toledo's hospitality and cultural identity sectors benefit from attractions that extend a restaurant visit into an experience with standalone tourism draw. The museum conversion adds day-trip appeal to East Toledo's Front Street corridor and formalizes one of Toledo's most recognizable national identity assets — the M*A*S*H connection and the celebrity bun wall — into a structured heritage attraction. As Toledo EDOs market the city's quality of place to site selectors and talent-attraction audiences, cultural anchors tied to the city's authentic story carry disproportionate brand weight. The Tony Packo's museum is the most nationally recognized Toledo hospitality identity asset to add a dedicated heritage-tourism component.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "The Blade — Tony Packo's adding historical museum to its original restaurant (July 30, 2026)", "url": "https://www.toledoblade.com/business/retail/2026/07/30/tony-packo-s-adding-historical-museum-to-its-original-restaurant/stories/20260730091" },
+    { "title": "BG Independent News — Tony Packo's opens new Front Street museum", "url": "https://bgindependentmedia.org/tony-packos-opens-new-front-street-museum/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Tony Packo's Café — original Front Street location, East Toledo",
+      "match": "Front Street",
+      "lat": 41.6578,
+      "lon": -83.5079
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["sarnies-downtown-toledo", "dough-co-pizzaria-downtown", "watershed-weekend-riverwalk"],
+
+  "search_terms": "Tony Packo's history museum Front Street East Toledo restaurant 2026 opening Hungarian hot dog MASH Jamie Farr Burt Reynolds Toledo icon"
+}
