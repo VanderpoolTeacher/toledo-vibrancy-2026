@@ -1,0 +1,77 @@
+{
+  "id": "pontiac-preserve-waterfront-park",
+  "headline": "Pontiac Preserve opens August 3 — 59-acre former dredge disposal site on lower Maumee becomes North Toledo's first public riverfront park",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-09",
+  "source_date": "2026-08-03",
+  "last_updated": "2026-08-09",
+
+  "paragraphs": [
+    "The City of Toledo dedicated Pontiac Preserve on August 3, 2026 — a 59-acre public waterfront park at 3184 North Summit Street in Toledo's Pontiac neighborhood, along the lower Maumee River near its mouth into Lake Erie. The site was formerly the Penn 7 Confined Disposal Facility (CDF), a City of Toledo-owned dredge disposal area that accepted sediment dredged from the Maumee River shipping channel in 1972–73. For more than 50 years the site was entirely inaccessible to the public; the surrounding lower Maumee shoreline is predominantly lined with metal walls, with almost no natural floodplain wetland habitat remaining.",
+    "The park infrastructure opened to the public includes a permeable paver parking lot, a fully accessible one-mile walking trail, two riverfront overlook decks, and interpretive signage. The habitat restoration phase — completed in June 2022 using a $2.77 million NOAA Great Lakes Restoration Initiative (GLRI) grant — converted 9.5 acres of the site into submerged and emergent wetlands and open water habitat, providing spawning and nursery space for over 40 species of Lake Erie fish and native bird habitat. The 2026 park infrastructure phase cost approximately $750,000, funded by a $498,000 GLRI grant delivered through the Great Lakes Commission, a $10,000 donation from Cleveland-Cliffs, and local capital improvement funds. Congresswoman Marcy Kaptur was credited with securing the federal GLRI funds.",
+    "Mayor Wade Kapszukiewicz said at the August 3 dedication that Pontiac Preserve 'represents the continued renewal of Toledo's riverfront and our commitment to creating new opportunities for residents to experience the natural resources that make our city unique.' Pontiac Preserve is the latest phase of the Penn 7 Activation Project, which has been advancing since a 2019 feasibility study. A partial opening occurred in August 2025; the August 3, 2026 dedication marks the full official opening with parking, trail, and overlook infrastructure complete."
+  ],
+  "why_it_matters": "Pontiac Preserve transforms a 50-year-old industrial liability — a confined dredge disposal site with documented Great Lakes beneficial-use impairments — into publicly accessible greenspace on the lower Maumee. This is part of Toledo's broader riverfront revival narrative, complementing (but distinct from) Metroparks Toledo's Glass City Riverwalk in the downtown corridor. For North Toledo's Pontiac neighborhood, a walkable riverfront park where none existed is a direct neighborhood amenity, and the 59-acre footprint creates a permanent conservation anchor in a section of the Maumee shoreline dominated by industrial and port uses. The GLRI funding model — federal conservation dollars remedying Great Lakes legacy pollution sites — is replicable along the lower Maumee, where similar brownfield and CDF sites exist.",
+
+  "people": [
+    {
+      "name": "Wade Kapszukiewicz",
+      "role": "Mayor, City of Toledo",
+      "search_terms": "Wade Kapszukiewicz Toledo Mayor Pontiac Preserve Penn 7"
+    },
+    {
+      "name": "Marcy Kaptur",
+      "role": "U.S. Representative, Ohio 9th District",
+      "search_terms": "Marcy Kaptur Congress Toledo GLRI Pontiac Preserve Penn 7"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "City of Toledo — City of Toledo Celebrates Opening of Pontiac Preserve, New Waterfront Park Along the Maumee River (August 3, 2026)",
+      "url": "https://toledo.oh.gov/news/2026/08/03/city-of-toledo-celebrates-opening-of-pontiac-preserve-new-waterfront-park-along-the-maumee-river"
+    },
+    {
+      "title": "Spectrum News 1 — Toledo celebrates opening of Pontiac Preserve (August 4, 2026)",
+      "url": "https://spectrumnews1.com/oh/columbus/news/2026/08/04/toledo-celebrates-opening-of-pontiac-reserve"
+    },
+    {
+      "title": "WTOL — Toledo to turn former dumping site into park, wetland",
+      "url": "https://www.wtol.com/article/news/local/former-north-toledo-dredge-site-turn-into-park-wetland/512-963acdb8-e970-4cc3-a774-d7b0ca365679"
+    },
+    {
+      "title": "13abc — Restoring a prime piece of riverfront property (March 2026)",
+      "url": "https://www.13abc.com/2026/03/05/restoring-prime-piece-riverfront-property/"
+    },
+    {
+      "title": "Maumee AOC — Penn 7 Habitat Restoration project",
+      "url": "https://maumeeaoc.org/featured-projects-wildmaps/project-penn7/"
+    },
+    {
+      "title": "City of Toledo — Penn 7 Restoration project page",
+      "url": "https://toledo.oh.gov/residents/sustainability/penn-7"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Pontiac Preserve — 3184 N. Summit St., North Toledo (lower Maumee River)",
+      "match": "Pontiac Preserve",
+      "lat": 41.6934,
+      "lon": -83.5400
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "vistula-metropark",
+    "maumee-river-fertilizer-fish-kill-2026",
+    "watershed-weekend-riverwalk"
+  ],
+
+  "search_terms": "Pontiac Preserve North Toledo waterfront park Penn 7 confined disposal facility Maumee River GLRI Great Lakes Restoration wetland habitat restoration 2026"
+}
