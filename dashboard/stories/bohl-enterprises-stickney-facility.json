@@ -1,0 +1,38 @@
+{
+  "id": "bohl-enterprises-stickney-facility",
+  "headline": "Bohl Enterprises proposes $10.6 million, 72,000-sq-ft North Toledo manufacturing facility at undeveloped Stickney Avenue site",
+  "section": "North Toledo",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-11",
+  "source_date": "2026-08-04",
+  "last_updated": "2026-08-11",
+
+  "paragraphs": [
+    "Bohl Enterprises — a century-old Toledo material-handling and equipment company — has filed plans with the Toledo City Plan Commission to construct a new 72,000-square-foot manufacturing and office facility at 5315 Stickney Ave. in North Toledo, The Blade reported August 4. The proposed investment totals $10.6 million. According to city planning documents, the company intends to consolidate its existing manufacturing and office operations from multiple locations into the new facility. The roughly 21-acre parcel sits south of Shantee Creek and has not been targeted for industrial development since 1974, when City Council denied a special-use permit for a sanitary landfill at the site.",
+    "Bohl Equipment Co. — which operates under the Bohl brand — is a Hyster & Yale forklift dealership and crane and lifting equipment provider with roots spanning more than a century in Toledo's industrial sector. The company currently operates a location on W. Laskey Road in Toledo. The Stickney Avenue plan represents the company's expansion of its North Toledo manufacturing footprint; city plan commission review is the next procedural step before construction permitting."
+  ],
+  "why_it_matters": "A $10.6 million private manufacturing investment in a long-dormant North Toledo industrial parcel is the kind of infill industrial activity Toledo EDOs and the city's economic development office track as a signal of reinvestment in legacy manufacturing corridors. The site's 51-year history without development — stretching back to 1974 — makes the proposal notable as a reactivation of underutilized industrial land. If approved and built, the facility consolidates an established Toledo employer on a North Toledo footprint and adds taxable value to a parcel that has generated no commercial activity since before the current generation of city planners.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "The Blade — Bohl Enterprises proposes new $10.6 million North Toledo facility (August 4, 2026)", "url": "https://www.toledoblade.com/business/development/2026/08/04/bohl-enterprises-seeks-10-6-million-investment-in-stickney-avenue-facility/stories/20260803083" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "5315 Stickney Ave — proposed Bohl Enterprises facility, North Toledo",
+      "match": "5315 Stickney Ave",
+      "lat": 41.706,
+      "lon": -83.529
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [],
+
+  "search_terms": "Bohl Enterprises Bohl Equipment Toledo manufacturing facility Stickney Avenue North Toledo 10.6 million industrial expansion"
+}
