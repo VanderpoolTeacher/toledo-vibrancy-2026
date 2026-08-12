@@ -1,0 +1,61 @@
+{
+  "id": "lourdes-university-closing-2026",
+  "headline": "Lourdes University files Chapter 11 bankruptcy for orderly wind-down — 387 positions eliminated, Sylvania campus asset disposition pending court process",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-12",
+  "source_date": "2026-08-10",
+  "last_updated": "2026-08-12",
+
+  "paragraphs": [
+    "Lourdes University filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Northern District of Ohio on August 10, 2026, formalizing the wind-down of the private Catholic university located at 6832 Convent Blvd. in Sylvania Township, Lucas County. The filing came six months after the university announced in February 2026 that it would close following the spring semester, citing years of operating deficits exacerbated by the financial strain of its 2011 transition from Lourdes College to full university status, which expanded degree offerings and added intercollegiate athletics. A WARN Act notice filed March 13, 2026 confirmed 387 employees would be laid off once the closure is complete. Students completed their final courses on Friday, August 7; the bankruptcy filing does not affect their ability to receive Lourdes degrees. The Blade, 13abc, and WTOL all reported the filing August 10.",
+    "Under Chapter 11, Lourdes will submit a plan of liquidation to the bankruptcy court for approval, with proceeds from the sale of available assets expected to be distributed to creditors according to bankruptcy-code priorities. The university reported $1 million to $10 million in assets against $10 million to $50 million in liabilities; the filing notes that funds are expected to be available for distribution to unsecured creditors. The disposition of the Sylvania Township campus — a significant parcel in western Lucas County with academic buildings, residential facilities, and athletic infrastructure accumulated over the university's century-plus history — will be determined through the court-supervised process. No buyer or redevelopment plan has been announced publicly as of this brief."
+  ],
+  "why_it_matters": "Lourdes University's closure removes a 100-plus-year institution from Lucas County's educational and workforce pipeline and eliminates 387 positions across faculty, staff, and administration. The Chapter 11 filing moves the Sylvania campus — a substantial parcel in western Lucas County — into a court-supervised liquidation process, opening the question of campus reuse for healthcare systems, housing developers, and educational institutions already operating in the region. For Toledo-area workforce development, the loss of Lourdes's nursing, education, and human services credential programs creates a gap that UT and BGSU Toledo are positioned to absorb. The bankruptcy puts the campus into a formal, tracked disposition process with a court timeline — making it an economic development watch item through 2026 and into 2027.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "The Blade — Lourdes University files for bankruptcy (August 10, 2026)",
+      "url": "https://www.toledoblade.com/local/education/2026/08/10/lourdes-university-files-bankruptcy/stories/20260810093"
+    },
+    {
+      "title": "13abc — Lourdes University files for Chapter 11 bankruptcy protection (August 10, 2026)",
+      "url": "https://www.13abc.com/2026/08/10/lourdes-university-files-chapter-11-bankruptcy-protection/"
+    },
+    {
+      "title": "WTOL — Lourdes University files for bankruptcy as it prepares for orderly wind down (August 10, 2026)",
+      "url": "https://www.wtol.com/article/news/education/lourdes-university-files-for-bankruptcy-as-it-prepares-to-shut-down-operations/512-211c8685-39b7-4c25-bd5b-4b43521869b7"
+    },
+    {
+      "title": "Northwest Signal — Lourdes University Files for Chapter 11 Protection to Support Orderly Wind Down (August 10, 2026)",
+      "url": "https://www.northwestsignal.net/news/article_c7dd38c0-cd2b-47cd-afa3-5cb12863b4bd.html"
+    },
+    {
+      "title": "13abc — Lourdes University WARN notice shows 387 workers will be laid off (February 2026)",
+      "url": "https://www.13abc.com/2026/02/11/lourdes-university-will-close-after-spring-semester/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Lourdes University — 6832 Convent Blvd., Sylvania Township, Lucas County",
+      "match": "Lourdes University",
+      "lat": 41.7114,
+      "lon": -83.7164
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "tps-levy-november-2026",
+    "utoledo-cancer-research-institute",
+    "welcome-home-ohio-toledo-lucas-county"
+  ],
+
+  "search_terms": "Lourdes University Sylvania Ohio Chapter 11 bankruptcy closing wind-down campus Lucas County 387 workers education 2026"
+}
