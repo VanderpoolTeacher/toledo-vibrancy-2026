@@ -1,0 +1,52 @@
+{
+  "id": "toledo-harbor-dredging-2026",
+  "headline": "Army Corps awards $5.3M dredging contract for Toledo Harbor — Ryba Marine to remove 750K cubic yards from Maumee River navigation channel, September–December 2026",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-13",
+  "source_date": "2026-08-11",
+  "last_updated": "2026-08-13",
+
+  "paragraphs": [
+    "The U.S. Army Corps of Engineers Buffalo District announced on August 11, 2026 that it has awarded a dredging task order for the Toledo Harbor federal navigation channel and the Maumee River to Ryba Marine Construction of Brownstown Township, Michigan. The task order is valued at approximately $5.3 million and represents Year 1 of a two-year indefinite-delivery/indefinite-quantity maintenance dredging contract totaling $11.1 million. Ryba Marine is scheduled to mobilize in September 2026, with work expected to run through December 2026. The scope covers the removal of approximately 750,000 cubic yards of accumulated sediment from the Toledo Harbor federal channel — the navigable corridor that connects Toledo's port terminals to the open waters of western Lake Erie. Reporting was confirmed August 11 by 13abc, the Army Corps's official DVIDS release, and Dredging Today.",
+    "Toledo Harbor handles approximately 11 million tons of cargo annually and generates an estimated $1 billion or more in annual economic impact for the region, supporting approximately 2,822 jobs in transportation, logistics, and related industries. The federal navigation channel requires periodic maintenance dredging to remove sediment accumulation — primarily from Maumee River deposition — that would otherwise reduce channel depth and constrain the draft of commercial vessels calling at Toledo's port terminals. Insufficient channel depth directly limits the cargo capacity of individual vessel calls; a well-maintained channel at authorized depth is a prerequisite for the port's ability to handle the bulk cargo volumes — primarily iron ore, coal, limestone, grain, and cement — that anchor Toledo's position as one of the Great Lakes' highest-tonnage ports."
+  ],
+  "why_it_matters": "Toledo Harbor's 11-million-ton annual throughput and $1 billion-plus in economic impact depend on the federal navigation channel being maintained at authorized depth. This $5.3 million Year 1 task order (part of an $11.1 million two-year contract) is the federal infrastructure investment that keeps Toledo's port competitive with other Great Lakes terminals. The September–December 2026 work window coincides with the period Toledo EDOs are most actively marketing the Gordie Howe Bridge I-75 corridor to site selectors; the harbor and the bridge together anchor the northern freight corridor thesis for the region. For port-dependent industries — bulk commodity shippers, automotive supply chains, and agricultural exporters — the Army Corps maintenance program is the baseline infrastructure assurance on which freight routing decisions rest.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Army Corps awards dredging contract for Toledo Harbor (August 11, 2026)",
+      "url": "https://www.13abc.com/2026/08/11/army-corps-awards-dredging-contract-toledo-harbor/"
+    },
+    {
+      "title": "DVIDS — U.S. Army Corps of Engineers Buffalo District: Toledo Harbor Dredging Contract Award (August 11, 2026)",
+      "url": "https://www.dvidshub.net/news/toledo-harbor-dredging-2026"
+    },
+    {
+      "title": "Dredging Today — Ryba Marine Wins Toledo Harbor Dredging Contract (August 11, 2026)",
+      "url": "https://www.dredgingtoday.com/2026/08/11/ryba-marine-toledo-harbor-dredging/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Harbor — Maumee River federal navigation channel",
+      "match": null,
+      "lat": 41.6650,
+      "lon": -83.4800
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "gordie-howe-bridge-opening-delayed",
+    "port-warehouse-liquid-terminal"
+  ],
+
+  "search_terms": "Toledo Harbor dredging 2026 Army Corps Engineers Buffalo District Ryba Marine Maumee River navigation channel 750000 cubic yards cargo port"
+}
