@@ -1,0 +1,45 @@
+{
+  "id": "lucas-county-downtown-properties-redevelopment",
+  "headline": "Lucas County approves demolition of former canine care building on Erie Street — three surplus downtown properties entering redevelopment pipeline",
+  "section": "Downtown",
+  "tags": ["downtown", "citywide"],
+
+  "posted_date": "2026-08-15",
+  "source_date": "2026-08-12",
+  "last_updated": "2026-08-15",
+
+  "paragraphs": [
+    "Lucas County commissioners approved a demolition contract on August 12 for the former Lucas County Canine Care and Control (LC4) building on Erie Street in downtown Toledo. The building has been vacant since the county relocated its animal services operation to a new facility. Once the demolition contract is executed and the site is cleared, the county plans to market the Erie Street land to new users; developers or businesses interested in the property are directed to contact the county's Department of Economic Development.",
+    "The LC4 demolition is one of three county-owned surplus properties in or near downtown Toledo that the county is actively working to reactivate. Also in the pipeline: the former Job and Family Services building on Monroe Street and the former Children's Services building in downtown Toledo, both of which lost their anchor tenants as the county consolidated or relocated services in recent years. The county's economic development director is working to identify compatible new tenants or buyers for each site. No specific buyer, developer, or redevelopment proposal has been publicly announced for any of the three properties."
+  ],
+  "why_it_matters": "Lucas County holds a portfolio of surplus downtown properties whose disposition directly shapes the activity mix and streetscape of Toledo's central business district. The demolition of the old LC4 building on Erie Street converts a long-vacant structure into a marketable infill site, potentially available for commercial, mixed-use, or institutional development at a moment when downtown Toledo is competing to attract foot traffic and investment through Vibrancy grants, Four Corners redevelopment, and event-calendar programming. The former JFS and Children's Services buildings represent existing structures in the urban core that could accommodate office users, housing conversions, or community anchor tenants. Placing all three in an active redevelopment pipeline — with the county's economic development office handling outreach — moves them from limbo to a market-facing disposition track.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Lucas County approves demolition of old LC4 building, looks to repurpose several properties (August 12, 2026)",
+      "url": "https://www.13abc.com/2026/08/12/lucas-county-approves-demolition-old-lc4-building-looks-repurpose-several-properties/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Former LC4 building — Erie Street, downtown Toledo",
+      "match": null,
+      "lat": 41.6610,
+      "lon": -83.5395
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "four-corners-spitzer-nicholas",
+    "vibrancy-19-grants",
+    "lucas-county-budget-cut-2027"
+  ],
+
+  "search_terms": "Lucas County Canine Care Control LC4 demolition Erie Street downtown Toledo Job Family Services Children Services surplus property redevelopment 2026"
+}
