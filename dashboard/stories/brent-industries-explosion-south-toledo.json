@@ -1,0 +1,48 @@
+{
+  "id": "brent-industries-explosion-south-toledo",
+  "headline": "Two workers killed in explosions and fire at Brent Industries in south Toledo — cause under investigation",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-19",
+  "source_date": "2026-08-18",
+  "last_updated": "2026-08-19",
+
+  "paragraphs": [
+    "Two employees died and two to three others suffered minor injuries when a series of explosions tore through Brent Industries, an industrial dry-cleaning and laundry recycling facility at approximately 2900 South Avenue in south Toledo, at approximately 4:50 a.m. on August 18, 2026, during a shift change. One victim was identified as Mary Allen, 64, of Toledo; a second adult male victim was also confirmed. Brent Industries processes shop towels, gloves, and absorbent pads using solvents and mineral spirits — materials that contributed to the intensity of the blaze. The building suffered partial roof and wall collapse; a three-alarm fire response drew multiple departments to the scene. WTOL, 13abc, Spectrum News 1, NBC News, and ABC News all reported the fatalities on August 18.",
+    "The cause of the explosions remains under investigation as of this brief. No additional information about the second victim has been released. The facility is located near SR-2 and South Byrne Road in south Toledo's industrial corridor. First responders were on scene for an extended period as crews worked to contain the fire and assess structural stability. Investigators have not publicly identified a specific ignition source; the use of solvents and mineral spirits at the facility is noted as a contributing factor to fire intensity. No evacuation orders for surrounding residential or commercial areas were reported."
+  ],
+  "why_it_matters": "A fatal industrial explosion at a solvent-processing facility in south Toledo is relevant to the region's manufacturing safety environment and workforce. Two workers killed at a shift-change incident raises immediate questions about industrial safety compliance and emergency response that OSHA and local regulators will need to address. South Toledo's industrial corridor is part of the broader economic geography that Toledo's site selectors and workforce development programs are counting on; incidents of this scale draw regulatory attention to the area and may affect the operating environment for neighboring facilities. The national coverage (NBC News, ABC News) brings outside attention to Toledo's industrial base during a period when the region is actively marketing manufacturing readiness.",
+
+  "people": [
+    {
+      "name": "Mary Allen",
+      "role": "Victim — Brent Industries employee (Toledo)",
+      "search_terms": "Mary Allen Brent Industries Toledo explosion August 2026"
+    }
+  ],
+
+  "sources": [
+    { "title": "WTOL — What is Brent Industries? Crews battle fire at south Toledo facility (August 18, 2026)", "url": "https://www.wtol.com/article/news/local/what-is-brent-industries-south-toledo-industrial-recycling-facility-explosion-fire/512-ba52e855-9156-4c95-9aba-0f0327eedbd9" },
+    { "title": "13abc — Two dead after explosions rock Toledo industrial facility (August 18, 2026)", "url": "https://www.13abc.com/2026/08/18/explosions-rock-south-ave-industrial-facility/" },
+    { "title": "Spectrum News 1 — Explosions and fire tear through Ohio industrial building (August 18, 2026)", "url": "https://spectrumnews1.com/oh/columbus/news/2026/08/18/explosions-and-fire-tear-through-ohio-industrial-building" },
+    { "title": "NBC News — 2 workers killed as explosions and fire tear through Ohio industrial building (August 18, 2026)", "url": "https://www.nbcnews.com/news/us-news/2-workers-killed-explosions-fire-tear-ohio-industrial-building-rcna593213" },
+    { "title": "ABC News — 2 people dead after Ohio building explosion (August 18, 2026)", "url": "https://abcnews.com/US/2-people-unaccounted-ohio-building-explosion-officials/story?id=135733646" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Brent Industries — ~2900 South Ave., south Toledo (near SR-2 and South Byrne Rd.)",
+      "match": null,
+      "lat": 41.627,
+      "lon": -83.564
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [],
+
+  "search_terms": "Brent Industries explosion fire south Toledo South Avenue August 2026 workers killed industrial fire solvents mineral spirits"
+}
