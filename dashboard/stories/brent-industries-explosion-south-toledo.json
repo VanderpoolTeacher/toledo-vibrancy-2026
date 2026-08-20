@@ -1,24 +1,30 @@
 {
   "id": "brent-industries-explosion-south-toledo",
-  "headline": "Two workers killed in explosions and fire at Brent Industries in south Toledo — cause under investigation",
+  "headline": "OSHA: mineral spirits vapor in industrial washer caused Brent Industries blast — both victims identified, investigation continues",
   "section": "Citywide",
   "tags": ["citywide"],
 
   "posted_date": "2026-08-19",
   "source_date": "2026-08-18",
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-20",
 
   "paragraphs": [
     "Two employees died and two to three others suffered minor injuries when a series of explosions tore through Brent Industries, an industrial dry-cleaning and laundry recycling facility at approximately 2900 South Avenue in south Toledo, at approximately 4:50 a.m. on August 18, 2026, during a shift change. One victim was identified as Mary Allen, 64, of Toledo; a second adult male victim was also confirmed. Brent Industries processes shop towels, gloves, and absorbent pads using solvents and mineral spirits — materials that contributed to the intensity of the blaze. The building suffered partial roof and wall collapse; a three-alarm fire response drew multiple departments to the scene. WTOL, 13abc, Spectrum News 1, NBC News, and ABC News all reported the fatalities on August 18.",
-    "The cause of the explosions remains under investigation as of this brief. No additional information about the second victim has been released. The facility is located near SR-2 and South Byrne Road in south Toledo's industrial corridor. First responders were on scene for an extended period as crews worked to contain the fire and assess structural stability. Investigators have not publicly identified a specific ignition source; the use of solvents and mineral spirits at the facility is noted as a contributing factor to fire intensity. No evacuation orders for surrounding residential or commercial areas were reported."
+    "The federal Occupational Safety and Health Administration confirmed it is investigating and has determined the cause: flammable vapor from mineral spirits — a petroleum solvent used in the facility's industrial washing machines — ignited. The Lucas County Coroner's Office identified the second victim on August 19 as Heladio Garcia Perez, 46; both Allen and Perez died of blunt force trauma, the coroner said. Family, friends, and coworkers gathered on South Avenue for a vigil for Mary Allen on the evening of August 19. OSHA noted it has six months to complete its investigation before releasing findings. Investigators from cleveland19.com reported the probe was still in progress 36 hours after the initial blast.",
+    "Brent Industries has a documented history of serious industrial incidents and regulatory violations: OSHA cited the company's Toledo plant in 2004 for two serious violations — including failure to protect workers from death or serious injury from a 207-degree steam release — and the company's Alabama facility experienced a similar explosion and fire in 2015 that killed one worker. The Toledo plant uses tanks of mineral spirits in its textile reconditioning process for work gloves, shop towels, and industrial rags. OSHA's investigation is expected to examine whether adequate safeguards for flammable-vapor hazards were in place."
   ],
   "why_it_matters": "A fatal industrial explosion at a solvent-processing facility in south Toledo is relevant to the region's manufacturing safety environment and workforce. Two workers killed at a shift-change incident raises immediate questions about industrial safety compliance and emergency response that OSHA and local regulators will need to address. South Toledo's industrial corridor is part of the broader economic geography that Toledo's site selectors and workforce development programs are counting on; incidents of this scale draw regulatory attention to the area and may affect the operating environment for neighboring facilities. The national coverage (NBC News, ABC News) brings outside attention to Toledo's industrial base during a period when the region is actively marketing manufacturing readiness.",
 
   "people": [
     {
       "name": "Mary Allen",
-      "role": "Victim — Brent Industries employee (Toledo)",
+      "role": "Victim — Brent Industries employee (Toledo, age 64)",
       "search_terms": "Mary Allen Brent Industries Toledo explosion August 2026"
+    },
+    {
+      "name": "Heladio Garcia Perez",
+      "role": "Victim — Brent Industries employee (age 46), identified August 19 by Lucas County Coroner",
+      "search_terms": "Heladio Garcia Perez Brent Industries Toledo explosion August 2026"
     }
   ],
 
@@ -27,7 +33,12 @@
     { "title": "13abc — Two dead after explosions rock Toledo industrial facility (August 18, 2026)", "url": "https://www.13abc.com/2026/08/18/explosions-rock-south-ave-industrial-facility/" },
     { "title": "Spectrum News 1 — Explosions and fire tear through Ohio industrial building (August 18, 2026)", "url": "https://spectrumnews1.com/oh/columbus/news/2026/08/18/explosions-and-fire-tear-through-ohio-industrial-building" },
     { "title": "NBC News — 2 workers killed as explosions and fire tear through Ohio industrial building (August 18, 2026)", "url": "https://www.nbcnews.com/news/us-news/2-workers-killed-explosions-fire-tear-ohio-industrial-building-rcna593213" },
-    { "title": "ABC News — 2 people dead after Ohio building explosion (August 18, 2026)", "url": "https://abcnews.com/US/2-people-unaccounted-ohio-building-explosion-officials/story?id=135733646" }
+    { "title": "ABC News — 2 people dead after Ohio building explosion (August 18, 2026)", "url": "https://abcnews.com/US/2-people-unaccounted-ohio-building-explosion-officials/story?id=135733646" },
+    { "title": "13abc — Authorities identify second person killed in explosion at Toledo industrial facility (August 18–19, 2026)", "url": "https://www.13abc.com/2026/08/18/explosions-rock-south-ave-industrial-facility/" },
+    { "title": "13abc — Loved ones hold vigil for Toledo explosion victim Mary Allen (August 19, 2026)", "url": "https://www.13abc.com/2026/08/19/loved-ones-hold-vigil-toledo-explosion-victim-mary-allen/" },
+    { "title": "WTOL — Team coverage: Vigil held for one victim of Brent Industries fire, investigation continues (August 19, 2026)", "url": "https://www.wtol.com/video/news/local/team-coverage-vigil-held-for-one-victim-of-brent-industries-fire-investigation-continues/512-80d211cf-3e49-49ac-93e0-24bd5b376934" },
+    { "title": "Cleveland 19 — Investigation continues 36 hours after deadly explosion, fire at Brent Industries (August 19, 2026)", "url": "https://www.cleveland19.com/2026/08/19/investigation-continues-36-hours-after-deadly-explosion-fire-brent-industries/" },
+    { "title": "Manufacturing.net — Explosions, fire tear through industrial recycling building in Ohio", "url": "https://www.manufacturing.net/operations/news/22972598/explosions-fire-tear-through-industrial-recycling-building-in-ohio" }
   ],
 
   "locations": [
