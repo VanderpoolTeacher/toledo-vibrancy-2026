@@ -1,0 +1,41 @@
+{
+  "id": "toledo-august-2026-business-roundup",
+  "headline": "August business churn: Glass Wheel opens downtown, Betty Rumpf Interiors closes after 60-plus years, two breweries reopen or debut",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-08-21",
+  "source_date": "2026-08-21",
+  "last_updated": "2026-08-21",
+
+  "paragraphs": [
+    "Toledo City Paper's August 2026 'Marketplace Changes' roundup documents a mix of downtown activations and notable closures across the metro. The Glass Wheel, a bookshop specializing in occult, spiritual, and offbeat new and used books, opened at 1505 Adams St. in downtown Toledo — adding a distinctive independent retail tenant to the downtown storefront inventory. Betty Rumpf Interiors, a Toledo interior design institution with more than 60 years of operation, permanently closed on August 21, 2026, ending one of the region's longest-running specialty design businesses.",
+    "Two brewery-related reopenings also appeared in the August roundup. 60cc Brewing, at 2113 N. Reynolds Rd., reopened under new ownership with a refreshed lineup of small-batch beers, hard seltzers, and hard iced teas. Funky Turtle Brewing Co. opened its first permanent taproom at 1921 Tremainsville Rd. in West Toledo, featuring craft beverages from multiple northwest Ohio breweries alongside local artwork — converting what had been a contract/rotating taproom model into a fixed address. Additional August openings include a Harvest second location (sandwiches, soups, and craft beer) at 2701 Navarre Ave. in Oregon, a Smoothie King at 930 Alexis Rd., and Cherry Street Thrift at 2559 S. Reynolds Rd. in Reynolds Plaza."
+  ],
+  "why_it_matters": "Monthly business churn is a leading indicator of neighborhood commercial health. The Glass Wheel's opening at 1505 Adams St. adds an independent retail tenant to the downtown core at a moment when city and DTI leadership are tracking ground-floor activation as part of the post-pandemic downtown recovery narrative. Betty Rumpf Interiors' closure removes a 60-plus-year Toledo institution and returns a commercial space to the market; the property location will determine whether it becomes a watch item for redevelopment. The dual brewery openings — one under new ownership, one establishing a first permanent footprint — reflect ongoing activity in the metro's small-beverage sector.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "Toledo City Paper — Marketplace Changes August 2026",
+      "url": "https://toledocitypaper.com/business/marketplace-changes-august-2026/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "The Glass Wheel — 1505 Adams St., Downtown Toledo",
+      "match": "1505 Adams St.",
+      "lat": 41.6611,
+      "lon": -83.5553
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["swanky-scoops", "sarnies-downtown-toledo", "dough-co-pizzaria-downtown"],
+
+  "search_terms": "Toledo business openings closings August 2026 Glass Wheel bookshop Betty Rumpf Interiors 60cc Brewing Funky Turtle taproom marketplace changes"
+}
