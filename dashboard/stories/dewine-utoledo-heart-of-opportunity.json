@@ -1,0 +1,86 @@
+{
+  "id": "dewine-utoledo-heart-of-opportunity",
+  "headline": "Ohio Gov. DeWine touts state's CNBC #1 business ranking at UToledo stop — Chamber CEO Gramza joins panel on workforce pipeline",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-22",
+  "source_date": "2026-08-20",
+  "last_updated": "2026-08-22",
+
+  "paragraphs": [
+    "Ohio Gov. Mike DeWine and Lt. Gov. Jim Tressel visited The University of Toledo's Brady Center on August 19–20, 2026, as part of the statewide 'Heart of Opportunity' tour — a two-week sweep celebrating Ohio's ranking atop CNBC's 2026 list of America's Top States for Business. The Toledo stop featured a guided walk-through of displays showcasing pathways from the classroom to career, followed by a panel discussion moderated by Tressel with UToledo President Dr. James Holloway and Wendy Gramza, president and CEO of the Toledo Regional Chamber of Commerce. DeWine highlighted Ohio's #1 placement while acknowledging the state ranked in the bottom tier for workforce and quality of life categories — calling for continued investment in early-education programs like the Dolly Parton Imagination Library and OhioSee initiative. WTOL and UToledo News reported the visit on August 19–20.",
+    "Holloway framed UToledo's mission as ensuring graduates are seeking their second job rather than their first — an employer-first orientation designed to close the gap between the classroom and regional hiring demand. Gramza's presence as the Chamber's CEO linked the university's workforce pipeline directly to northwest Ohio's business development agenda. The Ohio Capital Journal reported August 19 that DeWine used the broader tour to promote what he characterizes as an economic boom, even as candidates in the 2026 Ohio gubernatorial race debated policy specifics."
+  ],
+  "why_it_matters": "Ohio's #1 CNBC ranking is a direct tool in Toledo-area site selection: the Regional Growth Partnership, Toledo CIC, and Chamber cite state business-climate scores in pitch materials to prospective investors and employers. Gov. DeWine's selection of UToledo as a 'Heart of Opportunity' stop elevates the university and Chamber as named regional anchors in the state's economic-development narrative — visibility that extends beyond Lucas County. For the dashboard's beat, the visit places northwest Ohio explicitly in the Governor's spotlight at a moment when the region is actively competing for data center, manufacturing, drone, and logistics investment. The acknowledgment that Ohio ranks low on workforce and quality of life is the policy watch item: it signals where state program dollars are likely to flow next, with direct regional impact.",
+
+  "people": [
+    {
+      "name": "Mike DeWine",
+      "role": "Governor of Ohio",
+      "search_terms": "Mike DeWine Ohio Governor Heart of Opportunity tour business 2026"
+    },
+    {
+      "name": "Jim Tressel",
+      "role": "Lt. Governor of Ohio",
+      "search_terms": "Jim Tressel Ohio Lt. Governor Heart of Opportunity 2026"
+    },
+    {
+      "name": "James Holloway",
+      "role": "President, University of Toledo",
+      "search_terms": "James Holloway UToledo University of Toledo president 2026"
+    },
+    {
+      "name": "Wendy Gramza",
+      "role": "President and CEO, Toledo Regional Chamber of Commerce",
+      "search_terms": "Wendy Gramza Toledo Regional Chamber of Commerce president CEO"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "UToledo News — Ohio Governor, Lt. Governor Visit UToledo on Heart of Opportunity Tour (August 19, 2026)",
+      "url": "https://news.utoledo.edu/index.php/08_19_2026/ohio-governor-lt-governor-visit-utoledo-on-heart-of-opportunity-tour"
+    },
+    {
+      "title": "UToledo News — Gov. DeWine Touts Ranking as Best State for Business at Toledo Stop (August 20, 2026)",
+      "url": "https://news.utoledo.edu/index.php/08_20_2026/gov-dewine-touts-ranking-as-best-state-for-business-at-toledo-stop"
+    },
+    {
+      "title": "UToledo News — Tour Spotlights NW Ohio Workforce (August 20, 2026)",
+      "url": "https://news.utoledo.edu/index.php/08_20_2026/tour-spotlights-nw-ohio-workforce"
+    },
+    {
+      "title": "WTOL — Governor Mike DeWine stops in Toledo to promote success of business investments",
+      "url": "https://wtol.com/article/news/local/governor-mike-dewine-makes-toledo-stop-promoting-success-of-business-investments/512-c31aa27d-f831-4ab0-992f-2c49c2ce72a2"
+    },
+    {
+      "title": "Governor's Office — Governor DeWine, Lt. Governor Tressel Kick Off Heart of Opportunity Tour",
+      "url": "https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/governor-dewine-lt-governor-tressel-kick-off-heart-of-opportunity-tour"
+    },
+    {
+      "title": "Ohio Capital Journal — Ohio Gov. Mike DeWine cheers economic boom on Heart of Opportunity tour (August 19, 2026)",
+      "url": "https://ohiocapitaljournal.com/2026/08/19/ohio-gov-mike-dewine-cheers-what-he-says-is-an-economic-boom-as-possible-successors-debate-policy/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "University of Toledo — Brady Center",
+      "match": null,
+      "lat": 41.6590,
+      "lon": -83.6125
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "utoledo-cancer-research-institute",
+    "utoledo-aplu-iep-designation",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+
+  "search_terms": "DeWine Tressel Heart of Opportunity tour UToledo Ohio CNBC best state business 2026 Holloway Gramza Toledo Chamber workforce"
+}
