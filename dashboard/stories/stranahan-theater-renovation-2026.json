@@ -1,0 +1,52 @@
+{
+  "id": "stranahan-theater-renovation-2026",
+  "headline": "The Stranahan unveils 2,000-plus new seats and redesigned ADA section — ribbon cutting marks South Toledo venue's first major seating overhaul in nearly four decades",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-08-23",
+  "source_date": "2026-08-21",
+  "last_updated": "2026-08-23",
+
+  "paragraphs": [
+    "The Stranahan Theater & Great Hall on Heatherdowns Boulevard in South Toledo held a ribbon cutting and open house on August 21, 2026, marking the completion of a major renovation that replaced more than 2,000 seats throughout the main theater. The new seats — installed in place of the nearly 40-year-old originals — include beverage cupholders and are accompanied by a fully renumbered theater-wide seating system. The renovation also included a redesigned ADA-accessible section, adding seating up front for wheelchair-accessible viewing and expanding accessible capacity at the rear of the theater. 13abc and The Blade reported the unveiling on August 21, 2026.",
+    "The Stranahan, which rebranded from 'Stranahan Theater' to 'The Stranahan' in October 2025, operates as a performing arts center under the Stranahan Theater Trust and hosts Broadway touring productions, concerts, and community events. The Great Hall — an adjacent banquet and event space — had already undergone infrastructure upgrades including fresh paint, new carpet, and a refinished Terrazzo dance floor in an earlier phase of improvement work. The August 21 open house gave community members a first look at the completed seating installation ahead of the venue's fall season."
+  ],
+  "why_it_matters": "The Stranahan is South Toledo's largest performing arts venue and one of northwest Ohio's primary stops for Broadway touring productions and major concerts. A multi-thousand-seat seating overhaul is a quality-of-life and civic infrastructure investment that directly affects the venue's ability to attract national-caliber touring content and compete as a regional destination. For Toledo's economic development narrative, a refreshed Stranahan supports the visitor economy, anchors the Heatherdowns corridor, and demonstrates continued private and institutional reinvestment in major community assets outside the downtown core. The ADA accessibility improvements also broaden the audience pool for one of the region's most-attended entertainment venues.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Stranahan Theater unveils new seats, improved ADA access (August 21, 2026)",
+      "url": "https://www.13abc.com/2026/08/21/stranahan-theater-unveils-new-seats-improved-ada-access/"
+    },
+    {
+      "title": "The Blade — Iconic South Toledo theater has new seats (August 21, 2026)",
+      "url": "https://www.toledoblade.com/local/community-events/2026/08/21/iconic-south-toledo-theater-has-new-seats/stories/20260820119"
+    },
+    {
+      "title": "Toledo.com — Major Upgrade Coming to The Stranahan (May 18, 2026)",
+      "url": "https://www.toledo.com/news/2026/05/18/daily-dose/major-upgrade-coming-to-the-stranahan/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "The Stranahan Theater & Great Hall — 4645 Heatherdowns Blvd., South Toledo",
+      "match": null,
+      "lat": 41.6440,
+      "lon": -83.6158
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "connectoledo-music-grant",
+    "glass-city-jazzfest-2026"
+  ],
+
+  "search_terms": "Stranahan Theater Toledo renovation seats ADA accessibility South Toledo performing arts venue 2026 ribbon cutting open house"
+}
