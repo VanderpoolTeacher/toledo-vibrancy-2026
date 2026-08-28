@@ -5,10 +5,11 @@
   "tags": ["citywide"],
   "posted_date": "2026-05-21",
   "source_date": "2026-03-03",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-08-28",
   "paragraphs": [
     "The University of Toledo inaugurated the Northwest Ohio Cancer Research Institute on March 3, 2026, at the Health Science Campus. The institute brings together more than 60 cancer researchers — including more than 50 UToledo faculty — whose active work is backed by nearly $13 million in grants from federal agencies, primarily the National Institutes of Health. Dr. Jian-Ting Zhang, a UToledo College of Medicine and Life Sciences professor, serves as inaugural director. ProMedica is among the clinical partners. Working groups are focused initially on breast, pancreatic, and prostate cancers; a biorepository will collect and catalog biological samples and clinical data to support multi-study research.",
-    "The institute is the operational anchor for 'Healthy Toledo,' one of three strategic launch pads unveiled by UToledo President Dr. James Holloway. The Healthy Toledo initiative frames the university as a regional public-health asset — clinical care plus education of the healthcare workforce — tied explicitly to improving outcomes in Lucas County."
+    "The institute is the operational anchor for 'Healthy Toledo,' one of three strategic launch pads unveiled by UToledo President Dr. James Holloway. The Healthy Toledo initiative frames the university as a regional public-health asset — clinical care plus education of the healthcare workforce — tied explicitly to improving outcomes in Lucas County.",
+    "UToledo Health performed Northwest Ohio's first histotripsy procedures in August 2026, using the HistoSonics Edison System — the only U.S. Food and Drug Administration-authorized histotripsy platform. Histotripsy is a noninvasive approach that destroys solid tumors using focused ultrasound waves rather than surgery, radiation, or heat; the procedure creates microscopic gas bubbles inside tumor tissue that rapidly collapse and liquefy the targeted cells, which the body then naturally absorbs. No incisions, stitches, or radiation are involved, and the procedure does not require an overnight hospital stay. UToledo News announced the procedures on August 18, 2026; 13abc reported them on August 28. The milestone translates the Cancer Research Institute's research positioning into clinical capability — UToledo is now the only health system in the region offering the technology, which is particularly relevant for tumors in difficult surgical locations and for patients who cannot safely undergo conventional surgery."
   ],
   "why_it_matters": "A formalized cancer research institute changes UToledo's positioning from 'hospital with a medical school' to 'research destination attracting federal grants.' The $13M in active NIH funding is the number to track: sustained federal grant performance is what eventually attracts pharmaceutical and biotech partnerships, and those translate into IP, spin-out companies, and high-wage research jobs that stay in Toledo. The ProMedica partnership is the community-facing proof point — it connects bench research to the city's largest health system and to the patient populations in Lucas County that carry disproportionate cancer burden.",
   "people": [
@@ -35,6 +36,14 @@
     {
       "title": "WTOL — UToledo announces NW Ohio Cancer Research Institute",
       "url": "https://www.wtol.com/article/news/health/university-of-toledo-announces-launch-of-northwest-ohio-cancer-research-institute/512-ec5c1552-6726-47b1-8345-956fc08cf512"
+    },
+    {
+      "title": "UToledo News — UToledo Health Performs Northwest Ohio's First Histotripsy Procedures (August 18, 2026)",
+      "url": "https://news.utoledo.edu/index.php/08_18_2026/utoledo-health-performs-northwest-ohios-first-histotripsy-procedures"
+    },
+    {
+      "title": "13abc — University of Toledo Medical Center uses incision-free device to remove tumors (August 28, 2026)",
+      "url": "https://www.13abc.com/2026/08/28/university-toledo-medical-center-uses-incision-free-device-remove-tumors/"
     }
   ],
   "locations": [],
