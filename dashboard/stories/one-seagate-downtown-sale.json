@@ -1,0 +1,60 @@
+{
+  "id": "one-seagate-downtown-sale",
+  "headline": "One SeaGate sold to local investors — Toledo's signature 32-story downtown tower changes hands in landmark commercial real estate transaction",
+  "section": "Downtown",
+  "tags": ["downtown"],
+
+  "posted_date": "2026-08-29",
+  "source_date": "2026-08-27",
+  "last_updated": "2026-08-29",
+
+  "paragraphs": [
+    "One SeaGate — the 32-story, 653,421-square-foot office tower along the Maumee River that defines Toledo's downtown skyline — has been sold to local investors, Reichle Klein Group (RKG) announced August 27–28, 2026. The buyers were not identified by name; RKG confirmed they are local investors. Ryan Miller, senior vice president at RKG, represented the buyer in the transaction. Harlan Reichle, president and CEO of RKG, and Chad Ulmer, a sales associate, represented the seller. No sale price or redevelopment plans were disclosed by either party or by RKG. This marks the second time RKG has sold the building.",
+    "Completed in the early 1980s, One SeaGate served as the global headquarters of Owens-Illinois until the glass and packaging company relocated in 2006. The tower — Toledo's tallest commercial building — occupies a prominent riverfront address at 1 Seagate in the central business district and has been the city's most recognizable office asset for more than four decades. The building continues to house office tenants; the ownership transfer does not immediately affect current occupants. With local investors acquiring the property, the future disposition of Toledo's most visible office address will depend on the new owners' near-term strategy, which has not been publicly stated."
+  ],
+  "why_it_matters": "One SeaGate is not just Toledo's tallest building — it is the most legible signal of the downtown office market's health. A transfer to local investors at a moment when Toledo's central business district is actively working to attract new office tenants, ground-floor retail, and residential conversions carries symbolic as well as market weight. The buyer's local identity suggests a commitment to long-term hold rather than a quick-turnaround institutional play, which could accelerate repositioning decisions. The absence of disclosed sale price and plans is the open question: Toledo's downtown development stakeholders — DTI, the city's Economic Development office, the Lucas County Port Authority — will be watching whether the new owners pursue stabilization, partial conversion, or a broader mixed-use repositioning of the tower. Any redevelopment signal from the new ownership would be among the most consequential downtown announcements of the year.",
+
+  "people": [
+    {
+      "name": "Ryan Miller",
+      "role": "Senior Vice President, Reichle Klein Group — represented buyer",
+      "search_terms": "Ryan Miller Reichle Klein Group Toledo commercial real estate One SeaGate"
+    },
+    {
+      "name": "Harlan Reichle",
+      "role": "President and CEO, Reichle Klein Group — represented seller",
+      "search_terms": "Harlan Reichle Reichle Klein Group Toledo commercial real estate"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — One SeaGate office building sold to new buyer (August 28, 2026)",
+      "url": "https://www.13abc.com/2026/08/28/one-seagate-office-building-sold-new-buyer/"
+    },
+    {
+      "title": "The Blade — Iconic downtown Toledo office building sold, firm says (August 27, 2026)",
+      "url": "https://www.toledoblade.com/business/real-estate/2026/08/27/iconic-downtown-office-building-sold/stories/20260827101"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "One SeaGate — 1 Seagate, Downtown Toledo (Maumee River waterfront)",
+      "match": "One SeaGate",
+      "lat": 41.6640,
+      "lon": -83.5508
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "lucas-county-downtown-properties-redevelopment",
+    "four-corners-spitzer-nicholas",
+    "blade-superior-street-hq"
+  ],
+
+  "search_terms": "One SeaGate Toledo office building sold local investors Reichle Klein Group RKG downtown Toledo commercial real estate skyline 2026"
+}
