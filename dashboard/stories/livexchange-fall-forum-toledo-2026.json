@@ -1,0 +1,57 @@
+{
+  "id": "livexchange-fall-forum-toledo-2026",
+  "headline": "LiveXchange Fall Forum comes to Toledo September 23–25 — site selectors and EDOs convene downtown for one-on-one investment meetings",
+  "section": "Downtown",
+  "tags": ["downtown", "citywide"],
+
+  "posted_date": "2026-09-02",
+  "source_date": "2026-09-02",
+  "last_updated": "2026-09-02",
+
+  "paragraphs": [
+    "Business Facilities magazine's LiveXchange Fall Forum 2026 — a national site-selection and economic development conference — will be held September 23–25 at the Renaissance Toledo Downtown Hotel and Toledo Mud Hens' Fifth Third Field. The event brings senior-level corporate real estate executives and site consultants making active location decisions together with economic development organizations through structured 30-minute one-on-one private meetings. Toledo is the host city for the fall 2026 edition; the Regional Growth Partnership is participating as one of the EDOs presenting to location decision-makers. Attendees include corporate executives evaluating expansion, relocation, and new-facility projects across manufacturing, technology, logistics, and other sectors.",
+    "Toledo's programming for LiveXchange delegates includes a private hands-on glassblowing experience at Huron Street Studios — giving site selectors a direct encounter with the region's historic glass-industry identity. LiveXchange events are invitation-only structured matchmaking events, not public conferences, but their venue and outcomes are commercially consequential: transactions initiated at LiveXchange events can result in multimillion-dollar investment announcements in host regions 6–18 months later. The forum comes three weeks after the Class of 2030 began at UToledo under the new ASCEND experiential learning requirement and four weeks after Labor Day, situating site selectors' visit inside a fall economic development window that also includes ongoing RAISE grant construction-prep activity in Junction and Uptown."
+  ],
+  "why_it_matters": "Toledo hosting a national site-selection forum is not ceremonial — it is a structured face-to-face sales event for the region's investment pipeline. Site selectors who travel to Toledo gain an on-the-ground sense of the downtown core, the Maumee riverfront, the I-75 corridor, and the glass and manufacturing identity that RGP markets to national companies. At a moment when Toledo EDOs are selling Gordie Howe Bridge I-75 freight connectivity, AI-Ready Ohio data center readiness, and a RAISE-funded 38-block neighborhood reconstruction, bringing location decision-makers to Toledo physically is higher-leverage than any remote pitch deck. Deals initiated at LiveXchange can close and be announced anywhere from months to a year and a half later.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "LiveXchange Fall Forum 2026 — Official site",
+      "url": "https://bflivexchange.com/fall-forum/"
+    },
+    {
+      "title": "LiveXchange Fall Forum — Participating EDOs directory",
+      "url": "https://bflivexchange.com/fall-forum/participating-edos"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Renaissance Toledo Downtown Hotel — 444 N Summit St",
+      "match": "Renaissance Toledo Downtown Hotel",
+      "lat": 41.6648,
+      "lon": -83.5405
+    },
+    {
+      "shape": "point",
+      "label": "Fifth Third Field — Toledo Mud Hens",
+      "match": "Fifth Third Field",
+      "lat": 41.6634,
+      "lon": -83.5382
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "rgp-2026-annual-meeting-data-centers",
+    "raise-uptown-junction",
+    "gordie-howe-bridge-opening-delayed",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+
+  "search_terms": "LiveXchange Fall Forum Toledo 2026 site selection economic development Renaissance Hotel Fifth Third Field RGP investment site selectors Business Facilities"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "utoledo-ascend-workforce",
+  "headline": "UToledo launches ASCEND initiative — experiential learning required for all incoming undergraduates starting with Class of 2030",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-02",
+  "source_date": "2026-09-01",
+  "last_updated": "2026-09-02",
+
+  "paragraphs": [
+    "The University of Toledo announced September 1, 2026 that starting with its 2026 incoming class — the Class of 2030 — all undergraduate bachelor's degree-seeking students will be required to complete an approved experiential learning opportunity before graduation. The initiative is branded as ASCEND (Applied Skills for Career Experience, Networking and Development) and is administered through the Office of the Provost as the operational backbone of UToledo's Advantage Toledo workforce strategy. Eligible experiences include internships, co-ops, undergraduate research, clinical placements, service-learning, study abroad, artistic performances, leadership experiences, and other university-approved applied learning activities. President James Holloway framed the requirement in explicitly workforce terms: 'As the Class of 2030 arrives on campus this fall, we're making sure that from day one, they're building skills toward a career, not just a degree. A UToledo education should translate directly into opportunity.'",
+    "ASCEND builds on UToledo's renewed APLU Innovation and Economic Prosperity designation (July 2026) and the university's 'University for Toledo' identity, which explicitly aligns research, talent development, and community partnership to northwest Ohio's economic needs. Toledo-area employers — including major manufacturers, healthcare systems, logistics operators, and emerging technology firms — are the primary partners through which the ASCEND requirement channels students into structured, credited experiential placements. The university serves approximately 16,000 undergraduate students; the Class of 2030 arriving this fall is the first cohort subject to the requirement."
+  ],
+  "why_it_matters": "UToledo is the region's largest single pipeline of college-educated talent. Requiring every graduating undergraduate to complete a work-based or applied learning placement before graduation directly increases the odds that students connect to Toledo-area employers before leaving campus — reducing brain drain and deepening the talent-to-industry handshake that Toledo EDOs identify as a competitive constraint. For employers in manufacturing, healthcare, and emerging sectors who depend on local talent pipelines, ASCEND is an institutional commitment they can plan around. The initiative arrives as UToledo simultaneously stewards the $31.3M Glass Innovation Hub and advances its 'University for Toledo' economic anchor strategy — signaling that workforce alignment is the organizing principle across UToledo's major 2026 initiatives.",
+
+  "people": [
+    {
+      "name": "Dr. James Holloway",
+      "role": "President, University of Toledo",
+      "search_terms": "James Holloway University of Toledo president ASCEND Advantage Toledo workforce"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "UToledo News — University of Toledo 'ASCEND' Initiative (September 1, 2026)",
+      "url": "https://news.utoledo.edu/index.php/09_01_2026/university-of-toledo-ascend-initiative"
+    },
+    {
+      "title": "UToledo News — UToledo Supports Experience-Based Learning for Every Undergraduate (September 1, 2026)",
+      "url": "https://news.utoledo.edu/index.php/09_01_2026/utoledo-supports-experience-based-learning-for-every-undergraduate"
+    },
+    {
+      "title": "UToledo — ASCEND Advantage Toledo (program page)",
+      "url": "https://www.utoledo.edu/offices/provost/ascend-advantage-toledo/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "University of Toledo — Main Campus",
+      "match": "University of Toledo",
+      "lat": 41.6586,
+      "lon": -83.6119
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "utoledo-aplu-iep-designation",
+    "utoledo-cancer-research-institute",
+    "dewine-utoledo-heart-of-opportunity",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+
+  "search_terms": "UToledo ASCEND Advantage Toledo experiential learning internship co-op undergraduate workforce development 2026 Class 2030 Holloway experiential requirement"
+}
