@@ -1,0 +1,52 @@
+{
+  "id": "ohio-mayors-core-cities-fund-2026",
+  "headline": "Ohio Mayors Alliance pushes bipartisan Core Cities Transformation Fund — 31 cities seek ~$100M/year from state sales-tax growth for site-readiness and redevelopment",
+  "section": "Citywide",
+  "tags": ["citywide", "grants"],
+  "posted_date": "2026-09-05",
+  "source_date": "2026-09-04",
+  "last_updated": "2026-09-05",
+  "paragraphs": [
+    "A bipartisan group of 31 Ohio mayors released a four-part policy agenda September 4, 2026, addressed to the incoming governor and new state legislature. The headline item is the Ohio Core Cities Transformation Fund: a proposal to set aside 20 percent of annual sales and use tax revenue growth — projected at roughly $100 million per year — for competitive planning grants, implementation grants, and zero-interest loans to help cities prepare sites, modernize infrastructure, leverage private investment, and complete catalytic redevelopment projects. Lima Mayor Sharetta Smith put the top-line figure at $100 million per year; Toledo Mayor Wade Kapszukiewicz stressed the mechanism's political design: 'This does not raise a tax. This doesn't redirect a penny.' The fund draws only from year-over-year revenue growth, leaving existing budget commitments untouched.",
+    "Coverage of the Ohio Mayors Alliance recommendations ran simultaneously September 4 in The Toledo Blade, the Statehouse News Bureau, Ideastream Public Media, WOSU, WVXU, and WYSO — a statewide echo reflecting the breadth of the 31-city coalition, which spans Republican- and Democrat-led cities. Kapszukiewicz framed the fund as a project that 'benefits everyone.' The Alliance's full agenda includes three additional policy asks beyond the transformation fund, which were not detailed in available reporting as of this brief."
+  ],
+  "why_it_matters": "Toledo is actively competing for site-readiness dollars across multiple fronts — Vibrancy Initiative grants, RAISE-funded infrastructure, brownfield remediation, and Vantage/data-center-related land preparation. A state fund providing competitive grants and zero-interest loans for exactly those activities would directly accelerate the pipeline Toledo's economic development offices are already working. The bipartisan framing — 31 cities, Republican and Democratic mayors alike — gives the proposal more legislative viability than a city-only ask typically carries in Columbus. Whether the incoming governor and new legislature adopt the fund in 2027 is the question to watch.",
+  "people": [
+    {
+      "name": "Wade Kapszukiewicz",
+      "role": "Mayor, City of Toledo",
+      "search_terms": "Wade Kapszukiewicz Toledo Mayor Ohio Mayors Alliance Core Cities Transformation Fund"
+    },
+    {
+      "name": "Sharetta Smith",
+      "role": "Mayor, City of Lima, Ohio",
+      "search_terms": "Sharetta Smith Lima Mayor Ohio Mayors Alliance Core Cities"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Blade — Ohio mayors seek $1B economic development fund (September 4, 2026)",
+      "url": "https://www.toledoblade.com/local/politics/2026/09/04/mayors-ohio-seek-economic-development-fund/stories/20260903104"
+    },
+    {
+      "title": "Statehouse News Bureau — Bipartisan Ohio mayors' group has recommendations for incoming governor and new lawmakers (September 4, 2026)",
+      "url": "https://www.statenews.org/government-politics/2026-09-04/bipartisan-ohio-mayors-group-has-recommendations-for-incoming-governor-and-new-lawmakers"
+    },
+    {
+      "title": "Ideastream Public Media — Bipartisan Ohio mayors' group has recommendations for incoming governor and new lawmakers (September 4, 2026)",
+      "url": "https://www.ideastream.org/2026-09-04/bipartisan-ohio-mayors-group-has-recommendations-for-incoming-governor-and-new-lawmakers"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "City of Toledo — One Government Center",
+      "match": null,
+      "lat": 41.6639,
+      "lon": -83.5552
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["vibrancy-19-grants", "raise-uptown-junction", "brownfield-health-district", "ohio-capital-budget-2026-lucas-county"],
+  "search_terms": "Ohio Mayors Alliance Core Cities Transformation Fund Kapszukiewicz Toledo 2026 economic development state fund grants site readiness"
+}
