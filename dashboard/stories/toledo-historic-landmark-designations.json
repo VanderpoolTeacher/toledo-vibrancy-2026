@@ -1,0 +1,64 @@
+{
+  "id": "toledo-historic-landmark-designations",
+  "headline": "Toledo eyes landmark status for nearly 150 buildings — Diocese pushes back as city's preservation sweep creates redevelopment friction",
+  "section": "Citywide",
+  "tags": ["citywide", "downtown"],
+
+  "posted_date": "2026-09-06",
+  "source_date": "2026-09-04",
+  "last_updated": "2026-09-06",
+
+  "paragraphs": [
+    "Toledo City Council is working through a list of nearly 150 buildings to designate as local historic landmarks — a status that would require approval from the Toledo City Historic District Commission before any demolition or significant exterior alteration. The Blade reported September 4, 2026 that the initiative, advanced by Council member Theresa Gadus, would apply broadly across the city's older building stock. Landmark designation under Toledo Municipal Code provides buildings a layer of regulatory protection against demolition and incompatible alterations; it does not require owner consent, and owners who object can challenge the designation through the city's administrative process.",
+    "The Diocese of Toledo is the first owner to publicly challenge the process. The Diocese said it was 'surprised' to see Plan Commission hearing notices posted on the former Sacred Heart Catholic Church at 509 Oswald Street and the former Good Shepherd Catholic Church at 550 Clark Street — two properties the Diocese owns but did not seek to have designated. The Diocese told 13abc and The Blade (September 1, 2026) that it never requested the designation and does not want it, and threatened to pursue 'all legal remedies' if the city moves forward. A Toledo city official responded that officials hope the Diocese will choose engagement over litigation; the Plan Commission was scheduled to hold a formal hearing on the two church properties around September 11. The Diocese's First Amendment framing — that landmark designation of religious property could implicate government entanglement with church affairs — adds constitutional complexity beyond the standard owner-objection process."
+  ],
+  "why_it_matters": "A sweep designating 150 buildings as local historic landmarks across Toledo's older neighborhoods creates a meaningful preservation floor — but it also introduces a new approval layer for any property owner, public agency, or developer seeking to demolish or substantially alter a designated structure. Many of the targeted buildings sit in or near areas where the city is actively pursuing redevelopment through Vibrancy Initiative grants, RAISE corridor investment, and Vistula/Ostrich Towne neighborhood activation. The Diocese challenge is the first test of whether the designation process can withstand organized opposition; if the city prevails, the broader sweep of 150 buildings will proceed on the same legal basis. If the Diocese's challenge delays or reshapes the process, owners of other designated buildings will have a roadmap to challenge their own listings.",
+
+  "people": [
+    {
+      "name": "Theresa Gadus",
+      "role": "Toledo City Council member, sponsor of landmark designation resolution",
+      "search_terms": "Theresa Gadus Toledo City Council historic landmark designation 2026"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Toledo eyes landmark designations for more than 100 buildings (September 4, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/09/04/toledo-eyes-landmark-designations-more-than-100-buildings/stories/20260903106"
+    },
+    {
+      "title": "The Blade — Diocese of Toledo decries city's landmark designation efforts (September 1, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/09/01/diocese-toledo-decries-citys-landmark-designation-efforts/stories/20260901100"
+    },
+    {
+      "title": "13abc — Diocese of Toledo pushes back against landmark designation for two churches (September 1, 2026)",
+      "url": "https://www.13abc.com/2026/09/01/diocese-toledo-pushes-back-against-landmark-designation-two-churches/"
+    },
+    {
+      "title": "Archynewsy — Toledo official hopes Diocese will avoid legal battle over historic churches",
+      "url": "https://www.archynewsy.com/toledo-official-hopes-diocese-will-avoid-legal-battle-over-historic-churches/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Former Sacred Heart Catholic Church — 509 Oswald St.",
+      "match": "former Sacred Heart Catholic Church",
+      "lat": 41.6570,
+      "lon": -83.5530
+    },
+    {
+      "shape": "point",
+      "label": "Former Good Shepherd Catholic Church — 550 Clark St.",
+      "match": "former Good Shepherd Catholic Church",
+      "lat": 41.6540,
+      "lon": -83.5565
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["vibrancy-19-grants", "raise-uptown-junction", "four-corners-spitzer-nicholas"],
+  "search_terms": "Toledo historic landmark designation buildings 2026 Diocese Sacred Heart Good Shepherd Gadus Plan Commission preservation"
+}
