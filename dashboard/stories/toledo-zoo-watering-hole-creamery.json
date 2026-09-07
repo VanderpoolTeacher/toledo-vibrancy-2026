@@ -1,0 +1,42 @@
+{
+  "id": "toledo-zoo-watering-hole-creamery",
+  "headline": "Toledo Zoo opens Watering Hole Creamery at 12 N. St. Clair St. — zoo's first downtown outpost",
+  "section": "Downtown",
+  "tags": ["downtown"],
+
+  "posted_date": "2026-09-07",
+  "source_date": "2026-09-04",
+  "last_updated": "2026-09-07",
+
+  "paragraphs": [
+    "The Toledo Zoo & Aquarium is expanding beyond its south Toledo campus with the opening of the Watering Hole Creamery at 12 N. St. Clair St. in downtown Toledo — the Zoo's first downtown-facing commercial venture. The Blade reported September 4, 2026 that the concept offers hand-dipped ice cream, fresh food, specialty desserts, and coffee beverages. The name draws on the African savanna watering hole theme woven throughout the Zoo's exhibits, designed to extend the Zoo's brand into the city core. The venue is cashless; Toledo Zoo & Aquarium members receive 10 percent off purchases of $10 or more."
+  ],
+  "why_it_matters": "The Zoo's willingness to plant a brand outpost in the downtown core — rather than building exclusively on its south Toledo campus — is a small but meaningful signal of institutional confidence in downtown Toledo as a retail and traffic destination. The Zoo is among Toledo's best-known cultural anchors; its downtown presence extends brand recognition to the St. Clair Street corridor and adds a foot-traffic generator near the areas ConnecToledo and the City are actively working to activate. The larger test is whether it can sustain patronage outside of event days: unlike the Zoo campus (a standalone destination) or Swanky Scoops (a neighborhood-native small business), the Creamery competes within a downtown food-and-dessert market that depends on consistent office, tourist, and event-day traffic.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "The Blade — Toledo Zoo scoops up new downtown venture (September 4, 2026)",
+      "url": "https://www.toledoblade.com/business/retail/2026/09/04/toledo-zoo-downtown-watering-hole-creamery/stories/20260902105"
+    },
+    {
+      "title": "Watering Hole Creamery",
+      "url": "https://wateringholecreamery.com/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Watering Hole Creamery — 12 N. St. Clair St., downtown Toledo",
+      "match": "12 N. St. Clair St.",
+      "lat": 41.6640,
+      "lon": -83.5570
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["swanky-scoops", "dough-co-pizzaria-downtown"],
+  "search_terms": "Toledo Zoo Watering Hole Creamery downtown Toledo St. Clair Street ice cream dessert coffee 2026"
+}

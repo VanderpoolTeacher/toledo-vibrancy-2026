@@ -1,0 +1,62 @@
+{
+  "id": "st-agnes-church-fire-west-toledo-2026",
+  "headline": "Former St. Agnes Church destroyed by fire — steeple collapses in west Toledo as city's landmark designation fight plays out",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-07",
+  "source_date": "2026-09-05",
+  "last_updated": "2026-09-07",
+
+  "paragraphs": [
+    "The former St. Agnes Catholic Church at 3911 Martha Avenue in west Toledo was destroyed by a massive fire on the morning of September 5, 2026. Fire crews responded around 6:30 a.m. to find the building engulfed in heavy black smoke; the church steeple collapsed during the blaze while crews battled the fire defensively from two ladder trucks. No civilians or firefighters were injured. The cause of the fire had not been determined as of this brief. The building had sat vacant since 2005, when the Diocese of Toledo consolidated St. Agnes Parish — a congregation that traced its history to 1910.",
+    "District 6 Councilwoman Theresa Morris authorized an emergency demolition order. Crews tore down what remained of the structure on Sunday, September 6 — the day after the fire. As of September 7, the neighboring St. Agnes School canceled classes for Tuesday, September 8, due to the demolition aftermath. Toledo Mayor Wade Kapszukiewicz said the loss 'leaves a hole in the heart of that neighborhood.' The fire occurred days before the Toledo Plan Commission's scheduled hearing on two separate Diocese-owned former churches — Sacred Heart at 509 Oswald St. and Good Shepherd at 550 Clark St. — that Toledo City Council has proposed to designate as local historic landmarks over the Diocese's public objections."
+  ],
+  "why_it_matters": "The St. Agnes fire is a vivid illustration of the risk that motivates Toledo's 150-building landmark designation sweep: a former church sitting vacant for 21 years was obliterated in hours before any preservation mechanism could protect it. The fire does not affect the Diocese's legal position on Sacred Heart and Good Shepherd (different properties, different wards), but it will sharpen the political debate at the September 11 Plan Commission hearing. Opponents of city-initiated landmark designation will cite the fire as evidence of what happens when buildings sit idle with no development path; supporters will cite it as evidence of exactly why the protection layer is necessary before demolition-by-neglect or fire eliminates the city's historic stock. The school cancellation underscores that vacant buildings carry real community costs — disruption that extends well beyond the building footprint itself.",
+
+  "people": [
+    {
+      "name": "Theresa Morris",
+      "role": "Toledo City Council, District 6 — authorized emergency demolition of former St. Agnes Church",
+      "search_terms": "Theresa Morris Toledo City Council District 6 St. Agnes Church fire 2026"
+    },
+    {
+      "name": "Wade Kapszukiewicz",
+      "role": "Mayor, City of Toledo",
+      "search_terms": "Kapszukiewicz Toledo mayor St. Agnes Church fire 2026"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Church steeple collapses after massive blaze on Martha Avenue (September 5, 2026)",
+      "url": "https://www.13abc.com/2026/09/05/church-steeple-collapses-after-massive-blaze-martha-avenue-saturday-morning/"
+    },
+    {
+      "title": "WTOL — Steeple collapses as large fire heavily damages former St. Agnes Church in Toledo (September 5–6, 2026)",
+      "url": "https://www.wtol.com/article/news/local/st-agnes-church-fire-toledo-martha-avenu/512-ac47c091-878a-4395-8e18-76608cf65697"
+    },
+    {
+      "title": "The Blade — Crews respond to structure fire at former St. Agnes Church (September 5, 2026)",
+      "url": "https://www.toledoblade.com/local/police-fire/2026/09/05/crews-respond-structure-fire-former-st-agnes-church/stories/20260905085"
+    },
+    {
+      "title": "13abc — Neighboring school cancels classes Tuesday after St. Agnes Church fire and demolition (September 7, 2026)",
+      "url": "https://www.13abc.com/2026/09/07/neighboring-school-cancels-classes-tuesday-after-st-agnes-church-fire-demolition/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Former St. Agnes Catholic Church — 3911 Martha Ave., west Toledo",
+      "match": "former St. Agnes Catholic Church",
+      "lat": 41.6556,
+      "lon": -83.5818
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["toledo-historic-landmark-designations"],
+  "search_terms": "St. Agnes Church fire Toledo Martha Avenue steeple collapse west Toledo Diocese landmark designation 2026 demolition"
+}
