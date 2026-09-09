@@ -1,0 +1,57 @@
+{
+  "id": "toledo-blade-newspaper-sale-2026",
+  "headline": "Toledo Blade up for sale — Block Communications warns of year-end closure if no buyer found",
+  "section": "Citywide",
+  "tags": ["downtown", "citywide"],
+
+  "posted_date": "2026-09-09",
+  "source_date": "2026-09-08",
+  "last_updated": "2026-09-09",
+
+  "paragraphs": [
+    "Block Communications, the parent company of The Toledo Blade, announced September 8, 2026 that it is placing the 191-year-old newspaper up for sale. Jodi Miehls, president and chief operating officer of Block Communications, informed Blade staff in an email that 'the financial losses the Blade has endured for years are simply not sustainable' and that 'The Block Family's continued investment to keep the Blade open is no longer an option.' Block stated that if it is unable to find a buyer for The Blade's assets, both the print and digital editions will cease publication at the end of 2026, with no newspaper published on January 1, 2027. The Blade was founded in 1835 and is northwest Ohio's primary daily newspaper of record.",
+    "The announcement follows a nearly identical episode with Block Communications' other major daily, the Pittsburgh Post-Gazette. Block announced plans to close the Post-Gazette in January 2026; roughly two weeks before the scheduled shutdown date, the nonprofit Venetoulis Institute for Local Journalism purchased the paper and kept it operating. The Toledo Blade's Superior Street headquarters is a separate tracked story on this dashboard — the paper had already announced plans to vacate its century-old downtown building. The September 8 announcement escalates that real estate story into an institutional survival question for the region's primary daily newspaper. National AP wire coverage of the announcement ran across multiple outlets on September 8."
+  ],
+  "why_it_matters": "The Toledo Blade is the primary accountability journalism institution covering the economic development beat this dashboard tracks — from the RAISE grant confirmation to the Brent Industries blast to the Diocese church preservation battles to the One SeaGate sale. A closure would leave a significant gap in public information about major public and private investment decisions, planning and zoning actions, and development deals across Lucas County. The Pittsburgh Post-Gazette precedent — saved by a nonprofit buyer weeks before shutdown — suggests a buyer could still emerge; but Block's explicit statement that further investment 'is no longer an option' signals this is not a negotiating posture. The search for a buyer, the identities of potential acquirers (particularly any local nonprofit or philanthropy with a public-interest journalism mandate), and any public-interest nonprofit engagement will be the defining variables of the next 90 days.",
+
+  "people": [
+    {
+      "name": "Jodi Miehls",
+      "role": "President and Chief Operating Officer, Block Communications",
+      "search_terms": "Jodi Miehls Block Communications Toledo Blade newspaper"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Toledo Blade warns it could cease to exist (September 8, 2026)",
+      "url": "https://www.13abc.com/2026/09/08/toledo-blade-warns-it-could-cease-exist/"
+    },
+    {
+      "title": "Detroit News — Toledo Blade newspaper seeks buyer; possible final edition on Dec. 31 (September 8, 2026)",
+      "url": "https://www.detroitnews.com/story/business/2026/09/08/toledo-blade-newspaper-seeks-buyer-possible-final-edition-on-dec-31/91656409007/"
+    },
+    {
+      "title": "WESA / AP — Former Pittsburgh newspaper owners put Toledo Blade up for sale, warn of closure (September 8, 2026)",
+      "url": "https://www.wesanews.org/economy-business/2026-09-08/newspaper-toledo-blade-sale"
+    },
+    {
+      "title": "The Daily Beast — Trumpy Owners Threaten to Close Iconic Newspaper The Toledo Blade (September 8, 2026)",
+      "url": "https://www.thedailybeast.com/trumpy-owners-threaten-to-close-iconic-newspaper-the-toledo-blade/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "The Toledo Blade — 541 N. Superior St.",
+      "match": "Toledo Blade",
+      "lat": 41.6617,
+      "lon": -83.5453
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["blade-superior-street-hq", "brownfield-health-district"],
+  "search_terms": "Toledo Blade newspaper sale closure Block Communications Jodi Miehls 2026 shutdown journalism media"
+}
