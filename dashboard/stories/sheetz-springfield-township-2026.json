@@ -1,0 +1,41 @@
+{
+  "id": "sheetz-springfield-township-2026",
+  "headline": "Sheetz plans new Airport Highway location in Springfield Township — construction starts November, spring 2027 opening",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-10",
+  "source_date": "2026-09-09",
+  "last_updated": "2026-09-10",
+
+  "paragraphs": [
+    "Sheetz plans to build a new location in Springfield Township at the corner of Airport Highway and Holloway Road, a company spokesperson confirmed to 13abc on September 9, 2026. Construction is scheduled to begin in November 2026, with the store expected to open in spring 2027. The site is occupied by a former Rite Aid store that has sat empty since the chain's closures in 2024. With seven stores already open in the Toledo region, the new Springfield Township location continues Sheetz's area expansion that has brought multiple northwest Ohio sites online in recent years.",
+    "The Airport Highway / Holloway Road announcement adds a southwest-corridor entry to Sheetz's Toledo-area footprint. The company has previously announced or opened locations in Oregon, Maumee, Sylvania, and multiple Toledo city sites. The Springfield Township site benefits from its position along Airport Highway (US-20A), a high-traffic commercial corridor connecting Toledo to the I-475 interchange and beyond."
+  ],
+  "why_it_matters": "The Sheetz expansion into a dormant Rite Aid footprint on Airport Highway illustrates the regional retail landscape's ongoing churn — big-box pharmacy closures leaving pad-ready sites that convenience-format operators can absorb quickly. Springfield Township's commercial strip along Airport Highway has experienced vacancy pressure as legacy retail tenants exit; the Sheetz announcement signals continued demand from convenience and fuel retail for the corridor. The November groundbreaking and spring 2027 timeline represent near-term private construction activity on the southwest edge of the Lucas County commercial landscape.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Sheetz plans new store in Springfield Township (September 9, 2026)",
+      "url": "https://www.13abc.com/2026/09/09/sheetz-plans-new-store-springfield-township/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Planned Sheetz — Airport Highway & Holloway Road, Springfield Township",
+      "match": "Airport Highway and Holloway Road",
+      "lat": 41.6135,
+      "lon": -83.6430
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["nordstrom-rack-westgate-village", "small-business-app-growth"],
+
+  "search_terms": "Sheetz Airport Highway Holloway Road Springfield Township Toledo new store gas station convenience 2026 2027 Rite Aid"
+}
