@@ -1,0 +1,49 @@
+{
+  "id": "renaissance-toledo-downtown-hotel-sale",
+  "headline": "Renaissance Toledo Downtown Hotel sold for $11 million — 513 Excellence LLC acquires landmark property and plans renovations nine days before LiveXchange",
+  "section": "Downtown",
+  "tags": ["downtown"],
+
+  "posted_date": "2026-09-14",
+  "source_date": "2026-09-11",
+  "last_updated": "2026-09-14",
+
+  "paragraphs": [
+    "The Renaissance Toledo Downtown Hotel at 444 North Summit Street sold to 513 Excellence LLC for $11 million, with the transaction closing September 3, 2026. 13abc reported the sale September 11. The buyer, 513 Excellence LLC, also owns the Delta hotel at the University of Toledo Medical Center — bringing established Toledo market hospitality management to the acquisition. The new owners told 13abc they plan to keep the property within the Marriott Bonvoy portfolio under the Renaissance brand. The Heights, the hotel's rooftop bar and restaurant, will remain open and operated by the new owners. HVAC system improvements are already underway; furniture and carpeting upgrades are also planned, with the hotel remaining fully operational through the renovation period.",
+    "The sale closes the hotel's extended listing period — The Blade had reported the Renaissance was listed for sale in September 2025, meaning the property spent approximately one year on the market before the September 3 transaction. The timing is notable: the hotel is scheduled to serve as the primary venue for the Business Facilities LiveXchange Fall Forum from September 23–25, 2026, a national site-selection and economic development conference where the Regional Growth Partnership and other area EDOs will conduct structured one-on-one investment meetings with senior corporate location decision-makers. The new ownership's first major event as proprietors will be one of the highest-profile site-selection forums Toledo has ever hosted."
+  ],
+  "why_it_matters": "The Renaissance is downtown Toledo's largest full-service hotel and the anchor hospitality asset for the region's convention and event calendar. New ownership by 513 Excellence LLC — a team with demonstrated Toledo market hospitality experience through the UTMC Delta hotel — signals an active repositioning rather than a distressed acquisition or passive hold. The renovation commitment and brand continuity under Marriott Bonvoy provide the operational stability that downtown hotel properties need to compete for convention bookings. The hotel's continued operation through the LiveXchange Fall Forum (September 23–25) is the immediate operational test of the new ownership's management capacity. Over a longer horizon, a renovated downtown hotel matters directly to Toledo's ability to attract and retain conference business, visitor spending, and the event infrastructure that site selectors and corporate real estate executives encounter when Toledo competes for investment.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Renaissance hotel in downtown Toledo sold, renovations planned (September 11, 2026)",
+      "url": "https://www.13abc.com/2026/09/11/renaissance-hotel-downtown-toledo-sold-new-owner/"
+    },
+    {
+      "title": "The Blade — Downtown Toledo's Renaissance Hotel listed for sale (September 4, 2025)",
+      "url": "https://www.toledoblade.com/business/real-estate/2025/09/04/downtown-toledo-s-renaissance-hotel-listed-for-sale/stories/20250904117"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Renaissance Toledo Downtown Hotel — 444 N. Summit St.",
+      "match": "Renaissance Toledo Downtown Hotel",
+      "lat": 41.6619,
+      "lon": -83.5464
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "livexchange-fall-forum-toledo-2026",
+    "one-seagate-downtown-sale",
+    "lucas-county-downtown-properties-redevelopment"
+  ],
+
+  "search_terms": "Renaissance Toledo Downtown Hotel sale 513 Excellence LLC $11 million Marriott Bonvoy The Heights downtown Toledo hospitality 2026"
+}
