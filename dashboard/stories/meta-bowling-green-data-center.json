@@ -1,0 +1,60 @@
+{
+  "id": "meta-bowling-green-data-center",
+  "headline": "Meta's $800M–$3B Wood County AI data center draws anti-data-center TV ads in Toledo market — Meta responds as opposition broadens statewide",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-18",
+  "source_date": "2026-09-17",
+  "last_updated": "2026-09-18",
+
+  "paragraphs": [
+    "Meta Platforms is developing an AI-optimized data center campus on a 280-acre site in Middleton Township, Wood County — approximately 25 miles south of Toledo near Bowling Green — with an initial investment announced at $800 million by JobsOhio and the Regional Growth Partnership. Banks began selling $3 billion in debt tied to Meta's Ohio facility in April 2026, per Crain's Cleveland Business, indicating the project's financial scale has grown substantially from the original disclosure. The campus is projected to support approximately 100 permanent jobs and is expected to be operational in 2027. Meta announced its Bowling Green plans in April 2025 on its data centers blog under the headline 'Hello, Bowling Green!'",
+    "Community opposition has intensified alongside construction. A threatening phone call prompted an emergency response at the Wood County data center construction site on September 2, 2026, per The Blade — a local escalation mirroring the national pattern of data center protests that has also produced Flock ALPR camera vandalism across Toledo and Oregon. Opponents have cited rising utility rates from a 350-megawatt 'Apollo' gas plant approved to power the campus — a state permit critics argue bypassed normal environmental review — as well as light and noise pollution concerns. Wood County residents have staged demonstrations targeting state-level officials who backed the project, including a rally aimed at U.S. Sen. Jon Husted.",
+    "The Toledo Blade published an editorial on September 17, 2026 headlined 'Meta development,' noting that the 'onslaught of anti-data center television commercials in Toledo' — produced by opponents of the Bowling Green facility — was 'finally drawing a response from the company building a billion-dollar facility.' The commercials represent the first organized paid-media campaign targeting a specific northwest Ohio data center project to run in Toledo's television market, giving the opposition a presence in the region's largest media market. The Blade framed the Meta situation alongside the Oregon/Vantage ballot measure and the Flock camera debate as companion flashpoints in the same bipartisan northwest Ohio technology-governance moment — a convergence the paper has explicitly named in multiple editorials."
+  ],
+  "why_it_matters": "The Meta facility is the largest single private investment in Wood County's history and the most prominent AI infrastructure project under active construction in the Toledo media market. At the scale implied by $3 billion in disclosed debt financing, it dwarfs the Oregon/Vantage project that spawned a November 3 ballot measure. A successful, operational Meta campus would anchor the RGP's AI-Ready Ohio pitch to hyperscale tenants and validate northwest Ohio's power-grid and land-availability advantage; a sustained political disruption would inject uncertainty into that same pitch at the exact moment site selectors are visiting Toledo for the LiveXchange Fall Forum. Anti-data-center TV ads targeted at Toledo viewers — spending outside Wood County to shape regional opinion — signal that the opposition is treating this as a Toledo-area political story, not just a Wood County land-use dispute.",
+  "people": [],
+  "sources": [
+    {
+      "title": "JobsOhio / RGP — Meta $800M northwest Ohio data center announcement",
+      "url": "https://www.jobsohio.com/newsroom/news-press/regional-growth-partnership-and-jobsohio-welcome-meta-to-northwest-ohio-with-new-800-million-data-center-announcement"
+    },
+    {
+      "title": "Meta Data Centers — Hello, Bowling Green! (April 2025)",
+      "url": "https://datacenters.atmeta.com/2025/04/hello-bowling-green/"
+    },
+    {
+      "title": "Crain's Cleveland Business — Banks selling $3 billion debt for Meta's Ohio data center (April 2026)",
+      "url": "https://www.crainscleveland.com/banking-finance/ccl-meta-ohio-data-center-debt-20260408/"
+    },
+    {
+      "title": "The Blade — Threatening call prompts emergency response at data center site (September 2, 2026)",
+      "url": "https://www.toledoblade.com/local/police-fire/2026/09/02/threatening-phone-call-prompts-emergency-response-at-data-center-site/stories/20260902090"
+    },
+    {
+      "title": "The Blade — Editorial: Meta development (September 17, 2026)",
+      "url": "https://www.toledoblade.com/opinion/editorials/2026/09/17/editorial-meta-development/stories/20260917019"
+    },
+    {
+      "title": "BG Independent News — Meta data center: from economic development coup to project local residents rue",
+      "url": "https://bgindependentmedia.org/meta-data-center-how-it-went-from-economic-development-coup-to-project-local-residents-rue/"
+    },
+    {
+      "title": "TiffinOhio.net — Wood County residents rally against Jon Husted as Meta data center rises near Bowling Green",
+      "url": "https://tiffinohio.net/posts/wood-county-residents-rally-husted-meta-data-center/"
+    }
+  ],
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Meta data center — Middleton Township, Wood County (near Bowling Green)",
+      "match": "Wood County",
+      "lat": 41.3745,
+      "lon": -83.6521
+    }
+  ],
+  "external_map_link": null,
+  "related_story_ids": ["oregon-vantage-data-center", "rgp-2026-annual-meeting-data-centers", "van-wert-qts-data-center", "jobsohio-ai-ready-ohio-toledo"],
+  "search_terms": "Meta data center Bowling Green Wood County Ohio AI data center northwest Ohio Middleton Township opposition anti-data-center commercials gas plant Apollo"
+}
