@@ -1,0 +1,71 @@
+{
+  "id": "ohio-governor-race-data-centers-2026",
+  "headline": "Both Ohio governor candidates call for data center restrictions — Ramaswamy brings Toledo town hall to data center debate four days before LiveXchange forum",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-19",
+  "source_date": "2026-09-18",
+  "last_updated": "2026-09-19",
+
+  "paragraphs": [
+    "Republican gubernatorial candidate Vivek Ramaswamy held a town hall at Chevy's Place in Toledo on September 18, 2026, joined by running mate state Senate President Rob McColley and Republican 9th Congressional District nominee Derrick Merrin. Ramaswamy used the Toledo forum to advance his data center platform, which includes three nonnegotiable conditions for new data center development in Ohio: facilities must generate their own power and provide free electricity or a power purchase agreement to nearby residential ratepayers; they must pay full property taxes; and they must comply with strict air and water quality standards, with brownfield and abandoned industrial sites prioritized over farmland. He told the Toledo audience 'If they're going to get built, put them on abandoned industrial sites,' and said he would sign an executive order on Day 1 as governor to halt any new data center project approvals in Ohio until those conditions are met.",
+    "Democratic opponent Amy Acton has also called for restrictions on data center development, making this the first Ohio gubernatorial race in which both major-party candidates have staked out clear positions on data center governance. The Ohio Capital Journal reported August 10, 2026 that all Ohio governor candidates had called for data center restrictions — a bipartisan consensus that KJK law firm analysis (September 11) attributed directly to grassroots pressure from Wood County (Meta Bowling Green campus), Lucas County (Vantage/Oregon ballot measure), and 16 other Ohio communities with data center ballot measures on November 3. The Statehouse News Bureau covered Ramaswamy's expanded data center platform on September 4; his Toledo town hall on September 18 — four days before the city council's Flock camera audit vote and five days before national site selectors arrive for the LiveXchange Fall Forum — underscores how directly Toledo has become the geographic center of Ohio's technology-governance debate."
+  ],
+  "why_it_matters": "A Ramaswamy Day 1 executive order halting new data center approvals in Ohio would freeze the regional pipeline Toledo EDOs are actively marketing at the September 23–25 LiveXchange Fall Forum and that RGP describes as the 'AI-Ready Ohio' advantage. Even if a future administration ultimately exempted projects meeting brownfield and power-generation conditions, the order would introduce compliance uncertainty into deals in progress — including the Oregon/Vantage project, whose site purchase agreement expires September 30, and any Toledo-area projects in the RGP pipeline. On the other side, a candidate coming to Toledo specifically to champion data center accountability is reading real community pressure that already produced a November 3 ballot measure in Oregon. Whoever wins the November election will define Ohio's data center policy environment for the next four years, and Toledo is now the state's primary test case.",
+
+  "people": [
+    {
+      "name": "Vivek Ramaswamy",
+      "role": "Republican candidate for Ohio governor",
+      "search_terms": "Vivek Ramaswamy Ohio governor 2026 data centers property taxes Toledo"
+    },
+    {
+      "name": "Amy Acton",
+      "role": "Democratic candidate for Ohio governor",
+      "search_terms": "Amy Acton Ohio governor 2026 data centers restrictions"
+    },
+    {
+      "name": "Rob McColley",
+      "role": "Ohio Senate President; Ramaswamy running mate for Lt. Governor",
+      "search_terms": "Rob McColley Ohio Senate President lieutenant governor 2026"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Ramaswamy talks property taxes, data centers at Toledo town hall (September 19, 2026)",
+      "url": "https://www.13abc.com/2026/09/19/ramaswamy-talks-property-taxes-data-centers-toledo-town-hall/"
+    },
+    {
+      "title": "The Statehouse News Bureau — Republican candidate for Ohio governor expands on property tax rollback, data centers plans (September 4, 2026)",
+      "url": "https://www.statenews.org/government-politics/2026-09-04/republican-candidate-for-ohio-governor-expands-on-property-tax-rollback-data-centers-plans"
+    },
+    {
+      "title": "Ohio Capital Journal — All candidates for Ohio governor have now called for restrictions on data center boom (August 10, 2026)",
+      "url": "https://ohiocapitaljournal.com/2026/08/10/all-candidates-for-ohio-governor-have-now-called-for-restrictions-on-data-center-boom/"
+    },
+    {
+      "title": "KJK — The future of data centers: How Ohio's governor candidates propose to address 2026's most talked-about issue (September 11, 2026)",
+      "url": "https://kjk.com/2026/09/11/the-future-of-data-centers-how-ohios-governor-candidates-propose-to-address-2026s-most-talked-about-issue/"
+    },
+    {
+      "title": "Trib Today — Ramaswamy, Acton take stances on data centers (August 2026)",
+      "url": "https://www.tribtoday.com/news/local-news/2026/08/ramaswamy-acton-take-stances-on-data-centers/"
+    }
+  ],
+
+  "locations": [],
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "oregon-vantage-data-center",
+    "meta-bowling-green-data-center",
+    "van-wert-qts-data-center",
+    "livexchange-fall-forum-toledo-2026",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+
+  "search_terms": "Ohio governor race data centers Ramaswamy Acton Toledo 2026 restrictions executive order brownfield property tax power generation LiveXchange"
+}
