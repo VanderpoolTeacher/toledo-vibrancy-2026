@@ -1,0 +1,64 @@
+{
+  "id": "saxon-house-tenants-union",
+  "headline": "Saxon House tenants form union amid water leaks, mold, and active foreclosure — 151-unit south Toledo complex in distress",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-20",
+  "source_date": "2026-09-19",
+  "last_updated": "2026-09-20",
+
+  "paragraphs": [
+    "Tenants at Saxon House — a 151-unit apartment complex at 1647 S Cove Blvd in south Toledo — have formed the Saxon House Tenants' Association, with Matty Watkins as union steward, to collectively address deteriorating building conditions. 13abc reported September 19, 2026 that tenants are dealing with water leaks, mold growth, holes in the ceiling, water shutoffs, and patched walls — deferred maintenance in a building once marketed as luxury housing. The Blade covered resident complaints about living conditions and property management on August 28, 2026.",
+    "The habitability problems coincide with an active foreclosure proceeding. Lucas County Common Pleas court filings received January 29, 2026 show Toorak Capital Partners LLC filed a foreclosure action against Saxon Cove Apartments LLC and Elisabeth Francis, seeking judgment on a $975,000 promissory note and foreclosure of the property's mortgage. WTOL reported that tenants raised concerns about maintenance and management changes during the foreclosure process — a pattern in which deferred maintenance, ownership uncertainty, and tenant organizing converge at the same property."
+  ],
+  "why_it_matters": "A tenant union forming inside an active foreclosure proceeding is a housing stability signal for 151 occupied units. Toledo's housing pipeline depends on the stability of existing occupied stock, not only on new units entering from the Spitzer Building, Collingwood Green V, and Warren-Sherman projects. A building in foreclosure resolution that also faces habitability complaints creates displacement risk for current tenants; the formalized tenants' association gives residents collective standing in any future sale, receivership appointment, or management transition.",
+
+  "people": [
+    {
+      "name": "Matty Watkins",
+      "role": "Union steward, Saxon House Tenants' Association",
+      "search_terms": "Matty Watkins Saxon House Tenants Association Toledo"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Water leaks put Toledo luxury apartments into disrepair, tenants form union to fight worsening conditions (September 19, 2026)",
+      "url": "https://www.13abc.com/2026/09/19/water-leaks-put-toledo-luxury-apartments-into-disrepair-tenants-form-union-fight-worsening-conditions/"
+    },
+    {
+      "title": "The Blade — Residents at Saxon House express concerns with living conditions, property management (August 28, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/08/28/residents-saxon-house-express-concerns-living-conditions-property-management/stories/20260828091"
+    },
+    {
+      "title": "WTOL — Saxon House tenants raise concerns over maintenance, management changes during foreclosure",
+      "url": "https://www.wtol.com/article/news/local/saxon-house-tenants-raise-concerns-over-maintenance-management-changes-during-foreclosure/512-a9002d0e-5af5-4cee-95b7-1d9235a60bf6"
+    },
+    {
+      "title": "Toledo Legal News — Common Pleas filings January 29, 2026 (Toorak Capital Partners LLC vs. Saxon Cove Apartments LLC)",
+      "url": "https://www.toledolegalnews.com/courts/common_pleas/common-pleas-filings-received-on-january-29-2026/article_eb328438-f875-4827-ba4c-7a2b443634ea.html"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Saxon House — 1647 S Cove Blvd, Toledo",
+      "match": "Saxon House",
+      "lat": 41.6512,
+      "lon": -83.5724
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "the-grand-the-glen-affordable-housing",
+    "collingwood-green-v-seniors-junction",
+    "warren-sherman-townhomes-cbp",
+    "hotel-lorraine-foreclosure"
+  ],
+
+  "search_terms": "Saxon House tenants union Toledo apartments 1647 South Cove Boulevard foreclosure habitability mold water leaks Saxon Cove Apartments Toorak Capital Partners LLC Elisabeth Francis"
+}
