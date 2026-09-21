@@ -6,11 +6,12 @@
 
   "posted_date": "2026-09-19",
   "source_date": "2026-09-18",
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-21",
 
   "paragraphs": [
     "Republican gubernatorial candidate Vivek Ramaswamy held a town hall at Chevy's Place in Toledo on September 18, 2026, joined by running mate state Senate President Rob McColley and Republican 9th Congressional District nominee Derrick Merrin. Ramaswamy used the Toledo forum to advance his data center platform, which includes three nonnegotiable conditions for new data center development in Ohio: facilities must generate their own power and provide free electricity or a power purchase agreement to nearby residential ratepayers; they must pay full property taxes; and they must comply with strict air and water quality standards, with brownfield and abandoned industrial sites prioritized over farmland. He told the Toledo audience 'If they're going to get built, put them on abandoned industrial sites,' and said he would sign an executive order on Day 1 as governor to halt any new data center project approvals in Ohio until those conditions are met.",
-    "Democratic opponent Amy Acton has also called for restrictions on data center development, making this the first Ohio gubernatorial race in which both major-party candidates have staked out clear positions on data center governance. The Ohio Capital Journal reported August 10, 2026 that all Ohio governor candidates had called for data center restrictions — a bipartisan consensus that KJK law firm analysis (September 11) attributed directly to grassroots pressure from Wood County (Meta Bowling Green campus), Lucas County (Vantage/Oregon ballot measure), and 16 other Ohio communities with data center ballot measures on November 3. The Statehouse News Bureau covered Ramaswamy's expanded data center platform on September 4; his Toledo town hall on September 18 — four days before the city council's Flock camera audit vote and five days before national site selectors arrive for the LiveXchange Fall Forum — underscores how directly Toledo has become the geographic center of Ohio's technology-governance debate."
+    "Democratic opponent Amy Acton has also called for restrictions on data center development, making this the first Ohio gubernatorial race in which both major-party candidates have staked out clear positions on data center governance. The Ohio Capital Journal reported August 10, 2026 that all Ohio governor candidates had called for data center restrictions — a bipartisan consensus that KJK law firm analysis (September 11) attributed directly to grassroots pressure from Wood County (Meta Bowling Green campus), Lucas County (Vantage/Oregon ballot measure), and 16 other Ohio communities with data center ballot measures on November 3. The Statehouse News Bureau covered Ramaswamy's expanded data center platform on September 4; his Toledo town hall on September 18 — four days before the city council's Flock camera audit vote and five days before national site selectors arrive for the LiveXchange Fall Forum — underscores how directly Toledo has become the geographic center of Ohio's technology-governance debate.",
+    "A conflict-of-interest dimension emerged over the September 16–20 window. The Ohio Capital Journal reported September 16 that both major-party candidates hold data center investments while calling for industry restrictions — Ramaswamy's financial disclosures show more than a dozen holdings in companies affiliated with data centers, including individual NVIDIA stock and investments in Microsoft and Amazon, two of the nation's largest cloud operators. Acton's campaign publicly challenged Ramaswamy to sell his individual stocks and commit to not investing in data centers; Acton separately pledged she would not own or acquire individual stocks as governor. Ramaswamy did not respond to the Capital Journal's request for comment. The Akron Beacon Journal covered Acton's divestiture challenge on September 20. The exchange arrived two days before the LiveXchange Fall Forum opens in Toledo — a moment when both the pro-data-center EDO pipeline and the anti-data-center political momentum are simultaneously at full intensity in the region."
   ],
   "why_it_matters": "A Ramaswamy Day 1 executive order halting new data center approvals in Ohio would freeze the regional pipeline Toledo EDOs are actively marketing at the September 23–25 LiveXchange Fall Forum and that RGP describes as the 'AI-Ready Ohio' advantage. Even if a future administration ultimately exempted projects meeting brownfield and power-generation conditions, the order would introduce compliance uncertainty into deals in progress — including the Oregon/Vantage project, whose site purchase agreement expires September 30, and any Toledo-area projects in the RGP pipeline. On the other side, a candidate coming to Toledo specifically to champion data center accountability is reading real community pressure that already produced a November 3 ballot measure in Oregon. Whoever wins the November election will define Ohio's data center policy environment for the next four years, and Toledo is now the state's primary test case.",
 
@@ -52,6 +53,18 @@
     {
       "title": "Trib Today — Ramaswamy, Acton take stances on data centers (August 2026)",
       "url": "https://www.tribtoday.com/news/local-news/2026/08/ramaswamy-acton-take-stances-on-data-centers/"
+    },
+    {
+      "title": "Ohio Capital Journal — Ohio candidates seeking to regulate data centers both invest in them (September 16, 2026)",
+      "url": "https://ohiocapitaljournal.com/2026/09/16/ohio-candidates-seeking-to-regulate-data-centers-both-invest-in-them/"
+    },
+    {
+      "title": "Amy Acton for Governor — Dr. Amy Acton Pledges to Not Own Individual Stocks as Governor, Calls on Opponent to Sell Individual Stocks and Divest of Data Centers",
+      "url": "https://actonforgovernor.com/dr-amy-acton-pledges-to-not-own-individual-stocks-as-governor-calls-on-opponent-to-sell-individual-stocks-and-divest-of-data-centers/"
+    },
+    {
+      "title": "Akron Beacon Journal / PressReader — Acton calls on Ramaswamy to sell his stocks (September 20, 2026)",
+      "url": "https://www.pressreader.com/usa/akron-beacon-journal/20260920/281814290771104"
     }
   ],
 
