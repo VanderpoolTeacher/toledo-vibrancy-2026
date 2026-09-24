@@ -1,0 +1,45 @@
+{
+  "id": "utoledo-growing-for-toledo-strategic-plan",
+  "headline": "UToledo trustees endorse 'Growing for Toledo' five-year strategic plan — Holloway targets enrollment growth and regional-challenge research",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-24",
+  "source_date": "2026-09-23",
+  "last_updated": "2026-09-24",
+
+  "paragraphs": [
+    "The University of Toledo Board of Trustees formally endorsed 'Growing for Toledo,' a new five-year strategic plan, at their September 23, 2026 meeting. Developed by President James Holloway following a year of consultations with students, faculty, staff, trustees, alumni, and community and political leaders, the plan is organized around five pillars first outlined at Holloway's October 2025 inauguration. The first pillar — 'Realize the UToledo Advantage' — targets enrollment growth through stronger recruiting, retention, and the university's ASCEND experiential learning requirement for undergraduates. The second pillar — 'Drive Research and Innovation' — directs the university to advance fundamental research tied to Toledo's regional challenges and opportunities.",
+    "President Holloway framed the plan as a return to the university's founding compact with the city: 'This plan reflects what we heard from our community over the past year: that our growth must be mission-driven, bringing more value to the students we teach, the region we serve and the patients we treat. We were founded in 1872 on a promise to support the success of this city and this region, and Growing for Toledo will rekindle our focus on this promise.' The endorsement arrives as UToledo operates under the federally-backed ASCEND workforce initiative, its newly opened cancer research institute, and an APLU Innovation and Economic Prosperity designation — positioning the five-year plan as the integrating framework for multiple active institutional commitments."
+  ],
+  "why_it_matters": "UToledo is one of metro Toledo's largest employers and its primary research institution; its strategic direction directly shapes the region's workforce pipeline, technology transfer capacity, and institutional partnership opportunities for EDOs. A five-year plan explicitly organized around Toledo's regional challenges — endorsed by trustees rather than simply announced by administration — signals institutional alignment that will govern budget priorities, hiring, and program development through 2031. For site selectors evaluating Toledo's talent supply and research partnerships, the enrollment-growth and regional-research pillars are directly relevant to investment decisions.",
+
+  "people": [
+    {
+      "name": "James Holloway",
+      "role": "President, University of Toledo",
+      "search_terms": "James Holloway University Toledo president Growing for Toledo strategic plan 2026"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "UToledo News — UToledo Trustees Endorse 'Growing for Toledo' 5-Year Strategic Plan (September 24, 2026)",
+      "url": "https://news.utoledo.edu/index.php/09_24_2026/utoledo-trustees-endorse-growing-for-toledo-5-year-strategic-plan"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "University of Toledo — Main Campus",
+      "match": "University of Toledo",
+      "lat": 41.6583,
+      "lon": -83.6134
+    }
+  ],
+
+  "external_map_link": null,
+  "related_story_ids": ["utoledo-ascend-workforce", "utoledo-cancer-research-institute", "utoledo-aplu-iep-designation"],
+  "search_terms": "University Toledo UToledo Growing for Toledo strategic plan James Holloway trustees 2026 enrollment research regional"
+}
