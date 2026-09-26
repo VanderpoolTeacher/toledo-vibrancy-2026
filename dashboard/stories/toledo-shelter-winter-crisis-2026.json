@@ -1,0 +1,66 @@
+{
+  "id": "toledo-shelter-winter-crisis-2026",
+  "headline": "Toledo shelters at capacity as winter approaches — SPCC's annual crisis beds face funding gap, city council calls for community partnerships",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-26",
+  "source_date": "2026-09-26",
+  "last_updated": "2026-09-26",
+
+  "paragraphs": [
+    "Toledo's homeless shelters are at or near capacity as of late September 2026, and leaders warn the region is running out of time to open additional winter beds before cold weather arrives. Lisa Pengov, operations manager for the Toledo Lucas County Homelessness Board, told 13abc on September 26: 'We're seeing more and more folks on the street because our shelters are all full. Everybody is full.' Last winter, more than 500 people relied on Toledo's warming centers to survive cold-weather nights.",
+    "The most urgent gap is Saint Paul's Community Center (SPCC), which has operated a 45-bed winter crisis overnight program — providing cots, hot showers, warm clothing, dinner, and breakfast — every year for the past decade. This year, the funding for those 45 seasonal beds has not yet been secured. The homelessness board brought the issue to city council this week. District 3 Council Member Cerssandra McPherson called publicly for community partnerships to fill the gap: 'I put out the call to our churches, not just our churches but our union halls, our community centers. We're going to have to partner together to provide warming centers.'"
+  ],
+  "why_it_matters": "A shelter capacity gap at the start of the fall funding cycle is distinct from a winter-night emergency — it means the infrastructure gap is visible now, when there is still time to close it, rather than after the first cold snap. The same households that cycle through Toledo's warming centers are often navigating the housing instability — unsafe units, deferred maintenance, landlord retaliation risk — that the city's renter anti-retaliation ordinance and the Saxon House tenants union are trying to address from the other end. A funding failure at SPCC would shrink the emergency safety net just as the city's housing policy debate is defining the longer-term accountability structure. City council's engagement this week is the right-sized early warning; the question is whether an emergency appropriation, a philanthropic bridge, or church-and-union-hall partnerships can be assembled before October temperatures arrive.",
+
+  "people": [
+    {
+      "name": "Lisa Pengov",
+      "role": "Operations Manager, Toledo Lucas County Homelessness Board",
+      "search_terms": "Lisa Pengov Toledo Lucas County Homelessness Board shelter winter 2026"
+    },
+    {
+      "name": "Cerssandra McPherson",
+      "role": "Toledo City Council, District 3",
+      "search_terms": "Cerssandra McPherson Toledo City Council District 3 shelter winter warming centers"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Toledo shelters warn of looming winter crisis as capacity runs out (September 26, 2026)",
+      "url": "https://www.13abc.com/2026/09/26/toledo-shelters-warn-looming-winter-crisis-capacity-runs-out/"
+    },
+    {
+      "title": "WTOL — Growing homeless population, not enough beds: Toledo organizations working to shelter those in need during winter",
+      "url": "https://www.wtol.com/article/news/local/toledo-homelessness-board-st-pauls-community-center-help-homeless-winter-shelter/512-b4fb6f83-f5c1-4416-9ca2-44c9489fd49d"
+    },
+    {
+      "title": "WTOL — Toledo city council member proposes $80K program to expand warming shelters during cold weather months",
+      "url": "https://www.wtol.com/article/news/local/toledo-city-council-member-proposes-program-to-expand-warming-shelters-during-cold-weather/512-a43dc05c-aad5-4685-a25a-e55df2afb225"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Saint Paul's Community Center — 1920 Madison Ave, Toledo",
+      "match": "Saint Paul's Community Center",
+      "lat": 41.6638,
+      "lon": -83.5569
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-renter-anti-retaliation-ordinance-2026",
+    "saxon-house-tenants-union",
+    "warren-sherman-townhomes-cbp",
+    "the-grand-the-glen-affordable-housing",
+    "welcome-home-ohio-toledo-lucas-county"
+  ],
+
+  "search_terms": "Toledo homeless shelter winter crisis SPCC Saint Pauls Community Center warming center beds funding gap 2026 Homelessness Board Cerssandra McPherson"
+}
