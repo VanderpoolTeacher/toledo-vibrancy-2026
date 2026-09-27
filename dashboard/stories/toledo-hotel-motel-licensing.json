@@ -1,0 +1,69 @@
+{
+  "id": "toledo-hotel-motel-licensing",
+  "headline": "Toledo City Council enacts local hotel and motel licensing — $400 annual fee enables city-level oversight of troubled properties",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-09-27",
+  "source_date": "2026-09-23",
+  "last_updated": "2026-09-27",
+
+  "paragraphs": [
+    "Toledo City Council voted unanimously on September 23, 2026 to adopt a local licensing requirement for hotels and motels, filling a gap in state-level oversight that council members and neighboring business owners had identified as a persistent obstacle to code enforcement. Sponsored by District Councilmen Adam Martinez, Theresa Gadus, and Theresa Morris, the ordinance requires hotels and motels to obtain a $400 annual city license, renewable each year and non-transferable with any change of ownership; applications are due by January 1.",
+    "To obtain a license, properties must be current on taxes, in compliance with city code, in good standing with the Toledo-Lucas County Health Department, and hold applicable state permits and licenses. Properties that fail to obtain a license face enforcement action including possible closure; fee proceeds fund inspections and code compliance at no additional cost to the city. Council Member Martinez framed the intent: 'The fee isn't to be punitive, but it's to give local oversight to ensure that hotels and motels are being operated appropriately.' Neighboring business owners testified in support ahead of the vote, with some describing receiving threats from transient residents at nearby problem properties as conditions deteriorated."
+  ],
+  "why_it_matters": "State licensing oversight has left Toledo without adequate tools to act on problem properties — establishments that draw repeated police calls, code complaints, or health violations can persist because the state rarely pulls a license based on locally-reported conditions. The new local layer gives the city a shutoff valve it previously lacked: a license denial or revocation tied to tax compliance, code violations, and health standing. For commercial corridors adjacent to troubled motels — especially in districts where EDOs are trying to attract new investment — removing a persistent blight factor is a precondition for the investment pitch to land.",
+
+  "people": [
+    {
+      "name": "Adam Martinez",
+      "role": "Toledo City Council, District Member",
+      "search_terms": "Adam Martinez Toledo City Council hotel motel licensing ordinance 2026"
+    },
+    {
+      "name": "Theresa Gadus",
+      "role": "Toledo City Council, District Member",
+      "search_terms": "Theresa Gadus Toledo City Council hotel motel licensing 2026"
+    },
+    {
+      "name": "Theresa Morris",
+      "role": "Toledo City Council, District Member",
+      "search_terms": "Theresa Morris Toledo City Council hotel motel licensing 2026"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Toledo council members look to add local oversight of hotels and motels (September 14, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/09/14/toledo-council-members-hope-add-local-oversight-hotels-motels/stories/20260914097"
+    },
+    {
+      "title": "WTOL — 'We've had our lives threatened': Business owners back motel oversight proposal",
+      "url": "https://www.wtol.com/article/news/community/toledo-business-owners-back-motel-oversight-proposal/512-4571339a-d0dd-47ad-8127-3c7974400620"
+    },
+    {
+      "title": "Citizen Portal — Toledo council confirms mayoral appointments, adopts multiple ordinances and resolutions in routine session (September 23, 2026)",
+      "url": "https://citizenportal.ai/articles/5933450/ohio/lucas-county/toledo/toledo-council-confirms-mayoral-appointments-adopts-multiple-ordinances-and-resolutions-in-routine-session"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo City Hall — One Government Center",
+      "match": null,
+      "lat": 41.6639,
+      "lon": -83.5558
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-renter-anti-retaliation-ordinance-2026",
+    "toledo-historic-landmark-designations",
+    "swayne-field-englewood-renovation"
+  ],
+
+  "search_terms": "Toledo hotel motel local licensing ordinance $400 fee Adam Martinez Theresa Gadus Theresa Morris city council oversight code compliance 2026"
+}
