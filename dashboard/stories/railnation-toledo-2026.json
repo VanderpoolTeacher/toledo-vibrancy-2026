@@ -1,0 +1,61 @@
+{
+  "id": "railnation-toledo-2026",
+  "headline": "Toledo hosts RailNation 2026 — national passenger rail conference spotlights Glass City's place on the Midwest network",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-02",
+  "source_date": "2026-10-02",
+  "last_updated": "2026-10-02",
+
+  "paragraphs": [
+    "The Rail Passengers Association and All Aboard Ohio opened RailNation 2026 on October 2 at the Martin Luther King Jr. Plaza Amtrak Station in downtown Toledo — the nation's premier annual gathering of passenger rail advocates, federal officials, state leaders, and transit policymakers. The three-day conference runs October 2–4 and is the first time the event has been held in Toledo, positioning the Glass City as the host city for America's most visible annual passenger rail policy forum. A $20 public day-pass is available for the October 2 Science Fair, which includes an Amtrak locomotive simulator, TARTA's new Bus Rapid Transit VR experience, and guided facility tours at the station.",
+    "A new economic analysis released in conjunction with the conference found that a connected network of six proposed passenger rail services in Ohio could deliver nearly $190 million in annual benefits statewide, with 1.69 million annual passenger trips through Ohio stations — approximately 45 percent more than the six services would generate if modeled individually. The Detroit–Toledo–Cleveland corridor is projected to deliver roughly 188,000 annual passenger trips and $14.1 million in modeled annual benefits, establishing Toledo as a significant node in the Midwest's next-generation rail network. The 3C+D corridor (Cleveland–Columbus–Dayton–Cincinnati) is also a conference priority. Toledo sits on one of the nation's busiest long-distance Amtrak corridors connecting New York City and Chicago, and the conference framing explicitly benchmarks Michigan's recent passenger rail momentum as the model Ohio should follow."
+  ],
+  "why_it_matters": "Toledo's selection as the RailNation host city recognizes the Glass City's geographic centrality in the Midwest rail network and puts northwest Ohio's passenger rail case in front of national policymakers and Amtrak leadership. The Detroit–Toledo–Cleveland corridor, if funded, would connect Toledo to two major metros with Amtrak frequency comparable to the existing Lake Shore Limited, opening new commuter and business travel markets. For the economic development narrative, passenger rail connectivity is an emerging site-selection factor: companies evaluating workforce access and talent retention in the region increasingly cite transit infrastructure. The $190M annual benefits figure, and Toledo's explicit role as a modeled station on the Detroit–Cleveland route, gives regional EDOs a new quantitative frame for infrastructure investment advocacy.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — Toledo to host national rail conference focused on Midwest passenger rail (September 29, 2026)",
+      "url": "https://www.13abc.com/2026/09/29/toledo-host-national-rail-conference-focused-midwest-passenger-rail/"
+    },
+    {
+      "title": "Rail Passengers Association — Toledo to Host National Rail Conference: Where Michigan's Momentum Meets Ohio's Passenger Rail Future",
+      "url": "https://news.railpassengers.org/p/toledo-to-host-national-rail-conference"
+    },
+    {
+      "title": "Rail Passengers Association — Passenger-Rail Network Could Bring Nearly $190 Million in Annual Benefits to Ohio",
+      "url": "https://news.railpassengers.org/p/passenger-rail-network-could-bring"
+    },
+    {
+      "title": "All Aboard Ohio — Toledo wins the bid: Ohio to host the nation's premier passenger rail conference",
+      "url": "https://www.allaboardohio.org/post/toledo-wins-the-bid-ohio-to-host-the-nation-s-premier-passenger-rail-conference"
+    },
+    {
+      "title": "Dayton247Now — Toledo to host National Rail Conference focused on future of passenger rail",
+      "url": "https://dayton247now.com/news/local/toledo-to-host-national-rail-conference-focused-on-future-of-passenger-rail"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Martin Luther King Jr. Plaza Amtrak Station — 415 Emerald Ave, Toledo",
+      "match": null,
+      "lat": 41.6640,
+      "lon": -83.5555
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "gordie-howe-bridge-opening-delayed",
+    "rgp-2026-annual-meeting-data-centers",
+    "jobsohio-ai-ready-ohio-toledo"
+  ],
+
+  "search_terms": "RailNation Toledo 2026 passenger rail conference Rail Passengers Association All Aboard Ohio Amtrak MLK Plaza October Midwest Detroit Toledo Cleveland corridor 3C+D Ohio rail network"
+}
