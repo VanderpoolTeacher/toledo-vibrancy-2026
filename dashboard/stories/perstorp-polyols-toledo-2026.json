@@ -1,0 +1,61 @@
+{
+  "id": "perstorp-polyols-toledo-2026",
+  "headline": "Perstorp Polyols permanently closes North Toledo manufacturing plant — 80+ layoffs through July 2027",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-08",
+  "source_date": "2026-09-02",
+  "last_updated": "2026-10-08",
+
+  "paragraphs": [
+    "Perstorp Polyols permanently ended production at its North Toledo facility at 600 Matzinger Road effective September 2, 2026, as part of a global manufacturing network consolidation. The company said the closure follows a review of its global manufacturing footprint and a decision to consolidate polyol production across fewer sites. Perstorp Polyols is a division of the Sweden-based Perstorp Group, a global specialty chemicals company manufacturing polyols used in adhesives, coatings, and plastics. The company stated that its U.S. sales, customer service, planning, and distribution operations are not affected by the Toledo closure; existing supply to domestic customers will continue from the company's other facilities.",
+    "A Worker Adjustment and Retraining Notification (WARN Act) filed with the Ohio Department of Job and Family Services confirms that layoffs at 600 Matzinger Road will begin around November 2, 2026 and continue in phases through July 1, 2027 — affecting more than 80 workers, according to trade publication reporting citing the state filing. The Toledo Blade separately cited 66 employees, a figure that may reflect the initial layoff phase rather than the total. The phased multi-month wind-down reflects the operational complexity of closing a large industrial chemical production facility. The Matzinger Road site's future use has not been publicly announced."
+  ],
+  "why_it_matters": "The Perstorp closure removes a longstanding industrial chemical manufacturing operation from Toledo's North Side industrial base, adding to a year of difficult manufacturing signals in the region — following OPmobility's Rossford plant layoffs and the Brent Industries south Toledo explosion and closure. The phased WARN Act timeline means the workforce impact will register through mid-2027, creating an overlap with active industrial recruitment activity elsewhere in Lucas County. The Matzinger Road site joins a growing inventory of former industrial properties in Toledo's vacancy landscape; its redevelopment potential will depend on environmental review and remediation status.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "SpecialChem — Perstorp Polyols permanently closes Toledo, Ohio production facility (2026)",
+      "url": "https://www.specialchem.com/polymer-additives/news/perstorp-polyols-permanently-closes-toledo-ohio-production-facility"
+    },
+    {
+      "title": "ChemAnalyst — Perstorp Ends Production at Toledo Plant to Streamline US Network (2026)",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/perstorp-ends-production-at-toledo-plant-to-streamline-44257"
+    },
+    {
+      "title": "Indian Chemical News — Perstorp to shut down polyols plant in Toledo (2026)",
+      "url": "https://www.indianchemicalnews.com/chemical/perstorp-to-shut-down-polyols-plant-in-toledo-31730"
+    },
+    {
+      "title": "ChemXplore — Perstorp Polyols discontinues production at Toledo, Ohio facility (2026)",
+      "url": "https://chemxplore.com/news/perstorp-discontinues-toledo-production"
+    },
+    {
+      "title": "WARN Firehose — WARN Act Layoffs in Toledo, Ohio (Perstorp Polyols, 600 Matzinger Rd.)",
+      "url": "https://warnfirehose.com/layoffs/ohio/toledo"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Perstorp Polyols — 600 Matzinger Rd., North Toledo",
+      "match": "600 Matzinger Road",
+      "lat": 41.6823,
+      "lon": -83.5690
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "opmobility-rossford-plant",
+    "brent-industries-explosion-south-toledo",
+    "lucas-county-budget-cut-2027"
+  ],
+
+  "search_terms": "Perstorp Polyols Toledo Matzinger Road closure layoffs WARN Act manufacturing specialty chemicals 2026"
+}

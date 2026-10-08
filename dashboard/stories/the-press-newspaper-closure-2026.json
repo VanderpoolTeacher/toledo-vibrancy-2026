@@ -1,0 +1,46 @@
+{
+  "id": "the-press-newspaper-closure-2026",
+  "headline": "The Press weekly closes after 54 years — eastern Lucas County loses primary suburban news source amid Toledo Blade sale uncertainty",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-08",
+  "source_date": "2026-09-11",
+  "last_updated": "2026-10-08",
+
+  "paragraphs": [
+    "The Press (presspublications.com), a free weekly newspaper that served Toledo's eastern suburbs for 54 years, permanently ceased operations in September 2026. Publisher H. Kenneth Douthit III cited ongoing economic conditions — years of declining advertising revenue and rising printing costs — as the reasons, noting that a planned shift to a paid subscription model would not be viable. The Press had covered Oregon, Northwood, and Jerusalem Township in eastern Lucas County, as well as portions of northern Wood, Ottawa, and Sandusky counties, since its founding in 1972. Its closure was reported by The Toledo Blade on September 11, 2026.",
+    "The closure came approximately one week after Block Communications announced that The Toledo Blade is up for sale with a December 31, 2026 shutdown deadline if no buyer is found. Together, the two closures represent a significant contraction in local news coverage for Lucas County. For the Oregon/Vantage data center story specifically, The Press had been among the most detailed outlets covering the Protect Oregon Ohio petition drive, the Lucas County Board of Elections signature verification, Oregon City Council's unanimous certification vote, and the draft $1.1 billion economic development agreement — all events that the broader Toledo market covered with less granularity. Oregon residents heading into the final 26-day campaign period before the November 3 referendum will have reduced local accountability journalism covering the ballot measure most directly affecting their community."
+  ],
+  "why_it_matters": "The Press was one of the few outlets providing granular coverage of the Oregon charter amendment effort — now the state's most-watched local data center ballot measure. Its loss, paired with The Blade's uncertain future, concentrates Toledo's remaining local journalism accountability in a contracting number of institutions. From an economic development perspective, local news coverage is infrastructure: it is the mechanism by which major investment decisions, zoning actions, WARN Act filings, and public meeting outcomes reach the public and enter the public record. The compounding effect of two simultaneous local news closures in the same market window as the most consequential Toledo-area ballot cycle in years is a structural accountability risk.",
+
+  "people": [
+    {
+      "name": "H. Kenneth Douthit III",
+      "role": "Publisher, The Press",
+      "search_terms": "H. Kenneth Douthit III The Press Toledo presspublications Oregon Ohio newspaper"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — The Press newspaper closes after 54 years covering Toledo's eastern suburbs (September 11, 2026)",
+      "url": "https://www.toledoblade.com/local/suburbs/2026/09/11/press-newspapers-closes-54-years-operations/stories/20260911104"
+    },
+    {
+      "title": "Toledo Free Press — The Press closure and changing landscape of local news (September 2026)",
+      "url": "https://toledofreepress.com/the-press-closure-and-changing-landscape-of-local-news/"
+    }
+  ],
+
+  "locations": [],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-blade-newspaper-sale-2026",
+    "oregon-vantage-data-center"
+  ],
+
+  "search_terms": "The Press Toledo newspaper presspublications closure 54 years Oregon Northwood Jerusalem Township eastern suburbs 2026 H. Kenneth Douthit local news"
+}
