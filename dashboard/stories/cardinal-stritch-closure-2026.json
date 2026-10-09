@@ -1,0 +1,72 @@
+{
+  "id": "cardinal-stritch-closure-2026",
+  "headline": "Cardinal Stritch Catholic High School to close in December — Diocese cites 69-student enrollment as unsustainable, second Toledo-area Catholic institution to close in 2026",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-09",
+  "source_date": "2026-10-08",
+  "last_updated": "2026-10-09",
+
+  "paragraphs": [
+    "The Diocese of Toledo announced on October 8, 2026 that Cardinal Stritch Catholic High School in Oregon, Ohio will permanently close at the end of December 2026. The decision was announced via a video posted by the Diocese and confirmed by The Blade, WTOL, and 13abc. The school's Pre-K through eighth-grade academy at the same campus will remain open; only the high school program is closing. Principal Malinda Siers stated that operating a high school with only 69 students 'is no longer sustainable, and negatively impacts their student experience.' The board of Cardinal Stritch recommended the closure to Bishop Daniel Thomas after determining the high school could not continue, following unsuccessful efforts including marketing campaigns and an early college pathways program.",
+    "Current Cardinal Stritch high school students are being directed to Central Catholic High School, which will create a pathway for displaced students beginning in January. Saint Francis de Sales and Saint John's have also announced they will accept families affected by the closure. Classes at Cardinal Stritch were canceled on Friday, October 9, with counselors on hand to meet with families and discuss next steps. Parents and alumni expressed shock at the announcement, with some families telling 13abc they had not been informed in advance of the public announcement. The school opened in fall 1961; the academy was added for the 2009-10 school year."
+  ],
+  "why_it_matters": "Cardinal Stritch is the second Toledo-area Catholic educational institution to announce closure in 2026, following Lourdes University's announced closure earlier this year. A high school of 69 students cannot sustain itself at modern operational costs, and the pattern of smaller Catholic school closures reflects both demographic shifts in the Toledo Diocese's traditional enrollment base and the broader financial pressure on private K-12 institutions. For Oregon, Ohio specifically, the closure arrives as the community is simultaneously navigating the divisive Vantage Data Centers charter amendment ballot campaign — adding an institutional loss to a community already under stress from the land-use and governance fight. The consolidation of Catholic high school enrollment toward Central Catholic, Saint Francis de Sales, and Saint John's continues a multi-decade pattern; the long-term question is whether Catholic high school enrollment in Lucas County stabilizes at the remaining institutions or whether additional closures follow.",
+
+  "people": [
+    {
+      "name": "Malinda Siers",
+      "role": "Principal, Cardinal Stritch Catholic High School",
+      "search_terms": "Malinda Siers Cardinal Stritch Catholic High School Oregon Ohio principal"
+    },
+    {
+      "name": "Bishop Daniel Thomas",
+      "role": "Bishop, Diocese of Toledo",
+      "search_terms": "Bishop Daniel Thomas Diocese of Toledo Ohio"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Cardinal Stritch Catholic High School to close in December (October 8, 2026)",
+      "url": "https://www.toledoblade.com/local/education/2026/10/08/cardinal-stritch-catholic-high-school-to-close-in-december/stories/20261008081"
+    },
+    {
+      "title": "13abc — Cardinal Stritch High School to close at the end of December (October 8, 2026)",
+      "url": "https://www.13abc.com/2026/10/08/cardinal-stritch-close-end-year/"
+    },
+    {
+      "title": "WTOL — Cardinal Stritch Catholic High School to close in December 2026",
+      "url": "https://www.wtol.com/article/news/local/cardinal-stritch-catholic-high-school-to-close-in-december-2026/512-15f87321-6751-4c47-8567-697d6d106b6c"
+    },
+    {
+      "title": "13abc — 'I'm just speechless': Parents blindsided by Cardinal Stritch High School's closure announcement (October 9, 2026)",
+      "url": "https://www.13abc.com/2026/10/09/im-just-speechless-parents-blindsided-by-cardinal-stritch-high-schools-closure-announcement/"
+    },
+    {
+      "title": "WTOL — Saint Francis, Saint John's open doors to families stranded after Cardinal Stritch Catholic High School's December closure",
+      "url": "https://www.wtol.com/article/news/education/saint-francis-saint-johns-open-doors-to-families-stranded-after-cardinal-stritch-catholic-high-school-closes-this-winter-closure/512-022fff4d-4907-4815-b92a-6b29dbb90e69"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Cardinal Stritch Catholic High School — 4554 Navarre Ave., Oregon, OH",
+      "match": "Cardinal Stritch Catholic High School",
+      "lat": 41.6352,
+      "lon": -83.4648
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "lourdes-university-closing-2026",
+    "tps-levy-november-2026",
+    "oregon-vantage-data-center"
+  ],
+
+  "search_terms": "Cardinal Stritch Catholic High School Oregon Ohio closure December 2026 Diocese Toledo enrollment Bishop Daniel Thomas"
+}
