@@ -1,0 +1,56 @@
+{
+  "id": "toledo-housing-developer-summit-2026",
+  "headline": "Toledo pitches infill housing to national developers — city and Land Bank tout vacant lot inventory at October 14 summit",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-15",
+  "source_date": "2026-10-14",
+  "last_updated": "2026-10-15",
+
+  "paragraphs": [
+    "Toledo city officials hosted a developer summit on October 14, 2026, drawing builders from across the country to pitch infill housing opportunities on vacant lots in Toledo neighborhoods. The Blade reported the event under the headline 'Toledo pitches housing opportunities to developers.' Deputy housing director Collina Ali framed the pitch in straightforward terms: 'We're not making any more land, but we have a lot of land available.' The city and the Lucas County Land Bank together hold a substantial portfolio of vacant parcels — Lucas County has nearly 2,000 vacant properties in total — and the summit was designed to connect out-of-market builders with available sites and city support structures. Officials described the event as 'catalytic' in intent.",
+    "City officials also presented a package of policy tools at the summit: a zoning rewrite tied to Toledo's pro-housing designation and earlier lot-size changes designed to simplify infill approvals. The summit follows the July 2026 launch of the Lucas County Public Land Opportunities Dashboard, which maps available parcels for developers. Toledo's housing strategy calls for by-right zoning for infill development — allowing qualifying projects to proceed without special approvals — and the October 14 summit represents an active recruitment push to activate that inventory. No specific project announcements or commitments were reported from the event itself."
+  ],
+  "why_it_matters": "Toledo's infill land inventory is a structural asset that has historically been difficult to activate: vacant lots are scattered across neighborhoods, entitlement timelines are uncertain, and the economics of small-lot infill often don't pencil for developers used to greenfield or suburban conditions. The October 14 summit is an attempt to change the supply side of that equation — not by building the housing directly but by recruiting builders who specialize in the infill conditions Toledo offers. In the context of the November 3 TPS and public safety levy campaigns, which both argue that Toledo's fiscal future depends on a growing population and tax base, activating the city's vacant lot inventory is a precondition for the residential growth those arguments require. The summit's success will be measured in 12–24 months by whether any attendees break ground.",
+
+  "people": [
+    {
+      "name": "Collina Ali",
+      "role": "Deputy housing director, City of Toledo",
+      "search_terms": "Collina Ali Toledo housing director infill developer summit"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Toledo pitches housing opportunities to developers (October 14, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/10/14/toledo-pitches-housing-opportunities-to-developers/stories/20261014086"
+    },
+    {
+      "title": "13abc — Toledo tiny home project offers low-income residents a path to homeownership (October 9, 2026)",
+      "url": "https://www.13abc.com/video/2026/10/09/toledo-tiny-home-project-offers-low-income-residents-path-homeownership/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "City of Toledo — citywide infill housing push",
+      "match": null,
+      "lat": 41.6639,
+      "lon": -83.5552
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-lucas-county-vacant-property-dashboard",
+    "land-bank-mann-1b-milestone-ose",
+    "welcome-home-ohio-toledo-lucas-county",
+    "warren-sherman-townhomes-cbp"
+  ],
+
+  "search_terms": "Toledo infill housing developer summit vacant lots Land Bank Collina Ali zoning pro-housing October 2026"
+}
