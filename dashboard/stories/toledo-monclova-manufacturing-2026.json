@@ -1,0 +1,44 @@
+{
+  "id": "toledo-monclova-manufacturing-2026",
+  "headline": "Toledo seeks to amend JEDZ agreement to land $21M manufacturing facility in Monclova Township — nearly 100 jobs at stake",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-16",
+  "source_date": "2026-10-14",
+  "last_updated": "2026-10-16",
+
+  "paragraphs": [
+    "Toledo City Council is being asked to amend the multi-jurisdiction Joint Economic Development Zone (JEDZ) agreement among the City of Toledo, Monclova Township, and the City of Maumee to attract an undisclosed manufacturing company eyeing a $21 million facility on property within the zone, The Blade reported on October 14, 2026. The project would create nearly 100 jobs. The JEDZ — a 550-acre zone established in 2003 in the Triad Business Park area near Toledo Express Airport — routes income-tax revenue from zone employees back to the three participating jurisdictions, creating a shared economic benefit structure that allows the partners to offer competitive incentives for industrial projects. The company had not been publicly named as of this brief; council action to amend the agreement is the next step before a final commitment."
+  ],
+  "why_it_matters": "A $21 million manufacturing investment with nearly 100 jobs in the Toledo-Monclova corridor adds to the region's active industrial pipeline at a moment when Toledo EDOs are making the case to site selectors that northwest Ohio can close mid-size manufacturing deals. The JEDZ structure enables multi-jurisdictional incentive packaging — a competitive tool for retaining manufacturing projects that would otherwise default to greenfield suburban or exurban sites. If the amendment clears council and the company commits, it extends the industrial jobs growth story alongside Perstorp Polyols, OPmobility, and other active projects. The company's name and final commitment remain publicly undisclosed.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "The Blade — Toledo looks to amend multi-jurisdiction agreement to attract $21M manufacturing facility (October 14, 2026)",
+      "url": "https://www.toledoblade.com/business/development/2026/10/14/toledo-looks-to-amend-economic-agreement-to-attract-new-manufacturing-company/stories/20261014097"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Monclova Township — proposed JEDZ manufacturing site (approximate)",
+      "match": null,
+      "lat": 41.5890,
+      "lon": -83.7123
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "perstorp-polyols-toledo-2026",
+    "jvis-toledo-molding-die",
+    "opmobility-rossford-plant"
+  ],
+
+  "search_terms": "Toledo Monclova Township JEDZ manufacturing facility 21 million 100 jobs Maumee economic development zone 2026"
+}
