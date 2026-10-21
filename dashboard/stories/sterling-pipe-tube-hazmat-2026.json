@@ -1,0 +1,45 @@
+{
+  "id": "sterling-pipe-tube-hazmat-2026",
+  "headline": "Hazardous material release at Sterling Pipe & Tube triggers one-mile north Toledo evacuation — chemical unidentified overnight",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-21",
+  "source_date": "2026-10-21",
+  "last_updated": "2026-10-21",
+
+  "paragraphs": [
+    "Toledo Fire & Rescue and Lucas County EMA issued an evacuation order for all residents and businesses within one mile of 1050 Progress Ave — the Sterling Pipe & Tube facility in north Toledo — after a hazardous material release was reported at approximately 10:48 PM Tuesday, October 21, 2026. An initial half-mile-radius evacuation order was quickly expanded to a one-mile radius as the chemical plume moved through the area. The Raintree Village mobile home park and the Alexis Addition neighborhood fall within the evacuation zone. Toledo Fire officials confirmed a chemical was detected in the air; its identity was not disclosed in overnight reporting. The plume reduced visibility on roadways throughout the north Toledo area and officials urged drivers to use caution. 13abc reported the incident as it unfolded before midnight on October 21.",
+    "The Red Cross and TARTA buses staged at a Meijer on East Alexis to transport evacuating residents. As of initial reporting, no injuries or fatalities were announced. The Sterling Pipe & Tube plant at 1050 Progress Ave is a steel pipe and tube manufacturer in Toledo's north industrial corridor, near Enterprise Boulevard and Progress Avenue. Cause of the chemical release, the specific substance involved, and the timeline for lifting the evacuation order had not been publicly announced at the time of this brief's publication."
+  ],
+  "why_it_matters": "A one-mile industrial hazmat evacuation in north Toledo, displacing residents from a mobile home community and an established neighborhood, is a significant public safety event with parallels to the Brent Industries explosion in south Toledo in August 2026. It highlights the industrial-residential interface in Toledo's urban fabric — a recurring planning challenge — and will draw scrutiny to how the city and county manage emergency response across the industrial corridor. The economic impact on Sterling Pipe & Tube's operations and the duration of the evacuation are both watch items as Toledo heads into a high-stakes election week.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "13abc — North Toledo evacuation order in place within one-mile radius of Progress Ave. due to hazardous material release (October 21, 2026)",
+      "url": "https://www.13abc.com/2026/10/21/hazmat-crews-responding-hazardous-materials-leak-north-toledo/"
+    },
+    {
+      "title": "13abc — North Toledo evacuation order in place for hazardous material release (video, October 21, 2026)",
+      "url": "https://www.13abc.com/video/2026/10/21/north-toledo-evacuation-order-place-hazardous-material-release/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Sterling Pipe & Tube — 1050 Progress Ave, north Toledo",
+      "match": null,
+      "lat": 41.713,
+      "lon": -83.481
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["brent-industries-explosion-south-toledo"],
+
+  "search_terms": "Sterling Pipe Tube Toledo hazmat evacuation Progress Avenue north Toledo chemical leak 2026 Lucas County EMA"
+}
