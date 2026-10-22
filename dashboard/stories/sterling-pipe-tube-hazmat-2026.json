@@ -1,18 +1,19 @@
 {
   "id": "sterling-pipe-tube-hazmat-2026",
-  "headline": "Hazardous material release at Sterling Pipe & Tube triggers one-mile north Toledo evacuation — chemical unidentified overnight",
+  "headline": "North Toledo hazmat: glycidyl methacrylate leak at MC Tank Transport forces 1,000+ evacuations — half-mile zone active into Oct. 22",
   "section": "Citywide",
   "tags": ["citywide"],
 
   "posted_date": "2026-10-21",
   "source_date": "2026-10-21",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-22",
 
   "paragraphs": [
     "Toledo Fire & Rescue and Lucas County EMA issued an evacuation order for all residents and businesses within one mile of 1050 Progress Ave — the Sterling Pipe & Tube facility in north Toledo — after a hazardous material release was reported at approximately 10:48 PM Tuesday, October 21, 2026. An initial half-mile-radius evacuation order was quickly expanded to a one-mile radius as the chemical plume moved through the area. The Raintree Village mobile home park and the Alexis Addition neighborhood fall within the evacuation zone. Toledo Fire officials confirmed a chemical was detected in the air; its identity was not disclosed in overnight reporting. The plume reduced visibility on roadways throughout the north Toledo area and officials urged drivers to use caution. 13abc reported the incident as it unfolded before midnight on October 21.",
-    "The Red Cross and TARTA buses staged at a Meijer on East Alexis to transport evacuating residents. As of initial reporting, no injuries or fatalities were announced. The Sterling Pipe & Tube plant at 1050 Progress Ave is a steel pipe and tube manufacturer in Toledo's north industrial corridor, near Enterprise Boulevard and Progress Avenue. Cause of the chemical release, the specific substance involved, and the timeline for lifting the evacuation order had not been publicly announced at the time of this brief's publication."
+    "The Red Cross and TARTA buses staged at a Meijer on East Alexis to transport evacuating residents. As of initial reporting, no injuries or fatalities were announced. The Sterling Pipe & Tube plant at 1050 Progress Ave is a steel pipe and tube manufacturer in Toledo's north industrial corridor, near Enterprise Boulevard and Progress Avenue. Cause of the chemical release, the specific substance involved, and the timeline for lifting the evacuation order had not been publicly announced at the time of the initial overnight report.",
+    "Toledo Fire & Rescue, the Ohio EPA, and Mayor Wade Kapszukiewicz provided updated information on October 21 as the response continued into Wednesday. The source was confirmed as the MC Tank Transport terminal at approximately 1266 Progress Ave. — not the Sterling Pipe & Tube facility at 1050 Progress Ave. that initial reports named; Sterling Pipe & Tube director of operations Randy Sprow told WTOL that his facility does not have the chemicals involved on-site. The chemical was identified as glycidyl methacrylate, an industrial compound used in coatings and plastics manufacturing; the Ohio EPA described it as not highly toxic but capable of causing eye, skin, and lung irritation, and characterized it as a potential carcinogen. The Ohio EPA said the release resulted from an 'error that occurred when the material was being transferred' from a 5,500-gallon tank. No explosion occurred, despite some early media characterizations; the tank was venting and officials expected the process to take an additional 6 to 16 hours from approximately 5 PM on October 21. By the afternoon update on October 21, the evacuation zone was reduced from one mile to a half-mile radius — approximately 300 residents still displaced, down from approximately 1,000 — and the three-mile shelter-in-place order was fully lifted. One Lucas County sheriff's deputy was injured with eye and throat irritation and drove himself to a hospital; no other injuries or fatalities were reported. Toledo Public Schools and Washington Local Schools canceled classes on October 21; the City of Toledo treated the day as a 'Level III snow emergency' for employee purposes. City officials confirmed the water supply is unaffected. The venting timeline and the half-mile evacuation zone had not been formally lifted in available reporting as of October 22."
   ],
-  "why_it_matters": "A one-mile industrial hazmat evacuation in north Toledo, displacing residents from a mobile home community and an established neighborhood, is a significant public safety event with parallels to the Brent Industries explosion in south Toledo in August 2026. It highlights the industrial-residential interface in Toledo's urban fabric — a recurring planning challenge — and will draw scrutiny to how the city and county manage emergency response across the industrial corridor. The economic impact on Sterling Pipe & Tube's operations and the duration of the evacuation are both watch items as Toledo heads into a high-stakes election week.",
+  "why_it_matters": "A one-mile industrial hazmat evacuation in north Toledo — later confirmed at the MC Tank Transport terminal, not the initially-named Sterling Pipe & Tube — displaced up to 1,000 residents from a mobile home community and an established neighborhood, closed schools for two districts, and shut down city employee operations. The industrial-residential interface in Toledo's north Progress Avenue corridor is a recurring planning challenge; this is the second significant industrial safety event in Toledo in 2026 after the Brent Industries explosion in south Toledo in August. The Ohio EPA investigation into the transfer error at MC Tank Transport is the key watch item for regulatory accountability and industrial operations oversight. The status of the evacuation zone and school reopening remain the immediate open questions as of October 22.",
 
   "people": [],
 
@@ -24,6 +25,30 @@
     {
       "title": "13abc — North Toledo evacuation order in place for hazardous material release (video, October 21, 2026)",
       "url": "https://www.13abc.com/video/2026/10/21/north-toledo-evacuation-order-place-hazardous-material-release/"
+    },
+    {
+      "title": "WTOL — TOLEDO CHEMICAL LEAK: Live updates (October 21, 2026)",
+      "url": "https://www.wtol.com/article/news/local/north-toledo-hazmat-situation-evacuations/512-23d84bbb-60fc-4c49-aaf4-57ca35a7f8c6"
+    },
+    {
+      "title": "13abc — TFRD announces reduced evacuation zone, end to shelter-in-place order (October 21, 2026)",
+      "url": "https://www.13abc.com/2026/10/21/hazmat-crews-responding-hazardous-materials-leak-north-toledo/"
+    },
+    {
+      "title": "13abc — What is glycidyl methacrylate? (October 21, 2026)",
+      "url": "https://www.13abc.com/2026/10/21/chemical-behind-toledo-leak-what-is-glycidyl-methacrylate/"
+    },
+    {
+      "title": "CNN — 'Error' caused Toledo chemical leak, EPA says (October 21, 2026)",
+      "url": "https://www.cnn.com/2026/10/21/us/live-news/toledo-chemical-tank-explosion-ohio"
+    },
+    {
+      "title": "WTOL — What's closed in Toledo due to ongoing north Toledo chemical release (October 21, 2026)",
+      "url": "https://www.wtol.com/article/news/local/whats-closed-in-toledo-today-due-to-ongoing-north-toledo-chemical-release/512-5f5b24a9-6d93-4777-9ef5-89d1c381668d"
+    },
+    {
+      "title": "Newsweek — Ohio Chemical Leak Evacuation Map (October 21, 2026)",
+      "url": "https://www.newsweek.com/ohio-toledo-chemical-leak-evacuation-glycidyl-methacrylate-map-12599973"
     }
   ],
 
