@@ -1,0 +1,47 @@
+{
+  "id": "land-air-commerce-park-swanton-2026",
+  "headline": "Danberry National, Interstate Capital, and Gerken Paving announce $125M investment at Land-Air Commerce Park near Toledo Express Airport",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-24",
+  "source_date": "2026-10-17",
+  "last_updated": "2026-10-24",
+
+  "paragraphs": [
+    "Three partners — Danberry National, Interstate Capital, and Gerken Paving — plan to invest more than $125 million at Land-Air Commerce Park, a 140-acre industrial and warehouse park adjacent to Toledo Express Airport in Swanton Township, the Toledo Free Press reported October 17, 2026. The partners will develop and lease more than 850,000 square feet of new construction for manufacturing and warehouse tenants. A conceptual site plan shows at least three buildings: a 202,500 sq ft structure, a 206,000 sq ft building with a 155,500 sq ft truck terminal, and a 257,950 sq ft cold storage facility. Brian McMahon of Danberry National is the developer spokesperson; McMahon stated explicitly that the project will not include a data center.",
+    "The investment follows Swanton Township trustees' recent approval of rezoning the remaining parcels to M-1 manufacturing, clearing the regulatory path for the additional development. The park already hosts Game One and Velocity as tenants; Velocity began a $1.5 million expansion in August 2026. The truck terminal component and the cold storage facility reflect the park's position at the intersection of freight logistics — Toledo Express Airport is a UPS hub — and regional cold-chain supply chain demand."
+  ],
+  "why_it_matters": "Land-Air Commerce Park is one of northwest Ohio's highest-occupancy industrial parks, positioned at a UPS air freight hub with direct access to regional highways. A $125 million private investment commitment — with 850,000+ sq ft of new manufacturing, warehousing, truck terminal, and cold storage space — is a meaningful private-sector signal about the Toledo metro's industrial real estate pipeline. The no-data-center declaration is also notable given the current political climate around data center development in Lucas County: these developers are explicitly orienting toward traditional manufacturing and logistics tenants, not energy-intensive compute infrastructure.",
+
+  "people": [
+    {
+      "name": "Brian McMahon",
+      "role": "Developer spokesperson, Danberry National",
+      "search_terms": "Brian McMahon Danberry National Land-Air Commerce Park Toledo"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Toledo Free Press — Land-Air Commerce Park gets $125 million investment (October 17, 2026)",
+      "url": "https://toledofreepress.com/land-air-commerce-park-gets-125-million-investment/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Land-Air Commerce Park — Swanton Township, near Toledo Express Airport",
+      "match": null,
+      "lat": 41.591,
+      "lon": -83.805
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["oregon-vantage-data-center", "jvis-toledo-molding-die"],
+
+  "search_terms": "Land-Air Commerce Park Swanton Township Toledo Express Airport Danberry National Interstate Capital Gerken Paving manufacturing warehouse 2026"
+}
