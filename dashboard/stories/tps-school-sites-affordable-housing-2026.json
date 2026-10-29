@@ -1,0 +1,54 @@
+{
+  "id": "tps-school-sites-affordable-housing-2026",
+  "headline": "Two affordable housing proposals on former TPS school sites head to Toledo Plan Commission Nov. 5 — $20M+ AOA senior apartments and nine Habitat homes",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-29",
+  "source_date": "2026-10-27",
+  "last_updated": "2026-10-29",
+
+  "paragraphs": [
+    "Two affordable housing proposals using former Toledo Public Schools properties are scheduled to go before the Toledo City Plan Commission on November 5, 2026 — part of the broader effort to repurpose TPS buildings that became available through the district's Transformation Plan 2.0 restructuring, which closed several schools to address a $68 million deficit. The Blade reported both proposals on October 27, 2026.",
+    "The larger project involves the Area Office on Aging of Northwestern Ohio (AOA), in partnership with Lucas Metropolitan Housing Authority, NeighborWorks Toledo Region, and Community Building Partners. AOA has a deal to acquire the former TPS administration building — described as the Thurgood Marshall building — for $1, and proposes converting it into 86 units of affordable senior apartments combining the renovated historic structure with a new annex on former playfields and parking lots. All units would be available to seniors earning no more than 60% of area median income. The estimated investment is more than $20 million; the project has been supported by pre-development financing from LISC Toledo. After Plan Commission review, the proposal would advance to Toledo City Council.",
+    "The second proposal involves Habitat for Humanity and the former Beverly Elementary School site at Rugby Drive and Copland Boulevard. The Toledo Public Schools district has a tentative purchase agreement with Habitat for a nine-home, owner-occupied single-family development on the site. Two homes would be sold on the open market; the remaining homes would be offered through an affordable-purchase program. Both proposals face Plan Commission review on November 5 before advancing to council."
+  ],
+  "why_it_matters": "Both projects represent the adaptive-reuse track for TPS surplus properties — the path that stabilizes neighborhood fabric by converting closed school buildings and sites into community assets rather than leaving them vacant or demolishing them. The AOA project's $20M+ scale makes it a significant affordable senior housing investment at a moment when Toledo's housing development pipeline is dominated by market-rate and ownership products. The Habitat project at Beverly Elementary extends the district's asset-to-homes conversion model beyond the Harvard Elementary effort underway in south Toledo. Plan Commission approval on November 5 would be the next milestone for both.",
+
+  "people": [],
+
+  "sources": [
+    {
+      "title": "The Blade — Affordable housing plans to go before plan commission next week (October 27, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/10/27/affordable-housing-plans-go-before-plan-comission-next-week/stories/20261026098"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Thurgood Marshall Building (former TPS admin) — AOA senior apartments site",
+      "match": "Thurgood Marshall building",
+      "lat": 41.6778,
+      "lon": -83.5502
+    },
+    {
+      "shape": "point",
+      "label": "Beverly Elementary site — Habitat for Humanity nine homes (Rugby Dr. & Copland Blvd.)",
+      "match": "Beverly Elementary",
+      "lat": 41.6561,
+      "lon": -83.5618
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "harvard-elementary-south-toledo-redevelopment",
+    "tps-levy-november-2026",
+    "warren-sherman-townhomes-cbp",
+    "the-grand-the-glen-affordable-housing"
+  ],
+
+  "search_terms": "Toledo affordable housing TPS school sites Area Office on Aging Habitat for Humanity Thurgood Marshall Beverly Elementary Plan Commission 2026 senior apartments"
+}
