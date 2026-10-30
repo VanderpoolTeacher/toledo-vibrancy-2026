@@ -1,0 +1,56 @@
+{
+  "id": "rossford-qlevr-data-center-2026",
+  "headline": "Florida-based developer proposes data center in Rossford's Harmon Business Park — mayor says not hyperscale, public hearing expected in November",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-10-30",
+  "source_date": "2026-10-29",
+  "last_updated": "2026-10-30",
+
+  "paragraphs": [
+    "A Florida-based data center developer is seeking approval to build a data center facility on a 28-acre parcel in Rossford's Harmon Business Park, near Bass Pro Boulevard and Lime City Road, WTOL and 13abc reported October 29–30, 2026. The proposal covers more than 90,000 square feet and includes a dedicated electrical substation. The site's existing zoning — classified as planned industrial — does not require a change for the proposed use, meaning the project can proceed to Planning Commission review without a rezoning proceeding.",
+    "Rossford Mayor Neil MacKinnon characterized the proposed facility as fundamentally different in scale from the hyperscale data center campus proposed by Vantage Data Centers in Oregon, Ohio. MacKinnon compared the Rossford project's footprint to that of a Home Depot, saying it would not be a hyperscale data center. The proposal has not yet been scheduled for a formal Planning Commission hearing; the mayor indicated the city is still gathering information, with a public hearing expected in November. Rossford residents have already raised questions, including concerns about the project's proximity to the community and its infrastructure demands. If Planning Commission reviews and advances the proposal, it would move to Rossford City Council for a vote."
+  ],
+  "why_it_matters": "The Rossford proposal adds a second northwest Ohio data center project to the active pipeline in the same week that Oregon voters prepare to decide Issue 25 — the 25MW capacity cap that has become the region's highest-profile test of community resistance to large-scale data center development. Where the Vantage/Oregon project involves a hyperscale campus approaching $2 billion and 500MW of potential load, the Rossford proposal is presented as a smaller-footprint, industrial-zoned facility — a different profile that may draw a different community response. But the juxtaposition arrives as the broader northwest Ohio data center conversation is at peak public salience, and Rossford's proximity to Toledo and its position along the I-75/US-20 manufacturing corridor makes any data center approval a signal to site selectors watching how the region handles competing development claims.",
+
+  "people": [
+    {
+      "name": "Neil MacKinnon",
+      "role": "Mayor, City of Rossford",
+      "search_terms": "Neil MacKinnon Rossford Ohio mayor"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc — Rossford residents have questions about proposed data center (October 30, 2026)",
+      "url": "https://www.13abc.com/2026/10/30/rossford-residents-have-questions-about-proposed-data-center/"
+    },
+    {
+      "title": "WTOL — Rossford resident questions proposed data center (October 2026)",
+      "url": "https://www.wtol.com/article/news/local/rossford-resident-questions-proposed-data-center/512-56d6d325-a2c4-4cf9-b4ea-7ef817e14242"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Harmon Business Park, Rossford — proposed data center site near Bass Pro Blvd & Lime City Rd",
+      "match": null,
+      "lat": 41.578,
+      "lon": -83.577
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "oregon-vantage-data-center",
+    "meta-bowling-green-data-center",
+    "van-wert-qts-data-center",
+    "ohio-governor-race-data-centers-2026"
+  ],
+
+  "search_terms": "Rossford data center Harmon Business Park Bass Pro Boulevard Lime City Road Florida developer Planning Commission hyperscale 2026"
+}
