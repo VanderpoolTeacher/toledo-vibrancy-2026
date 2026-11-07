@@ -1,0 +1,64 @@
+{
+  "id": "mission-point-homeless-housing",
+  "headline": "Cherry Street Mission and Lucas Metropolitan Housing break ground on $22M Mission Point — 65 permanent supportive apartments for chronically homeless downtown",
+  "section": "Downtown",
+  "tags": ["downtown", "citywide"],
+
+  "posted_date": "2026-11-07",
+  "source_date": "2026-11-06",
+  "last_updated": "2026-11-07",
+
+  "paragraphs": [
+    "Cherry Street Mission and Lucas Metropolitan Housing broke ground on November 6, 2026 on Mission Point, a $22 million, four-story permanent supportive housing development at 1401 Monroe Street — the corner of Monroe and 14th — adjacent to Cherry Street Mission's existing Life Revitalization Center in downtown Toledo. The 65-unit building will offer one-bedroom apartments exclusively for people experiencing chronic homelessness and individuals with serious mental health challenges. The Blade reported the groundbreaking under the headline 'Mission Point breaks ground, promising housing and hope for Toledo's homeless'; WTOL reported the ceremony under 'New Homes, New Services: Toledo leaders break ground on housing project.'",
+    "The project has been six years in the making. Financing includes Low-Income Housing Tax Credit equity, a $2.5 million Ohio Housing Finance Agency development loan approved in June 2026, and contributions from the Federal Home Loan Bank, the City of Toledo, LISC Toledo, and Huntington Bank. Lucas Housing Services Corporation is co-owner alongside Cherry Street Mission. Rents will be income-based with federal housing subsidy support for qualifying residents. On-site services will include mental health counseling, substance-use support, and job coaching. Completion is expected toward the end of 2027. The Toledo Lucas County Homelessness Board has reported that unsheltered homelessness in Toledo rose 107% from 2025 to 2026, while available shelter beds fell 4% — context that frames Mission Point as the most significant permanent supportive housing addition to the Toledo pipeline in years."
+  ],
+  "why_it_matters": "Mission Point is not emergency shelter — it is permanent supportive housing, the type of intervention the research consistently identifies as the most cost-effective long-term solution to chronic homelessness. Its location adjacent to Cherry Street Mission's Life Revitalization Center positions it as an anchor of a service-and-housing cluster in lower downtown. The 107% unsheltered increase and the concurrent winter shelter capacity crisis at Saint Paul's Community Center are the acute problems; Mission Point addresses the structural end of the pipeline — the destination for people who cycle through emergency beds without a path to permanent placement. Watch for the Lucas Metropolitan Housing-affiliated ownership structure to signal whether LIHTC and HUD subsidy instruments are being deployed in a way that sustains the building's mission past the typical 15-year compliance period.",
+
+  "people": [
+    {
+      "name": "Kristina Twitty",
+      "role": "President and CEO, Cherry Street Mission",
+      "search_terms": "Kristina Twitty Cherry Street Mission Toledo Mission Point"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blade — Mission Point breaks ground, promising housing and hope for Toledo's homeless (November 6, 2026)",
+      "url": "https://www.toledoblade.com/local/city/2026/11/06/mission-point-breaks-ground-promising-housing-hope-toledos-homeless/stories/20261106106"
+    },
+    {
+      "title": "WTOL — 'New Homes, New Services': Toledo leaders break ground on housing project (November 6, 2026)",
+      "url": "https://www.wtol.com/article/news/community/new-homes-new-services-toledo-leaders-break-ground-on-housing-project-homelessness-ohio/512-6987aaa6-adc3-4fee-ae0f-ec05a934521b"
+    },
+    {
+      "title": "13abc — Cherry Street Mission breaks ground on Mission Point homeless housing project (November 6, 2026)",
+      "url": "https://www.13abc.com/2026/11/06/cherry-street-mission-breaks-ground-mission-point-homeless-housing-project/"
+    },
+    {
+      "title": "Ohio Housing Finance Agency — Board approves financing for Mission Point and six other housing developments (June 2026)",
+      "url": "https://ohiohome.org/news/releases/2026/june-fundedprojects.aspx"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Mission Point — 1401 Monroe St. (Monroe & 14th), Toledo",
+      "match": "Mission Point",
+      "lat": 41.6632,
+      "lon": -83.5651
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-shelter-winter-crisis-2026",
+    "port-authority-ashland-manor-covenant-house",
+    "warren-sherman-townhomes-cbp",
+    "welcome-home-ohio-toledo-lucas-county"
+  ],
+
+  "search_terms": "Mission Point Cherry Street Mission Lucas Metropolitan Housing permanent supportive housing homeless Toledo Monroe 14th Street groundbreaking 2026 OHFA LIHTC"
+}
