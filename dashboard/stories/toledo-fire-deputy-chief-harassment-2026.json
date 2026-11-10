@@ -1,0 +1,54 @@
+{
+  "id": "toledo-fire-deputy-chief-harassment-2026",
+  "headline": "Toledo Fire & Rescue Deputy Chief Daniel Brown-Martinez placed on paid leave after two substantiated sexual harassment investigations",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-11-10",
+  "source_date": "2026-11-05",
+  "last_updated": "2026-11-10",
+
+  "paragraphs": [
+    "The Toledo Fire & Rescue Department placed Deputy Chief Daniel Brown-Martinez on paid administrative leave as of early November 2026, the 13abc I-TEAM reported November 5 and The Blade confirmed November 6. Brown-Martinez holds the rank of deputy chief over Training, EAP, Communications, Recruitment, Public Education, and the Community Engagement Bureau — a wide administrative portfolio at the department. A disciplinary hearing was underway as of the November 5 report, with testimony continuing the following week. The department told 13abc it would not discuss specifics of the investigation or the pending disciplinary process; the Toledo Firefighters union had not publicly responded to requests for comment.",
+    "Two separate internal investigations were substantiated against Brown-Martinez. A September 2026 investigation found sufficient evidence to support allegations of repeated sexual comments and jokes in the workplace, as well as physical contact at a meeting in October 2025. A second probe, related to a June 2026 incident at department headquarters, also substantiated allegations of sexually explicit remarks made in front of co-workers. The department has faced a pattern of discrimination and harassment complaints stretching across multiple years, including a 2019 Ohio Civil Rights Commission finding of probable cause in a gender-discrimination complaint involving the department's first female assistant chief."
+  ],
+  "why_it_matters": "Toledo Fire & Rescue is one of the departments at the center of the post-Issue 16 budget debate, with roughly half of the 73 worst-case layoffs targeted at police and fire. A substantiated leadership accountability action at the department during this fiscal pressure window — with the 2027 budget due November 15 — adds institutional stress at the same time city leaders are navigating potential staffing reductions. The department has a documented pattern of harassment and discrimination complaints; whether this case produces lasting disciplinary action or structural reform will be a signal about the department's accountability culture entering a period of potential significant workforce contraction.",
+
+  "people": [
+    {
+      "name": "Daniel Brown-Martinez",
+      "role": "Deputy Chief, Toledo Fire & Rescue (Training, EAP, Communications, Recruitment, Public Education, Community Engagement)",
+      "search_terms": "Daniel Brown-Martinez Toledo Fire Rescue deputy chief"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "13abc I-TEAM — Toledo Fire & Rescue deputy chief on leave amid harassment allegations (November 5, 2026)",
+      "url": "https://13abc.com/2026/11/05/i-team-toledo-fire-rescue-deputy-chief-leave-amid-harassment-allegations"
+    },
+    {
+      "title": "The Blade — Deputy fire chief placed on paid leave after harassment complaint (November 6, 2026)",
+      "url": "https://www.toledoblade.com/local/police-fire/2026/11/06/deputy-fire-chief-placed-on-paid-leave-after-harassment-complaint/stories/20261106064"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Toledo Fire & Rescue Department HQ, 525 N. Erie St.",
+      "match": null,
+      "lat": 41.6700,
+      "lon": -83.5493
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "toledo-police-chief-transition-2026",
+    "toledo-public-safety-income-tax"
+  ],
+
+  "search_terms": "Toledo Fire Rescue deputy chief Daniel Brown-Martinez harassment investigation paid leave discipline 2026"
+}
