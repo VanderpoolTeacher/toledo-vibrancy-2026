@@ -1,0 +1,52 @@
+{
+  "id": "arlington-avenue-business-relief-grants",
+  "headline": "Toledo council considers $5,000 relief grants for Arlington Avenue businesses hit by long-running sewer project",
+  "section": "South Toledo",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-11-12",
+  "source_date": "2026-11-11",
+  "last_updated": "2026-11-12",
+
+  "paragraphs": [
+    "Toledo City Council is considering a proposal to offer one-time relief grants of up to $5,000 to businesses on Arlington Avenue affected by the long-running city sewer replacement project, 13abc and WTOL reported November 11. Council members Theresa Gadus and Adam Martinez introduced the \"Arlington Business Access Relief Grant\" legislation, which would allocate $25,000 from the general fund to a city-administered grant pool. Eligible businesses must have a permanent customer-facing storefront, have been operating since January 1, 2026, be located on Arlington Avenue between South Detroit Avenue and Spencer Street, and be privately owned and for-profit. If approved, businesses would have until December 15 to apply. The council could vote on the proposal at its November 17 regular session.",
+    "The Arlington Avenue sewer replacement project has expanded significantly from its original scope; city officials extended the timeline into 2028 as more of the sewer line required replacement than initially anticipated. The extended construction has reduced customer access to businesses along the corridor for years. The proposed grant fund is modest — $25,000 total for up to five businesses — but represents the city's first formal financial-relief response to the project's commercial impact. The Department of Economic Development would administer the program."
+  ],
+
+  "why_it_matters": "The Arlington Avenue corridor grant proposal is a small-scale test of whether Toledo will formalize business-impact relief alongside long-duration infrastructure projects. The city's major sewer-reconstruction program is expanding; if adopted, this model could become a template for other corridors facing multi-year construction timelines. The $25,000 fund covers at most five businesses — a symbolic gesture as much as a material intervention — but the November 17 vote will establish whether council approves the principle of compensating commercial impact during city-initiated construction.",
+
+  "people": [
+    {
+      "name": "Theresa Gadus",
+      "role": "Toledo City Council member",
+      "search_terms": "Theresa Gadus Toledo City Council"
+    },
+    {
+      "name": "Adam Martinez",
+      "role": "Toledo City Council member, District 2",
+      "search_terms": "Adam Martinez Toledo City Council District 2"
+    }
+  ],
+
+  "sources": [
+    { "title": "13abc — Toledo City Council considers $5,000 grants for Arlington Avenue businesses (November 11, 2026)", "url": "https://www.13abc.com/2026/11/11/toledo-city-council-considers-5000-grants-arlington-avenue-businesses/" },
+    { "title": "WTOL — 'It's been a struggle': Toledo City Council members propose financial aid to businesses impacted by construction", "url": "https://www.wtol.com/article/news/local/toledo-city-council-financial-aid-businesses-impacted-construction/512-13208287-def7-4b72-ad4a-962f4fe8d6d8" },
+    { "title": "Yahoo News — City council considering relief grants for businesses affected by Arlington Avenue construction", "url": "https://www.yahoo.com/news/articles/city-council-considering-relief-grants-182900659.html" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Arlington Avenue corridor — South Detroit Ave to Spencer St",
+      "match": "Arlington Avenue",
+      "lat": 41.6382,
+      "lon": -83.5589
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["small-business-app-growth"],
+
+  "search_terms": "Arlington Avenue Toledo businesses relief grants sewer construction 2026 city council Gadus Martinez"
+}
