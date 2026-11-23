@@ -1,0 +1,57 @@
+{
+  "id": "braden-church-affordable-housing-toledo-2026",
+  "headline": "Toledo City Council approves acquisition of former Braden United Methodist Church for two-track $39M affordable housing development in Englewood",
+  "section": "Neighborhoods",
+  "tags": ["neighborhoods", "affordable-housing", "land-bank"],
+
+  "posted_date": "2026-11-23",
+  "source_date": "2026-11-17",
+  "last_updated": "2026-11-23",
+
+  "paragraphs": [
+    "Toledo City Council voted to approve Ordinance O-476-26, authorizing the city's Department of Housing and Community Development (DHCD) to acquire parcels at 2013 and 2017 Lawrence Avenue in Toledo's Englewood neighborhood — the former Braden United Methodist Church site — to enable a two-track affordable housing redevelopment totaling approximately $39 million. Toledo Free Press reported that DHCD brought the acquisition request to the November 10 council agenda review, where Council President Vanice Williams moved it to committee for detailed review and community input. The Lucas County Land Bank was positioned to acquire the parcels ahead of a December tax forfeiture deadline, preserving the residential redevelopment option.",
+    "The two-track development plan would redevelop both the existing church structure and the adjacent parking lot. Track A would adaptively reuse the historic church building into approximately 26 affordable studio apartments at an estimated cost of $18.4 million. Track B would build a new 58-unit mid-rise on the adjacent parking lot at approximately $20.6 million, with financing expected to rely substantially on Low-Income Housing Tax Credit (LIHTC) equity. Combined, the two tracks represent 84 units and roughly $39 million in housing investment in the Englewood neighborhood. Toledo Free Press reported that the ordinance passed Toledo City Council; it is designated O-476-26."
+  ],
+  "why_it_matters": "The Braden Church site represents Toledo's city-led model for converting at-risk religious properties — which often carry historic significance and sit in disinvested neighborhoods — into affordable housing assets before they fall into vacancy or demolition. The two-track approach (historic rehab plus new LIHTC construction on the adjacent parcel) maximizes unit yield while preserving a neighborhood anchor. Coming as Toledo's 2027 budget process threatens cuts to both the Vibrancy Initiative and Legacy Corridor grant programs, the O-476-26 approval marks a commitment of DHCD capacity and city acquisition resources to Englewood at a moment of fiscal retrenchment. Watch for LIHTC application timelines, Land Bank transfer completion, and community engagement outcomes.",
+
+  "people": [
+    {
+      "name": "Vanice Williams",
+      "role": "Council President, Toledo City Council",
+      "search_terms": "Vanice Williams Toledo City Council President"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Toledo Free Press — Englewood church to be used as housing (November 2026)",
+      "url": "https://toledofreepress.com/englewood-church-to-be-used-as-housing/"
+    },
+    {
+      "title": "Toledo Free Press — Planning for Braden Church building passes City Council (November 2026)",
+      "url": "https://toledofreepress.com/planning-for-braden-church-building-passes-city-council/"
+    }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Former Braden United Methodist Church — 2013–2017 Lawrence Ave, Englewood",
+      "match": null,
+      "lat": 41.6782,
+      "lon": -83.5763
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": [
+    "tps-school-sites-affordable-housing-2026",
+    "the-grand-the-glen-affordable-housing",
+    "warren-sherman-townhomes-cbp",
+    "welcome-home-ohio-toledo-lucas-county",
+    "toledo-public-safety-income-tax"
+  ],
+
+  "search_terms": "Braden United Methodist Church Lawrence Avenue Toledo Englewood affordable housing LIHTC DHCD O-476-26 acquisition 2026"
+}
