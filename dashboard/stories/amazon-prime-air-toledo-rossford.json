@@ -1,0 +1,40 @@
+{
+  "id": "amazon-prime-air-toledo-rossford",
+  "headline": "Amazon Prime Air launches drone delivery in Toledo area from Rossford fulfillment center",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-11-25",
+  "source_date": "2026-11-22",
+  "last_updated": "2026-11-25",
+
+  "paragraphs": [
+    "Amazon's Prime Air drone delivery service went live in the Toledo area on Sunday, November 22, 2026, operating out of the company's Rossford fulfillment center. WTOL and 13abc confirmed the launch on November 24. Eligible customers living within approximately 7.5 miles of the facility can receive qualifying orders — items up to five pounds — in roughly 30 minutes. Non-Prime members pay a $4.99 per-delivery fee; Prime members receive drone delivery at no additional charge.",
+    "The Rossford launch makes the Toledo area Amazon's third Ohio drone location, following Cleveland and Etna in the Columbus corridor. Amazon has announced plans to expand Prime Air to nearly 500 U.S. cities by the end of 2026. Industry site DroneXL noted on November 23 that the Toledo launch came 59 days after Amazon's first Ohio hub went live, tracking a rapid statewide rollout. A drone crash in the Detroit area occurred in the same week as the Toledo launch, though that incident has not been linked to any operational pause or safety review affecting the Rossford site."
+  ],
+  "why_it_matters": "The Rossford fulfillment center has long anchored the region's logistics corridor; its selection as one of three Ohio Prime Air launch sites is a vote of confidence in northwest Ohio's population density and infrastructure capacity. For site selectors, the Toledo area's presence in an early-phase 500-city national rollout signals the region's commercial viability — the same corridor where QLevr is seeking data center approvals and where UDD Tech is establishing drone manufacturing. The 7.5-mile service radius from Rossford will likely reach a substantial portion of the Toledo metro, making this a consumer-visible demonstration of the region's logistics and technology standing.",
+
+  "people": [],
+
+  "sources": [
+    { "title": "13abc — Amazon drone delivery now operational in Toledo area (November 24, 2026)", "url": "https://www.13abc.com/2026/11/24/amazon-drone-delivery-now-operational-toledo-area/" },
+    { "title": "WTOL — Amazon launches drone delivery service from Rossford facility (November 2026)", "url": "https://www.wtol.com/article/money/consumer/amazon-launches-drone-delivery-service-from-rossford-facility-northwest-ohio/512-f5fe15f6-8678-46ba-b5b0-df3296d4b160" },
+    { "title": "DroneXL — Amazon Drones Reach Toledo: 3 Ohio Hubs in 59 Days (November 23, 2026)", "url": "https://dronexl.co/2026/11/23/amazon-prime-air-toledo-rossford-ohio-drone-delivery-launch/" }
+  ],
+
+  "locations": [
+    {
+      "shape": "point",
+      "label": "Amazon Rossford Fulfillment Center",
+      "match": "Rossford fulfillment center",
+      "lat": 41.5987,
+      "lon": -83.5597
+    }
+  ],
+
+  "external_map_link": null,
+
+  "related_story_ids": ["rossford-qlevr-data-center-2026", "udd-tech-drone-manufacturing-holland", "land-air-commerce-park-swanton-2026"],
+
+  "search_terms": "Amazon Prime Air drone delivery Toledo Rossford fulfillment center Northwest Ohio 2026 launch"
+}
