@@ -1,0 +1,36 @@
+{
+  "id": "lucas-county-jobs-state-policy-2026",
+  "headline": "Lucas County posts weakest job growth among Ohio's large counties — Blade editorial argues state policy is holding region back",
+  "section": "Citywide",
+  "tags": ["citywide"],
+
+  "posted_date": "2026-11-28",
+  "source_date": "2026-11-26",
+  "last_updated": "2026-11-28",
+
+  "paragraphs": [
+    "A Toledo Blade editorial published November 26, 2026 cited Bureau of Labor Statistics data showing Lucas County had the weakest job performance among Ohio's 15 largest counties over the twelve months ending March 2026 — shedding approximately 2.7 percent of positions in that period. The editorial argues the losses are not simply a cyclical downturn but a structural consequence of state policy decisions that have disproportionately disadvantaged northwest Ohio.",
+    "The Blade's editorial board identified two specific state-level headwinds. First, a 2025 Ohio law granting county commissioners a veto over renewable energy projects — the board argues this directly threatens Toledo's solar manufacturing hub anchored by First Solar, a cornerstone of the region's economic diversification strategy. Second, the absence of a full-access highway connection linking Toledo to the Columbus growth corridor, which the editorial describes as an infrastructure gap that cedes competitive advantage to central Ohio for site-selector decisions. The editorial arrives as the city simultaneously confronts an 89-layoff budget proposal for 2027, the pending closure of The Blade itself on December 31, and a prolonged post-levy fiscal contraction following Issue 16's November 3 failure."
+  ],
+  "why_it_matters": "The BLS data provides a hard economic benchmark at the worst possible moment: the city is heading into 2027 with a budget gap, a planned reduction in neighborhood economic development programs, and an income tax base that the mayor's office itself projects will be $20 million below 2026 expectations. The state policy critique matters because it names specific legislative decisions — not just market forces — as growth barriers that Toledo and Lucas County can lobby to change. If the renewable energy veto law restricts First Solar's expansion, the region's most visible private-sector success story of the decade would be directly undermined by Columbus. The highway gap is a longer-term structural argument; the energy veto is actionable in the current General Assembly session.",
+  "people": [],
+  "sources": [
+    {
+      "title": "Toledo Blade — editorial: State policy throttles northwest Ohio growth (November 26, 2026)",
+      "url": "https://www.toledoblade.com/opinion/editorials/2026/11/26/editorial-state-policy-northwest-ohio-growth/stories/20261126011"
+    },
+    {
+      "title": "ByteWire News — Toledo Blade argues state policy throttles northwest Ohio growth (November 2026)",
+      "url": "https://bytewire.news/toledo-blade-argues-state-policy-throttles-northwest-ohio-growth/"
+    }
+  ],
+  "locations": [],
+  "external_map_link": null,
+  "related_story_ids": [
+    "lucas-county-budget-cut-2027",
+    "toledo-public-safety-income-tax",
+    "toledo-blade-newspaper-sale-2026",
+    "ohio-governor-race-data-centers-2026"
+  ],
+  "search_terms": "Lucas County jobs BLS employment Ohio growth state policy First Solar renewable energy veto county commissioner solar manufacturing highway Columbus Toledo 2026"
+}
